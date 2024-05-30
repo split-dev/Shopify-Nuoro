@@ -1,3 +1,37 @@
 @import "./variables";
 @import "../settings/bootstrap-media";
 
+.btn {
+    display: flex;
+    min-width: 329px;
+    min-height: 82px;
+    width: fit-content;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    @include media-breakpoint-down(sm) {
+        min-width: 242px;
+        min-height: 68px;
+        width: fit-content;
+        font-size: 15px;
+    }
+    &:disabled {
+        pointer-events: none;
+        opacity: 0.7;
+    }
+    &__primary {
+        color: $c-gray;
+        background-color: $c-text;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: $c-button-hover;
+            color: $c-text;
+        }
+    }
+}
+  

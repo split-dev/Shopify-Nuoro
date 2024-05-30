@@ -4,3 +4,56 @@
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     font-family: $font-family-headings !important;
 }
+
+h1, .h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 100%; /* 70px */
+    text-transform: uppercase;
+    @include media-breakpoint-down(sm) {
+        font-size: 40px;
+    }
+}
+  
+h2, .h2 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 100%; /* 70px */
+    text-transform: uppercase;
+        @include media-breakpoint-down(sm) {
+            font-size: 40px;
+        }
+}
+  
+h3, .h3 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 100%; /* 70px */
+    text-transform: uppercase;
+        @include media-breakpoint-down(sm) {
+            font-size: 28px;
+    }
+}
+h4, .h4 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 100%; /* 70px */
+    text-transform: uppercase;
+        @include media-breakpoint-down(sm) {
+            font-size: 21px;
+    }
+}
+
+p, .text-20px {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @include media-breakpoint-down(sm) {
+        font-size: 15px;
+    }
+  }

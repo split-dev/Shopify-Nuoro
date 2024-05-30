@@ -98,10 +98,10 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "instagram.com\/shopify",
     "social_youtube_link": "",
     "social_tiktok_link": "",
-    "social_twitter_link": "",
+    "social_twitter_link": "x.com\/shopify",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -136,12 +136,13 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
+          "text": "#1d1d1b",
+          "button": "#1d1d1b",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212",
-          "custom_color_primary": "#d2b786",
+          "secondary_button_label": "#1d1d1b",
+          "shadow": "#1d1d1b",
+          "custom_color_primary": "#ffa842",
+          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -156,6 +157,7 @@
           "secondary_button_label": "#121212",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
+          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -170,13 +172,14 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
+          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#1d1d1b",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -184,6 +187,7 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
+          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -198,6 +202,7 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
+          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }

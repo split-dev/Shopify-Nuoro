@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "14.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -81,6 +81,30 @@
             "id": "shadow",
             "label": "t:settings_schema.colors.settings.shadow.label",
             "default": "#121212"
+          },
+          {
+            "type": "color",
+            "id": "custom_color_primary",
+            "default": "#D2B786",
+            "label": "Custom Color Primary"
+          },
+          {
+            "type": "color",
+            "id": "custom_color_button",
+            "default": "#D9D9D9",
+            "label": "Custom Color Button Hover"
+          },
+          {
+            "type": "color",
+            "id": "custom_color_text",
+            "default": "#1D1D1B",
+            "label": "Custom Color Text"
+          },
+          {
+            "type": "color",
+            "id": "custom_color_gray",
+            "default": "#F6F4ED",
+            "label": "Custom Color BG"
           }
         ],
         "role": {
@@ -104,6 +128,11 @@
   {
     "name": "t:settings_schema.typography.name",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "override_with_custom_fonts",
+        "label": "Override with Custom Fonts"
+      },
       {
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__1.content"
@@ -154,10 +183,10 @@
       {
         "type": "range",
         "id": "page_width",
-        "min": 1000,
-        "max": 1600,
-        "step": 100,
-        "default": 1200,
+        "min": 1300,
+        "max": 1900,
+        "step": 10,
+        "default": 1760,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },

@@ -2,12 +2,17 @@
 @import "./settings/buttons";
 // @import "./settings/reset";
 // @import "./settings/bootstrap"; 
-// @import "./settings/typography";
+@import "./settings/typography";
 
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+body *:not(h1, h2, h3, h4, h5, h6) {
+    font-family: $font-family-base;
+}
+
 
 html {
     scroll-behavior: smooth;

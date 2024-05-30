@@ -1,6 +1,23 @@
-// Grid
-$sm: 576px;
-$md: 750px;
-$lg: 990px;
-$xl: 1200px;
-$xxl: 1400px;
+:root {
+    --transition-default: 300ms;
+  }
+  
+    // Type
+    $font-family-base: var(--font-body-family);
+    $font-family-headings: var(--font-heading-family);
+
+    // Colors
+    $c-orange: rgb(var(--custom-color-primary));
+    $c-text: rgb(var(--custom-color-text));
+    $c-gray: rgb(var(--custom-color-gray));
+    $c-shadow-grey: rgb(var(--color-shadow));
+    $c-almost-white: rgb(var( --custom-color-background-accent));
+
+    $c-light-grey: #D7DCE1;
+
+    // Grid
+    $sm: 576px;
+    $md: 750px;
+    $lg: 990px;
+    $xl: 1200px;
+    $xxl: 1400px;

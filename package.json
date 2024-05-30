@@ -1,13 +1,13 @@
 {
   "name": "shopify-cli-3.0",
   "version": "3.0.0",
-  "author": "Artem Samusenko",
+  "author": "Split Dev",
   "scripts": {
     "start": "run-p -sr shopify:serve gulp:watch",
-    "shopify:serve": "shopify theme dev -s projectname --theme-editor-sync --live-reload hot-reload",
-    "shopify:pull": "shopify theme pull -s projectname",
-    "deploy": "run-s gulp:production && shopify theme push -s projectname",
-    "deploy:new": "run-s gulp:production && shopify theme push --unpublished -s projectname",
+    "shopify:serve": "shopify theme dev -s 0b9b2a-c1 --theme-editor-sync --live-reload hot-reload",
+    "shopify:pull": "shopify theme pull -s 0b9b2a-c1",
+    "deploy": "run-s gulp:production && shopify theme push -s 0b9b2a-c1",
+    "deploy:new": "run-s gulp:production && shopify theme push --unpublished -s 0b9b2a-c1",
     "gulp:watch": "gulp",
     "gulp:production": "gulp production"
   },

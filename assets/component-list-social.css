@@ -1,24 +1,24 @@
 .list-social {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
-@media only screen and (max-width: 749px) {
+/* @media only screen and (max-width: 749px) {
   .list-social {
     justify-content: center;
   }
-}
+} */
 
 .list-social__item .icon {
-  height: 2.2rem;
-  width: 2.2rem;
+  height:25px;
+  width: 25px;
 }
 
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.1rem;
+  /* padding: 1.1rem; */
   color: rgb(var(--color-foreground));
 }
 

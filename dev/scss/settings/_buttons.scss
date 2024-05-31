@@ -14,7 +14,8 @@
     line-height: normal;
     text-decoration: none;
     text-align: center;
-    @include media-breakpoint-down(sm) {
+    border-radius: 5px;
+    @include media-breakpoint-down(md) {
         min-width: 242px;
         min-height: 68px;
         width: fit-content;
@@ -27,10 +28,18 @@
     &__primary {
         color: $c-gray;
         background-color: $c-text;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.3s ease-in-out;
         &:hover {
             background-color: $c-button-hover;
             color: $c-text;
+        }
+    }
+    &__orange {
+        color: $c-text;
+        background-color: $c-orange;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: $c-button-hover;
         }
     }
 }

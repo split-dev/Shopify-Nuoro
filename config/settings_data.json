@@ -142,7 +142,6 @@
           "secondary_button_label": "#1d1d1b",
           "shadow": "#1d1d1b",
           "custom_color_primary": "#ffa842",
-          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -157,7 +156,6 @@
           "secondary_button_label": "#121212",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -172,7 +170,6 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -187,7 +184,6 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#ffa842",
-          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -202,7 +198,6 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }

@@ -1,37 +1,56 @@
 {
   "sections": {
-    "rich_text": {
-      "type": "rich-text",
+    "title_and_list_YBkG6P": {
+      "type": "title-and-list",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
+        "text_TUe9R4": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "Sans Gluten"
+          }
+        },
+        "text_mQhUNV": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Lait"
+          }
+        },
+        "text_tNtQRB": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Oeufs"
+          }
+        },
+        "text_dmhykw": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Arachides"
+          }
+        },
+        "text_GrcA7W": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Sucres ajoutés"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text_TUe9R4",
+        "text_mQhUNV",
+        "text_tNtQRB",
+        "text_dmhykw",
+        "text_GrcA7W"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "title": "Sans arômes, colorants et conservateurs artificiels.",
+        "padding_top": 90,
+        "padding_bottom": 90,
+        "padding_top_mobile": 70,
+        "padding_bottom_mobile": 90
       }
     }
   },
   "order": [
-    "rich_text"
+    "title_and_list_YBkG6P"
   ]
 }

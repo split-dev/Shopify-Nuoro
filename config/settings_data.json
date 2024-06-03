@@ -131,6 +131,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -142,7 +150,7 @@
           "secondary_button_label": "#1d1d1b",
           "shadow": "#1d1d1b",
           "custom_color_primary": "#ffa842",
-          "custom_color_button_hover": "#D9D9D9",
+          "custom_color_button_hover": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -157,7 +165,7 @@
           "secondary_button_label": "#121212",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button_hover": "#D9D9D9",
+          "custom_color_button_hover": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -172,7 +180,7 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button_hover": "#D9D9D9",
+          "custom_color_button_hover": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -187,7 +195,7 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#ffa842",
-          "custom_color_button_hover": "#D9D9D9",
+          "custom_color_button_hover": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }
@@ -202,7 +210,7 @@
           "secondary_button_label": "#ffffff",
           "shadow": "#121212",
           "custom_color_primary": "#d2b786",
-          "custom_color_button_hover": "#D9D9D9",
+          "custom_color_button_hover": "#d9d9d9",
           "custom_color_text": "#1d1d1b",
           "custom_color_gray": "#f6f4ed"
         }

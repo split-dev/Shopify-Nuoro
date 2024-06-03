@@ -1,86 +1,86 @@
 @import './variables';
-@import "./bootstrap";
+@import "./bootstrap-media";
 
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     font-family: $font-family-headings !important;
 }
 
 h1, .h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; /* 70px */
+    line-height: 100%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
         font-size: 50px;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 40px;
     }
 }
   
 h2, .h2 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; /* 70px */
+    line-height: 100%; 
     text-transform: uppercase;
     @media (max-width: 1400px) {
         font-size: 50px;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 40px;
     }
 }
   
 h3, .h3 {
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; /* 70px */
+    line-height: 100%; 
     text-transform: uppercase;
     @media (max-width: 1400px) {
-        font-size: 40px;
+        font-size: 36px;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 28px;
     }
 }
 h4, .h4 {
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; /* 70px */
+    line-height: 120%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
-        font-size: 28px;
+        font-size: 24px;
     }
-    @include media-breakpoint-down(sm) {
-        font-size: 21px;
+    @include media-breakpoint-down(md) {
+        font-size: 20px;
     }
 }
 
-p, .text-20px {
-    font-size: 20px;
+p, .text-17px {
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     @media (max-width: 1400px) {
-        font-size: 18px
+        font-size: 16px;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 15px;
     }
   }
-  .text-35px {
-    font-size: 35px;
+  .text-30px {
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 42px */
     @media (max-width: 1400px) {
-        font-size: 28px
+        font-size: 24px
     }
-    @include media-breakpoint-down(sm) {
-        font-size: 25px;
+    @include media-breakpoint-down(md) {
+        font-size: 20px;
     }
   }

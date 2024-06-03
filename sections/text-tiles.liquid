@@ -1,4 +1,4 @@
-{{ 'title-and-list.out.css' | asset_url | stylesheet_tag }}
+{{ 'text-tiles.out.css' | asset_url | stylesheet_tag }}
 
 
 {%- style -%}
@@ -15,42 +15,26 @@
   }
 {%- endstyle -%}
 
-<section class="title-and-list section-{{ section.id }}-padding">
+<section class="text-tiles section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="title-and-list__wrapper w-100">
-      <div class="title-and-list__left">
-        {% if section.settings.title != blank %}
-          <h2>{{ section.settings.title }}</h2>
+    <div class="text-tiles__wrapper d-flex flex-wrap">
+      {% for block in section.blocks %}
+        {% if block.settings.title %}
+          <div class="text-tiles__item">
+            <h4>{{ block.settings.title }}</h4>
+            <p class="text-17px">{{ block.settings.text }}</p>
+          </div>
         {% endif %}
-      </div>
-      <div class="title-and-list__right">
-        <ul>
-          {% for block in section.blocks %}
-            {% if block.settings.text %}
-            <li class="d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="27" viewBox="0 0 36 27" fill="none">
-                <path d="M12.1158 26.6274L0 14.5116L2.42793 12.0831L12.1158 21.7709L32.9327 0.954102L35.3606 3.3826L12.1158 26.6274Z" fill="#FFA842"/>
-              </svg>
-              <span class="text-30px">{{ block.settings.text }}</span>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
 
 {% schema %}
 {
-  "name": "Title and List",
-  "class": "shopify-section--title-and-list",
+  "name": "Text Tiles",
+  "class": "shopify-section--text-tiles",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title"
-    },
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
@@ -99,6 +83,11 @@
       "settings": [
         {
           "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
           "id": "text",
           "label": "Text"
         }
@@ -107,7 +96,7 @@
   ],
   "presets": [
     {
-      "name": "Title and List",
+      "name": "Text Tiles",
       "category": "Content"
     }
   ]

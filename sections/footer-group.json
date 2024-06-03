@@ -40,6 +40,8 @@
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
+        "shop_label": "Shop",
+        "shop_url": "",
         "payment_enable": true,
         "payment_title": "Paiements sécurisés",
         "logo_title": "Inspired by the essence of life from Nuoro, Sardinia's cradle of longevity.",
@@ -56,7 +58,7 @@
         "padding_top": 45,
         "padding_bottom": 75,
         "padding_top_mobile": 30,
-        "padding_bottom_mobile": 100
+        "padding_bottom_mobile": 50
       }
     }
   },

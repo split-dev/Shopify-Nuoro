@@ -1,5 +1,136 @@
 {
   "sections": {
+    "text_tiles_6GFXBz": {
+      "type": "text-tiles",
+      "blocks": {
+        "text_kDWHBd": {
+          "type": "text",
+          "settings": {
+            "title": "Fondé sur la science",
+            "text": "Suivant les dernières avancés scientifiques"
+          }
+        },
+        "text_k8dCWL": {
+          "type": "text",
+          "settings": {
+            "title": "70 ingrédients",
+            "text": "Chacun choisis pour sa pureté et son efficacité assimilables"
+          }
+        },
+        "text_hdQH9c": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Sucres ajouté",
+            "text": "Ni arômes, colorants ou conservateurs artificiels"
+          }
+        },
+        "text_mMyqPE": {
+          "type": "text",
+          "settings": {
+            "title": "Contrôle Qualité Rigoureux",
+            "text": "Certifié GMP et ISO 22000"
+          }
+        },
+        "text_MrFGpc": {
+          "type": "text",
+          "settings": {
+            "title": "Recette constamment améliorée",
+            "text": "10eme itération"
+          }
+        },
+        "text_Xb9Dry": {
+          "type": "text",
+          "settings": {
+            "title": "Pro & Prebiotiques",
+            "text": "100% naturels et de la plus haute qualité"
+          }
+        }
+      },
+      "block_order": [
+        "text_kDWHBd",
+        "text_k8dCWL",
+        "text_hdQH9c",
+        "text_mMyqPE",
+        "text_MrFGpc",
+        "text_Xb9Dry"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 20,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "text_img_tiles_rQY4GA": {
+      "type": "text-img-tiles",
+      "blocks": {
+        "text_63z8pt": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eac909bb0d7e85d9c96114aed5187d72.jpg",
+            "title": "Énergie Durable",
+            "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
+          }
+        },
+        "text_6dzmih": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d23e080f7772b1ec2f2732bd6045e710.jpg",
+            "title": "Performances Mentales",
+            "text": "Aiguisez votre esprit, améliorez votre concentration et libérez votre potentiel cognitif."
+          }
+        },
+        "text_BJnQxH": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
+            "title": "Santé Cardiovasculaire",
+            "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
+          }
+        },
+        "text_GmfBLC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
+            "title": "Défenses Immunitaires",
+            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
+          }
+        },
+        "text_FY6ErV": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg",
+            "title": "Métabolisme",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
+          }
+        },
+        "text_qMVzfQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
+            "title": "Equilibre hormonal",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
+          }
+        }
+      },
+      "block_order": [
+        "text_63z8pt",
+        "text_6dzmih",
+        "text_BJnQxH",
+        "text_GmfBLC",
+        "text_FY6ErV",
+        "text_qMVzfQ"
+      ],
+      "settings": {
+        "title": "Exploitez votre plein potentiel",
+        "subtitle": "Quotidiennement Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
+        "image": "shopify:\/\/shop_images\/Group_21.svg",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "title_and_list_YBkG6P": {
       "type": "title-and-list",
       "blocks": {
@@ -51,6 +182,8 @@
     }
   },
   "order": [
+    "text_tiles_6GFXBz",
+    "text_img_tiles_rQY4GA",
     "title_and_list_YBkG6P"
   ]
 }

@@ -1,0 +1,173 @@
+{{ 'img-and-content.out.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  #img-and-content-{{ section.id }} {
+    background-color: {{ section.settings.bg_color }} !important;
+  }
+{%- endstyle -%}
+
+<section id="img-and-content-{{ section.id }}" class="img-and-content section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="img-and-content__wrapper d-flex">
+      <div class="img-and-content__content">
+        {% if section.settings.title != blank %}
+          <h2>{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.subtitle != blank %}
+          <span class="text-30px">{{ section.settings.subtitle }}</span>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <p class="text-17px">{{ section.settings.text }}</p>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+          <ul class="img-and-content__list">
+            {% for block in section.blocks %}
+              {% if block.settings.title != blank %}
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22" fill="none">
+                    <path d="M10.217 21.5979L0.222656 11.6035L2.22546 9.60024L10.217 17.5918L27.3889 0.419922L29.3917 2.4232L10.217 21.5979Z" fill="#1D1D1B"/>
+                  </svg>
+                  <span class="text-30px">{{ block.settings.title }}</span>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if section.settings.button_label != blank %}
+          <div class="img-and-content__button">
+            <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="img-and-content__media">
+        {% if section.settings.image != blank %}
+          {{ section.settings.image | image_url: width: 1700 | image_tag:
+            width: section.settings.image.width,
+            height: section.settings.image.height,
+            class: 'text-img-tiles__item-img',
+            loading: 'lazy',
+            sizes: '100vw',
+            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+          }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Img and Content",
+  "class": "shopify-section--img-and-content",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "transparent"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "text",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Img and Content",
+      "category": "Content"
+    }
+  ]
+}
+
+{% endschema %}

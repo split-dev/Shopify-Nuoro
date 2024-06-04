@@ -1,5 +1,74 @@
 {
   "sections": {
+    "img_and_content_agKPqV": {
+      "type": "img-and-content",
+      "blocks": {
+        "text_bBnMM4": {
+          "type": "text",
+          "settings": {
+            "title": "Vitamines"
+          }
+        },
+        "text_YXCM86": {
+          "type": "text",
+          "settings": {
+            "title": "Minéraux"
+          }
+        },
+        "text_JDAdfR": {
+          "type": "text",
+          "settings": {
+            "title": "Pro & Prebiotiques"
+          }
+        },
+        "text_tUWGkL": {
+          "type": "text",
+          "settings": {
+            "title": "Antioxydants"
+          }
+        },
+        "text_EzanTX": {
+          "type": "text",
+          "settings": {
+            "title": "Superaliments"
+          }
+        },
+        "text_rtNaRA": {
+          "type": "text",
+          "settings": {
+            "title": "Champignons Fonctionnels"
+          }
+        },
+        "text_6VN6QL": {
+          "type": "text",
+          "settings": {
+            "title": "Collagène"
+          }
+        }
+      },
+      "block_order": [
+        "text_bBnMM4",
+        "text_YXCM86",
+        "text_JDAdfR",
+        "text_tUWGkL",
+        "text_EzanTX",
+        "text_rtNaRA",
+        "text_6VN6QL"
+      ],
+      "settings": {
+        "bg_color": "#ffa842",
+        "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_1_1.jpg",
+        "title": "La meilleure façon d'investir dans votre santé.",
+        "subtitle": "",
+        "text": "NU.O.RO est formulé pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne",
+        "button_label": "Ingredients & Benefits",
+        "button_url": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
+      }
+    },
     "text_tiles_6GFXBz": {
       "type": "text-tiles",
       "blocks": {
@@ -182,6 +251,7 @@
     }
   },
   "order": [
+    "img_and_content_agKPqV",
     "text_tiles_6GFXBz",
     "text_img_tiles_rQY4GA",
     "title_and_list_YBkG6P"

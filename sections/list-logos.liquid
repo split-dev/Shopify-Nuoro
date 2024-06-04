@@ -1,0 +1,148 @@
+{{ 'list-logos.out.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="list-logos section-{{ section.id }}-padding">
+  <div class="list-logos__wrapper">
+    <div class="js-logos-slider-init">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <div class="list-logos__item d-flex justify-content-center align-items-center swiper-slide">
+              {{ block.settings.image | image_url: width: 700 | image_tag:
+                width: block.settings.image.width,
+                height: block.settings.image.height,
+                class: 'list-logos__item-img',
+                loading: 'lazy',
+                sizes: '100vw',
+                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+              }}
+            </div>
+          {% endif %}
+        {% endfor %}
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <div class="list-logos__item d-flex justify-content-center align-items-center swiper-slide">
+              {{ block.settings.image | image_url: width: 700 | image_tag:
+                width: block.settings.image.width,
+                height: block.settings.image.height,
+                class: 'list-logos__item-img',
+                loading: 'lazy',
+                sizes: '100vw',
+                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+              }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  var logosSlider = new Swiper('.js-logos-slider-init', {
+    slidesPerView: 'auto',
+    freeMode: false,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 33,
+    autoplay: true,
+    breakpoints: {
+        575: {
+            slidesPerView: 'auto',
+            spaceBetween: 33,
+
+        },
+        750: {
+            slidesPerView: 'auto',
+            spaceBetween: 40,
+        },
+        990: {
+            slidesPerView: 'auto',
+            spaceBetween: 60,
+        }
+    },
+});
+</script>
+
+{% schema %}
+{
+  "name": "List Logos",
+  "class": "shopify-section--list-logos",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "List Logos",
+      "category": "Content"
+    }
+  ]
+}
+
+{% endschema %}

@@ -16,6 +16,23 @@
   #img-and-content-{{ section.id }} {
     background-color: {{ section.settings.bg_color }} !important;
   }
+
+  {% if section.settings.revers %}
+      #img-and-content-{{ section.id }} .img-and-content__wrapper {
+        flex-direction: row-reverse;
+      }
+      #img-and-content-{{ section.id }} .img-and-content__media {
+        justify-content: flex-start !important;
+        padding-left: 0 !important;
+        padding-right: 40px;
+      }
+      @media screen and (max-width: 991px) {
+        #img-and-content-{{ section.id }} .img-and-content__media {
+          justify-content: center !important;
+          padding-left: 40px !important;
+        }
+      }
+    {% endif %}
 {%- endstyle -%}
 
 <section id="img-and-content-{{ section.id }}" class="img-and-content section-{{ section.id }}-padding">
@@ -72,6 +89,12 @@
   "name": "Img and Content",
   "class": "shopify-section--img-and-content",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "revers",
+      "label": "Revers Position",
+      "default": false
+    },
     {
       "type": "color",
       "id": "bg_color",

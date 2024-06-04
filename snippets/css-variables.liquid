@@ -240,3 +240,8 @@
       {% endstyle %}
        <link rel="preload" href="{{ 'global.out.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
       {{ 'base.css' | asset_url | stylesheet_tag }}
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

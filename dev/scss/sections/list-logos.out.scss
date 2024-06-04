@@ -1,0 +1,16 @@
+@import "../settings/variables";
+@import "../settings/bootstrap-media";
+
+.list-logos {
+    overflow: hidden;
+    &__item {
+        width: fit-content !important;
+        img {
+            max-height: 61px;
+            width: auto;
+            @include media-breakpoint-down(md) {
+                max-height: 35px;
+            }
+        }
+    }
+}

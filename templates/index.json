@@ -1,5 +1,19 @@
 {
   "sections": {
+    "home_hero_CF9PjB": {
+      "type": "home-hero",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+        "title": "OPTIMAL NUTRITION MADE SIMPLE",
+        "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
+        "button_label": "Commenzez Nu.o.ro",
+        "button_url": "",
+        "padding_top": 150,
+        "padding_bottom": 40,
+        "padding_top_mobile": 125,
+        "padding_bottom_mobile": 30
+      }
+    },
     "img_and_content_agKPqV": {
       "type": "img-and-content",
       "blocks": {
@@ -56,6 +70,7 @@
         "text_6VN6QL"
       ],
       "settings": {
+        "revers": false,
         "bg_color": "#ffa842",
         "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_1_1.jpg",
         "title": "La meilleure façon d'investir dans votre santé.",
@@ -248,12 +263,111 @@
         "padding_top_mobile": 70,
         "padding_bottom_mobile": 90
       }
+    },
+    "list_logos_qpYYXr": {
+      "type": "list-logos",
+      "blocks": {
+        "text_hT6ctA": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_6_3.svg"
+          }
+        },
+        "text_RAc8Fa": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8.svg"
+          }
+        },
+        "text_hdETTh": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_9.svg"
+          }
+        },
+        "text_CMNmDy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_6_3_1094f8c4-d958-4ffe-accc-e3950393285b.svg"
+          }
+        },
+        "text_fHMwF7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_769f5854-2362-4e38-91b0-bfd379c7bf2e.svg"
+          }
+        },
+        "text_w4eLLn": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_9_95c0bc36-d3f8-4713-a36e-0c9a7732db84.svg"
+          }
+        },
+        "text_BkapHN": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_6_3_9161f304-7f74-407a-a811-b40714672805.svg"
+          }
+        },
+        "text_dhQ3Hr": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_bcc43cc4-7d65-41d8-b3d6-60140c235950.svg"
+          }
+        },
+        "text_fYDPE4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_9_6720b871-034a-4502-bdbd-1e132e4ad289.svg"
+          }
+        },
+        "text_J66WwM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_6_3_591060b9-7034-4d52-94c2-d78b22dac3d8.svg"
+          }
+        },
+        "text_wqFTdY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_1f0a7c6b-3864-4c5f-8fc3-035ddd4658b6.svg"
+          }
+        },
+        "text_E3Kh8Y": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_9_4737ca43-bbf5-4735-a8a6-663582fa047e.svg"
+          }
+        }
+      },
+      "block_order": [
+        "text_hT6ctA",
+        "text_RAc8Fa",
+        "text_hdETTh",
+        "text_CMNmDy",
+        "text_fHMwF7",
+        "text_w4eLLn",
+        "text_BkapHN",
+        "text_dhQ3Hr",
+        "text_fYDPE4",
+        "text_J66WwM",
+        "text_wqFTdY",
+        "text_E3Kh8Y"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 75
+      }
     }
   },
   "order": [
+    "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "text_tiles_6GFXBz",
     "text_img_tiles_rQY4GA",
-    "title_and_list_YBkG6P"
+    "title_and_list_YBkG6P",
+    "list_logos_qpYYXr"
   ]
 }

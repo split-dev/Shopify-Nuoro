@@ -36,9 +36,6 @@
       {% if section.settings.subtitle != blank %}
         <p class="text-30px">{{ section.settings.subtitle }}</p>
       {% endif %}
-      
-      
-      
     </div>
     <div class="text-img-tiles__wrapper d-flex flex-wrap">
       {% for block in section.blocks %}
@@ -69,6 +66,11 @@
         {% endif %}
       {% endfor %}
     </div>
+    {% if section.settings.button_label != blank %}
+      <div class="text-img-tiles__button page-width d-flex justify-content-center">
+        <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+      </div>
+    {% endif %}
   </div>
 </section>
 
@@ -91,6 +93,16 @@
       "type": "image_picker",
       "id": "image",
       "label": "Heading Image"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
     },
     {
       "type": "header",

@@ -250,6 +250,8 @@
         "title": "Exploitez votre plein potentiel",
         "subtitle": "Quotidiennement Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
         "image": "shopify:\/\/shop_images\/Group_21.svg",
+        "button_label": "Ingredients & Benefits",
+        "button_url": "",
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_top_mobile": 0,
@@ -479,6 +481,47 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 75
       }
+    },
+    "video_reviews_hfbLxP": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_jdPpJG": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Océane Andreaa - Sportive"
+          }
+        },
+        "text_H8tqn6": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "Océane Andreaa - Sportive",
+            "text": "Hello world"
+          }
+        },
+        "text_fLtqA9": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "Oles PLichko",
+            "text": "My Product Review"
+          }
+        }
+      },
+      "block_order": [
+        "text_jdPpJG",
+        "text_H8tqn6",
+        "text_fLtqA9"
+      ],
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
@@ -489,6 +532,7 @@
     "text_img_tiles_rQY4GA",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",
-    "list_logos_qpYYXr"
+    "list_logos_qpYYXr",
+    "video_reviews_hfbLxP"
   ]
 }

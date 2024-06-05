@@ -1,0 +1,108 @@
+@import "../settings/variables";
+@import "../settings/bootstrap-media";
+
+.faq-home {
+    &__title {
+        width: 50%;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 0;
+        }
+    }
+    &__tabs {
+        @include media-breakpoint-down(md) {
+            display: none !important;
+        }
+    }
+    &__questions {
+        width: 50%;
+        overflow: hidden;
+    }
+    &__tablinks {
+        cursor: pointer;
+        transition: 0.3s;
+        padding: 17px 0;
+        border-top: solid 1.5px $c-text;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0.4;
+        &:hover {
+            opacity: 1;
+        }
+        &.active {
+            opacity: 1;
+        }
+        p {
+            margin: 0;
+        }
+        svg {
+            margin-left: 16px;
+            min-width: 24px;
+        }
+    }
+    &__answers {
+        width: 50%;
+    }
+    &__tabcontent {
+        display: none;
+        animation: fadeEffect 1s;
+        padding-left: 40px;
+        justify-content: center;
+        &:first-of-type {
+            display: flex;
+        }
+        > div {
+            max-width: 630px;
+            p {
+                margin-top: 0;
+            }
+        }
+    }
+    @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    //Accordion
+    &__accordion {
+        display: none !important;
+        @include media-breakpoint-down(md) {
+            display: block !important;
+        }
+    }
+    &__accordion-question {
+        cursor: pointer;
+        padding: 18px 0;
+        width: 100%;
+        border-top: solid 1.5px $c-text;
+        transition: 0.3s;
+        opacity: 0.4;
+        &:hover {
+            opacity: 1;
+        }
+        &.active {
+            opacity: 1;
+        }
+        p {
+            margin: 0;
+        }
+        svg {
+            margin-left: 24px;
+            min-width: 19px;
+        }
+    }
+    &__accordion-answer {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        p {
+            margin-top: 0;
+        }
+    }
+}

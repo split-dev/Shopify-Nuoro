@@ -1,0 +1,211 @@
+{{ 'tab-images.out.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="tab-images section-{{ section.id }}-padding">
+  <div class="page-width">
+    {% if  section.settings.title != blank %}
+      <div class="tab-images__title-mobile">
+          <h2>{{ section.settings.title }}</h2>
+      </div>
+    {% endif %}
+    <div class="tab-images__tabs d-flex">
+      <div class="tab-images__media d-flex">
+        <!-- Tab content -->
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <div id="{{block.id}}" class="js-tabcontent-{{ section.index }} tab-images__img {% if forloop.first %}active{% endif %}">
+              {{ block.settings.image | image_url: width: 1700 | image_tag:
+                width: block.settings.image.width,
+                height: block.settings.image.height,
+                class: 'text-img-tiles__item-img',
+                loading: 'lazy',
+                sizes: '100vw',
+                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+              }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tab-images__content">
+        {% if  section.settings.title != blank %}
+          <div class="tab-images__title">
+            <h2>{{ section.settings.title }}</h2>
+          </div>
+        {% endif %}
+        <!-- Tab links -->
+        {% for block in section.blocks %}
+          {% if block.settings.title %}
+            <div class="js-tablinks-{{ section.index }} tab-images__tablinks d-flex align-items-center {% if forloop.first %}active{% endif %}" onclick="openTab_{{ section.index }}(event, '{{block.id}}')">
+              <h4 class="">{{ block.settings.title }}</h4>
+              <p>{{ block.settings.text }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="tab-images__slider">
+      <div class="js-tiles-slider-init-{{ section.index }}">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            {% if block.settings.image %}
+              <div class="tab-images__slide d-flex flex-column justify-content-center align-items-center swiper-slide">
+                {{ block.settings.image | image_url: width: 700 | image_tag:
+                  width: block.settings.image.width,
+                  height: block.settings.image.height,
+                  class: 'list-logos__item-img',
+                  loading: 'lazy',
+                  sizes: '100vw',
+                  widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+                }}
+                <h4 class="">{{ block.settings.title }}</h4>
+                <p>{{ block.settings.text }}</p>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+</section>
+
+<script>
+  //TABS
+  function openTab_{{ section.index }}(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("js-tabcontent-{{ section.index }}");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("js-tablinks-{{ section.index }}");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "flex";
+  evt.currentTarget.className += " active";
+}
+
+  //MOBILE SLIDER
+  var tabsSlider = new Swiper('.js-tiles-slider-init-{{ section.index }}', {
+    slidesPerView: 1.4,
+    freeMode: false,
+    centeredSlides: true,
+    loop: false,
+    spaceBetween: 30,
+    breakpoints: {
+        575: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+
+        },
+        750: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+        }
+    },
+});
+</script>
+
+{% schema %}
+{
+  "name": "Tab Images",
+  "class": "shopify-section--tab-images",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "FAQ Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tab Images",
+      "category": "Content"
+    }
+  ]
+}
+
+{% endschema %}

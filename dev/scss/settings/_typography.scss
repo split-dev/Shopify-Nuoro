@@ -6,35 +6,35 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 h1, .h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     line-height: normal;
     line-height: 100%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
-        font-size: 50px;
+        font-size: 40px;
     }
     @include media-breakpoint-down(md) {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
   
 h2, .h2 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     line-height: normal;
     line-height: 100%; 
     text-transform: uppercase;
     @media (max-width: 1400px) {
-        font-size: 50px;
+        font-size: 40px;
     }
     @include media-breakpoint-down(md) {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
   
 h3, .h3 {
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 400;
     line-height: normal;
     line-height: 100%; 
@@ -47,7 +47,7 @@ h3, .h3 {
     }
 }
 h4, .h4 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     line-height: normal;
     line-height: 120%;
@@ -56,24 +56,24 @@ h4, .h4 {
         font-size: 24px;
     }
     @include media-breakpoint-down(md) {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
 p, .text-17px {
-    font-size: 17px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     @media (max-width: 1400px) {
-        font-size: 16px;
+        font-size: 14px;
     }
     @include media-breakpoint-down(md) {
-        font-size: 15px;
+        font-size: 14px;
     }
   }
   .text-30px {
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 42px */

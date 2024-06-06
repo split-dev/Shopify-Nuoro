@@ -1,3 +1,4 @@
+{{ 'header.out.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -17,6 +18,8 @@
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
+
+
 
 <style>
   header-drawer {
@@ -84,9 +87,18 @@
   }
 
   .section-header {
-    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
+    width: 100%;
+    position: fixed; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
+  .section-header header.header {
+        margin-top: 20px;
+        max-width: 990px !important;
+        border-radius: 5px !important;
+        background: rgba(246, 244, 237, 0.60) !important;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+        backdrop-filter: blur(12.5px) !important;
+    }
 
   @media screen and (min-width: 750px) {
     .section-header {
@@ -252,18 +264,20 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
-
+      {% comment %} {% render 'header-search', input_id: 'Search-In-Modal' %} {% endcomment %}
+      {% if section.settings.button_url != blank %}
+        <a class="btn btn__orange" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+      {% endif %}
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          <account-icon>
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__login">
+          {% comment %} <account-icon>
             {%- if customer and customer.has_avatar? -%}
               {{ customer | avatar }}
             {%- else -%}
               {% render 'icon-account' %}
             {%- endif -%}
-          </account-icon>
-          <span class="visually-hidden">
+          </account-icon> {% endcomment %}
+          <span>
             {%- liquid
               if customer
                 echo 'customer.account_fallback' | t
@@ -282,7 +296,7 @@
         {%- endcase -%}
       {%- endfor -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+      {% comment %} <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -299,7 +313,7 @@
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-      </a>
+      </a> {% endcomment %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -466,6 +480,17 @@
   "class": "section-header",
   "max_blocks": 3,
   "settings": [
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Commenzez"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
     {
       "type": "select",
       "id": "logo_position",

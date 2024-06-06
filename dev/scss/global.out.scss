@@ -38,3 +38,14 @@ html {
 .text-center {
     text-align: center !important;
 }
+
+.goverlay {
+    display: block !important;
+}
+.glightbox-clean .gclose, .glightbox-clean .gnext, .glightbox-clean .gprev {
+    background-color: $c-orange !important;
+    transition: 0.2s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

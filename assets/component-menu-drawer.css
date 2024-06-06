@@ -69,6 +69,9 @@ details[open].menu-opening > .menu-drawer__submenu {
     border-style: solid;
     border-color: rgba(var(--color-foreground), var(--drawer-border-opacity));
   }
+  .header .menu-drawer {
+    width: 70rem;
+  }
 }
 
 .menu-drawer__inner-container {

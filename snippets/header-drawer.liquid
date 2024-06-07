@@ -6,17 +6,27 @@
 {% endcomment %}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
-  <details id="Details-menu-drawer-container" class="menu-drawer-container">
+  <details id="Details-menu-drawer-container" class="js-menu-wrapper menu-drawer-container">
     <summary
-      class="header__icon header__icon--menu header__icon--summary link focus-inset"
+      class="js-menu-triger header__icon header__icon--menu header__icon--summary link focus-inset"
       aria-label="{{ 'sections.header.menu' | t }}"
     >
-      <span>
+      <span class="header__menu-text">
+        {{ 'general.menu' | t }}
+        {% comment %} {% render 'icon-hamburger' %}
+        {% render 'icon-close' %} {% endcomment %}
+      </span>
+      <span class="header__menu-icons">
         {% render 'icon-hamburger' %}
-        {% render 'icon-close' %}
+        {% render 'icon-close' %} 
       </span>
     </summary>
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
+      <span class="js-menu-close header__menu-close-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+          <path d="M2.41503 22.9018L0.601562 21.0883L10.239 11.4509L0.601562 1.81347L2.41503 0L12.0525 9.63743L21.6899 0L23.5034 1.81347L13.8659 11.4509L23.5034 21.0883L21.6899 22.9018L12.0525 13.2644L2.41503 22.9018Z" fill="#1D1D1B"/>
+        </svg>
+      </span>
       <div class="menu-drawer__inner-container">
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
@@ -121,30 +131,26 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
+              {%- if shop.customer_accounts_enabled -%}
+                <li class="menu-drawer__account-li">
+                  <a
+                    href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+                    class="menu-drawer__account menu-drawer__menu-item"
+                  >
+                    {%- liquid
+                      if customer
+                        echo 'customer.account_fallback' | t
+                      else
+                        echo 'customer.log_in' | t
+                      endif
+                    -%}
+                  </a>
+                </li>
+              {%- endif -%}
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">
-            {%- if shop.customer_accounts_enabled -%}
-              <a
-                href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-                class="menu-drawer__account link focus-inset h5 medium-hide large-up-hide"
-              >
-                <account-icon>
-                  {%- if customer and customer.has_avatar? -%}
-                    {{ customer | avatar }}
-                  {%- else -%}
-                    {% render 'icon-account' %}
-                  {%- endif -%}
-                </account-icon>
-                {%- liquid
-                  if customer
-                    echo 'customer.account_fallback' | t
-                  else
-                    echo 'customer.log_in' | t
-                  endif
-                -%}
-              </a>
-            {%- endif -%}
+            
             {% comment %} {%- if localization.available_countries or localization.available_languages -%}
               <div class="menu-drawer__localization header-localization">
                 {%- if localization.available_countries and localization.available_countries.size > 1 -%}
@@ -254,3 +260,38 @@
     </div>
   </details>
 </header-drawer>
+
+<script>
+
+// Находим элементы
+const menuClose = document.querySelector('.js-menu-close');
+const menuTrigger = document.querySelector('.js-menu-triger');
+const menuDrawer = document.getElementById('menu-drawer');
+const menuWrapper = document.querySelector('.js-menu-wrapper');
+
+// Проверяем, что элементы существуют на странице
+if (menuClose && menuTrigger) {
+  // Добавляем обработчик события на элемент js-menu-close
+  menuClose.addEventListener('click', function() {
+    // Имитируем клик на элементе js-menu-triger
+    menuTrigger.click();
+  });
+}
+
+// Проверяем, что элементы menuDrawer и menuWrapper существуют на странице
+if (menuDrawer && menuWrapper && menuTrigger) {
+  // Добавляем обработчик события на документ
+  document.addEventListener('click', function(event) {
+    // Проверяем, что menuWrapper имеет класс menu-opening
+    if (menuWrapper.classList.contains('menu-opening')) {
+      // Проверяем, что клик был вне menuDrawer
+      if (!menuDrawer.contains(event.target) && !menuTrigger.contains(event.target)) {
+        // Имитируем клик на элементе js-menu-triger
+        menuTrigger.click();
+      }
+    }
+  });
+}
+
+
+</script>

@@ -102,7 +102,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__menu-item {
-  padding: 1.1rem 3rem;
+  /* padding: 1.1rem 3rem; */
+  padding: 0 27px 14px 27px;
   text-decoration: none;
   font-size: 1.8rem;
 }
@@ -196,7 +197,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   font-size: 1.4rem;
   color: rgb(var(--color-foreground));
   margin-bottom: 0;

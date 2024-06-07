@@ -5,14 +5,14 @@
     padding-left: 35px;
     padding-right: 35px;
     @include media-breakpoint-down(md) {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0;
+        padding-right: 0;
     }
-    header.header {
-        @include media-breakpoint-down(md) {
-            padding: 10px !important;
-        }
-    }
+    // header.header {
+    //     @include media-breakpoint-down(md) {
+    //         padding: 10px !important;
+    //     }
+    // }
 }
 .header {
     &__login {
@@ -47,13 +47,72 @@
             width: 88px !important;
         }
     }
+    .header__icon.header__icon--menu {
+        text-decoration: none;
+        font-size: 16px !important;
+        margin-left: 1.2rem;
+        transition: 0.3s;
+        @include media-breakpoint-down(md) {
+            margin-left: 0;
+        }
+        &:hover {
+            @include media-breakpoint-up(lg) {
+                opacity: 0.4;
+            }
+        }
+    }
+    &__menu-text {
+        @include media-breakpoint-down(md) {
+            display: none !important;
+        }
+    }
+    &__menu-icons {
+        display: none !important;
+        @include media-breakpoint-down(md) {
+            display: flex !important;
+        }
+    }
+    &__menu-close-icon {
+        cursor: pointer;
+        position: absolute;
+        right: 25px;
+        top: 30px;
+        z-index: 2;
+        @include media-breakpoint-down(md) {
+            display: none !important;
+        }
+    }
     #menu-drawer {
         transform: translate(0) !important;
-        height: fit-content !important;
+        height: auto !important;
         border-radius: 5px !important;
         background: rgba(246, 244, 237, 0.60) !important;
-        backdrop-filter: blur(12.5px) !important;
+        backdrop-filter: blur(12.5px);
         margin-top: 10px;
+        @media (min-width: 767px) {
+            margin-top: 25px;
+            left: -20px;
+        }
+        @include media-breakpoint-down(md) {
+            width: calc(100% - 30px);
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+    .menu-drawer-container {
+        @media (min-width: 767px) {
+            position: relative;
+        }
+        &.menu-opening {
+            .header__icon.header__icon--menu {
+                @include media-breakpoint-up(lg) {
+                    opacity: 0.4;
+                }
+            }
+        }
+    }
+    .menu-drawer__navigation {
+        padding: 30px 0 15px;
     }
     .menu-drawer__menu {
         li,
@@ -62,15 +121,38 @@
             font-style: normal;
             font-weight: 500 !important;
             line-height: 120% !important;
+            margin: 0 !important;
             @media (max-width: 1400px) {
                 font-size: 24px !important;
             }
             @include media-breakpoint-down(md) {
                 font-size: 20px !important;
             }
+            &:hover,
+            &:focus,
+            &:focus-visible {
+                background: transparent !important
+            }
+            
         }
+        a {
+            //transition: 0.3s;
+            &:hover {
+                opacity: 0.4;
+            }
+        }
+    }
+    .menu-drawer__account-li {
+        display: none !important;
+        @include media-breakpoint-down(lg) {
+            display: block!important;
+        }
+    }
+    .menu-drawer__utility-links {
+        display: none !important;
     }
 }
 .header__icon--menu[aria-expanded=true]:before {
     content: none !important;
 }
+

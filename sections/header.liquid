@@ -85,19 +85,50 @@
   .header {
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
   }
-
+  /* @media screen and (max-width: 749.98px) {
+    .shopify-section-header-sticky {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  } */
   .section-header {
     width: 100%;
     position: fixed; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
   .section-header header.header {
-        margin-top: 20px;
-        max-width: 990px !important;
-        border-radius: 5px !important;
-        background: rgba(246, 244, 237, 0.60) !important;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
-        backdrop-filter: blur(12.5px) !important;
+    margin-top: 20px;
+    max-width: 990px !important;
+    border-radius: 5px !important;
+    background: transparent !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+  }
+  @media screen and (max-width: 750px) {
+    header.header {
+      padding: 10px !important;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  .section-header header.header:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    max-width: 990px !important;
+    border-radius: 5px !important;
+    z-index: -1;
+    background: rgba(246, 244, 237, 0.60) !important;
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+  }
+  @media screen and (max-width: 750px) {
+    .section-header header.header:before {
+      width: calc(100% - 30px);
+    }
   }
 
   @media screen and (min-width: 750px) {

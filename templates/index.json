@@ -78,8 +78,8 @@
         "text": "NU.O.RO est formulé pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne",
         "button_label": "Ingredients & Benefits",
         "button_url": "",
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 70,
+        "padding_bottom": 70,
         "padding_top_mobile": 45,
         "padding_bottom_mobile": 45
       }
@@ -139,10 +139,10 @@
         "text_Xb9Dry"
       ],
       "settings": {
-        "padding_top": 60,
+        "padding_top": 80,
         "padding_bottom": 20,
         "padding_top_mobile": 40,
-        "padding_bottom_mobile": 10
+        "padding_bottom_mobile": 20
       }
     },
     "tab_images_QcxXbC": {
@@ -182,7 +182,7 @@
         "title": "Comment Préparer?",
         "padding_top": 50,
         "padding_bottom": 110,
-        "padding_top_mobile": 40,
+        "padding_top_mobile": 20,
         "padding_bottom_mobile": 75
       }
     },
@@ -253,9 +253,59 @@
         "button_label": "Ingredients & Benefits",
         "button_url": "",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 30,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
+      }
+    },
+    "featured_product_old_qTA6Vc": {
+      "type": "featured-product-old",
+      "blocks": {
+        "title_VtY9zH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "variant_picker_DnFgYp": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_iEE94k": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "buy_buttons_4MEt8i": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_VtY9zH",
+        "variant_picker_DnFgYp",
+        "price_iEE94k",
+        "buy_buttons_4MEt8i"
+      ],
+      "settings": {
+        "product": "nuoro",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "title_and_list_YBkG6P": {
@@ -301,10 +351,10 @@
       ],
       "settings": {
         "title": "Sans arômes, colorants et conservateurs artificiels.",
-        "padding_top": 90,
-        "padding_bottom": 90,
+        "padding_top": 70,
+        "padding_bottom": 50,
         "padding_top_mobile": 70,
-        "padding_bottom_mobile": 90
+        "padding_bottom_mobile": 55
       }
     },
     "faq_home_VX69Gg": {
@@ -380,9 +430,9 @@
       "settings": {
         "title": "FAQS",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_bottom_mobile": 20
       }
     },
     "list_logos_qpYYXr": {
@@ -557,6 +607,7 @@
     "text_tiles_6GFXBz",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
+    "featured_product_old_qTA6Vc",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",
     "list_logos_qpYYXr",

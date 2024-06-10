@@ -31,6 +31,29 @@
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+              {%- if shop.customer_accounts_enabled -%}
+                <li class="menu-drawer__account-li">
+                  <a
+                    href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+                    class="menu-drawer__account menu-drawer__menu-item btn btn__primary"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                      <path d="M8.95392 8.98307C7.81019 8.98307 6.83114 8.57588 6.01677 7.76151C5.20219 6.94693 4.79491 5.96778 4.79491 4.82405C4.79491 3.68033 5.20219 2.70127 6.01677 1.8869C6.83114 1.07233 7.81019 0.665039 8.95392 0.665039C10.0977 0.665039 11.0767 1.07233 11.8911 1.8869C12.7057 2.70127 13.1129 3.68033 13.1129 4.82405C13.1129 5.96778 12.7057 6.94693 11.8911 7.76151C11.0767 8.57588 10.0977 8.98307 8.95392 8.98307ZM0.041748 18.0325V15.3906C0.041748 14.8088 0.199791 14.2699 0.515876 13.774C0.831961 13.278 1.2544 12.8968 1.78319 12.6302C2.95761 12.0545 4.14244 11.6227 5.33766 11.3347C6.53288 11.0467 7.7383 10.9028 8.95392 10.9028C10.1695 10.9028 11.375 11.0467 12.5702 11.3347C13.7654 11.6227 14.9502 12.0545 16.1247 12.6302C16.6534 12.8968 17.0759 13.278 17.392 13.774C17.7081 14.2699 17.8661 14.8088 17.8661 15.3906V18.0325H0.041748ZM1.82418 16.2501H16.0837V15.3906C16.0837 15.15 16.014 14.9272 15.8745 14.7222C15.7351 14.5174 15.5459 14.3503 15.3068 14.2208C14.2829 13.7165 13.239 13.3345 12.1751 13.0746C11.111 12.815 10.0372 12.6852 8.95392 12.6852C7.8706 12.6852 6.79688 12.815 5.73277 13.0746C4.66885 13.3345 3.62494 13.7165 2.60103 14.2208C2.36198 14.3503 2.17275 14.5174 2.03332 14.7222C1.8939 14.9272 1.82418 15.15 1.82418 15.3906V16.2501ZM8.95392 7.20063C9.60748 7.20063 10.167 6.96793 10.6324 6.50251C11.0978 6.0371 11.3305 5.47761 11.3305 4.82405C11.3305 4.1705 11.0978 3.61101 10.6324 3.14559C10.167 2.68018 9.60748 2.44747 8.95392 2.44747C8.30036 2.44747 7.74088 2.68018 7.27546 3.14559C6.81005 3.61101 6.57734 4.1705 6.57734 4.82405C6.57734 5.47761 6.81005 6.0371 7.27546 6.50251C7.74088 6.96793 8.30036 7.20063 8.95392 7.20063Z" fill="#F6F4ED"/>
+                    </svg>
+                    {% if section.settings.mobile_login != blank %}
+                      {{ section.settings.mobile_login }}
+                      {% else %}
+                      {%- liquid
+                        if customer
+                          echo 'customer.account_fallback' | t
+                        else
+                          echo 'customer.log_in' | t
+                        endif
+                      -%}
+                    {% endif %}
+                  </a>
+                </li>
+              {%- endif -%}
               {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
@@ -131,22 +154,6 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
-              {%- if shop.customer_accounts_enabled -%}
-                <li class="menu-drawer__account-li">
-                  <a
-                    href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-                    class="menu-drawer__account menu-drawer__menu-item"
-                  >
-                    {%- liquid
-                      if customer
-                        echo 'customer.account_fallback' | t
-                      else
-                        echo 'customer.log_in' | t
-                      endif
-                    -%}
-                  </a>
-                </li>
-              {%- endif -%}
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">

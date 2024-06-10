@@ -53,6 +53,8 @@
         animation: fadeEffect 1s;
         padding-left: 40px;
         justify-content: center;
+        position: sticky;
+        top: 160px;
         &:first-of-type {
             display: flex;
         }

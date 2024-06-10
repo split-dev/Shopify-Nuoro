@@ -89,6 +89,7 @@
         background: rgba(246, 244, 237, 0.60) !important;
         backdrop-filter: blur(12.5px);
         margin-top: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
         @media (min-width: 767px) {
             margin-top: 25px;
             left: -20px;
@@ -146,6 +147,25 @@
         display: none !important;
         @include media-breakpoint-down(lg) {
             display: block!important;
+        }
+        a {
+            color: $c-gray !important;
+            padding: 6px 11px !important;
+            width: fit-content !important;
+            min-height: fit-content !important;
+            height:  fit-content !important;
+            margin: 0 27px 12px 27px !important;
+            min-width: fit-content !important;
+            transition: 0s !important;
+            &:hover {
+                opacity:  1 !important;
+                color: $c-gray !important;
+                background-color: $c-text !important;
+            }
+            svg {
+                margin-right: 8px;
+                margin-top: -2px;
+            }
         }
     }
     .menu-drawer__utility-links {

@@ -71,6 +71,16 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+.body-padding {
+  padding-top: 160px;
+}
+
+@media screen and (max-width: 767px) {
+  .body-padding {
+    padding-top: 120px;
+  }
+}
+
 /* base */
 
 .page-width {

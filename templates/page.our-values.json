@@ -1,14 +1,102 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "page_title_eWBP8a": {
+      "type": "page-title",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "title": "Nos Valeurs",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "our_values_UwgprB": {
+      "type": "our-values",
+      "blocks": {
+        "text_AyPNM8": {
+          "type": "text",
+          "settings": {
+            "title": "01",
+            "heading": "Connexion",
+            "text": "Favoriser des liens forts et significatifs.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_11.jpg"
+          }
+        },
+        "text_KeYkjm": {
+          "type": "text",
+          "settings": {
+            "title": "02",
+            "heading": "Authenticité",
+            "text": "Vivre et communiquer avec transparence et sincérité.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3.jpg"
+          }
+        },
+        "text_zqRtk8": {
+          "type": "text",
+          "settings": {
+            "title": "03",
+            "heading": "Innovation",
+            "text": "Poursuivre l'excellence et le progrès scientifique pour le bien-être.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3_ff10d73e-f77c-4e32-80de-490750b0108b.jpg"
+          }
+        },
+        "text_TgfLHY": {
+          "type": "text",
+          "settings": {
+            "title": "04",
+            "heading": "Pureté",
+            "text": "Privilégier les ingrédients naturels et les pratiques respectueuses de l'environnement.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_11.png"
+          }
+        },
+        "text_hQaqLD": {
+          "type": "text",
+          "settings": {
+            "title": "05",
+            "heading": "Vitalité",
+            "text": "Encourager un mode de vie dynamique et actif.",
+            "image": "shopify:\/\/shop_images\/original_e8723f1171b1e3b4220bebe0cec802f0_4_69a432f8-3be7-4ef7-ae06-450b853a29d1.jpg"
+          }
+        },
+        "text_BVhfwj": {
+          "type": "text",
+          "settings": {
+            "title": "06",
+            "heading": "Éthique",
+            "text": "Agir avec intégrité, responsabilité sociale et environnementale.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_2.jpg"
+          }
+        },
+        "text_Nh4bPC": {
+          "type": "text",
+          "settings": {
+            "title": "07",
+            "heading": "Passion",
+            "text": "Être animé par un engagement profond pour la santé et le bien-être.",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_AyPNM8",
+        "text_KeYkjm",
+        "text_zqRtk8",
+        "text_TgfLHY",
+        "text_hQaqLD",
+        "text_BVhfwj",
+        "text_Nh4bPC"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 50
       }
     }
   },
   "order": [
-    "main"
+    "page_title_eWBP8a",
+    "our_values_UwgprB"
   ]
 }

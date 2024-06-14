@@ -98,7 +98,7 @@
   }
   .section-header header.header {
     margin-top: 20px;
-    max-width: 990px !important;
+    max-width: 890px !important;
     border-radius: 5px !important;
     background: transparent !important;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
@@ -118,7 +118,7 @@
     bottom: 0;
     top: 0;
     width: 100%;
-    max-width: 990px !important;
+    max-width: 890px !important;
     border-radius: 5px !important;
     z-index: -1;
     background: rgba(246, 244, 237, 0.60) !important;
@@ -505,11 +505,50 @@
   </script>
 {%- endif -%}
 
+
+<script>
+  //Offset for Anchor Links
+  document.addEventListener('DOMContentLoaded', function() {
+    const OFFSET = 100;
+    function scrollToElement(targetId) {
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - OFFSET;
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+    const storedTargetId = localStorage.getItem('targetId');
+    if (storedTargetId) {
+      scrollToElement(storedTargetId);
+      localStorage.removeItem('targetId'); 
+    }
+    const links = document.querySelectorAll('a[href*="#"]');
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        const href = this.getAttribute('href');
+        if (href.includes('#')) {
+          event.preventDefault(); 
+          const targetId = href.split('#')[1];
+          if (window.location.pathname === '/') {
+            scrollToElement(targetId);
+          } else {
+            localStorage.setItem('targetId', targetId);
+            window.location.href = '/';
+          }
+        }
+      });
+    });
+  });
+  
+</script>
+
 {% schema %}
 {
   "name": "t:sections.header.name",
   "class": "section-header",
-  "max_blocks": 3,
   "settings": [
     {
       "type": "text",
@@ -579,6 +618,11 @@
       "default": "dropdown",
       "label": "t:sections.header.settings.menu_type_desktop.label",
       "info": "t:sections.header.settings.menu_type_desktop.info"
+    },
+    {
+      "type": "link_list",
+      "id": "bottom_menu",
+      "label": "Mobile Bottom Menu"
     },
     {
       "type": "select",
@@ -705,11 +749,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 20
-    }
-  ],
-  "blocks": [
-    {
-      "type": "@app"
     }
   ]
 }

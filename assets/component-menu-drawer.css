@@ -70,7 +70,7 @@ details[open].menu-opening > .menu-drawer__submenu {
     border-color: rgba(var(--color-foreground), var(--drawer-border-opacity));
   }
   .header .menu-drawer {
-    width: 70rem;
+    width: 60rem;
   }
 }
 

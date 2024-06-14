@@ -28,6 +28,7 @@
         }
     }
     &__icons {
+        font-size: 18px;
         display: flex;
         align-items: center;
     }
@@ -35,8 +36,10 @@
         padding: 10px !important;
         min-height: 44px !important;
         min-width: 132px !important;
+        font-size: 18px !important;
         @include media-breakpoint-down(lg) {
             min-width: fit-content !important;
+            font-size: 15px !important;
         }
         @include media-breakpoint-down(md) {
             padding: 7px !important;
@@ -49,7 +52,7 @@
     }
     .header__icon.header__icon--menu {
         text-decoration: none;
-        font-size: 16px !important;
+        font-size: 18px !important;
         margin-left: 1.2rem;
         transition: 0.3s;
         @include media-breakpoint-down(md) {
@@ -92,7 +95,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
         @media (min-width: 767px) {
             margin-top: 25px;
-            left: -20px;
+            left: -13px;
         }
         @include media-breakpoint-down(md) {
             width: calc(100% - 30px);
@@ -170,6 +173,25 @@
     }
     .menu-drawer__utility-links {
         display: none !important;
+    }
+    &__bottom-nav {
+        padding: 0;
+        margin: 0 25px 8px;
+        list-style: none;
+        display: none;
+        @include media-breakpoint-down(md) {
+            display: block !important;
+        }
+        li {
+            margin-bottom: 8px;
+            a {
+                color: $c-text !important;
+                text-decoration: none !important;
+                line-height: 18px !important;
+                font-size: 15px !important;
+                font-weight: 500;
+            }
+        }
     }
 }
 .header__icon--menu[aria-expanded=true]:before {

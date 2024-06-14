@@ -6,7 +6,7 @@
     &__item {
         width: fit-content !important;
         img {
-            max-height: 61px;
+            max-height: 53px;
             width: auto;
             @include media-breakpoint-down(md) {
                 max-height: 35px;

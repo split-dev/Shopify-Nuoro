@@ -41,8 +41,8 @@
           {% if block.settings.title %}
             <div class="js-tablinks-{{ section.index }} our-values__tablinks d-flex align-items-center {% if forloop.first %}active{% endif %}" onclick="openTab_{{ section.index }}(event, '{{block.id}}')">
               <h4 class="h2">{{ block.settings.title }}</h4>
-              <p class="text-center text-30px">{{ block.settings.heading }}</p>
-              <p class="text-center text-17px">{{ block.settings.text }}</p>
+              <p class="text-center text-26px">{{ block.settings.heading }}</p>
+              <p class="text-center text-15px">{{ block.settings.text }}</p>
             </div>
           {% endif %}
         {% endfor %}
@@ -64,8 +64,8 @@
                   widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
                 }}
                 <h4 class="h2">{{ block.settings.title }}</h4>
-                <p class="text-center text-30px">{{ block.settings.heading }}</p>
-                <p class="text-center text-17px">{{ block.settings.text }}</p>
+                <p class="text-center text-26px">{{ block.settings.heading }}</p>
+                <p class="text-center text-15px">{{ block.settings.text }}</p>
               </div>
             {% endif %}
           {% endfor %}

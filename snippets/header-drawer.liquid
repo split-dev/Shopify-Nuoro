@@ -156,8 +156,17 @@
               {%- endfor -%}
             </ul>
           </nav>
+          {% if section.settings.bottom_menu %}
+            <ul class="js-anchor-links header__bottom-nav">
+              {% for link in section.settings.bottom_menu.links %}
+                <li class="header__bottom-nav-link">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          
           <div class="menu-drawer__utility-links">
-            
             {% comment %} {%- if localization.available_countries or localization.available_languages -%}
               <div class="menu-drawer__localization header-localization">
                 {%- if localization.available_countries and localization.available_countries.size > 1 -%}

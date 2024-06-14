@@ -17,7 +17,7 @@
 
 <section class="faq-home section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="faq-home__title">
+    <div id="faq-section" class="faq-home__title">
       <h2>{{ section.settings.title }}</h2>
     </div>
     <div class="faq-home__tabs d-flex">
@@ -26,7 +26,7 @@
         {% for block in section.blocks %}
           {% if block.settings.title %}
             <div class="js-tablinks-{{ section.index }} faq-home__tablinks d-flex align-items-center {% if forloop.first %}active{% endif %}" onclick="openTab_{{ section.index }}(event, '{{block.id}}')">
-              <p class="text-30px">{{ block.settings.title }}</p>
+              <p class="text-26px">{{ block.settings.title }}</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="none">
                 <path d="M23.2913 8.94441C23.6819 8.55389 23.6819 7.92072 23.2913 7.5302L16.9274 1.16624C16.5368 0.775711 15.9037 0.775711 15.5132 1.16624C15.1226 1.55676 15.1226 2.18992 15.5132 2.58045L21.17 8.2373L15.5132 13.8942C15.1226 14.2847 15.1226 14.9178 15.5132 15.3084C15.9037 15.6989 16.5369 15.6989 16.9274 15.3084L23.2913 8.94441ZM0.431885 9.2373L22.5842 9.2373L22.5842 7.2373L0.431885 7.2373L0.431885 9.2373Z" fill="#1D1D1B"/>
               </svg>
@@ -48,8 +48,8 @@
     <div class="faq-home__accordion">
       {% for block in section.blocks %}
         {% if block.settings.title %}
-          <div class="js-accordion-{{ section.index }} faq-home__accordion-question d-flex justify-content-between {% if forloop.first %}active{% endif %}">
-            <p class="text-30px">{{ block.settings.title }}</p>
+          <div id="faq-question-{{ forloop.index }}" class="js-accordion-{{ section.index }} faq-home__accordion-question d-flex justify-content-between {% if forloop.first %}active{% endif %}">
+            <p class="text-26px">{{ block.settings.title }}</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="21" viewBox="0 0 15 21" fill="none">
               <path d="M6.84349 20.6212C7.23402 21.0117 7.86718 21.0117 8.25771 20.6212L14.6217 14.2572C15.0122 13.8667 15.0122 13.2335 14.6217 12.843C14.2311 12.4525 13.598 12.4525 13.2075 12.843L7.5506 18.4998L1.89374 12.843C1.50322 12.4525 0.870055 12.4525 0.479531 12.843C0.0890065 13.2335 0.0890065 13.8667 0.479531 14.2572L6.84349 20.6212ZM6.5506 0.744141L6.5506 19.9141L8.5506 19.9141L8.5506 0.744141L6.5506 0.744141Z" fill="#1D1D1B"/>
             </svg>
@@ -59,8 +59,6 @@
           </div>
         {% endif %}
       {% endfor %}
-      
-
     </div>
   </div>
 </section>

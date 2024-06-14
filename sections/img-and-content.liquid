@@ -43,10 +43,10 @@
           <h2>{{ section.settings.title }}</h2>
         {% endif %}
         {% if section.settings.subtitle != blank %}
-          <span class="text-30px">{{ section.settings.subtitle }}</span>
+          <span class="text-26px">{{ section.settings.subtitle }}</span>
         {% endif %}
         {% if section.settings.text != blank %}
-          <p class="text-17px">{{ section.settings.text }}</p>
+          <p class="text-15px">{{ section.settings.text }}</p>
         {% endif %}
         {% if section.blocks.size > 0 %}
           <ul class="img-and-content__list">
@@ -56,7 +56,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22" fill="none">
                     <path d="M10.217 21.5979L0.222656 11.6035L2.22546 9.60024L10.217 17.5918L27.3889 0.419922L29.3917 2.4232L10.217 21.5979Z" fill="#1D1D1B"/>
                   </svg>
-                  <span class="text-30px">{{ block.settings.title }}</span>
+                  <span class="text-26px">{{ block.settings.title }}</span>
                 </li>
               {% endif %}
             {% endfor %}

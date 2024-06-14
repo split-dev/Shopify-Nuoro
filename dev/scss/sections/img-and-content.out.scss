@@ -90,10 +90,10 @@
             aspect-ratio: 1 / 1.2;
             object-fit: cover;
             object-position: center;
-            max-height: 910px;
-            max-width: 756px;
+            max-height: 682px;
+            max-width: 575px;
             @include media-breakpoint-down(lg) {
-                max-width: 600px;
+                max-width: 500px;
             }
         }
     }

@@ -32,11 +32,6 @@
           "settings": {
           }
         },
-        "product_recharge_A6UEHd": {
-          "type": "product_recharge",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -51,7 +46,6 @@
         "caption",
         "price",
         "description",
-        "product_recharge_A6UEHd",
         "buy_buttons"
       ],
       "settings": {

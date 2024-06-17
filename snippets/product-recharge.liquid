@@ -2,31 +2,22 @@
   <div class="custom-recharge__wrapper">
     <input class="custom-recharge__input" id="recharge_subscribe" type="radio" name="recharge_input" checked>
     <label class="custom-recharge__one-time" for="recharge_subscribe">
-      <span class="custom-recharge__title h5">Subscription</span>
-      <div class="custom-recharge__box">
-        <span
-          class="custom-recharge__price-wrapper h3"
-        >
-          {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
-            <span
-              class="custom-recharge__price custom-recharge__plan-price h3"
-              id="price_for_plan_{{ allocation.selling_plan.id }}"
-            >
-              {{ allocation.per_delivery_price | money }}
-            </span>
-          {% endfor %}
-          <span class="p3 color-dark-blue font-garamond d-block">
-            ABONNEMENT
+      <span>{{ block.settings.subscribe_subtitle }}</span>
+      <span class="custom-recharge__title">{{ block.settings.subscribe_title }}</span>
+      <span
+        class="custom-recharge__price-wrapper h3"
+      >
+        {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
+          <span
+            class="custom-recharge__price custom-recharge__plan-price h3"
+            id="price_for_plan_{{ allocation.selling_plan.id }}"
+          >
+            {{ allocation.per_delivery_price | money }}
           </span>
-        </span>
-        {% if product.selected_or_first_available_variant.metafields.custom.includes != black %}
-          <span class="custom-recharge__includes">
-            <span class="p2 color-very-dark-blue">Example Includes:</span>
-            {{ product.selected_or_first_available_variant.metafields.custom.includes }}
-          </span>
-        {% endif %}
-      </div>
-      <div class="custom-recharge__plans d-flex">
+        {% endfor %}
+      </span>
+      <span>{{ block.settings.subscribe_bottom_text }}</span>
+      <div class="custom-recharge__plans d-none">
         {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
           <input
             class="js-test"
@@ -47,39 +38,17 @@
     </label>
     <input class="custom-recharge__input" id="recharge_one_time" type="radio" name="recharge_input" data-selling-plan-toggle>
     <label class="custom-recharge__one-time" for="recharge_one_time">
-      <span class="custom-recharge__title h5">One time</span>
-      <span class="custom-recharge__box">
-        <span
-          class="custom-recharge__price-wrapper h3"
-          data-product-variant-id="{{ product.selected_or_first_available_variant.id }}"
-        >
-          <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-            {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
-          </div>
-          {% comment %} {{product.selected_or_first_available_variant.price | money }} {% endcomment %}
-          <span class="p3 color-dark-blue font-garamond d-block">
-            One-time
-          </span>
-        </span>
-        {% if product.selected_or_first_available_variant.metafields.custom.includes != black %}
-          <span class="custom-recharge__includes">
-            <span class="p2 color-very-dark-blue">Example Includes:</span>
-            {{ product.selected_or_first_available_variant.metafields.custom.includes }}
-          </span>
-        {% endif %}
+      <span>{{ block.settings.one_time_subtitle }}</span>
+      <span class="custom-recharge__title">{{ block.settings.one_time_title }}</span>
+      <span
+        class="custom-recharge__price-wrapper h3"
+        data-product-variant-id="{{ product.selected_or_first_available_variant.id }}"
+      >
+        <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+          {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
+        </div>
       </span>
+      <span>{{ block.settings.one_time_bottom_text }}</span>
     </label>
   </div>
 </div>
-
-{% comment %}
-  <section class="custom-recharge">
-    <div class="custom-recharge-widget">
-      {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
-        <div>
-          {{ allocation.selling_plan.name }} - {{ allocation.per_delivery_price | money }} - {{  allocation.selling_plan.id }}
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-{% endcomment %}

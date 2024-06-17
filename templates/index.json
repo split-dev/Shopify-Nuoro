@@ -261,31 +261,6 @@
     "featured_product_j8MdBd": {
       "type": "featured-product",
       "blocks": {
-        "text_WW3Pdp": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_wKChzt": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_JYp7K8": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_zddW9z": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
         "product_recharge_QGPLdq": {
           "type": "product_recharge",
           "settings": {
@@ -300,10 +275,6 @@
         }
       },
       "block_order": [
-        "text_WW3Pdp",
-        "title_wKChzt",
-        "price_JYp7K8",
-        "variant_picker_zddW9z",
         "product_recharge_QGPLdq",
         "buy_buttons_C3rcre"
       ],
@@ -313,13 +284,83 @@
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 45,
+        "padding_bottom": 0,
+        "padding_top_mobile": 35,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "video_reviews_hfbLxP": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_xXBcXz": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/111111.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Hi there! :)"
+          }
+        },
+        "text_HARtzD": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/testimonial-e146bd3c.mp4",
+            "title": "Test Title",
+            "text": "Test Text"
+          }
+        },
+        "text_AnkbfY": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/444444_ca08f9fa-ab1b-4497-bbed-854e91fb9c44.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Océane Andreaa - Sportive"
+          }
+        },
+        "text_jdPpJG": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Océane Andreaa - Sportive"
+          }
+        },
+        "text_H8tqn6": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "\"Océane Andreaa - Sportive\"",
+            "text": "Hello world"
+          }
+        },
+        "text_fLtqA9": {
+          "type": "text",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
+            "title": "\"Oles PLichko\"",
+            "text": "My Product Review"
+          }
+        }
+      },
+      "block_order": [
+        "text_xXBcXz",
+        "text_HARtzD",
+        "text_AnkbfY",
+        "text_jdPpJG",
+        "text_H8tqn6",
+        "text_fLtqA9"
+      ],
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 90,
+        "padding_bottom": 70,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "title_and_list_YBkG6P": {
@@ -545,74 +586,6 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 75
       }
-    },
-    "video_reviews_hfbLxP": {
-      "type": "video-reviews",
-      "blocks": {
-        "text_xXBcXz": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/111111.mp4",
-            "title": "“NATURELLEMENT EN PLEINE FORME”",
-            "text": "Hi there! :)"
-          }
-        },
-        "text_HARtzD": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/testimonial-e146bd3c.mp4",
-            "title": "Test Title",
-            "text": "Test Text"
-          }
-        },
-        "text_AnkbfY": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/444444_ca08f9fa-ab1b-4497-bbed-854e91fb9c44.mp4",
-            "title": "“NATURELLEMENT EN PLEINE FORME”",
-            "text": "Océane Andreaa - Sportive"
-          }
-        },
-        "text_jdPpJG": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
-            "title": "“NATURELLEMENT EN PLEINE FORME”",
-            "text": "Océane Andreaa - Sportive"
-          }
-        },
-        "text_H8tqn6": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
-            "title": "\"Océane Andreaa - Sportive\"",
-            "text": "Hello world"
-          }
-        },
-        "text_fLtqA9": {
-          "type": "text",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
-            "title": "\"Oles PLichko\"",
-            "text": "My Product Review"
-          }
-        }
-      },
-      "block_order": [
-        "text_xXBcXz",
-        "text_HARtzD",
-        "text_AnkbfY",
-        "text_jdPpJG",
-        "text_H8tqn6",
-        "text_fLtqA9"
-      ],
-      "settings": {
-        "bg_color": "#ffbcce",
-        "padding_top": 90,
-        "padding_bottom": 70,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
     }
   },
   "order": [
@@ -622,9 +595,9 @@
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
     "featured_product_j8MdBd",
+    "video_reviews_hfbLxP",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",
-    "list_logos_qpYYXr",
-    "video_reviews_hfbLxP"
+    "list_logos_qpYYXr"
   ]
 }

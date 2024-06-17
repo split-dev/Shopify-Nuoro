@@ -762,6 +762,85 @@
   </div>
 </section>
 
+<script>
+  // Функция для обработки изменения выбранного тарифного плана
+  function handlePlanChange(event) {
+    // Скрыть все цены
+    document.querySelectorAll('.custom-recharge__plan-price').forEach(function(priceElement) {
+      priceElement.style.display = 'none';
+    });
+
+    // Найти и отобразить цену выбранного тарифного плана
+    const selectedPlanId = event.target.id.replace('recharge_plan_', '');
+    const selectedPriceElement = document.querySelector(`#price_for_plan_${selectedPlanId}`);
+    if (selectedPriceElement) {
+      selectedPriceElement.style.display = 'block';
+    }
+  
+    const selectedPriceElementSubmit = document.querySelector(`#price_for_plan_submit_${selectedPlanId}`);
+    if (selectedPriceElementSubmit) {
+      selectedPriceElementSubmit.style.display = 'block';
+    }
+
+    function getSellingPlanValue () {
+        return Array.from(document.querySelectorAll('[data-selling-plan-toggle]')).find((input) => input.checked).value;
+    }
+    var currentValue = getSellingPlanValue();
+    document.querySelector('product-form input[name="selling_plan"]').value = currentValue === 'on' ? '' : currentValue;
+
+    document.querySelectorAll('[data-selling-plan-toggle]').forEach(item => {
+      item.addEventListener('change', (e) => {
+        currentValue = getSellingPlanValue();
+        document.querySelector('product-form input[name="selling_plan"]').value = currentValue === 'on' ? '' : currentValue;
+      })
+    })
+  }
+
+  // Найти и добавить обработчик события изменения для радио-кнопок
+  document.querySelectorAll('input[name="recharge_plan"]').forEach(function(input) {
+    input.addEventListener('change', handlePlanChange);
+  });
+
+  // Показать цену выбранного тарифного плана при загрузке страницы
+  const selectedPlan = document.querySelector('input[name="recharge_plan"]:checked');
+  if (selectedPlan) {
+    handlePlanChange({ target: selectedPlan });
+  }
+  if (document.querySelector('.custom-recharge')) {
+    function ChangeVarianteRadioChange() {
+      const rechargeSubscribe = document.getElementById("recharge_subscribe");
+      const rechargeOneTime = document.getElementById("recharge_one_time");
+
+      const subscribeSubmit = document.querySelector(".js-subscribe-submit");
+      const oneTimeSubmit = document.querySelector(".js-one-time-submit");
+
+      function handleRadioChange() {
+        if (rechargeSubscribe.checked) {
+          document.querySelector('#js-selling-plan').value = document.querySelector('.js-test:checked').value;
+        } else {
+          setTimeout(() => {
+            document.querySelector('#js-selling-plan').value = '';
+          }, 500);
+        }
+      }
+      if (rechargeSubscribe) {
+        rechargeSubscribe.addEventListener("change", handleRadioChange);
+      }
+      if (rechargeOneTime) {
+        rechargeOneTime.addEventListener("change", handleRadioChange);
+      }
+      
+      handleRadioChange();
+    }
+
+    ChangeVarianteRadioChange();
+  }
+
+  
+  
+</script>
+
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",

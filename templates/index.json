@@ -258,28 +258,40 @@
         "padding_bottom_mobile": 0
       }
     },
-    "featured_product_old_qTA6Vc": {
-      "type": "featured-product-old",
+    "featured_product_j8MdBd": {
+      "type": "featured-product",
       "blocks": {
-        "title_VtY9zH": {
+        "text_WW3Pdp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_wKChzt": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "variant_picker_DnFgYp": {
+        "price_JYp7K8": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_zddW9z": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
-        "price_iEE94k": {
-          "type": "price",
+        "product_recharge_QGPLdq": {
+          "type": "product_recharge",
           "settings": {
           }
         },
-        "buy_buttons_4MEt8i": {
+        "buy_buttons_C3rcre": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
@@ -288,10 +300,12 @@
         }
       },
       "block_order": [
-        "title_VtY9zH",
-        "variant_picker_DnFgYp",
-        "price_iEE94k",
-        "buy_buttons_4MEt8i"
+        "text_WW3Pdp",
+        "title_wKChzt",
+        "price_JYp7K8",
+        "variant_picker_zddW9z",
+        "product_recharge_QGPLdq",
+        "buy_buttons_C3rcre"
       ],
       "settings": {
         "product": "nuoro",
@@ -299,10 +313,10 @@
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": true,
+        "image_zoom": "lightbox",
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -607,7 +621,7 @@
     "text_tiles_6GFXBz",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
-    "featured_product_old_qTA6Vc",
+    "featured_product_j8MdBd",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",
     "list_logos_qpYYXr",

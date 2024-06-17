@@ -147,6 +147,14 @@
                   <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
+              {%- when 'product_recharge' -%}
+                <div data-recharge-wrapper>
+                  {% render 'product-recharge',
+                    product: product,
+                    use_variant: true,
+                    show_badges: false,
+                    price_class: 'price--large' %}
+                </div>
               {%- when 'quantity_selector' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
@@ -522,6 +530,13 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "product_recharge",
+      "name": "Custom Recharge",
+      "settings": [
+       
+      ]
     },
     {
       "type": "text",

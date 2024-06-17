@@ -207,6 +207,14 @@
                   <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
+              {%- when 'product_recharge' -%}
+                <div data-recharge-wrapper>
+                  {% render 'product-recharge',
+                    product: product,
+                    use_variant: true,
+                    show_badges: false,
+                    price_class: 'price--large' %}
+                </div>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
@@ -762,6 +770,13 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "product_recharge",
+      "name": "Custom Recharge",
+      "settings": [
+       
+      ]
     },
     {
       "type": "text",

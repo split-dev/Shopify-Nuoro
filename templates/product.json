@@ -32,10 +32,9 @@
           "settings": {
           }
         },
-        "recharge_subscriptions_subscription_widget_x46HBq": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+        "product_recharge_A6UEHd": {
+          "type": "product_recharge",
           "settings": {
-            "product": "{{product}}"
           }
         },
         "buy_buttons": {
@@ -52,7 +51,7 @@
         "caption",
         "price",
         "description",
-        "recharge_subscriptions_subscription_widget_x46HBq",
+        "product_recharge_A6UEHd",
         "buy_buttons"
       ],
       "settings": {

@@ -32,6 +32,11 @@
           "settings": {
           }
         },
+        "product_recharge_DtLgtE": {
+          "type": "product_recharge",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -46,6 +51,7 @@
         "caption",
         "price",
         "description",
+        "product_recharge_DtLgtE",
         "buy_buttons"
       ],
       "settings": {

@@ -4,7 +4,7 @@
 .btn {
     display: flex;
     min-width: 329px;
-    min-height: 72px;
+    min-height: 62px;
     width: fit-content;
     padding: 10px 24px;
     justify-content: center;
@@ -17,7 +17,7 @@
     border-radius: 5px;
     @include media-breakpoint-down(md) {
         min-width: 242px;
-        min-height: 68px;
+        min-height: 58px;
         width: fit-content;
         font-size: 15px;
     }

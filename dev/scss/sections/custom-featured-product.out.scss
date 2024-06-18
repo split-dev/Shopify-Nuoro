@@ -131,6 +131,7 @@
             background-color: $c-text;
             color: #fff;
             margin-bottom: 8px;
+            font-size: 15px;
             @include media-breakpoint-down(md) {
                 height: 51px
             }

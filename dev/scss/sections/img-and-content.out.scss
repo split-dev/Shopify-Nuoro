@@ -55,10 +55,13 @@
             }
             svg {
                 margin-right: 12px;
+                width: 20px;
+                min-width: 20px;
+                height: 16px;
                 @include media-breakpoint-down(md) {
-                    width: 22px;
-                    min-width: 22px;
-                    height: 16px;
+                    width: 20px;
+                    min-width: 20px;
+                    height: 15px;
                 }
             }
         }

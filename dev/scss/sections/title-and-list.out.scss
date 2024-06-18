@@ -44,7 +44,11 @@
             }
         }
         svg {
+            min-width: 26px !important;
+            width: 26px !important;
+            height: 19px !important;
             @media (max-width: 1400px) {
+                min-width: 22px !important;
                 width: 22px !important;
                 height: 16px !important;
             }

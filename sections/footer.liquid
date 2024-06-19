@@ -43,8 +43,13 @@
           <div class="footer__navi">
             <div class="footer__blocks-wrapper d-flex">
               <div class="footer__shop-button">
-                <a class="btn btn__orange" href="{{ section.settings.shop_url }}">{{ section.settings.shop_label }}</a>
+                <div class="footer__logo-wrapper">
+                  <p>{{ section.settings.logo_title }}</p>
+                  {{ section.settings.logo_img| image_url: width: 370 | image_tag: loading: 'lazy' }}
+                </div>
+                <a class="btn btn__orange footer__btn-mobile" href="{{ section.settings.shop_url }}">{{ section.settings.shop_label }}</a>
               </div>
+              {% assign total_blocks = section.blocks | size %}
               {%- for block in section.blocks -%}
                 <div
                   class="footer-block {% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -78,6 +83,21 @@
                               </a>
                             </li>
                           {%- endfor -%}
+                          {% assign block_index = forloop.index %}
+                            {% if block_index == total_blocks %}
+                              <div class="footer__contact-desk">
+                                {%- if section.settings.show_social and has_social_icons -%}
+                                  <div class="footer__social">
+                                    <p class="footer__social-title text-15px">{{ section.settings.social_title }}</p>
+                                      {%- render 'social-icons' -%}
+                                  </div>
+                                {%- endif -%}
+                                <div class="footer__logo-contact text-15px">
+                                  <p class="footer__logo-contact-title">{{ section.settings.contact_info_title }}</p>
+                                  {{ section.settings.contact_info }}
+                                </div>
+                              </div>
+                            {% endif %}
                         </ul>
                       {%- endif -%}
                     {%- when 'brand_information' -%}
@@ -135,21 +155,24 @@
                       </div>
                   {%- endcase -%}
                 </div>
+                {% assign block_index = forloop.index %}
+                {% if block_index == total_blocks %}
+                  <div class="footer__contact-mobile">
+                    {%- if section.settings.show_social and has_social_icons -%}
+                      <div class="footer__social">
+                        <p class="footer__social-title text-15px">{{ section.settings.social_title }}</p>
+                          {%- render 'social-icons' -%}
+                      </div>
+                    {%- endif -%}
+                    <div class="footer__logo-contact text-15px">
+                      <p class="footer__logo-contact-title">{{ section.settings.contact_info_title }}</p>
+                      {{ section.settings.contact_info }}
+                    </div>
+                  </div>
+                {% endif %}
               {%- endfor -%}
            
             </div>
-            {%- if section.settings.payment_enable -%}
-              <div class="footer__payment">
-                <p class="footer__payment-title text-15px">{{ section.settings.payment_title }}</p>
-                <ul class="list list-payment" role="list">
-                  {%- for type in shop.enabled_payment_types -%}
-                    <li class="list-payment__item">
-                      {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                    </li>
-                  {%- endfor -%}
-                </ul>
-              </div>
-            {%- endif -%}
             {%- if section.settings.newsletter_enable -%}
               <div class="footer__newsletter-wrapper">
                 <div>
@@ -225,19 +248,20 @@
           
           
           <div class="footer__logo-block">
-            <div class="footer__logo-wrapper">
-              <p>{{ section.settings.logo_title }}</p>
-              {{ section.settings.logo_img| image_url: width: 370 | image_tag: loading: 'lazy' }}
-            </div>
-            {%- if section.settings.show_social and has_social_icons -%}
-              <div class="footer__social">
-                <p class="footer__social-title text-15px">{{ section.settings.social_title }}</p>
-                  {%- render 'social-icons' -%}
-              </div>
-            {%- endif -%}
-            <div class="footer__logo-contact text-15px">
-              <p class="footer__logo-contact-title">{{ section.settings.contact_info_title }}</p>
-              {{ section.settings.contact_info }}
+            <div>
+              <a class="btn btn__orange footer__btn-desk" href="{{ section.settings.shop_url }}">{{ section.settings.shop_label }}</a>
+              {%- if section.settings.payment_enable -%}
+                <div class="footer__payment">
+                  <p class="footer__payment-title text-15px">{{ section.settings.payment_title }}</p>
+                  <ul class="list list-payment" role="list">
+                    {%- for type in shop.enabled_payment_types -%}
+                      <li class="list-payment__item">
+                        {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              {%- endif -%}
             </div>
             <div class="footer__useful-links d-flex">
               {%- if section.settings.page_label_1 != blank -%}

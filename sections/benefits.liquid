@@ -1,4 +1,4 @@
-{{ 'page-title.out.css' | asset_url | stylesheet_tag }}
+{{ 'benefits.out.css' | asset_url | stylesheet_tag }}
 
 
 {%- style -%}
@@ -15,38 +15,35 @@
   }
 {%- endstyle -%}
 
-<section class="page-title section-{{ section.id }}-padding">
+<section class="benefits section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="page-title__wrapper d-flex justify-content-center">
-      {% if section.settings.title != blank %}
-        <h1>{{ section.settings.title }}</h1>
-        {% else %}
-        {{ page.title }}
-      {% endif %}
-      {% if section.settings.text != blank %}
-        <div class="page-title__text text-26px">{{ section.settings.text }}</div>
-        {% else %}
-        <div class="page-title__text text-26px">{{ page.content }}</div>
-      {% endif %}
-      
-    </div>
+    {% if section.settings.title %}
+        <h2 class="text-center benefits__title">{{ section.settings.title }}</h2>
+    {% endif %}
+    <div class="benefits__wrapper d-flex">
+        <!-- Tab links -->
+        {% for block in section.blocks %}
+          {% if block.settings.title %}
+            <div class="benefits__wrapper-item item d-flex align-items-center">
+              <h4 class="h2">{{ block.settings.title }}</h4>
+              <p class="text-center text-26px item-title">{{ block.settings.heading }}</p>
+              <p class="text-center text-15px description">{{ block.settings.text }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
   </div>
 </section>
 
 {% schema %}
 {
-  "name": "Page Title",
-  "class": "shopify-section--page-title",
+  "name": "Benefits Health",
+  "class": "shopify-section--benefits",
   "settings": [
     {
       "type": "text",
       "id": "title",
       "label": "Title"
-    },
-    {
-      "type": "text",
-      "id": "text",
-      "label": "Subtitle"
     },
     {
       "type": "header",
@@ -89,9 +86,33 @@
       "default": 0
     }
   ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "Page Title",
+      "name": "Benefits Health",
       "category": "Content"
     }
   ]

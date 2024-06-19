@@ -1,0 +1,35 @@
+@import "../settings/variables";
+@import "../settings/bootstrap-media";
+
+.benefits {
+    &__title {
+        @include media-breakpoint-down(md) {
+            max-width: 312px;
+            margin: 0 auto;
+        }
+    }
+    &__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        padding-top: 44px;
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+        }
+        &-item {
+            flex: 0 1 30%;
+            flex-direction: column;
+            justify-content: center;
+            .item-title {
+                margin: 12px 0px;
+            }
+            .description {
+                margin: 0;
+                max-width: 380px;
+            }
+            & h4 {
+                margin: 0;
+            }
+        }
+    }
+}

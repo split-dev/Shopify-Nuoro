@@ -96,14 +96,17 @@
                 margin-bottom: 8px;
                 display: flex;
                 align-items: center;
+                @include media-breakpoint-down(sm) {
+                    font-weight: 14px;
+                }
                 @media (max-width: 420px) {
                     width: 100%;
                 }
                 svg {
                     margin-right: 8px;
-                    min-width: 21px;
-                    width: 21px;
-                    height: 16px;
+                    min-width: 18px;
+                    width: 18px;
+                    height: 14px;
                 }
             }
         }
@@ -134,6 +137,9 @@
             font-size: 15px;
             @include media-breakpoint-down(md) {
                 height: 51px
+            }
+            @media (max-height:800px) and (orientation:landscape) {
+                height: 45px;
             }
         }
         &__select-check {

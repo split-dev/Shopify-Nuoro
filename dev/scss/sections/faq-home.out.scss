@@ -88,6 +88,9 @@
         }
         &.active {
             opacity: 1;
+            & svg {
+                transform: rotate(180deg);
+            }
         }
         p {
             margin: 0;
@@ -95,6 +98,7 @@
         svg {
             margin-left: 24px;
             min-width: 19px;
+            transition: all .3s;
         }
     }
     &__accordion-answer {

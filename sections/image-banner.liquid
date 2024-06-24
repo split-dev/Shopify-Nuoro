@@ -1,4 +1,5 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'banner-home.out.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -50,6 +51,14 @@
     assign fetch_priority = 'high'
   endif
 -%}
+
+<style>
+  .banner__content {
+    @media (max-width: 749px) {
+      min-height: {{ section.settings.content_height_mobile }}px !important;
+    }
+  }
+</style>
 
 <div
   id="Banner-{{ section.id }}"
@@ -184,6 +193,16 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "range",
+      "id": "content_height_mobile",
+      "min": 0,
+      "max": 600,
+      "step": 20,
+      "unit": "px",
+      "label": "Height content mobile",
+      "default": 0
     },
     {
       "type": "range",

@@ -1,0 +1,177 @@
+{{ 'research-team.out.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="research-team section-{{ section.id }}-padding">
+  <div class="w-100">
+    <div class="research-team__header page-width">
+      {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title }}</h2>
+      {% endif %}
+    </div>
+    <div class="research-team__wrapper">
+      {% for block in section.blocks %}
+          <div class="research-team__item">
+            {% if block.settings.image != blank %}
+              {{ block.settings.image | image_url: width: 3840 | image_tag:
+                class: 'research-team__item-img',
+                loading: 'lazy',
+                sizes: '100vw',
+                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+              }}
+            {% endif %}
+            <div class="research-team__item-content item-content">
+                <div class="item-content__top">
+                  {% if block.settings.name != blank %}
+                    <p class="name">{{ block.settings.name }}</p>
+                  {% endif %}
+                  {% if block.settings.position != blank %}
+                    <p class="text-15px position">{{ block.settings.position }}</p>
+                  {% endif %} 
+                </div>
+                <div class="item-content__bottom">
+                  {% if block.settings.linkedin_link != blank %}
+                    <a class="text-15px" href="{{ block.settings.linkedin_link }}">{{ block.settings.linkedin_title }}</a>
+                    {% endif %}
+                  {% if block.settings.instagram_link != blank %}
+                    <a class="text-15px" href="{{ block.settings.instagram_link }}">{{ block.settings.instagram_title }}</a>
+                  {% endif %}
+                </div>
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+    {% if section.settings.button_label != blank %}
+      <div class="research-team__button page-width d-flex justify-content-center">
+        <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }} </a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Research Team",
+  "class": "shopify-section--text-img-tiles",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "name",
+            "label": "Name Surname"
+        },
+        {
+            "type": "text",
+            "id": "position",
+            "label": "Position"
+        },
+        {
+            "type": "url",
+            "id": "instagram_link",
+            "label": "Instagram URL"
+        },
+        {
+            "type": "text",
+            "id": "instagram_title",
+            "label": "Instagram title"
+        },
+        {
+            "type": "url",
+            "id": "linkedin_link",
+            "label": "Linkedin URL"
+        },
+        {
+            "type": "text",
+            "id": "linkedin_title",
+            "label": "Linkedin title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Research Team",
+      "category": "Content"
+    }
+  ]
+}
+
+{% endschema %}

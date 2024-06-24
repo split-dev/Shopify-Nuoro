@@ -15,7 +15,7 @@
       "type": "img-and-content",
       "settings": {
         "revers": false,
-        "bg_color": "transparent",
+        "bg_color": "rgba(0,0,0,0)",
         "image": "shopify:\/\/shop_images\/che_1.png",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
@@ -32,7 +32,7 @@
       "type": "img-and-content",
       "settings": {
         "revers": true,
-        "bg_color": "transparent",
+        "bg_color": "rgba(0,0,0,0)",
         "image": "shopify:\/\/shop_images\/che_2.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
@@ -49,7 +49,7 @@
       "type": "img-and-content",
       "settings": {
         "revers": false,
-        "bg_color": "transparent",
+        "bg_color": "rgba(0,0,0,0)",
         "image": "shopify:\/\/shop_images\/che_3.jpg",
         "title": "Partage de Connaissances",
         "subtitle": "",
@@ -61,12 +61,107 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 100
       }
+    },
+    "research_team_fBEqkM": {
+      "type": "research-team",
+      "blocks": {
+        "text_DdwUPy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_1.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_pTaRx7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_2.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_ggRMjp": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_3.png",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_iWXtfd": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_4.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_UXmnqN": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_5.png",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_XhppkT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_6.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        }
+      },
+      "block_order": [
+        "text_DdwUPy",
+        "text_pTaRx7",
+        "text_ggRMjp",
+        "text_iWXtfd",
+        "text_UXmnqN",
+        "text_XhppkT"
+      ],
+      "settings": {
+        "title": "our research team",
+        "button_label": "Our production",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 120
+      }
     }
   },
   "order": [
     "page_title_eWBP8a",
     "img_and_content_MbWcDk",
     "img_and_content_HqxQq9",
-    "img_and_content_mHqA4p"
+    "img_and_content_mHqA4p",
+    "research_team_fBEqkM"
   ]
 }

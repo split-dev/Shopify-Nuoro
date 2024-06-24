@@ -33,6 +33,13 @@
             </div>
           {% endif %}
         {% endfor %}
+        {% if section.settings.button_label != blank %}
+          <div class="faq-home__button page-width d-flex justify-content-center">
+            <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+              {% render 'icon-download' %}
+            </a>
+          </div>
+        {% endif %}
       </div>
       <div class="faq-home__answers">
         <!-- Tab content -->
@@ -59,6 +66,13 @@
           </div>
         {% endif %}
       {% endfor %}
+      {% if section.settings.button_label != blank %}
+        <div class="faq-home__button page-width d-flex justify-content-center">
+          <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+            {% render 'icon-download' %}
+          </a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -129,6 +143,16 @@
       "type": "text",
       "id": "title",
       "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
     },
     {
       "type": "header",

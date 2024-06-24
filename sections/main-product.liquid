@@ -19,6 +19,8 @@
     {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
 
+  {{ 'main-product.out.css' | asset_url | stylesheet_tag }}
+
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -68,7 +70,7 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
-    <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+    <div class="custom-main-product product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
@@ -210,6 +212,7 @@
               {%- when 'product_recharge' -%}
                 <div data-recharge-wrapper>
                   {% render 'product-recharge',
+                    block: block,
                     product: product,
                     use_variant: true,
                     show_badges: false,
@@ -854,7 +857,95 @@
       "type": "product_recharge",
       "name": "Custom Recharge",
       "settings": [
-       
+        {
+          "type": "header",
+          "content": "Subscribe Content"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_subtitle",
+          "label": "Subscribe Subtitle",
+          "default": "Le plus populaire"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_title",
+          "label": "Subscribe Title",
+          "default": "ABONNEMENT"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_list_item_1",
+          "label": "Subscribe List Item 1",
+          "default": "Abonnement Mensuel, envoyé tous les 30 jours"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_list_item_2",
+          "label": "Subscribe List Item 2",
+          "default": "Mettez en pause ou annulez à tout moment"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_list_item_3",
+          "label": "Subscribe List Item 3",
+          "default": "Shaker Nu.o.ro offert"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_list_item_4",
+          "label": "Subscribe List Item 4",
+          "default": "Économisez 20€/mois"
+        },
+        {
+          "type": "text",
+          "id": "subscribe_bottom_text",
+          "label": "Subscribe Bottom Text",
+          "default": "Livraison gratuite"
+        },
+        {
+          "type": "header",
+          "content": "One Time Content"
+        },
+        {
+          "type": "text",
+          "id": "one_time_subtitle",
+          "label": "One Time Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "one_time_title",
+          "label": "One Time Title",
+          "default": "ESSAYER UNE FOIS"
+        },
+        {
+          "type": "text",
+          "id": "one_time_list_item_1",
+          "label": "Subscribe List Item 1",
+          "default": "Achat unique de 30 portions"
+        },
+        {
+          "type": "text",
+          "id": "one_time_list_item_2",
+          "label": "Subscribe List Item 2",
+          "default": "Shaker Nu.o.ro offert"
+        },
+        {
+          "type": "text",
+          "id": "one_time_list_item_3",
+          "label": "Subscribe List Item 3"
+        },
+        {
+          "type": "text",
+          "id": "one_time_list_item_4",
+          "label": "Subscribe List Item 4"
+        },
+        {
+          "type": "text",
+          "id": "one_time_bottom_text",
+          "label": "One Time Bottom Text",
+          "default": "Livraison gratuite"
+        }
       ]
     },
     {

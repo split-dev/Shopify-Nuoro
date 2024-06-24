@@ -1,6 +1,23 @@
 @import "../settings/variables";
 @import "../settings/bootstrap-media";
 
+.template-ingredients {
+    .img-and-content__content {
+        & h2 {
+            margin-bottom: 70px;
+            @include media-breakpoint-down(md) {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .page-title {
+        &__wrapper {
+            flex-direction: column;
+            max-width: 1133px;
+            margin: 0 auto;
+        }
+    }
+}
 .img-and-content {
     &__wrapper {
         @include media-breakpoint-down(lg) {

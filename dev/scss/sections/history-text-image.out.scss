@@ -1,0 +1,30 @@
+@import "../settings/variables";
+@import "../settings/bootstrap-media";
+
+.history {
+    &__title {
+        text-align: center;
+    }
+    &__text {
+        flex: 0 1 48%;
+        @include media-breakpoint-down(md) {
+            text-align: center;
+        }
+    }
+    &-image {
+        flex: 0 1 100%;
+        text-align: center;
+        padding-top: 60px;
+        & p {
+            margin-top: 0px;
+            font-style: italic;
+        }
+    }
+    &__container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+        }
+    }
+}

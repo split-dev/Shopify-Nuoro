@@ -1,0 +1,16 @@
+@import "../settings/variables";
+@import "../settings/bootstrap-media";
+
+.template-our-history {
+    .body-padding {
+        padding: 0;
+    }
+    .banner {
+        &__box {
+            max-width: 1200px !important;
+        }
+        &__heading {
+            color: $c-gray; 
+        }
+    }
+}

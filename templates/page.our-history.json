@@ -1,23 +1,153 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_Tw4Yd9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nC4qUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "NU.O.RO vise à créer un monde meilleur ou chacun vit pleinement et sans compromis.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nC4qUk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/history-img.jpg",
+        "content_height_mobile": 560,
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "page_title_9CwdBJ": {
+      "type": "page-title",
+      "settings": {
+        "title": "Une quête vers votre plein potentiel",
+        "text": "",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "img_and_content_kdmKjP": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": true,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/img_1.jpg",
+        "title": "01",
+        "subtitle": "Redéfinir la vie à travers une santé optimale",
+        "text": "Chez NU.O.RO, notre raison d'être transcende la simple notion de bien-être pour embrasser une vision plus vaste de notre existance. Nous croyons que notre voyage vers la santé optimale est aussi un chemin vers la compréhension de soi, une exploration sans fin de ce que signifie vivre pleinement. Notre mission n'est pas seulement d'améliorer la vie mais de la redéfinir, en poussant sans cesse les limites de ce qui est possible pour l'esprit et le corps humain. Dans cette quête, chaque découverte, chaque moment de bien-être est une célébration de la vie elle-même, une étape vers la réalisation de notre potentiel le plus élevé.",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 65,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "img_and_content_RfARHc": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/img_2.jpg",
+        "title": "02",
+        "subtitle": "Innover avec Intention",
+        "text": "NU.O.RO incarne l'union de la science et de la nature dans un produit unique, méticuleusement développé pour soutenir votre santé à chaque étape de votre vie. Notre philosophie repose sur la conviction que la qualité prime sur la quantité. Nous concentrons nos efforts sur une solution essentielle, optimisée par la science pour maximiser ses bienfaits, et non pour multiplier les offres.",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 65,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "img_and_content_Mbaz4y": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": true,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/img_3.png",
+        "title": "03",
+        "subtitle": "Contribuer à un Monde Meilleur",
+        "text": "Notre vision d'un monde plus sain englobe une nutrition optimale, le respect de l'environnement, et le renforcement des liens communautaires. En améliorant la santé individuelle, en tissant des relations solides et en prenant soin de notre planète, nous posons les bases d'une société plus équilibrée et durable",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "history_text_image_k9Qqxf": {
+      "type": "history-text-image",
+      "blocks": {
+        "text_8mif9E": {
+          "type": "text",
+          "settings": {
+            "text": "“Lorsque j'ai eu l'opportunité de créer une marque entièrement nouvelle dans le domaine des compléments alimentaires, j'ai rassemblé une équipe d'experts en neurosciences et biotechnologie, avec une mission en tête : offrir une solution nutritionnelle optimale sans compromis.Nous avons choisi de concentrer notre attention sur la synergie et la pureté des éléments que nous sélectionnions. Nous avons recherché comment chaque composant pouvait interagir de manière optimale avec les autres, pour qu'ensemble, ils offrent une efficacité maximale.",
+            "image_text": ""
+          }
+        },
+        "text_HJjxdc": {
+          "type": "text",
+          "settings": {
+            "text": "Après trois ans de recherche et de développement intensifs, nous avons élaboré une formule unique, rassemblant 70 ingrédients actifs, chacun choisi pour ses bénéfices prouvés et son action en synergie.Avec NU.O.RO, nous avons adopté une approche moderne pour simplifier la santé quotidienne, en créant un produit unique hautement efficace sans complication ni coûts superflus. Notre modèle nous permet de maintenir un engagement envers la qualité supérieure, tout en garantissant que chaque client reçoit le meilleur de ce que la science et la nature peuvent offrir.”",
+            "image_text": ""
+          }
+        },
+        "text_BQTPER": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "image": "shopify:\/\/shop_images\/history_img.jpg",
+            "image_text": "Pierre-Brice Mena"
+          }
+        }
+      },
+      "block_order": [
+        "text_8mif9E",
+        "text_HJjxdc",
+        "text_BQTPER"
+      ],
+      "settings": {
+        "title": "NOTRE HISTOIRE",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_Tw4Yd9",
+    "page_title_9CwdBJ",
+    "img_and_content_kdmKjP",
+    "img_and_content_RfARHc",
+    "img_and_content_Mbaz4y",
+    "history_text_image_k9Qqxf"
   ]
 }

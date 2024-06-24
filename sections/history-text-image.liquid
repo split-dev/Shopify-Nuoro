@@ -1,0 +1,138 @@
+{{ 'history-text-image.out.css' | asset_url | stylesheet_tag }}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="history">
+  <div class="history__wrapper section-{{ section.id }}-padding page-width">
+    {% if section.settings.title != blank %}
+      <h1 class="history__title">{{ section.settings.title }}</h1>
+    {% endif %}
+    <div class="history__container d-flex">
+        {% for block in section.blocks %}
+            {% if block.settings.text != blank %}
+                <p class="text-15px history__text">{{ block.settings.text }}</p>
+            {% endif %}
+            {% if block.settings.image != blank %}
+                <div class="history-image">
+                    {{ block.settings.image | image_url: width: 220 | image_tag:
+                        class: 'history-image__img',
+                        loading: 'lazy',
+                        sizes: '100vw',
+                        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
+                    }}
+                    {% if block.settings.image_text != blank %}
+                        <p class="text-15px">{{ block.settings.image_text }}</p>
+                    {% endif %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "History text and image",
+  "class": "shopify-section--history-text-image",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "text",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "image_text",
+          "label": "Image text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "History text and image",
+      "category": "Content"
+    }
+  ]
+}
+
+{% endschema %}

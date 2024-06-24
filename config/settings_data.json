@@ -1,16 +1,8 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Capa_1-2.svg",
     "logo_width": 120,
+    "favicon": "shopify:\/\/shop_images\/Favicon_Black_f0a60dee-6391-435a-90d3-924fb4eb1fa2.svg",
     "override_with_custom_fonts": true,
     "type_header_font": "abril_fatface_n4",
     "heading_scale": 100,

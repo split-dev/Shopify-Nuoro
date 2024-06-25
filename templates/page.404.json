@@ -1,0 +1,44 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "page_title_eWBP8a": {
+      "type": "page-title",
+      "settings": {
+        "title": "Ingrédients et bénéfices",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "img_and_content_fajxFr": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": false,
+        "bg_color": "transparent",
+        "image": "shopify:\/\/shop_images\/ingredients-img.jpg",
+        "title": "Sélection Rigoureuse des Ingrédients",
+        "subtitle": "70 ingrédients, chacun choisis pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.",
+        "text": "",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 95,
+        "padding_bottom": 140,
+        "padding_top_mobile": 70,
+        "padding_bottom_mobile": 80
+      }
+    }
+  },
+  "order": [
+    "page_title_eWBP8a",
+    "img_and_content_fajxFr"
+  ]
+}

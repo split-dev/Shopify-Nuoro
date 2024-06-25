@@ -118,6 +118,13 @@
             "image_text": ""
           }
         },
+        "text_RkbDgA": {
+          "type": "text",
+          "settings": {
+            "text": "Après trois ans de recherche et de développement intensifs, nous avons élaboré une formule unique, rassemblant 70 ingrédients actifs, chacun choisi pour ses bénéfices prouvés et son action en synergie.Avec NU.O.RO, nous avons adopté une approche moderne pour simplifier la santé quotidienne, en créant un produit unique hautement efficace sans complication ni coûts superflus. Notre modèle nous permet de maintenir un engagement envers la qualité supérieure, tout en garantissant que chaque client reçoit le meilleur de ce que la science et la nature peuvent offrir.”",
+            "image_text": ""
+          }
+        },
         "text_BQTPER": {
           "type": "text",
           "settings": {
@@ -129,6 +136,7 @@
       },
       "block_order": [
         "text_8mif9E",
+        "text_RkbDgA",
         "text_BQTPER"
       ],
       "settings": {

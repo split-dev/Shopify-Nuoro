@@ -114,14 +114,7 @@
         "text_8mif9E": {
           "type": "text",
           "settings": {
-            "text": "\"Ayant grandi avec des parents médecins et en tant qu'ancien sportif de haut niveau, j'ai compris très tôt l'importance de la nutrition pour la performance et le bien-être.   <br> <br>Avec NUORO, j'ai créé une marque de compléments alimentaires qui allie science et nature dans un produit unique, conçu pour soutenir la santé à chaque étape de la vie.",
-            "image_text": ""
-          }
-        },
-        "text_HJjxdc": {
-          "type": "text",
-          "settings": {
-            "text": "En collaborant avec des experts en neurosciences et biotechnologie, nous avons développé un produit optimisé scientifiquement pour maximiser ses bienfaits. Nous croyons que la qualité prime sur la quantité, en nous concentrant sur une solution essentielle.\"",
+            "text": "\"Ayant grandi avec des parents médecins et en tant qu'ancien sportif de haut niveau, j'ai compris très tôt l'importance de la nutrition pour la performance et le bien-être.    <br><br>Avec NUORO, j'ai créé une marque de compléments alimentaires qui allie science et nature dans un produit unique, conçu pour soutenir la santé à chaque étape de la vie.<br><br> En collaborant avec des experts en neurosciences et biotechnologie, nous avons développé un produit optimisé scientifiquement pour maximiser ses bienfaits. Nous croyons que la qualité prime sur la quantité, en nous concentrant sur une solution essentielle.\"",
             "image_text": ""
           }
         },
@@ -136,7 +129,6 @@
       },
       "block_order": [
         "text_8mif9E",
-        "text_HJjxdc",
         "text_BQTPER"
       ],
       "settings": {

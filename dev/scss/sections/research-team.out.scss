@@ -84,13 +84,24 @@
                 &__top {
                     .name {
                         margin: 0;
-                        font-size: 18px;
-                        line-height: 37.5px;
+                        font-size: 35px;
+                        line-height: 42px;
+                        font-weight: 500;
                         color: $c-light-grey-2;
+                        @include media-breakpoint-down(md) {
+                            font-size: 25px !important;
+                            line-height: 37px !important;
+                        }
                     }
                     .position {
                         color: $c-light-grey-2;
                         margin: 0;
+                        font-size: 20px !important;
+                        line-height: 24px !important;
+                        @include media-breakpoint-down(md) {
+                            font-size: 15px !important;
+                            line-height: 22px !important;
+                        }
                     }
                 }
                 &__bottom {
@@ -98,6 +109,12 @@
                     flex-direction: column;
                     & a {
                         color: $c-light-grey-2;
+                        font-size: 20px !important;
+                        line-height: 24px !important;
+                        @include media-breakpoint-down(md) {
+                            font-size: 15px !important;
+                            line-height: 21px !important;
+                        }
                         &:hover {
                             text-decoration: none;
                         }

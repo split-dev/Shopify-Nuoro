@@ -56,59 +56,23 @@
     <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
       {{ 'accessibility.skip_to_product_info' | t }}
     </a>
-    <ul
-      id="Slider-Gallery-{{ section.id }}"
-      class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
-      role="list"
-    >
-      {%- if product.selected_or_first_available_variant.featured_media != null -%}
-        {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
-        <li
-          id="Slide-{{ section.id }}-{{ featured_media.id }}"
-          class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-          data-media-id="{{ section.id }}-{{ featured_media.id }}"
-        >
-          {%- assign media_position = 1 -%}
-          {% render 'product-thumbnail',
-            media: featured_media,
-            media_count: media_count,
-            position: media_position,
-            desktop_layout: section.settings.gallery_layout,
-            mobile_layout: section.settings.mobile_thumbnails,
-            loop: section.settings.enable_video_looping,
-            modal_id: section.id,
-            xr_button: true,
-            media_width: media_width,
-            media_fit: section.settings.media_fit,
-            constrain_to_viewport: section.settings.constrain_to_viewport,
-            lazy_load: false
-          %}
-        </li>
-      {%- endif -%}
-      {%- for media in product.media -%}
-        {% if media_position >= limit
-          or media_position >= 1
-          and section.settings.hide_variants
-          and variant_images contains media.src
-        %}
-          {% continue %}
-        {% endif %}
-
-        {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+    <div class="js-product-gallery-slider-init-{{ section.index }} product__custom-media">
+      <ul
+        id="Slider-Gallery-{{ section.id }}"
+        {% comment %} class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile " {% endcomment %}
+        class="swiper-wrapper"
+        role="list"
+      >
+        {%- if product.selected_or_first_available_variant.featured_media != null -%}
+          {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
           <li
-            id="Slide-{{ section.id }}-{{ media.id }}"
-            class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == nil and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            data-media-id="{{ section.id }}-{{ media.id }}"
+            id="Slide-{{ section.id }}-{{ featured_media.id }}"
+            class="swiper-slide product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            data-media-id="{{ section.id }}-{{ featured_media.id }}"
           >
-            {%- liquid
-              assign media_position = media_position | default: 0 | plus: 1
-              assign lazy_load = false
-              if media_position > 1
-                assign lazy_load = true
-              endif
-            -%}
+            {%- assign media_position = 1 -%}
             {% render 'product-thumbnail',
-              media: media,
+              media: featured_media,
               media_count: media_count,
               position: media_position,
               desktop_layout: section.settings.gallery_layout,
@@ -119,12 +83,68 @@
               media_width: media_width,
               media_fit: section.settings.media_fit,
               constrain_to_viewport: section.settings.constrain_to_viewport,
-              lazy_load: lazy_load
+              lazy_load: false
             %}
           </li>
-        {%- endunless -%}
-      {%- endfor -%}
-    </ul>
+        {%- endif -%}
+        {%- for media in product.media -%}
+          {% if media_position >= limit
+            or media_position >= 1
+            and section.settings.hide_variants
+            and variant_images contains media.src
+          %}
+            {% continue %}
+          {% endif %}
+  
+          {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+            <li
+              id="Slide-{{ section.id }}-{{ media.id }}"
+              class="swiper-slide product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == nil and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              data-media-id="{{ section.id }}-{{ media.id }}"
+            >
+              {%- liquid
+                assign media_position = media_position | default: 0 | plus: 1
+                assign lazy_load = false
+                if media_position > 1
+                  assign lazy_load = true
+                endif
+              -%}
+              {% render 'product-thumbnail',
+                media: media,
+                media_count: media_count,
+                position: media_position,
+                desktop_layout: section.settings.gallery_layout,
+                mobile_layout: section.settings.mobile_thumbnails,
+                loop: section.settings.enable_video_looping,
+                modal_id: section.id,
+                xr_button: true,
+                media_width: media_width,
+                media_fit: section.settings.media_fit,
+                constrain_to_viewport: section.settings.constrain_to_viewport,
+                lazy_load: lazy_load
+              %}
+            </li>
+          {%- endunless -%}
+        {%- endfor -%}
+      </ul>
+      <div class="js-swiper-next-product-gallery">
+        <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.29375 35.7501L0.1875 32.6438L14.5813 18.2501L0.1875 3.85631L3.29375 0.750061L20.7938 18.2501L3.29375 35.7501Z" fill="#D8D8D8"/>
+        </svg>  
+      </div>
+      <div class="js-swiper-prev-product-gallery">
+        <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_6093_1558" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="42" height="43">
+          <rect y="0.25" width="42" height="42" fill="#D9D9D9"/>
+          </mask>
+          <g mask="url(#mask0_6093_1558)">
+          <path d="M17.5 38.75L0 21.25L17.5 3.75L20.6063 6.85625L6.2125 21.25L20.6063 35.6438L17.5 38.75Z" fill="#D8D8D8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="js-pagination-product-gallery product__gallery-pagination"></div>
+    </div>
+    
     <div class="slider-buttons quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
       <button
         type="button"
@@ -316,3 +336,17 @@
     </slider-component>
   {%- endif -%}
 </media-gallery>
+
+<script>
+  var productGallerySlider = new Swiper('.js-product-gallery-slider-init-{{ section.index }}', {
+    slidesPerView: 1,
+    loop: true,
+    navigation: {
+      nextEl: ".js-swiper-next-product-gallery",
+      prevEl: ".js-swiper-prev-product-gallery",
+    },
+    pagination: {
+      el: ".js-pagination-product-gallery",
+    }
+});
+</script>

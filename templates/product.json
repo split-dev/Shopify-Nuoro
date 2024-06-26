@@ -6,6 +6,20 @@
         "product_recharge_DtLgtE": {
           "type": "product_recharge",
           "settings": {
+            "subscribe_subtitle": "Le plus populaire",
+            "subscribe_title": "ABONNEMENT",
+            "subscribe_list_item_1": "Abonnement Mensuel, envoyé tous les 30 jours",
+            "subscribe_list_item_2": "Mettez en pause ou annulez à tout moment",
+            "subscribe_list_item_3": "Shaker Nu.o.ro offert",
+            "subscribe_list_item_4": "Économisez 20€\/mois",
+            "subscribe_bottom_text": "Livraison gratuite",
+            "one_time_subtitle": "",
+            "one_time_title": "ESSAYER UNE FOIS",
+            "one_time_list_item_1": "Achat unique de 30 portions",
+            "one_time_list_item_2": "Shaker Nu.o.ro offert",
+            "one_time_list_item_3": "",
+            "one_time_list_item_4": "",
+            "one_time_bottom_text": "Livraison gratuite"
           }
         },
         "buy_buttons": {
@@ -23,17 +37,17 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "related-products": {

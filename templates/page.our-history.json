@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -105,11 +114,11 @@
         "text_8mif9E": {
           "type": "text",
           "settings": {
-            "text": "“Lorsque j'ai eu l'opportunité de créer une marque entièrement nouvelle dans le domaine des compléments alimentaires, j'ai rassemblé une équipe d'experts en neurosciences et biotechnologie, avec une mission en tête : offrir une solution nutritionnelle optimale sans compromis.Nous avons choisi de concentrer notre attention sur la synergie et la pureté des éléments que nous sélectionnions. Nous avons recherché comment chaque composant pouvait interagir de manière optimale avec les autres, pour qu'ensemble, ils offrent une efficacité maximale.",
+            "text": "\"Ayant grandi avec des parents médecins et en tant qu'ancien sportif de haut niveau, j'ai compris très tôt l'importance de la nutrition pour la performance et le bien-être.    <br><br>Avec NUORO, j'ai créé une marque de compléments alimentaires qui allie science et nature dans un produit unique, conçu pour soutenir la santé à chaque étape de la vie.<br><br> En collaborant avec des experts en neurosciences et biotechnologie, nous avons développé un produit optimisé scientifiquement pour maximiser ses bienfaits. Nous croyons que la qualité prime sur la quantité, en nous concentrant sur une solution essentielle.\"",
             "image_text": ""
           }
         },
-        "text_HJjxdc": {
+        "text_RkbDgA": {
           "type": "text",
           "settings": {
             "text": "Après trois ans de recherche et de développement intensifs, nous avons élaboré une formule unique, rassemblant 70 ingrédients actifs, chacun choisi pour ses bénéfices prouvés et son action en synergie.Avec NU.O.RO, nous avons adopté une approche moderne pour simplifier la santé quotidienne, en créant un produit unique hautement efficace sans complication ni coûts superflus. Notre modèle nous permet de maintenir un engagement envers la qualité supérieure, tout en garantissant que chaque client reçoit le meilleur de ce que la science et la nature peuvent offrir.”",
@@ -127,7 +136,7 @@
       },
       "block_order": [
         "text_8mif9E",
-        "text_HJjxdc",
+        "text_RkbDgA",
         "text_BQTPER"
       ],
       "settings": {

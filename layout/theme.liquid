@@ -80,14 +80,20 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
+    
+    {%- unless request.page_type == 'product' -%}
+      {% sections 'header-group' %}
+    {%- endunless -%}
+    
 
-    {% sections 'header-group' %}
-
-    <main id="MainContent" class="content-for-layout focus-none {% unless request.page_type == 'index' %} body-padding{% endunless %}" role="main" tabindex="-1">
+    <main id="MainContent" class="content-for-layout focus-none {% unless request.page_type == 'index' or request.page_type == 'product' %} body-padding{% endunless %}" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% sections 'footer-group' %}
+    {%- unless request.page_type == 'product' -%}
+      {% sections 'footer-group' %}
+    {%- endunless -%}
+    
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

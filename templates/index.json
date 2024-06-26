@@ -13,7 +13,7 @@
       "type": "home-hero",
       "settings": {
         "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
-        "title": "OPTIMAL NUTRITION MADE SIMPLE",
+        "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
         "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
         "button_label": "Commenzez Nu.o.ro",
         "button_url": "",
@@ -202,7 +202,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/eac909bb0d7e85d9c96114aed5187d72.jpg",
-            "title": "Énergie Durable",
+            "title": "Énergie <br>Durable",
             "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
           }
         },
@@ -234,7 +234,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg",
-            "title": "Métabolisme",
+            "title": "Métabolisme Énergétique",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
           }
         },
@@ -275,9 +275,17 @@
           "settings": {
             "subscribe_subtitle": "Le plus populaire",
             "subscribe_title": "ABONNEMENT",
+            "subscribe_list_item_1": "Abonnement Mensuel, envoyé tous les 30 jours",
+            "subscribe_list_item_2": "Mettez en pause ou annulez à tout moment",
+            "subscribe_list_item_3": "Shaker Nu.o.ro offert",
+            "subscribe_list_item_4": "Économisez 20€\/mois",
             "subscribe_bottom_text": "Livraison gratuite",
             "one_time_subtitle": "",
             "one_time_title": "ESSAYER UNE FOIS",
+            "one_time_list_item_1": "Achat unique de 30 portions",
+            "one_time_list_item_2": "Shaker Nu.o.ro offert",
+            "one_time_list_item_3": "",
+            "one_time_list_item_4": "",
             "one_time_bottom_text": "Livraison gratuite"
           }
         },

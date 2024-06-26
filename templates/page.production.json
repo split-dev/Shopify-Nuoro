@@ -1,204 +1,96 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "page_title_eWBP8a": {
       "type": "page-title",
       "settings": {
-        "title": "Ingrédients et bénéfices",
+        "title": "NOTRE PRODUCTION",
+        "text": "",
         "padding_top": 0,
         "padding_bottom": 30,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
       }
     },
-    "img_and_content_atRwY9": {
+    "img_and_content_wzTb6L": {
       "type": "img-and-content",
       "settings": {
-        "revers": false,
-        "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/ingredients-img.jpg",
-        "title": "Sélection Rigoureuse des Ingrédients",
+        "revers": true,
+        "bg_color": "transparent",
+        "image": "shopify:\/\/shop_images\/prod_img.jpg",
+        "title": "Chez NU.O.RO, nous croyons en un monde où chacun vit pleinement et sans compromis.",
         "subtitle": "",
-        "text": "70 ingrédients, chacun choisis pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.",
+        "text": "Cette philosophie est au cœur de chaque décision que nous prenons, y compris la manière dont nous produisons nos solutions nutritionnelles. Située en Pologne, notre usine de production incarne notre engagement envers l'excellence, la durabilité et l'innovation.",
         "button_label": "",
         "button_url": "",
-        "padding_top": 90,
-        "padding_bottom": 100,
-        "padding_top_mobile": 70,
+        "padding_top": 115,
+        "padding_bottom": 85,
+        "padding_top_mobile": 30,
         "padding_bottom_mobile": 80
       }
     },
-    "benefits_3feYe9": {
+    "benefits_txHNEP": {
       "type": "benefits",
       "blocks": {
-        "text_MRQBtw": {
+        "text_VNx6xP": {
           "type": "text",
           "settings": {
             "title": "01",
-            "heading": "Énergie et Vitalité",
-            "text": "Enrichis en spiruline et chlorelle, NU.O.RO augmente la vitalité et le tonus, idéals pour lutter contre la fatigue et revitaliser le corps."
+            "heading": "Un Engagement pour la Qualité et la Sécurité",
+            "text": "Notre usine en Pologne est à la pointe de la technologie, équipée pour répondre aux normes les plus élevées de sécurité alimentaire et de qualité européenne. En choisissant la Pologne pour notre production, nous bénéficions d'un accès à une main-d'œuvre hautement qualifiée et d'une expertise reconnue dans le domaine de la production alimentaire. Chaque étape du processus de production est surveillée avec rigueur pour garantir que chaque sachet NU.O.RO répond aux attentes de nos clients en termes de pureté, efficacité et sécurité."
           }
         },
-        "text_wECiRA": {
+        "text_PPkTXC": {
           "type": "text",
           "settings": {
             "title": "02",
-            "heading": "Soutien Immunitaire",
-            "text": "Grâce à des ingrédients comme l'extrait d'échinacée et les vitamines C et D, notre formule renforce le système immunitaire, améliorant ainsi vos défenses naturelles."
+            "heading": "Réduction de l'Empreinte Carbone",
+            "text": "Située au cœur de l'Europe, notre usine en Pologne joue un rôle crucial dans notre stratégie de minimisation de l'empreinte écologique. En tant que hub central, elle nous permet de réduire considérablement les kilomètres parcourus par nos matières premières, optimisant ainsi les chaînes d'approvisionnement et diminuant les émissions de CO2 associées au transport. Cette localisation stratégique garantit une efficacité logistique maximale, tout en soutenant notre engagement pour une production plus verte et plus responsable."
           }
         },
-        "text_w3QQBr": {
+        "text_L7NbPf": {
           "type": "text",
           "settings": {
             "title": "03",
-            "heading": "Fonction Cognitive",
-            "text": "Avec des composants tels que le ginseng et la bacopa, NU.O.RO aide à maintenir une fonction cognitive normale, soutenant la mémoire et les performances mentales."
+            "heading": "Des Ingrédients Choisis avec Soin",
+            "text": "La recette NU.O.RO contient 70 ingrédients provenant du monde entier, chacun sélectionné pour ses bénéfices nutritionnels et sa qualité supérieure. Nous travaillons étroitement avec des fournisseurs locaux et internationaux qui partagent notre vision de durabilité et d'éthique. Chaque ingrédient est soumis à des tests rigoureux pour s'assurer qu'il répond à nos standards stricts avant d'être utilisé dans notre production."
           }
         },
-        "text_WajaTn": {
+        "text_xXcYmf": {
           "type": "text",
           "settings": {
             "title": "04",
-            "heading": "Santé Cardiovasculaire",
-            "text": "Les extraits de hawthorn et d'artichaut contribuent au bon fonctionnement cardiovasculaire, favorisant une circulation sanguine saine et soutenant le cœur."
+            "heading": "Technologie et Innovation",
+            "text": "Notre usine utilise des technologies avancées pour optimiser la fusion de ces ingrédients divers dans une solution nutritionnelle complète. Cette approche innovante permet non seulement une haute efficacité de production mais assure également que les propriétés bénéfiques de chaque composant sont préservées, maximisant ainsi les bienfaits pour la santé de nos utilisateurs."
           }
         },
-        "text_HQqdaU": {
+        "text_M8YEGb": {
           "type": "text",
           "settings": {
             "title": "05",
-            "heading": "Santé de la Peau, des Cheveux et des Ongles",
-            "text": "Riches en biotine, zinc, cuivre et collagène notre formule aide à maintenir la santé de la peau, des cheveux et des ongles, tout en améliorant la pigmentation naturelle."
-          }
-        },
-        "text_WdtxA4": {
-          "type": "text",
-          "settings": {
-            "title": "06",
-            "heading": "Muscles et Os Sains",
-            "text": "Nos formulations incluent calcium, magnésium, et vitamine D pour le soutien musculaire et le maintien d'une ossature normale, essentiels pour une fonction musculaire optimale."
-          }
-        },
-        "text_3T8RMn": {
-          "type": "text",
-          "settings": {
-            "title": "07",
-            "heading": "Système Nerveux",
-            "text": "L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse."
-          }
-        },
-        "text_6akWmA": {
-          "type": "text",
-          "settings": {
-            "title": "08",
-            "heading": "Métabolisme Énergétique",
-            "text": "Les nutriments tels que le fer et le chrome contribuent au bon fonctionnement métabolique, aidant votre corps à convertir les aliments en énergie."
-          }
-        },
-        "text_3gBPEP": {
-          "type": "text",
-          "settings": {
-            "title": "09",
-            "heading": "Équilibre Hormonal",
-            "text": "Avec des éléments comme l'acide pantothénique et la vitamine B6, NU.O.RO aide à réguler l'activité hormonale, favorisant un équilibre hormonal sain."
-          }
-        },
-        "text_k9TQw4": {
-          "type": "text",
-          "settings": {
-            "title": "10",
-            "heading": "Fertilité",
-            "text": "Le zinc est essentiel pour une fertilité et une reproduction normales, aidant à soutenir la santé reproductive à la fois chez les hommes et les femmes."
+            "heading": "Durabilité et Responsabilité",
+            "text": "Conformément à notre mission, nous adoptons des pratiques durables dans notre processus de fabrication. Cela inclut l'utilisation d'énergies renouvelables et la mise en œuvre de procédés qui réduisent notre consommation d'eau et nos déchets. Chaque décision que nous prenons vise à protéger notre planète pour les générations futures, tout en fournissant des produits de haute qualité à nos clients."
           }
         }
       },
       "block_order": [
-        "text_MRQBtw",
-        "text_wECiRA",
-        "text_w3QQBr",
-        "text_WajaTn",
-        "text_HQqdaU",
-        "text_WdtxA4",
-        "text_3T8RMn",
-        "text_6akWmA",
-        "text_3gBPEP",
-        "text_k9TQw4"
+        "text_VNx6xP",
+        "text_PPkTXC",
+        "text_L7NbPf",
+        "text_xXcYmf",
+        "text_M8YEGb"
       ],
       "settings": {
-        "title": "Bénéfices Santé",
+        "title": "",
         "padding_top": 0,
-        "padding_bottom": 80,
+        "padding_bottom": 120,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 100
-      }
-    },
-    "faq_home_xiKfpw": {
-      "type": "faq-home",
-      "blocks": {
-        "text_gdJYHc": {
-          "type": "text",
-          "settings": {
-            "title": "Probiotiques et Prébiotiques",
-            "text": "<p><strong>Inuline<\/strong><\/p><p>Un prébiotique qui favorise la santé intestinale en stimulant la croissance des bactéries bénéfiques.<\/p><p><strong>Bifidobacterium bifidum BB01<\/strong><\/p><p>Un probiotique qui aide à maintenir une flore intestinale saine.<\/p><p><strong>Lactobacillus acidophilus LA02:<\/strong><\/p><p>Probiotique qui soutient la digestion et l'immunité.<\/p>"
-          }
-        },
-        "text_NHXxpw": {
-          "type": "text",
-          "settings": {
-            "title": "Vitamines",
-            "text": "<p>2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        },
-        "text_3GhTDy": {
-          "type": "text",
-          "settings": {
-            "title": "Minéraux",
-            "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        },
-        "text_UHkBHB": {
-          "type": "text",
-          "settings": {
-            "title": "Superfoods et Extraits de Plantes",
-            "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        },
-        "text_9nE9en": {
-          "type": "text",
-          "settings": {
-            "title": "Autres Ingrédients Fonctionnels",
-            "text": "<p>5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_gdJYHc",
-        "text_NHXxpw",
-        "text_3GhTDy",
-        "text_UHkBHB",
-        "text_9nE9en"
-      ],
-      "settings": {
-        "title": "ingredients",
-        "padding_top": 0,
-        "padding_bottom": 200,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 115
+        "padding_bottom_mobile": 200
       }
     }
   },
   "order": [
     "page_title_eWBP8a",
-    "img_and_content_atRwY9",
-    "benefits_3feYe9",
-    "faq_home_xiKfpw"
+    "img_and_content_wzTb6L",
+    "benefits_txHNEP"
   ]
 }

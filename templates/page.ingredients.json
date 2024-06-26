@@ -180,6 +180,8 @@
       ],
       "settings": {
         "title": "ingredients",
+        "button_label": "Download the full supplement facts",
+        "button_url": "",
         "padding_top": 0,
         "padding_bottom": 200,
         "padding_top_mobile": 0,

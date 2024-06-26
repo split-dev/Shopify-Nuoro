@@ -15,6 +15,16 @@
         }
     }
 }
+.template-ingredients,
+.template-recherche {
+    .page-title {
+        &__wrapper {
+            flex-direction: column;
+            max-width: 1133px;
+            margin: 0 auto;
+        }
+    }
+}
 .template-our-history {
     .page-title__wrapper {
         max-width: 820px;

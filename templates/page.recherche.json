@@ -1,23 +1,167 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "page_title_eWBP8a": {
+      "type": "page-title",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "title": "Recherche Scientifique",
+        "text": "Chez NU.O.RO, nous sommes passionnés par le potentiel des neurosciences et de la biotechnologie pour transformer notre interaction avec le monde naturel. Notre engagement pour la recherche scientifique est au cœur de notre mission, et nous collaborons étroitement avec des institutions académiques, des centres de recherche et des professionnels de la santé pour explorer de nouvelles frontières.",
+        "padding_top": 0,
+        "padding_bottom": 130,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "img_and_content_MbWcDk": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/che_1.png",
+        "title": "ENGAGEMENT POUR l'Excellence",
+        "subtitle": "",
+        "text": "Notre équipe de chercheurs et de scientifiques est dédiée à une recherche rigoureuse et innovante. Nous sommes engagés dans une démarche scientifique qui respecte et promeut les plus hauts standards de qualité et d'éthique.",
+        "button_label": "Our research team",
+        "button_url": "#team",
+        "padding_top": 0,
+        "padding_bottom": 90,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "img_and_content_HqxQq9": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": true,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/che_2.jpg",
+        "title": "Contrôle Qualité Rigoureux",
+        "subtitle": "",
+        "text": "Nos installations de production sont conformes aux normes de Bonnes Pratiques de Fabrication (GMP) et ISO 22000, garantissant ainsi que nos produits et solutions respectent les exigences réglementaires les plus strictes pour la sécurité et la qualité.",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 90,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 80
+      }
+    },
+    "img_and_content_mHqA4p": {
+      "type": "img-and-content",
+      "settings": {
+        "revers": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "image": "shopify:\/\/shop_images\/che_3.jpg",
+        "title": "Partage de Connaissances",
+        "subtitle": "",
+        "text": "La transmission de notre savoir est une partie intégrante de notre mission. NU.O.RO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer. Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications et des conférences, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 100
+      }
+    },
+    "research_team_fBEqkM": {
+      "type": "research-team",
+      "blocks": {
+        "text_DdwUPy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_1.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_pTaRx7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_2.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_ggRMjp": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_3.png",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_iWXtfd": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_4.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_UXmnqN": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_5.png",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        },
+        "text_XhppkT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team_6.jpg",
+            "name": "Name Surname",
+            "position": "Position",
+            "instagram_link": "#",
+            "instagram_title": "Instagram",
+            "linkedin_link": "#",
+            "linkedin_title": "Linkedin"
+          }
+        }
+      },
+      "block_order": [
+        "text_DdwUPy",
+        "text_pTaRx7",
+        "text_ggRMjp",
+        "text_iWXtfd",
+        "text_UXmnqN",
+        "text_XhppkT"
+      ],
+      "settings": {
+        "title": "our research team",
+        "button_label": "Our production",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 120
       }
     }
   },
   "order": [
-    "main"
+    "page_title_eWBP8a",
+    "img_and_content_MbWcDk",
+    "img_and_content_HqxQq9",
+    "img_and_content_mHqA4p",
+    "research_team_fBEqkM"
   ]
 }

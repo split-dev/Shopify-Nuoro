@@ -110,4 +110,14 @@
             margin-top: 0;
         }
     }
+    &__button {
+        margin-top: 55px;
+        padding: 0;
+        & a {
+            width: 100%;
+            & svg {
+                margin-left: 10px;
+            }
+        }
+    }
 }

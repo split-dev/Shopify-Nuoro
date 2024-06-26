@@ -346,13 +346,14 @@
                 height: auto !important;
             }
             .product__media.media {
-                padding: 0 !important;
+                padding-top: 100% !important;
+                height: auto !important;
                 @media (max-width: 750px) {
                     padding-top: 100% !important;
                 }
                 img {
-                    position: relative;
-                    max-height: 787px;
+                    // position: relative;
+                    // max-height: 787px;
                     @media (max-width: 750px) {
                         position: absolute;
                     }

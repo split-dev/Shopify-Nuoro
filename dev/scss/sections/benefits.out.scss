@@ -1,6 +1,19 @@
 @import "../settings/variables";
 @import "../settings/bootstrap-media";
 
+
+.template-production {
+    .benefits__wrapper {
+        padding-top: 0px;
+        &-item {
+            flex: 0 1 48%;
+            .description {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
 .benefits {
     &__title {
         @include media-breakpoint-down(md) {

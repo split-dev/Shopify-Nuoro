@@ -127,12 +127,12 @@
           {%- endunless -%}
         {%- endfor -%}
       </ul>
-      <div class="js-swiper-next-product-gallery">
+      <div class="js-swiper-next-product-gallery product__next-product-gallery">
         <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3.29375 35.7501L0.1875 32.6438L14.5813 18.2501L0.1875 3.85631L3.29375 0.750061L20.7938 18.2501L3.29375 35.7501Z" fill="#D8D8D8"/>
         </svg>  
       </div>
-      <div class="js-swiper-prev-product-gallery">
+      <div class="js-swiper-prev-product-gallery product__prev-product-gallery">
         <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
           <mask id="mask0_6093_1558" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="42" height="43">
           <rect y="0.25" width="42" height="42" fill="#D9D9D9"/>
@@ -347,6 +347,7 @@
     },
     pagination: {
       el: ".js-pagination-product-gallery",
+      clickable: true
     }
 });
 </script>

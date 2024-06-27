@@ -12,13 +12,18 @@
         padding-right: 50px !important;
         display: flex;
         align-items: center;
-        padding-top: 51px;
-        padding-bottom: 51px;
+        padding-top: 32px;
+        padding-bottom: 32px;
         @media (max-width: 1099px) {
             padding-left: 21px !important;
         }
         @include media-breakpoint-down(md) {
             padding: 0 15px !important;
+        }
+        @media (max-height: 820px) and (min-width:  751px) {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            align-items: flex-start;
         }
     }
     .product__info-container {
@@ -33,6 +38,61 @@
             margin: 0 !important;
         }
     }
+    .product-form {
+        margin-bottom: 0 !important;
+        @media (max-width: 750px) {
+            margin-bottom: 24px !important;
+        }
+    }
+    .product__next-product-gallery {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        right: 30px;
+        cursor: pointer;
+        @media (max-width: 750px) {
+            top: 45%;
+        }
+    }
+    .product__prev-product-gallery {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 30px;
+        cursor: pointer;
+        @media (max-width: 750px) {
+            top: 45%;
+        }
+    }
+    .product__gallery-pagination {
+        position: absolute;
+        bottom: 50px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .swiper-pagination-bullet {
+            margin: 0 8px;
+            width: 18px;
+            min-width: 18px;
+            height: 18px;
+            opacity: 0.6;
+            background-color: #F4F4F4 !important;
+            cursor: pointer;
+            @media (max-width: 750px) {
+                width: 12px;
+                min-width: 12px;
+                height: 12px;
+                margin: 0 6px;
+            }
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+    }
+    .product-form__submit {
+        min-height: 52px;
+    }
     .custom-recharge {
         max-width: 650px;
         width: 100%;
@@ -43,6 +103,12 @@
             display: flex;
             cursor: pointer;
         }
+        
+        .text-26px {
+            @media (max-height: 820px) and (min-width:  751px) {
+                font-size: 21px !important;
+            }
+        }
         &__one-time,
         &__subscribe {
             background-color: #fff;
@@ -52,6 +118,11 @@
             align-items: center !important;
             @media (max-width: 990px) {
                 padding: 18px;
+            }
+        }
+        &__one-time {
+            .custom-recharge__price-wrapper {
+                margin-top: 10px;
             }
         }
         &__subscribe {
@@ -97,6 +168,9 @@
             padding-bottom: 4px;
             text-align: center;
             display: block;
+            @media (max-height: 820px) and (min-width:  751px) {
+                font-size: 32px;
+            }
         }
         &__box {
             padding: 24px 0;
@@ -159,6 +233,9 @@
                     }
                     @include media-breakpoint-down(md) {
                         font-size: 20px;
+                    }
+                    @media (max-height: 820px) and (min-width:  751px) {
+                        font-size: 21px !important;
                     }
                 }
             }
@@ -278,7 +355,19 @@
         .product__media.media {
             padding-top: 100vh !important;
             @media (max-height: 820px) and (min-width:  751px) {
-                padding-top: 852px !important;
+                padding-top: 818px !important;
+            }
+            @media (max-height: 790px) and (min-width:  751px) {
+                padding-top: 790px !important;
+            }
+            @media (max-height: 760px) and (min-width:  751px) {
+                padding-top: 760px !important;
+            }
+            @media (max-height: 730px) and (min-width:  751px) {
+                padding-top: 730px !important;
+            }
+            @media (max-height: 700px) and (min-width:  751px) {
+                padding-top: 700px !important;
             }
             @media (max-width: 750px) {
                 padding-top: 100% !important;

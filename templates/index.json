@@ -464,7 +464,14 @@
           "type": "text",
           "settings": {
             "title": "Quel goût a NU.O.RO ?",
-            "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+            "text": "<p>Les adeptes de NU.O.RO louent son goût agréable et sain, et nous avons passé des mois à perfectionner sa saveur. Le goût de NU.O.RO est naturellement rehaussé par des essences de fruit des tropiques et d'ananas, et il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l'ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs. Aucun compromis.<\/p>"
+          }
+        },
+        "text_gjJVL7": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": ""
           }
         },
         "text_wJfUdG": {
@@ -501,6 +508,7 @@
         "text_UBeTfw",
         "text_eEzNwL",
         "text_RnM3Yj",
+        "text_gjJVL7",
         "text_wJfUdG",
         "text_T69x8X",
         "text_rbj4JL",

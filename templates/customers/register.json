@@ -1,7 +1,15 @@
 {
   "sections": {
     "main": {
-      "type": "main-register"
+      "type": "main-register",
+      "settings": {
+        "register_title": "Create an Account",
+        "image": "shopify:\/\/shop_images\/account-img.jpg",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 60
+      }
     }
   },
   "order": [

@@ -15,7 +15,7 @@
         "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
         "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
-        "button_label": "Commenzez Nu.o.ro",
+        "button_label": "Commencez Nu.o.ro",
         "button_url": "",
         "padding_top": 150,
         "padding_bottom": 40,
@@ -443,28 +443,35 @@
           "type": "text",
           "settings": {
             "title": "Comment savoir si NU.O.RO me convient ?",
-            "text": "<p>NU.O.RO est idéal pour toute personne souhaitant s'assurer que ses besoins nutritionnels sont satisfaits au quotidien. Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d'entraînement intensif ou que vous voyagiez fréquemment, NU.O.RO apporte un soutien nutritionnel lorsque vous en avez le plus besoin. NU.O.RO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes et à ceux qui suivent des régimes spéciaux. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<\/p>"
+            "text": "<p>NU.O.RO est idéal pour toute personne souhaitant s'assurer que ses besoins nutritionnels sont satisfaits au quotidien. Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d'entraînement intensif ou que vous voyagiez fréquemment, NU.O.RO apporte un soutien nutritionnel lorsque vous en avez le plus besoin. NU.O.RO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes. Plus d'informations quand aux précautions d'emploi dans le footer.<\/p>"
           }
         },
         "text_UBeTfw": {
           "type": "text",
           "settings": {
             "title": "Quand puis-je m'attendre à voir des bienfaits ?",
-            "text": "<p>2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+            "text": "<p>De nombreux facteurs peuvent influencer l'effet de NU.O.RO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer. Votre alimentation et votre mode de vie influencent également le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains clients remarquent des améliorations en seulement quelques jours, tandis que pour d'autres, cela peut prendre jusqu'à quelques semaines. Nous sommes tous différents, donc nos corps réagissent de manière unique.<\/p>"
           }
         },
         "text_eEzNwL": {
           "type": "text",
           "settings": {
             "title": "Quels types de bienfaits puis-je attendre de la prise de NU.O.RO?",
-            "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+            "text": "<p>NU.O.RO soutient le métabolisme énergétique, le système immunitaire, la fonction cognitive, la fonction cardiaque, la santé de la peau et des cheveux et l'équilibre hormonal. Chez NU.O.RO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NU.O.RO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin. De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois environ. Parmi les autres bienfaits courants, on compte une bonne concentration, et un soutien à la récupération après l'activité physique.<\/p>"
           }
         },
         "text_RnM3Yj": {
           "type": "text",
           "settings": {
             "title": "Quel goût a NU.O.RO ?",
-            "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+            "text": "<p>Les adeptes de NU.O.RO louent son goût agréable et sain, et nous avons passé des mois à perfectionner sa saveur. Le goût de NU.O.RO est naturellement rehaussé par des essences de fruit des tropiques et d'ananas, et il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l'ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs. Aucun compromis.<\/p>"
+          }
+        },
+        "text_gjJVL7": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": ""
           }
         },
         "text_wJfUdG": {
@@ -501,6 +508,7 @@
         "text_UBeTfw",
         "text_eEzNwL",
         "text_RnM3Yj",
+        "text_gjJVL7",
         "text_wJfUdG",
         "text_T69x8X",
         "text_rbj4JL",
@@ -508,6 +516,8 @@
       ],
       "settings": {
         "title": "FAQS",
+        "button_label": "",
+        "button_url": "",
         "padding_top": 0,
         "padding_bottom": 50,
         "padding_top_mobile": 0,

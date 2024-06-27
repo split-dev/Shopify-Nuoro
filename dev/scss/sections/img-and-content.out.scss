@@ -15,6 +15,16 @@
     .img-and-content__content {
         & p {
             margin: 43px 0px 76px 0px;
+            @include media-breakpoint-down(md) {
+                margin: 43px 0px 0px 0px; 
+            }
+        }
+    }
+}
+.template-our-history {
+    .img-and-content__content {
+        @include media-breakpoint-down(md) {
+            margin-bottom: 70px;
         }
     }
 }

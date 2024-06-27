@@ -1,23 +1,44 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+    },
+    "faq_home_KTeCni": {
+      "type": "faq-home",
+      "blocks": {
+        "text_XJ7n7w": {
+          "type": "text",
+          "settings": {
+            "title": "Privacy Policy",
+            "text": "<p>Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal information when you use our website.<\/p><p>Information We Collect:<\/p><ul><li>Personal information you provide to us, such as your name, email address, and contact details<\/li><li>Information collected automatically, such as your IP address, browser type, and device identifiers.<\/li><li>Cookies and similar tracking technologies used to analyze website usage and personalize content and ads.<\/li><\/ul><p>How We Use Your Information:<\/p><ul><li>To provide and improve our products and services.<\/li><li>To communicate with you about updates, promotions, and other relevant information.<\/li><li>To analyze website usage and trends, and to personalize content and advertisements.<\/li><li>To comply with legal obligations and protect our rights and interests.<\/li><\/ul><p>Data Security: We implement appropriate technical and organizational measures to safeguard your personal information against unauthorized access, disclosure, alteration, and destruction.Your Rights: You have the right to access, update, or delete your personal information at any time. You may also opt-out of receiving promotional communications from us.By using our website, you consent to the collection and use of your information as described in this Privacy Policy. If you have any questions or concerns about our privacy practices, please contact us.<\/p>"
+          }
+        },
+        "text_XqT7KL": {
+          "type": "text",
+          "settings": {
+            "title": "Cookies Policy",
+            "text": "<p>Our website uses cookies to provide you with the best possible browsing experience. Cookies are small text files that are stored on your computer or mobile device when you visit a website. They help us understand how you use our site and enable us to tailor content and advertisements to your preferences.<br\/><br\/>We use both session cookies, which expire when you close your browser, and persistent cookies, which remain on your device for a set period of time or until you delete them. These cookies may be set by us or by third-party services we use, such as analytics providers or advertisers.<br\/><br\/>By using our website, you consent to the use of cookies in accordance with this Cookie Policy. You can manage your cookie preferences by adjusting your browser settings or by using the cookie consent tool provided on our site. Please note that disabling cookies may affect the functionality of our website.<br\/><br\/>For more information about cookies and how to manage them, please refer to our Privacy Policy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJ7n7w",
+        "text_XqT7KL"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "title": "",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 30,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 100
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq_home_KTeCni"
   ]
 }

@@ -114,6 +114,11 @@
             display: flex;
             cursor: pointer;
         }
+        .text-26px {
+            @media (max-height: 820px) and (min-width:  751px) {
+                font-size: 21px !important;
+            }
+        }
         &__one-time,
         &__subscribe {
             background-color: #fff;
@@ -123,6 +128,11 @@
             align-items: center !important;
             @media (max-width: 990px) {
                 padding: 18px;
+            }
+        }
+        &__one-time {
+            .custom-recharge__price-wrapper {
+                margin-top: 10px;
             }
         }
         &__subscribe {
@@ -171,6 +181,9 @@
             padding-bottom: 4px;
             text-align: center;
             display: block;
+            @media (max-height: 820px) and (min-width:  751px) {
+                font-size: 32px;
+            }
         }
         &__box {
             padding: 24px 0;
@@ -233,6 +246,9 @@
                     }
                     @include media-breakpoint-down(md) {
                         font-size: 20px;
+                    }
+                    @media (max-height: 820px) and (min-width:  751px) {
+                        font-size: 21px !important;
                     }
                 }
             }

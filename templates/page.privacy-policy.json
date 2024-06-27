@@ -3,6 +3,8 @@
     "main": {
       "type": "main-page",
       "disabled": true,
+      "settings": {
+      }
     },
     "faq_home_KTeCni": {
       "type": "faq-home",

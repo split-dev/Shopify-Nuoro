@@ -91,7 +91,10 @@
         }
     }
     .product-form__submit {
-        min-height: 52px;
+        min-width: auto !important;
+        @media (max-height: 820px) and (min-width:  751px) {
+            min-height: 52px;
+        }
     }
     .custom-recharge {
         max-width: 650px;

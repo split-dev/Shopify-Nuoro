@@ -58,10 +58,10 @@
             margin: 0 !important;
         }
     }
-    .product-form {
-        margin-bottom: 0 !important;
-        @media (max-width: 750px) {
-            margin-bottom: 24px !important;
+    .product-form__submit {
+        min-width: auto !important;
+        @media (max-height: 820px) and (min-width:  751px) {
+            min-height: 52px;
         }
     }
     .product__next-product-gallery {

@@ -15,7 +15,7 @@
         "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
         "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
-        "button_label": "Commenzez Nu.o.ro",
+        "button_label": "Commencez Nu.o.ro",
         "button_url": "",
         "padding_top": 150,
         "padding_bottom": 40,
@@ -508,6 +508,8 @@
       ],
       "settings": {
         "title": "FAQS",
+        "button_label": "",
+        "button_url": "",
         "padding_top": 0,
         "padding_bottom": 50,
         "padding_top_mobile": 0,

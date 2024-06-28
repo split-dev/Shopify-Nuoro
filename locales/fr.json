@@ -448,15 +448,15 @@
     "log_in": "Connexion",
     "log_out": "Déconnexion",
     "login_page": {
-      "cancel": "Annuler",
-      "create_account": "Créer un compte",
-      "email": "E-mail",
-      "forgot_password": "Mot de passe oublié ?",
+      "cancel": "Already have an account? Sign In",
+      "create_account": "Don’t have an account? Join now",
+      "email": "Email",
+      "forgot_password": "Don’t have an account? Join now",
       "guest_continue": "Continuer",
       "guest_title": "Continuer en tant qu'invité(e)",
-      "password": "Mot de passe",
+      "password": "Password",
       "title": "Connexion",
-      "sign_in": "Connexion",
+      "sign_in": "Continue",
       "submit": "Envoyer",
       "alternate_provider_separator": "ou"
     },
@@ -477,11 +477,12 @@
     },
     "register": {
       "title": "Créer un compte",
-      "first_name": "Prénom",
-      "last_name": "Nom de famille",
-      "email": "E-mail",
-      "password": "Mot de passe",
-      "submit": "Créer"
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Mobile phone",
+      "password": "Password",
+      "submit": "Join Now"
     },
     "reset_password": {
       "title": "Réinitialiser le mot de passe du compte",

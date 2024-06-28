@@ -1,7 +1,17 @@
 {
   "sections": {
     "main": {
-      "type": "main-login"
+      "type": "main-login",
+      "settings": {
+        "enable_shop_login_button": true,
+        "image": "shopify:\/\/shop_images\/account-img.jpg",
+        "title": "Commencez votre routine bien-être!",
+        "sub_title": "Sign In",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 60
+      }
     }
   },
   "order": [

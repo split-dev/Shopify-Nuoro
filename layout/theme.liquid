@@ -106,7 +106,7 @@
 
     <main
       id="MainContent"
-      class="content-for-layout focus-none {% unless request.page_type == 'index' or request.page_type == 'product' %} body-padding{% endunless %} {% if template.suffix == '404' %}bg-404 {% endif %}"
+      class="content-for-layout focus-none {% unless request.page_type == 'index' %} body-padding{% endunless %} {% if template.suffix == '404' %}bg-404 {% endif %}"
       role="main"
       tabindex="-1">
       {{ content_for_layout }}

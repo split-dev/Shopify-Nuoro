@@ -230,15 +230,15 @@
                 color: $c-text !important;
                 letter-spacing: 2px !important;
                 * {
-                    font-size: 26px;
+                    font-size: 26px !important;
                     font-style: normal;
                     font-weight: 500;
                     line-height: 120%; /* 42px */
                     @media (max-width: 1400px) {
-                        font-size: 24px;
+                        font-size: 24px !important;
                     }
                     @include media-breakpoint-down(md) {
-                        font-size: 20px;
+                        font-size: 20px !important;
                     }
                     @media (max-height: 820px) and (min-width:  751px) {
                         font-size: 21px !important;

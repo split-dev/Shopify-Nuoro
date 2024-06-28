@@ -19,6 +19,11 @@
                 margin: 43px 0px 0px 0px; 
             }
         }
+        .img-and-content__button {
+            @include media-breakpoint-down(md) {
+                margin-top: 40px;
+            }
+        }
     }
 }
 .template-our-history {

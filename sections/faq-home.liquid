@@ -35,11 +35,15 @@
         {% endfor %}
         {% if section.settings.button_label != blank %}
           <div class="faq-home__button page-width d-flex justify-content-center">
-            <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+            <a class="btn btn__primary js-image-link" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
               {% render 'icon-download' %}
             </a>
           </div>
         {% endif %}
+        <div id="popup" class="popup">
+            <span class="close">&times;</span>
+            <img class="popup-content" id="popup-img">
+        </div>
       </div>
       <div class="faq-home__answers">
         <!-- Tab content -->
@@ -68,11 +72,15 @@
       {% endfor %}
       {% if section.settings.button_label != blank %}
         <div class="faq-home__button page-width d-flex justify-content-center">
-          <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+          <a class="btn btn__primary js-image-link-mobile" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
             {% render 'icon-download' %}
           </a>
         </div>
       {% endif %}
+      <div id="popup_mobile" class="popup">
+        <span class="close_mobile">&times;</span>
+        <img class="popup-content" id="popup-img-mobile">
+    </div>
     </div>
   </div>
 </section>
@@ -132,6 +140,45 @@
       }
     }
 });
+
+
+const popup = document.getElementById('popup');
+const popupMobile = document.getElementById('popup_mobile');
+const popupImg = document.getElementById('popup-img');
+const popupImgMobile = document.getElementById('popup-img-mobile');
+const imageLink = document.querySelector('.js-image-link');
+const imageLinkMobile = document.querySelector('.js-image-link-mobile');
+const closeBtn = document.querySelector('.close');
+const closeBtnMobile = document.querySelector('.close_mobile');
+
+imageLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  popup.style.display = 'block';
+  popupImg.src = this.href;
+})
+imageLinkMobile.addEventListener('click', function(event) {
+  event.preventDefault();
+  popupMobile.style.display = 'block';
+  popupImgMobile.src = this.href;
+})
+closeBtn.addEventListener('click', function() {
+    popup.style.display = 'none';
+});
+closeBtnMobile.addEventListener('click', function() {
+  popupMobile.style.display = 'none';
+});
+popup.addEventListener('click', function(event) {
+    if (event.target === popup) {
+        popup.style.display = 'none';
+    }
+});
+popupMobile.addEventListener('click', function(event) {
+    if (event.target === popupMobile) {
+      popupMobile.style.display = 'none';
+    }
+});
+
+
 </script>
 
 {% schema %}

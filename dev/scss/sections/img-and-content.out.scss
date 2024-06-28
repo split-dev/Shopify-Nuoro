@@ -84,6 +84,9 @@
                 display: flex;
                 align-items: center;
                 margin-bottom: 8px;
+                @include media-breakpoint-down(md) {
+                   justify-content: center;
+                 }
             }
             svg {
                 margin-right: 12px;

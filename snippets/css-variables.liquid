@@ -246,6 +246,7 @@
       />
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <!-- GLIGHTBOX USING A CDN -->
-
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-      <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+      {{ 'glightbox.min.css' | asset_url | stylesheet_tag }}
+      <script src="{{ 'glightbox.min.js' | asset_url }}"></script>
+      {% comment %} <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+      <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script> {% endcomment %}

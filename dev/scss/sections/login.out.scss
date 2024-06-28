@@ -95,6 +95,12 @@
             transition: all .3s ease-in-out;
         }
     }
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 100px rgba(246,244,238) inset !important;
+        & ~ label {
+            color: #9D9D9D !important;
+        }
+    }
 }
 .register {
     & form {

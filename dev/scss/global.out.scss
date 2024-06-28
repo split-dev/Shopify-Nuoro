@@ -54,6 +54,9 @@ html {
         transform: scale(1.1);
     }
 }
+.plyr__control.plyr__control--overlaid {
+    background-color: $c-orange !important;
+}
 .product-form__submit {
     cursor: pointer;
     border: none;

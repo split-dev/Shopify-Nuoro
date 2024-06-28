@@ -99,17 +99,23 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% sections 'header-group' %}
+    {% unless request.page_type == 'product' %}
+      {% sections 'header-group' %}
+    {%- endunless -%}
+    
 
     <main
       id="MainContent"
-      class="content-for-layout focus-none {% unless request.page_type == 'index' %} body-padding{% endunless %} {% if template == '404' %}bg-404 {% endif %}"
+      class="content-for-layout focus-none {% unless request.page_type == 'index' or request.page_type == 'product' %} body-padding{% endunless %} {% if template == '404' %}bg-404 {% endif %}"
       role="main"
       tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% sections 'footer-group' %}
+    {% unless request.page_type == 'product' %}
+      {% sections 'footer-group' %}
+    {%- endunless -%}
+    
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

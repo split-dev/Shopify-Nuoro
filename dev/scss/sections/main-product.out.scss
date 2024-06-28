@@ -91,7 +91,10 @@
         }
     }
     .product-form__submit {
-        min-height: 52px;
+        min-width: auto !important;
+        @media (max-height: 820px) and (min-width:  751px) {
+            min-height: 52px;
+        }
     }
     .custom-recharge {
         max-width: 650px;
@@ -170,6 +173,9 @@
             display: block;
             @media (max-height: 820px) and (min-width:  751px) {
                 font-size: 32px;
+            }
+            @media (max-width: 991px) {
+                font-size: 32px !important;
             }
         }
         &__box {
@@ -355,16 +361,16 @@
         .product__media.media {
             padding-top: 100vh !important;
             @media (max-height: 820px) and (min-width:  751px) {
-                padding-top: 818px !important;
+                padding-top: 100vh !important;
             }
             @media (max-height: 790px) and (min-width:  751px) {
-                padding-top: 790px !important;
+                padding-top: 100vh !important;
             }
             @media (max-height: 760px) and (min-width:  751px) {
-                padding-top: 760px !important;
+                padding-top: 100vh !important;
             }
             @media (max-height: 730px) and (min-width:  751px) {
-                padding-top: 730px !important;
+                padding-top: 100vh !important;
             }
             @media (max-height: 700px) and (min-width:  751px) {
                 padding-top: 700px !important;

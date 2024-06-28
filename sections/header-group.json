@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -5,13 +14,13 @@
     "header": {
       "type": "header",
       "settings": {
-        "button_label": "Commenzez",
+        "button_label": "Commencez",
         "button_url": "",
         "mobile_login": "Mon Compte",
         "logo_position": "middle-center",
         "menu": "main-menu-1",
         "menu_type_desktop": "drawer",
-        "bottom_menu": "mobile-bottom-menu",
+        "bottom_menu": "",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-2",

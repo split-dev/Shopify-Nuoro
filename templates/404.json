@@ -21,7 +21,7 @@
       "type": "404",
       "settings": {
         "image": "shopify:\/\/shop_images\/404.svg",
-        "title": "<h1>sorry :(<\/h1><h1><\/h1><h1>we couldN’t FIND this page <\/h1><h1>(error 404)<\/h1>",
+        "title": "<h1>sorry :(<h1><h1>we couldN’t FIND this page <\/h1><h1>(error 404)<\/h1>",
         "button_label": "Take me back",
         "button_url": "",
         "button_label_second": "Go home",

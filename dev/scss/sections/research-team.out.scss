@@ -45,17 +45,19 @@
             visibility: hidden;
             transition: all .3s;
         }
-        &:hover {
-            &::after {
-                opacity: 1;
-                visibility: visible;
-            }
-            & img {
-                filter: blur(0.5rem);
-            }
-            .research-team__item-content {
-                opacity: 1;
-                visibility: visible;
+        @media (hover: hover) and (pointer: fine) {
+            &:hover {
+                &::after {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                & img {
+                    filter: blur(0.5rem);
+                }
+                .research-team__item-content {
+                    opacity: 1;
+                    visibility: visible;
+                }
             }
         }
         & img {
@@ -64,6 +66,9 @@
             object-fit: cover;
             display: block;
             transition: all .3s;
+            @include media-breakpoint-down(md) {
+                filter: blur(0.2rem);
+            }
         }
         &-content {
             position: absolute;
@@ -80,11 +85,15 @@
             visibility: hidden;
             transition: all .3s;
             z-index: 2;
+            @include media-breakpoint-down(md) {
+                opacity: 1;
+                visibility: visible;
+            }
             .item-content {
                 &__top {
                     .name {
                         margin: 0;
-                        font-size: 35px;
+                        font-size: 35px !important;
                         line-height: 42px;
                         font-weight: 500;
                         color: $c-light-grey-2;

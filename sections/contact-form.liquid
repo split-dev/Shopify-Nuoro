@@ -1,28 +1,36 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'contact.out.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+    <div class="contact__wrapper">
     {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="title title-wrapper--no-top-margin text-center inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
       </h2>
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+    {% if section.settings.button_label != blank %}
+      <div class="contact__button d-flex justify-content-center">
+        <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+        </a>
+      </div>
+    {% endif %}
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
@@ -113,7 +121,7 @@
       <div class="field">
         <textarea
           rows="10"
-          id="ContactForm-body"
+          id="ContactForm-body" 
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
@@ -130,6 +138,22 @@
         </button>
       </div>
     {%- endform -%}
+    <div class="contact__bottom bottom-info">
+      <div class="bottom-info__social">
+        {%- if section.settings.show_social -%}
+          <div class="bottom-info__social">
+            <p class="text-15px">{{ section.settings.social_title }}</p>
+              {%- render 'social-icons' -%}
+          </div>
+        {%- endif -%}
+      </div>
+      <div class="bottom-info__text">
+        {%- if section.settings.show_bottom_text != blank -%}
+          <p class="text-15px">{{ section.settings.show_bottom_text }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+    </div>
   </div>
 </div>
 
@@ -147,6 +171,28 @@
       "id": "heading",
       "default": "Contact form",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social",
+      "default": true,
+      "label": "t:sections.footer.blocks.brand_information.settings.show_social.label",
+      "info": "t:sections.footer.blocks.brand_information.settings.show_social.info"
+    },
+    {
+      "type": "text",
+      "id": "show_bottom_text",
+      "label": "Bottom text"
     },
     {
       "type": "select",
@@ -181,22 +227,38 @@
     {
       "type": "range",
       "id": "padding_top",
+      "label": "Desktop padding top",
       "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "max": 200,
+      "step": 5,
+      "default": 0
     },
     {
       "type": "range",
       "id": "padding_bottom",
+      "label": "Desktop padding bottom",
       "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
     }
   ],
   "presets": [

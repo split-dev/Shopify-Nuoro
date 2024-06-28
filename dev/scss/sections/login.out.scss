@@ -51,6 +51,7 @@
             &:focus ~ label {
                 left: 50%;
                 top: calc(var(--inputs-border-width) + 1rem);
+                font-size: 1rem !important;
             }
             &:not(:placeholder-shown) ~ label {
                 left: 50%;
@@ -59,7 +60,6 @@
         }
         & label {
             color: #9D9D9D;
-            font-size: 15px;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%)

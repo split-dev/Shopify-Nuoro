@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -5,12 +14,12 @@
       "settings": {
         "enable_shop_login_button": true,
         "image": "shopify:\/\/shop_images\/account-img.jpg",
-        "title": "Commencez votre routine bien-être!",
+        "title": "",
         "sub_title": "Sign In",
         "padding_top": 60,
         "padding_bottom": 60,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 60
+        "padding_bottom_mobile": 0
       }
     }
   },

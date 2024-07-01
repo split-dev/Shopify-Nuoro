@@ -6,16 +6,16 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 h1, .h1 {
-    font-size: 52.5px;
+    font-size: 52.5px !important;
     font-weight: 400;
     line-height: normal;
     line-height: 100%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     @include media-breakpoint-down(md) {
-        font-size: 32px;
+        font-size: 32px !important;
     }
 }
   

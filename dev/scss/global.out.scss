@@ -67,3 +67,11 @@ html {
         }
     }
 }
+.rc-enter-code-header,
+.rc-login--header-title {
+    font-size: 21px !important;
+}
+.rc-login-form-button {
+    background-color: $c-orange !important;
+    color: $c-text !important;
+}

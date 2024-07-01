@@ -25,6 +25,21 @@
     }
 }
 
+.template-ingredients {
+    .faq-home__answers {
+        .faq-home__tabcontent {
+            & p strong {
+                font-size: 26px;
+            }
+        }
+    }
+    .faq-home__accordion-answer {
+        @include media-breakpoint-down(md) {
+            padding-left: 0px;
+        }
+    }
+}
+
 .faq-home {
     &__title {
         width: 50%;

@@ -43,5 +43,13 @@
                 }
             }
         }
-    }       
+    }    
+    &__image {
+        & img {
+            @include media-breakpoint-down(md) {
+                max-width: 102px;
+                max-height: 184px;
+            }
+        }
+    }   
 }

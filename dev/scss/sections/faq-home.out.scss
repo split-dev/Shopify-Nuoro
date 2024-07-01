@@ -1,6 +1,45 @@
 @import "../settings/variables";
 @import "../settings/bootstrap-media";
 
+.template-ingredients {
+    .faq-home__answers {
+        .faq-home__tabcontent {
+            & p strong {
+                font-size: 26px;
+            }
+            & ul {
+                list-style: none;
+                & li {
+                    margin-bottom: 15px;
+                    & strong {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+    .faq-home__accordion-answer {
+        @include media-breakpoint-down(md) {
+            padding-left: 0px;
+        }
+    }
+}
+
+.template-ingredients {
+    .faq-home__answers {
+        .faq-home__tabcontent {
+            & p strong {
+                font-size: 26px;
+            }
+        }
+    }
+    .faq-home__accordion-answer {
+        @include media-breakpoint-down(md) {
+            padding-left: 0px;
+        }
+    }
+}
+
 .faq-home {
     &__title {
         width: 50%;

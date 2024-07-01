@@ -43,6 +43,13 @@
             & h4 {
                 margin: 0;
             }
+            & a {
+                color: $c-text;
+                transition: all .3s;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
         }
     }
 }

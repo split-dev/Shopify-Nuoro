@@ -156,7 +156,7 @@
           "contrast_color": "#ffffff",
           "color_brand_secondary": "#ffa842",
           "corners": "8px",
-          "app_background": "#f9f8f4",
+          "app_background": "#f6f4ed",
           "app_container": 1300,
           "app_vertical_padding": 32,
           "images_aspect_ratio": "1",

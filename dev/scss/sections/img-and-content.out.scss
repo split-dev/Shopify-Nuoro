@@ -32,6 +32,11 @@
             margin-bottom: 70px;
         }
     }
+    .img-and-content__media {
+        @include media-breakpoint-down(md) {
+            margin-bottom: 30px;
+        }
+    }
 }
 .img-and-content {
     &__wrapper {

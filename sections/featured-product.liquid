@@ -58,7 +58,7 @@
 
 {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-<section class="custom-featured-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
+<section id="featured-product" class="custom-featured-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
     <div class="page-width custom-featured-product__title">
       <h2>{{section.settings.title }}</h2>

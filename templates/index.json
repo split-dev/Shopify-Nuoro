@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "home_hero_CF9PjB": {
@@ -5,7 +14,7 @@
       "settings": {
         "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
-        "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
+        "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaborée pour optimiser votre santé et soutenir vos performances physiques et mentales.",
         "button_label": "Commencez Nu.o.ro",
         "button_url": "#featured-product",
         "padding_top": 150,

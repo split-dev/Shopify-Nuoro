@@ -26,20 +26,20 @@
         opacity: 0.7;
     }
     &__primary {
-        color: $c-gray;
-        background-color: $c-text;
+        color: $c-gray !important;
+        background-color: $c-text !important;
         transition: all 0.3s ease-in-out;
         &:hover {
-            background-color: $c-button-hover;
-            color: $c-text;
+            background-color: $c-button-hover !important;
+            color: $c-text !important;
         }
     }
     &__orange {
-        color: $c-text;
-        background-color: $c-orange;
+        color: $c-text !important;
+        background-color: $c-orange !important;
         transition: all 0.3s ease-in-out;
         &:hover {
-            background-color: $c-button-hover;
+            background-color: $c-button-hover !important;
         }
     }
 }

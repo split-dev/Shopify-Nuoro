@@ -1,17 +1,22 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'customer.out.css' | asset_url | stylesheet_tag }}
 
 <script src="{{ 'customer.js' | asset_url }}" defer></script>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
+    px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
+    px;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}
+      px;
+      padding-bottom: {{ section.settings.padding_bottom }}
+      px;
     }
   }
 {%- endstyle -%}
@@ -20,24 +25,28 @@
   <div class="customer addresses section-{{ section.id }}-padding" data-customer-addresses>
     <svg style="display: none">
       <symbol id="icon-caret" viewBox="0 0 10 6">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+          fill="currentColor">
       </symbol>
     </svg>
     <h1>{{ 'customer.addresses.title' | t }}</h1>
-    <a href="{{ routes.account_url }}">
+    <a class="text-15px" href="{{ routes.account_url }}">
       {{ 'customer.account.return' | t }}
     </a>
 
     <div data-address>
       <button
+        class="btn btn__primary customer__button"
         type="button"
         aria-expanded="false"
-        aria-controls="AddAddress"
-      >
+        aria-controls="AddAddress">
         {{ 'customer.addresses.add_new' | t }}
       </button>
       <div id="AddAddress">
-        <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
+        <h2 class="text-center" id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
         {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}
           <div class="field">
             <input
@@ -46,8 +55,7 @@
               name="address[first_name]"
               value="{{ form.first_name }}"
               autocomplete="given-name"
-              placeholder="{{ 'customer.addresses.first_name' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.first_name' | t }}">
             <label for="AddressFirstNameNew">{{ 'customer.addresses.first_name' | t }}</label>
           </div>
           <div class="field">
@@ -57,8 +65,7 @@
               name="address[last_name]"
               value="{{ form.last_name }}"
               autocomplete="family-name"
-              placeholder="{{ 'customer.addresses.last_name' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.last_name' | t }}">
             <label for="AddressLastNameNew">{{ 'customer.addresses.last_name' | t }}</label>
           </div>
           <div class="field">
@@ -68,8 +75,7 @@
               name="address[company]"
               value="{{ form.company }}"
               autocomplete="organization"
-              placeholder="{{ 'customer.addresses.company' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.company' | t }}">
             <label for="AddressCompanyNew">{{ 'customer.addresses.company' | t }}</label>
           </div>
           <div class="field">
@@ -79,8 +85,7 @@
               name="address[address1]"
               value="{{ form.address1 }}"
               autocomplete="address-line1"
-              placeholder="{{ 'customer.addresses.address1' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.address1' | t }}">
             <label for="AddressAddress1New">{{ 'customer.addresses.address1' | t }}</label>
           </div>
           <div class="field">
@@ -90,8 +95,7 @@
               name="address[address2]"
               value="{{ form.address2 }}"
               autocomplete="address-line2"
-              placeholder="{{ 'customer.addresses.address2' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.address2' | t }}">
             <label for="AddressAddress2New">{{ 'customer.addresses.address2' | t }}</label>
           </div>
           <div class="field">
@@ -101,8 +105,7 @@
               name="address[city]"
               value="{{ form.city }}"
               autocomplete="address-level2"
-              placeholder="{{ 'customer.addresses.city' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.city' | t }}">
             <label for="AddressCityNew">{{ 'customer.addresses.city' | t }}</label>
           </div>
           <div>
@@ -112,11 +115,13 @@
                 id="AddressCountryNew"
                 name="address[country]"
                 data-default="{{ form.country }}"
-                autocomplete="country"
-              >
+                autocomplete="country">
                 {{ all_country_option_tags }}
               </select>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 10 6">
                 <use href="#icon-caret" />
               </svg>
             </div>
@@ -128,9 +133,11 @@
                 id="AddressProvinceNew"
                 name="address[province]"
                 data-default="{{ form.province }}"
-                autocomplete="address-level1"
-              ></select>
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                autocomplete="address-level1"></select>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 10 6">
                 <use href="#icon-caret" />
               </svg>
             </div>
@@ -143,8 +150,7 @@
               value="{{ form.zip }}"
               autocapitalize="characters"
               autocomplete="postal-code"
-              placeholder="{{ 'customer.addresses.zip' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.zip' | t }}">
             <label for="AddressZipNew">{{ 'customer.addresses.zip' | t }}</label>
           </div>
           <div class="field">
@@ -154,8 +160,7 @@
               name="address[phone]"
               value="{{ form.phone }}"
               autocomplete="tel"
-              placeholder="{{ 'customer.addresses.phone' | t }}"
-            >
+              placeholder="{{ 'customer.addresses.phone' | t }}">
             <label for="AddressPhoneNew">{{ 'customer.addresses.phone' | t }}</label>
           </div>
           <div>
@@ -163,8 +168,10 @@
             <label for="address_default_address_new">{{ 'customer.addresses.set_default' | t }}</label>
           </div>
           <div>
-            <button>{{ 'customer.addresses.add' | t }}</button>
-            <button type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+            <div class="bottom__wrapper">
+              <button class="btn btn__primary">{{ 'customer.addresses.add' | t }}</button>
+              <button class="btn btn__primary" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+            </div>
           </div>
         {%- endform -%}
       </div>
@@ -178,21 +185,21 @@
           {%- endif -%}
           {{ address | format_address }}
           <button
+            class="btn btn__primary"
             type="button"
             id="EditFormButton_{{ address.id }}"
             aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
             aria-controls="EditAddress_{{ address.id }}"
             aria-expanded="false"
-            data-address-id="{{ address.id }}"
-          >
+            data-address-id="{{ address.id }}">
             {{ 'customer.addresses.edit' | t }}
           </button>
           <button
+            class="btn btn__primary"
             type="button"
             aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
             data-target="{{ address.url }}"
-            data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
-          >
+            data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}">
             {{ 'customer.addresses.delete' | t }}
           </button>
           <div id="EditAddress_{{ address.id }}">
@@ -205,8 +212,7 @@
                   name="address[first_name]"
                   value="{{ form.first_name }}"
                   autocomplete="given-name"
-                  placeholder="{{ 'customer.addresses.first_name' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.first_name' | t }}">
                 <label for="AddressFirstName_{{ form.id }}">{{ 'customer.addresses.first_name' | t }}</label>
               </div>
               <div class="field">
@@ -216,8 +222,7 @@
                   name="address[last_name]"
                   value="{{ form.last_name }}"
                   autocomplete="family-name"
-                  placeholder="{{ 'customer.addresses.last_name' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.last_name' | t }}">
                 <label for="AddressLastName_{{ form.id }}">{{ 'customer.addresses.last_name' | t }}</label>
               </div>
               <div class="field">
@@ -227,8 +232,7 @@
                   name="address[company]"
                   value="{{ form.company }}"
                   autocomplete="organization"
-                  placeholder="{{ 'customer.addresses.company' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.company' | t }}">
                 <label for="AddressCompany_{{ form.id }}">{{ 'customer.addresses.company' | t }}</label>
               </div>
               <div class="field">
@@ -238,8 +242,7 @@
                   name="address[address1]"
                   value="{{ form.address1 }}"
                   autocomplete="address-line1"
-                  placeholder="{{ 'customer.addresses.address1' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.address1' | t }}">
                 <label for="AddressAddress1_{{ form.id }}">{{ 'customer.addresses.address1' | t }}</label>
               </div>
               <div class="field">
@@ -249,8 +252,7 @@
                   name="address[address2]"
                   value="{{ form.address2 }}"
                   autocomplete="address-line2"
-                  placeholder="{{ 'customer.addresses.address2' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.address2' | t }}">
                 <label for="AddressAddress2_{{ form.id }}">{{ 'customer.addresses.address2' | t }}</label>
               </div>
               <div class="field">
@@ -260,12 +262,11 @@
                   name="address[city]"
                   value="{{ form.city }}"
                   autocomplete="address-level2"
-                  placeholder="{{ 'customer.addresses.city' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.city' | t }}">
                 <label for="AddressCity_{{ form.id }}">{{ 'customer.addresses.city' | t }}</label>
               </div>
               <div>
-                <label for="AddressCountry_{{ form.id }}">
+                <label class="address-country" for="AddressCountry_{{ form.id }}">
                   {{ 'customer.addresses.country' | t }}
                 </label>
                 <div class="select">
@@ -275,11 +276,13 @@
                     data-address-country-select
                     data-default="{{ form.country }}"
                     data-form-id="{{ form.id }}"
-                    autocomplete="country"
-                  >
+                    autocomplete="country">
                     {{ all_country_option_tags }}
                   </select>
-                  <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 10 6">
                     <use href="#icon-caret" />
                   </svg>
                 </div>
@@ -293,9 +296,11 @@
                     id="AddressProvince_{{ form.id }}"
                     name="address[province]"
                     data-default="{{ form.province }}"
-                    autocomplete="address-level1"
-                  ></select>
-                  <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                    autocomplete="address-level1"></select>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 10 6">
                     <use href="#icon-caret" />
                   </svg>
                 </div>
@@ -308,8 +313,7 @@
                   value="{{ form.zip }}"
                   autocapitalize="characters"
                   autocomplete="postal-code"
-                  placeholder="{{ 'customer.addresses.zip' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.zip' | t }}">
                 <label for="AddressZip_{{ form.id }}">{{ 'customer.addresses.zip' | t }}</label>
               </div>
               <div class="field">
@@ -319,8 +323,7 @@
                   name="address[phone]"
                   value="{{ form.phone }}"
                   autocomplete="tel"
-                  placeholder="{{ 'customer.addresses.phone' | t }}"
-                >
+                  placeholder="{{ 'customer.addresses.phone' | t }}">
                 <label for="AddressPhone_{{ form.id }}">{{ 'customer.addresses.phone' | t }}</label>
               </div>
               <div>
@@ -330,8 +333,10 @@
                 </label>
               </div>
               <div>
-                <button>{{ 'customer.addresses.update' | t }}</button>
-                <button type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+                <div class="bottom__wrapper">
+                  <button class="btn btn__primary">{{ 'customer.addresses.update' | t }}</button>
+                  <button class="btn btn__primary" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+                </div>
               </div>
             {%- endform -%}
           </div>
@@ -341,13 +346,23 @@
 
     {%- if paginate.pages > 1 -%}
       {%- if paginate.parts.size > 0 -%}
-        <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
+        <nav
+          class="pagination"
+          role="navigation"
+          aria-label="{{ 'general.pagination.label' | t }}">
           <ul role="list">
             {%- if paginate.previous -%}
               <li>
                 <a href="{{ paginate.previous.url }}" aria-label="{{ 'general.pagination.previous' | t }}">
-                  <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 10 6">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
                   </svg>
                 </a>
               </li>
@@ -374,8 +389,15 @@
             {%- if paginate.next -%}
               <li>
                 <a href="{{ paginate.next.url }}" aria-label="{{ 'general.pagination.next' | t }}">
-                  <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 10 6">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
                   </svg>
                 </a>
               </li>
@@ -394,33 +416,31 @@
 </script>
 
 {% schema %}
-{
-  "name": "t:sections.main-addresses.name",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
-  ]
-}
+  {
+    "name": "t:sections.main-addresses.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ]
+  }
 {% endschema %}

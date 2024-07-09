@@ -16,7 +16,35 @@
 {%- endstyle -%}
 
 <section class="home-hero">
-  {{ section.settings.video | video_tag: image_size: '1920x', id:'js-home-hero-video', loop: true, mute: false, autoplay: true }}
+  {% if section.settings.video != blank %}
+    {{ section.settings.video | video_tag: image_size: '1920x', id:'js-home-hero-video', loop: true, mute: false, autoplay: true }}
+    {% else %}
+    {% if section.settings.bg != blank %}
+      <picture>
+          {%- if section.settings.bg_mobile != blank -%}
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                {%- if section.settings.bg_mobile.width >= 375 -%}{{ section.settings.bg_mobile | image_url: width: 375 }} 375w,{%- endif -%}
+                {%- if section.settings.bg_mobile.width >= 550 -%}{{ section.settings.bg_mobile | image_url: width: 550 }} 550w,{%- endif -%}
+                {%- if section.settings.bg_mobile.width >= 750 -%}{{ section.settings.bg_mobile | image_url: width: 750 }} 750w,{%- endif -%}
+              "
+            >
+          {%- endif -%}
+        {{
+        section.settings.bg
+          | image_url: width: 3400
+          | image_tag:
+            width: imageWidth,
+            height: imageHeight,
+            class: '',
+            sizes: '100vw',
+            widths: '375, 550, 750, 1100, 1500, 1780',
+            alt: 'Banner image'
+        }}
+      </picture>
+    {% endif %}
+  {% endif %}
   <div class="home-hero__wrapper section-{{ section.id }}-padding page-width">
     {% if section.settings.title != blank %}
       <h1>{{ section.settings.title }}</h1>
@@ -45,6 +73,16 @@
       "id": "video",
       "label": "Video"
     },
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "Background Image Desktop"
+  },
+  {
+      "type": "image_picker",
+      "id": "bg_mobile",
+      "label": "Background Image Mobile"
+  },
     {
       "type": "text",
       "id": "title",

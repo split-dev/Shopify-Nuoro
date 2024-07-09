@@ -1,7 +1,18 @@
 {
   "sections": {
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "settings": {
+        "title": "Welcome back",
+        "header_item_1": "Your Sucriptions",
+        "header_url_1": "\/tools\/recurring\/get-subscription-access",
+        "header_item_2": "Orders",
+        "header_url_2": "#order",
+        "header_item_3": "Account",
+        "header_url_3": "#account",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [

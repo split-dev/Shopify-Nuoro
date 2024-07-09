@@ -70,10 +70,27 @@ html {
 .rc-enter-code-header,
 .rc-login--header-title {
     font-size: 21px !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important ;
 }
+div[data-rc-login-form-submit-btn-animation] {
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.rc-login-form-button, .rc-enter-code-btn {
+    height: 50px !important;
+}
+
 .rc-login-form-button {
     background-color: $c-orange !important;
     color: $c-text !important;
+}
+.kl-private-reset-css-Xuajs1 {
+    overflow: hidden;
 }
 #rich-text-119715547.kl-private-reset-css-Xuajs1,
 #rich-text-119715551.kl-private-reset-css-Xuajs1 {

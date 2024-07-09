@@ -31,6 +31,9 @@
             max-width: 100%;
             flex: 1;
         }
+        > p {
+            margin-top: 0 !important;
+        }
     }
     .info-center {
         margin: 0 auto;
@@ -80,9 +83,14 @@
             margin-top: 0px !important;
         }
         &__title {
+            margin-top: 0;
             margin-bottom: 77px;
             @include media-breakpoint-down(md) {
                 margin-bottom: 37px;
+            }
+            @media (max-height: 820px) and (min-width:  751px) {
+                margin-bottom: 37px;
+                font-size: 40px !important;
             }
         }
         &-button {

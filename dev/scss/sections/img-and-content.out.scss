@@ -83,15 +83,13 @@
             padding: 0;
             margin: 0 0 36px;
             @include media-breakpoint-down(md) {
-               width: 100%;
+               width: fit-content;
+               max-width: 290px;
             }
             li {
                 display: flex;
                 align-items: center;
                 margin-bottom: 8px;
-                @include media-breakpoint-down(md) {
-                   justify-content: center;
-                 }
             }
             svg {
                 margin-right: 12px;

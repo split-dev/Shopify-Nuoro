@@ -15,7 +15,7 @@
       "type": "header",
       "settings": {
         "button_label": "Commencez",
-        "button_url": "",
+        "button_url": "shopify:\/\/products\/nuoro",
         "mobile_login": "Mon Compte",
         "logo_position": "middle-center",
         "menu": "main-menu-1",

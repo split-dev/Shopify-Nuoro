@@ -14,9 +14,9 @@
       "settings": {
         "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
-        "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaboré pour optimiser votre santé et soutenir vos performances physiques et mentales.",
+        "text": "Nu.o.ro est une solution nutritionnelle optimale, scientifiquement élaborée pour optimiser votre santé et soutenir vos performances physiques et mentales.",
         "button_label": "Commencez Nu.o.ro",
-        "button_url": "",
+        "button_url": "#featured-product",
         "padding_top": 150,
         "padding_bottom": 40,
         "padding_top_mobile": 125,
@@ -86,7 +86,7 @@
         "subtitle": "",
         "text": "NU.O.RO est formulé pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne",
         "button_label": "Ingredients & Benefits",
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 70,
         "padding_bottom": 70,
         "padding_top_mobile": 45,
@@ -113,7 +113,7 @@
         "text_hdQH9c": {
           "type": "text",
           "settings": {
-            "title": "Sans Sucres ajouté",
+            "title": "Sans Sucre ajouté",
             "text": "Ni arômes, colorants ou conservateurs artificiels"
           }
         },
@@ -128,7 +128,7 @@
           "type": "text",
           "settings": {
             "title": "Recette constamment améliorée",
-            "text": "10eme itération"
+            "text": "10ème itération"
           }
         },
         "text_Xb9Dry": {
@@ -257,10 +257,10 @@
       ],
       "settings": {
         "title": "Exploitez votre plein potentiel",
-        "subtitle": "Quotidiennement Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
+        "subtitle": "Quotidiennement conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
         "image": "shopify:\/\/shop_images\/Group_21.svg",
         "button_label": "Ingredients & Benefits",
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 0,
         "padding_bottom": 30,
         "padding_top_mobile": 0,

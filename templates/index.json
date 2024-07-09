@@ -273,7 +273,7 @@
         "product_recharge_QGPLdq": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Le plus populaire",
+            "subscribe_subtitle": "2 mois minimum",
             "subscribe_title": "ABONNEMENT",
             "subscribe_list_item_1": "Abonnement Mensuel, envoyé tous les 30 jours",
             "subscribe_list_item_2": "Mettez en pause ou annulez à tout moment",

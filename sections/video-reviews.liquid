@@ -91,20 +91,43 @@
   document.addEventListener('DOMContentLoaded', function () {
     const videos = document.querySelectorAll('.js-video-reviews-video');
 
+    function handleVideoPlayback() {
+        if (window.innerWidth < 991) {
+            videos.forEach(video => {
+                video.play();
+            });
+        } else {
+            videos.forEach(video => {
+                video.pause();
+                video.currentTime = 0;
+            });
+        }
+    }
+
     if (videos.length > 0) {
         videos.forEach(video => {
             video.addEventListener('mouseover', function () {
-                video.play();
+                if (window.innerWidth >= 991) {
+                    video.play();
+                }
             });
 
             video.addEventListener('mouseout', function () {
-              video.pause();
-              video.currentTime = 0;
+                if (window.innerWidth >= 991) {
+                    video.pause();
+                    video.currentTime = 0;
+                }
             });
         });
+
+    
+        handleVideoPlayback();
+
+        window.addEventListener('resize', handleVideoPlayback);
     }
 });
 </script>
+
 
 {% schema %}
 {

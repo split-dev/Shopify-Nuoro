@@ -219,7 +219,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/d23e080f7772b1ec2f2732bd6045e710.jpg",
-            "title": "Fonction Cognitive²",
+            "title": "Fonction Cognitive³",
             "text": "Aiguisez votre esprit, améliorez votre concentration et libérez votre potentiel cognitif."
           }
         },
@@ -227,7 +227,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
-            "title": "Fonction Cardiaque³",
+            "title": "Fonction Cardiaque⁴",
             "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
           }
         },
@@ -235,7 +235,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg",
-            "title": "Santé <br>Peau et Cheveux",
+            "title": "Peau et Cheveux⁵",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
           }
         },
@@ -243,7 +243,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
-            "title": "Equilibre hormonal",
+            "title": "Activité hormonale⁶",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
           }
         }

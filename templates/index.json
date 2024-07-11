@@ -207,6 +207,14 @@
             "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
           }
         },
+        "text_GmfBLC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
+            "title": "Système Immunitaire²",
+            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
+          }
+        },
         "text_6dzmih": {
           "type": "text",
           "settings": {
@@ -219,16 +227,8 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
-            "title": "Santé Cardiovasculaire",
+            "title": "Fonction Cardiaque³",
             "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
-          }
-        },
-        "text_GmfBLC": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
-            "title": "Système Immunitaire²",
-            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
           }
         },
         "text_FY6ErV": {
@@ -250,9 +250,9 @@
       },
       "block_order": [
         "text_63z8pt",
+        "text_GmfBLC",
         "text_6dzmih",
         "text_BJnQxH",
-        "text_GmfBLC",
         "text_FY6ErV",
         "text_qMVzfQ"
       ],

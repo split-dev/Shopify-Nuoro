@@ -45,6 +45,12 @@
             "title": "Pro & Prebiotiques"
           }
         },
+        "text_rtNaRA": {
+          "type": "text",
+          "settings": {
+            "title": "Extraits de plantes"
+          }
+        },
         "text_tUWGkL": {
           "type": "text",
           "settings": {
@@ -55,12 +61,6 @@
           "type": "text",
           "settings": {
             "title": "Superaliments"
-          }
-        },
-        "text_rtNaRA": {
-          "type": "text",
-          "settings": {
-            "title": "Champignons Fonctionnels"
           }
         },
         "text_6VN6QL": {
@@ -74,9 +74,9 @@
         "text_bBnMM4",
         "text_YXCM86",
         "text_JDAdfR",
+        "text_rtNaRA",
         "text_tUWGkL",
         "text_EzanTX",
-        "text_rtNaRA",
         "text_6VN6QL"
       ],
       "settings": {

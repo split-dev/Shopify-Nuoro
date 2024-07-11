@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "home_hero_CF9PjB": {
@@ -194,7 +203,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/eac909bb0d7e85d9c96114aed5187d72.jpg",
-            "title": "Métabolisme Énergétique",
+            "title": "Métabolisme Énergétique¹",
             "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
           }
         },
@@ -202,7 +211,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/d23e080f7772b1ec2f2732bd6045e710.jpg",
-            "title": "Performances Mentales",
+            "title": "Performances Mentales²",
             "text": "Aiguisez votre esprit, améliorez votre concentration et libérez votre potentiel cognitif."
           }
         },
@@ -218,7 +227,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
-            "title": "Défenses Immunitaires",
+            "title": "Système Immunitaire²",
             "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
           }
         },

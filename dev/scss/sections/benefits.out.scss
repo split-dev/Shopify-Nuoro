@@ -9,6 +9,9 @@
             flex: 0 1 48%;
             .description {
                 max-width: 100%;
+                p {
+                    margin-top: 6px;
+                }
             }
         }
     }
@@ -39,6 +42,9 @@
             .description {
                 margin: 0;
                 max-width: 380px;
+                p {
+                    margin-top: 6px;
+                }
             }
             & h4 {
                 margin: 0;

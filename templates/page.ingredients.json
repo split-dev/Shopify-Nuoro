@@ -44,16 +44,16 @@
           "type": "text",
           "settings": {
             "title": "01",
-            "heading": "Énergie et Vitalité",
-            "text": "<p>Enrichis en spiruline et chlorelle, NU.O.RO augmente la vitalité et le tonus, idéals pour lutter contre la fatigue et revitaliser le corps.<\/p>"
+            "heading": "Métabolisme Énergétique",
+            "text": "<p>La vitamine C, le magnésium et le fer, contribuent à un métabolisme énergétique normal.<\/p>"
           }
         },
         "text_wECiRA": {
           "type": "text",
           "settings": {
             "title": "02",
-            "heading": "Soutien Immunitaire",
-            "text": "<p>Grâce à des ingrédients comme l'extrait d'échinacée et les vitamines C et D, notre formule renforce le système immunitaire, améliorant ainsi vos défenses naturelles.<\/p>"
+            "heading": "Système Immunitaire",
+            "text": "<p>La vitamine C, le sélénium et le zinc, contribuent au fonctionnement normal du système immunitaire.<\/p>"
           }
         },
         "text_w3QQBr": {
@@ -61,23 +61,39 @@
           "settings": {
             "title": "03",
             "heading": "Fonction Cognitive",
-            "text": "<p>Avec des composants tels que le ginseng et la bacopa, NU.O.RO aide à maintenir une fonction cognitive normale, soutenant la mémoire et les performances mentales.<\/p>"
+            "text": "<p>Le fer, le zinc, et l'iode contribuent à une fonction cognitive normale.<\/p>"
           }
         },
         "text_WajaTn": {
           "type": "text",
           "settings": {
             "title": "04",
-            "heading": "Santé Cardiovasculaire",
-            "text": "<p>Les extraits de hawthorn et d'artichaut contribuent au bon fonctionnement cardiovasculaire, favorisant une circulation sanguine saine et soutenant le cœur.<\/p>"
+            "heading": "Stress Oxydatif",
+            "text": "<p>La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif.<\/p>"
           }
         },
         "text_HQqdaU": {
           "type": "text",
           "settings": {
             "title": "05",
-            "heading": "Santé de la Peau, des Cheveux et des Ongles",
-            "text": "<p>Riches en biotine, zinc, cuivre et collagène notre formule aide à maintenir la santé de la peau, des cheveux et des ongles, tout en améliorant la pigmentation naturelle.<\/p>"
+            "heading": "Peau et Cheveux",
+            "text": "<p>Le zinc et la biotine, contribuent au maintien d'une peau et de cheveux normaux.<\/p>"
+          }
+        },
+        "text_3gBPEP": {
+          "type": "text",
+          "settings": {
+            "title": "06",
+            "heading": "Activité Hormonale",
+            "text": "<p>La vitamine B6 contribue à réguler l'activité hormonale.<\/p>"
+          }
+        },
+        "text_6akWmA": {
+          "type": "text",
+          "settings": {
+            "title": "08",
+            "heading": "Métabolisme Digestif",
+            "text": "<p>La Chlorelle favorise et aide le métabolisme digestif.<\/p>"
           }
         },
         "text_WdtxA4": {
@@ -96,22 +112,6 @@
             "text": "<p>L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse.<\/p>"
           }
         },
-        "text_6akWmA": {
-          "type": "text",
-          "settings": {
-            "title": "08",
-            "heading": "Métabolisme Énergétique",
-            "text": "<p>Les nutriments tels que le fer et le chrome contribuent au bon fonctionnement métabolique, aidant votre corps à convertir les aliments en énergie.<\/p>"
-          }
-        },
-        "text_3gBPEP": {
-          "type": "text",
-          "settings": {
-            "title": "09",
-            "heading": "Équilibre Hormonal",
-            "text": "<p>Avec des éléments comme l'acide pantothénique et la vitamine B6, NU.O.RO aide à réguler l'activité hormonale, favorisant un équilibre hormonal sain.<\/p>"
-          }
-        },
         "text_k9TQw4": {
           "type": "text",
           "settings": {
@@ -127,10 +127,10 @@
         "text_w3QQBr",
         "text_WajaTn",
         "text_HQqdaU",
+        "text_3gBPEP",
+        "text_6akWmA",
         "text_WdtxA4",
         "text_3T8RMn",
-        "text_6akWmA",
-        "text_3gBPEP",
         "text_k9TQw4"
       ],
       "settings": {

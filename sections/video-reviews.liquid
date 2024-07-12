@@ -59,7 +59,7 @@
 
 <script>
   var videoRewiesSlider = new Swiper('.js-video-reviews-slider-init-{{ section.index }}', {
-    slidesPerView: 2,
+    slidesPerView: 1.7,
     freeMode: false,
     centeredSlides: true,
     loop: true,
@@ -70,6 +70,11 @@
       type: "fraction",
     },
     breakpoints: {
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 33,
+
+        },
         575: {
             slidesPerView: 2.6,
             spaceBetween: 33,

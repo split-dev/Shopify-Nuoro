@@ -32,6 +32,10 @@ html {
 .align-items-end      { align-items: flex-end !important; }
 .align-items-center   { align-items: center !important; }
 
+.c-text {
+    color: $c-text !important;
+} 
+
 .text-left {
     text-align: left !important;
 }

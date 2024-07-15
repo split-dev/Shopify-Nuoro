@@ -91,7 +91,7 @@
         "text_6akWmA": {
           "type": "text",
           "settings": {
-            "title": "07",
+            "title": "08",
             "heading": "Métabolisme Digestif",
             "text": "<p>La Chlorelle favorise et aide le métabolisme digestif.<\/p>"
           }
@@ -99,7 +99,7 @@
         "text_WdtxA4": {
           "type": "text",
           "settings": {
-            "title": "08",
+            "title": "06",
             "heading": "Muscles et Os Sains",
             "text": "<p>Nos formulations incluent calcium, magnésium, et vitamine D pour le soutien musculaire et le maintien d'une ossature normale, essentiels pour une fonction musculaire optimale.<\/p>"
           }
@@ -107,7 +107,7 @@
         "text_3T8RMn": {
           "type": "text",
           "settings": {
-            "title": "09",
+            "title": "07",
             "heading": "Système Nerveux",
             "text": "<p>L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse.<\/p>"
           }
@@ -165,11 +165,25 @@
             "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
           }
         },
+        "text_jUYLfr": {
+          "type": "text",
+          "settings": {
+            "title": "Superaliments",
+            "text": ""
+          }
+        },
         "text_UHkBHB": {
           "type": "text",
           "settings": {
-            "title": "Superfoods et Extraits de Plantes",
+            "title": "Extraits de Plantes",
             "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+          }
+        },
+        "text_wmGEQE": {
+          "type": "text",
+          "settings": {
+            "title": "Adaptogènes",
+            "text": ""
           }
         },
         "text_9nE9en": {
@@ -184,7 +198,9 @@
         "text_gdJYHc",
         "text_NHXxpw",
         "text_3GhTDy",
+        "text_jUYLfr",
         "text_UHkBHB",
+        "text_wmGEQE",
         "text_9nE9en"
       ],
       "settings": {

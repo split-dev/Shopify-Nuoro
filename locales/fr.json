@@ -117,9 +117,9 @@
   },
   "products": {
     "product": {
-      "select": "Select",
-      "selected": "Selected",
-      "add_to_cart": "Checkout",
+      "select": "Choisir",
+      "selected": "Séléctionné",
+      "add_to_cart": "Passer Commande",
       "description": "Description",
       "on_sale": "En vente",
       "product_variants": "Variantes de produits",

@@ -37,6 +37,78 @@
         "padding_bottom_mobile": 80
       }
     },
+    "faq_home_xiKfpw": {
+      "type": "faq-home",
+      "blocks": {
+        "text_gdJYHc": {
+          "type": "text",
+          "settings": {
+            "title": "Probiotiques et Prébiotiques",
+            "text": "<p><strong>Inuline<\/strong><\/p><p>Un prébiotique qui favorise la santé intestinale en stimulant la croissance des bactéries bénéfiques.<\/p><p><strong>Bifidobacterium bifidum BB01<\/strong><\/p><p>Un probiotique qui aide à maintenir une flore intestinale saine.<\/p><p><strong>Lactobacillus acidophilus LA02:<\/strong><\/p><p>Probiotique qui soutient la digestion et l'immunité.<\/p>"
+          }
+        },
+        "text_NHXxpw": {
+          "type": "text",
+          "settings": {
+            "title": "Vitamines",
+            "text": "<p><strong>Vitamine C<\/strong><\/p><p>Extrait d'acérola, Extrait d'églantier): Essentielle pour la santé immunitaire et la synthèse de collagène.<\/p><p><strong>Vitamine D<\/strong><\/p><p>Cholécalciférol): Cruciale pour la santé des os et le fonctionnement du système immunitaire.<\/p><p><strong>Vitamine E<\/strong><\/p><p>Alpha-tocophérol: Un puissant antioxydant qui protège les cellules contre le stress oxydatif.<\/p><p><strong>Vitamines B<\/strong><\/p><ul><li><strong>Vitamine B1<\/strong><\/li><li>Thiamine, Mononitrate de thiamine: Joue un rôle crucial dans le métabolisme énergétique.<\/li><li><strong>Vitamine B2<\/strong><\/li><li>Riboflavine, Riboflavine 5'-phosphate de sodium: Importante pour la production d'énergie et le métabolisme du fer.<\/li><li><strong>Vitamine B6<\/strong><\/li><li>Pyridoxine: Essentielle pour le métabolisme des protéines et la production de neurotransmetteurs.<\/li><li><strong>Vitamine B12<\/strong><\/li><li>Cyanocobalamine: Nécessaire pour la production de globules rouges et le fonctionnement du système nerveux.<\/li><\/ul><p><strong>Vitamine A<\/strong><\/p><p>(Bêta-carotène): Vital pour la santé visuelle et la régulation du système immunitaire.<\/p><p><strong>Niacine<\/strong><\/p><p>(Amide d'acide nicotinique): Aide à maintenir la santé de la peau et du système nerveux.<\/p><p><strong>Acide Folique<\/strong><\/p><p>(Sel de glucosamine de l'acide 5-méthyltétrahydrofolique): Important pour la synthèse de l'ADN.<\/p><p><strong>Vitamine K<\/strong><\/p><p>(Méthaquinone 7): Joue un rôle clé dans la coagulation du sang et la santé osseuse.<\/p><p><strong>Biotine<\/strong><\/p><p>(D-biotine): Soutient la santé des cheveux, de la peau et des ongles.<\/p><p><strong>Acide Pantothénique<\/strong><\/p><p>(D-pantothénate de calcium): Crucial pour le métabolisme des lipides, des protéines et des glucides.<\/p>"
+          }
+        },
+        "text_3GhTDy": {
+          "type": "text",
+          "settings": {
+            "title": "Minéraux",
+            "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+          }
+        },
+        "text_jUYLfr": {
+          "type": "text",
+          "settings": {
+            "title": "Superaliments",
+            "text": ""
+          }
+        },
+        "text_UHkBHB": {
+          "type": "text",
+          "settings": {
+            "title": "Extraits de Plantes",
+            "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+          }
+        },
+        "text_wmGEQE": {
+          "type": "text",
+          "settings": {
+            "title": "Adaptogènes",
+            "text": ""
+          }
+        },
+        "text_9nE9en": {
+          "type": "text",
+          "settings": {
+            "title": "Autres Ingrédients Fonctionnels",
+            "text": "<p>5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_gdJYHc",
+        "text_NHXxpw",
+        "text_3GhTDy",
+        "text_jUYLfr",
+        "text_UHkBHB",
+        "text_wmGEQE",
+        "text_9nE9en"
+      ],
+      "settings": {
+        "title": "ingredients",
+        "button_label": "Download the full supplement facts",
+        "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0811\/8229\/4348\/files\/2024-06-27_14.21.17.png?v=1719562210",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 45
+      }
+    },
     "benefits_3feYe9": {
       "type": "benefits",
       "blocks": {
@@ -138,86 +210,14 @@
         "padding_top": 0,
         "padding_bottom": 80,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 100
-      }
-    },
-    "faq_home_xiKfpw": {
-      "type": "faq-home",
-      "blocks": {
-        "text_gdJYHc": {
-          "type": "text",
-          "settings": {
-            "title": "Probiotiques et Prébiotiques",
-            "text": "<p><strong>Inuline<\/strong><\/p><p>Un prébiotique qui favorise la santé intestinale en stimulant la croissance des bactéries bénéfiques.<\/p><p><strong>Bifidobacterium bifidum BB01<\/strong><\/p><p>Un probiotique qui aide à maintenir une flore intestinale saine.<\/p><p><strong>Lactobacillus acidophilus LA02:<\/strong><\/p><p>Probiotique qui soutient la digestion et l'immunité.<\/p>"
-          }
-        },
-        "text_NHXxpw": {
-          "type": "text",
-          "settings": {
-            "title": "Vitamines",
-            "text": "<p><strong>Vitamine C<\/strong><\/p><p>Extrait d'acérola, Extrait d'églantier): Essentielle pour la santé immunitaire et la synthèse de collagène.<\/p><p><strong>Vitamine D<\/strong><\/p><p>Cholécalciférol): Cruciale pour la santé des os et le fonctionnement du système immunitaire.<\/p><p><strong>Vitamine E<\/strong><\/p><p>Alpha-tocophérol: Un puissant antioxydant qui protège les cellules contre le stress oxydatif.<\/p><p><strong>Vitamines B<\/strong><\/p><ul><li><strong>Vitamine B1<\/strong><\/li><li>Thiamine, Mononitrate de thiamine: Joue un rôle crucial dans le métabolisme énergétique.<\/li><li><strong>Vitamine B2<\/strong><\/li><li>Riboflavine, Riboflavine 5'-phosphate de sodium: Importante pour la production d'énergie et le métabolisme du fer.<\/li><li><strong>Vitamine B6<\/strong><\/li><li>Pyridoxine: Essentielle pour le métabolisme des protéines et la production de neurotransmetteurs.<\/li><li><strong>Vitamine B12<\/strong><\/li><li>Cyanocobalamine: Nécessaire pour la production de globules rouges et le fonctionnement du système nerveux.<\/li><\/ul><p><strong>Vitamine A<\/strong><\/p><p>(Bêta-carotène): Vital pour la santé visuelle et la régulation du système immunitaire.<\/p><p><strong>Niacine<\/strong><\/p><p>(Amide d'acide nicotinique): Aide à maintenir la santé de la peau et du système nerveux.<\/p><p><strong>Acide Folique<\/strong><\/p><p>(Sel de glucosamine de l'acide 5-méthyltétrahydrofolique): Important pour la synthèse de l'ADN.<\/p><p><strong>Vitamine K<\/strong><\/p><p>(Méthaquinone 7): Joue un rôle clé dans la coagulation du sang et la santé osseuse.<\/p><p><strong>Biotine<\/strong><\/p><p>(D-biotine): Soutient la santé des cheveux, de la peau et des ongles.<\/p><p><strong>Acide Pantothénique<\/strong><\/p><p>(D-pantothénate de calcium): Crucial pour le métabolisme des lipides, des protéines et des glucides.<\/p>"
-          }
-        },
-        "text_3GhTDy": {
-          "type": "text",
-          "settings": {
-            "title": "Minéraux",
-            "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        },
-        "text_jUYLfr": {
-          "type": "text",
-          "settings": {
-            "title": "Superaliments",
-            "text": ""
-          }
-        },
-        "text_UHkBHB": {
-          "type": "text",
-          "settings": {
-            "title": "Extraits de Plantes",
-            "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        },
-        "text_wmGEQE": {
-          "type": "text",
-          "settings": {
-            "title": "Adaptogènes",
-            "text": ""
-          }
-        },
-        "text_9nE9en": {
-          "type": "text",
-          "settings": {
-            "title": "Autres Ingrédients Fonctionnels",
-            "text": "<p>5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_gdJYHc",
-        "text_NHXxpw",
-        "text_3GhTDy",
-        "text_jUYLfr",
-        "text_UHkBHB",
-        "text_wmGEQE",
-        "text_9nE9en"
-      ],
-      "settings": {
-        "title": "ingredients",
-        "button_label": "Download the full supplement facts",
-        "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0811\/8229\/4348\/files\/2024-06-27_14.21.17.png?v=1719562210",
-        "padding_top": 0,
-        "padding_bottom": 200,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 115
+        "padding_bottom_mobile": 80
       }
     }
   },
   "order": [
     "page_title_eWBP8a",
     "img_and_content_atRwY9",
-    "benefits_3feYe9",
-    "faq_home_xiKfpw"
+    "faq_home_xiKfpw",
+    "benefits_3feYe9"
   ]
 }

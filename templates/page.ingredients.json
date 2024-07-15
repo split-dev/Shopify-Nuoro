@@ -61,18 +61,25 @@
             "text": "<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
           }
         },
-        "text_jUYLfr": {
-          "type": "text",
-          "settings": {
-            "title": "Superaliments",
-            "text": ""
-          }
-        },
         "text_UHkBHB": {
           "type": "text",
           "settings": {
             "title": "Extraits de Plantes",
             "text": "<p>4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tempore quisquam magnam veritatis nisi enim amet fuga necessitatibus ut, reprehenderit in doloremque autem natus impedit maiores temporibus aperiam, suscipit excepturi?<\/p>"
+          }
+        },
+        "text_FLJdfy": {
+          "type": "text",
+          "settings": {
+            "title": "Antioxydants",
+            "text": ""
+          }
+        },
+        "text_jUYLfr": {
+          "type": "text",
+          "settings": {
+            "title": "Superaliments",
+            "text": ""
           }
         },
         "text_wmGEQE": {
@@ -94,8 +101,9 @@
         "text_gdJYHc",
         "text_NHXxpw",
         "text_3GhTDy",
-        "text_jUYLfr",
         "text_UHkBHB",
+        "text_FLJdfy",
+        "text_jUYLfr",
         "text_wmGEQE",
         "text_9nE9en"
       ],

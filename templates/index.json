@@ -142,7 +142,7 @@
         "enable_video_looping": false,
         "padding_top": 45,
         "padding_bottom": 0,
-        "padding_top_mobile": 35,
+        "padding_top_mobile": 45,
         "padding_bottom_mobile": 0
       }
     },

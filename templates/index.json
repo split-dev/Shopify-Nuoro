@@ -68,6 +68,12 @@
           "settings": {
             "title": "Collagène"
           }
+        },
+        "text_6TGWJU": {
+          "type": "text",
+          "settings": {
+            "title": "Adaptogènes"
+          }
         }
       },
       "block_order": [
@@ -77,7 +83,8 @@
         "text_rtNaRA",
         "text_tUWGkL",
         "text_EzanTX",
-        "text_6VN6QL"
+        "text_6VN6QL",
+        "text_6TGWJU"
       ],
       "settings": {
         "revers": false,

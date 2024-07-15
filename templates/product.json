@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -6,17 +15,17 @@
         "product_recharge_DtLgtE": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Le plus populaire",
+            "subscribe_subtitle": "2 mois minimum",
             "subscribe_title": "ABONNEMENT",
             "subscribe_list_item_1": "Abonnement Mensuel, envoyé tous les 30 jours",
             "subscribe_list_item_2": "Mettez en pause ou annulez à tout moment",
-            "subscribe_list_item_3": "Shaker Nu.o.ro offert",
+            "subscribe_list_item_3": "Shaker NU.O.RO offert",
             "subscribe_list_item_4": "Économisez 20€\/mois",
             "subscribe_bottom_text": "Livraison gratuite",
             "one_time_subtitle": "",
             "one_time_title": "ESSAYER UNE FOIS",
             "one_time_list_item_1": "Achat unique de 30 portions",
-            "one_time_list_item_2": "Shaker Nu.o.ro offert",
+            "one_time_list_item_2": "Shaker NU.O.RO offert",
             "one_time_list_item_3": "",
             "one_time_list_item_4": "",
             "one_time_bottom_text": "Livraison gratuite"

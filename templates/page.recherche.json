@@ -79,7 +79,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/team_1.jpg",
             "name": "Jacek Sidzina",
-            "position": "Directeur de l'innovation",
+            "position": "Directeur de l'innovation<br> Expert en Micronutrition",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/team_2.jpg",
             "name": "Sebastian Galka",
-            "position": "Directeur R&D <br> Biologiste",
+            "position": "Directeur R&D  <br>Docteur en Biologie Humaine",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",

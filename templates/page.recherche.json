@@ -79,7 +79,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/team_1.jpg",
             "name": "Jacek Sidzina",
-            "position": "Innovateur technologique <br> Directeur de l’innovation ",
+            "position": "Directeur de l'innovation",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/team_2.jpg",
             "name": "Sebastian Galka",
-            "position": "Biologiste <br>Directeur de la R&D",
+            "position": "Directeur R&D <br> Biologiste",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/team_3.png",
             "name": "Dr. Patrick Mena",
-            "position": "Médecin Chercheur  Directeur Médical",
+            "position": "Directeur Médical <br>Médecin Chercheur",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -114,32 +114,8 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/team_4.jpg",
-            "name": "Name Surname",
-            "position": "Position",
-            "instagram_link": "#",
-            "instagram_title": "Instagram",
-            "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
-          }
-        },
-        "text_UXmnqN": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team_5.png",
-            "name": "Name Surname",
-            "position": "Position",
-            "instagram_link": "#",
-            "instagram_title": "Instagram",
-            "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
-          }
-        },
-        "text_XhppkT": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team_6.jpg",
-            "name": "Name Surname",
-            "position": "Position",
+            "name": "Dr. Annick Mena",
+            "position": "Directeur Santé Hormonale et Métabolique <br>Médecin Endocrinologue",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -151,9 +127,7 @@
         "text_DdwUPy",
         "text_pTaRx7",
         "text_ggRMjp",
-        "text_iWXtfd",
-        "text_UXmnqN",
-        "text_XhppkT"
+        "text_iWXtfd"
       ],
       "settings": {
         "title": "our research team",

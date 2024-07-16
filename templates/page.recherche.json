@@ -78,8 +78,8 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/team_1.jpg",
-            "name": "Name Surname",
-            "position": "Position",
+            "name": "Jacek Sidzina",
+            "position": "Innovateur technologique <br> Directeur de l’innovation ",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -90,8 +90,8 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/team_2.jpg",
-            "name": "Name Surname",
-            "position": "Position",
+            "name": "Sebastian Galka",
+            "position": "Biologiste <br>Directeur de la R&D",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",
@@ -102,8 +102,8 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/team_3.png",
-            "name": "Name Surname",
-            "position": "Position",
+            "name": "Dr. Patrick Mena",
+            "position": "Médecin Chercheur  Directeur Médical",
             "instagram_link": "#",
             "instagram_title": "Instagram",
             "linkedin_link": "#",

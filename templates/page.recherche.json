@@ -112,6 +112,7 @@
         },
         "text_iWXtfd": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/team_4.jpg",
             "name": "Dr. Annick Mena",

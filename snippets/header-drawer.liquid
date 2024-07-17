@@ -279,17 +279,17 @@
 
 <script>
 
-// Находим элементы
+
 const menuClose = document.querySelector('.js-menu-close');
 const menuTrigger = document.querySelector('.js-menu-triger');
 const menuDrawer = document.getElementById('menu-drawer');
 const menuWrapper = document.querySelector('.js-menu-wrapper');
 
-// Проверяем, что элементы существуют на странице
+
 if (menuClose && menuTrigger) {
-  // Добавляем обработчик события на элемент js-menu-close
+ 
   menuClose.addEventListener('click', function() {
-    // Имитируем клик на элементе js-menu-triger
+
     menuTrigger.click();
   });
 }

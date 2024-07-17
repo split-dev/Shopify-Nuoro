@@ -25,7 +25,7 @@
     "featured_blog_cLDP4G": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Articles",
         "heading_size": "h1",
         "blog": "",
         "post_limit": 3,

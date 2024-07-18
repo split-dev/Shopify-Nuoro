@@ -1,19 +1,10 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "home_hero_CF9PjB": {
       "type": "home-hero",
       "settings": {
         "bg": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash.jpg",
-        "bg_mobile": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash.jpg",
+        "bg_mobile": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
         "text": "Nuoro est une solution nutritionnelle optimale, scientifiquement élaborée pour optimiser votre santé et soutenir vos performances physiques et mentales.",
         "button_label": "Commencez NU.O.RO",

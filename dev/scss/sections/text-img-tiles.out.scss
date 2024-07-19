@@ -114,6 +114,14 @@
         svg {
             margin-bottom: 18px;
         }
+        h4 {
+            @include media-breakpoint-down(md) {
+                font-size: 26px !important;
+            }
+            @media (max-width: 375px) {
+                font-size: 22px !important;
+            }
+        }
     }
     &__button {
         margin-top: 50px;

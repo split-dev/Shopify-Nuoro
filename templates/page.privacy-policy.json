@@ -1,8 +1,21 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "faq_home_KTeCni": {
       "type": "faq-home",
@@ -10,8 +23,8 @@
         "text_XJ7n7w": {
           "type": "text",
           "settings": {
-            "title": "Privacy Policy",
-            "text": "<p>Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal information when you use our website.<\/p><p>Information We Collect:<\/p><ul><li>Personal information you provide to us, such as your name, email address, and contact details<\/li><li>Information collected automatically, such as your IP address, browser type, and device identifiers.<\/li><li>Cookies and similar tracking technologies used to analyze website usage and personalize content and ads.<\/li><\/ul><p>How We Use Your Information:<\/p><ul><li>To provide and improve our products and services.<\/li><li>To communicate with you about updates, promotions, and other relevant information.<\/li><li>To analyze website usage and trends, and to personalize content and advertisements.<\/li><li>To comply with legal obligations and protect our rights and interests.<\/li><\/ul><p>Data Security: We implement appropriate technical and organizational measures to safeguard your personal information against unauthorized access, disclosure, alteration, and destruction.Your Rights: You have the right to access, update, or delete your personal information at any time. You may also opt-out of receiving promotional communications from us.By using our website, you consent to the collection and use of your information as described in this Privacy Policy. If you have any questions or concerns about our privacy practices, please contact us.<\/p>"
+            "title": "Politique de confidentialité",
+            "text": "<p><strong>Politique de Confidentialité de NU.O.RO SASU:<\/strong><\/p><p>Chez NU.O.RO, nous accordons une grande importance à la confidentialité de nos clients. Cette politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos informations personnelles.<\/p><p><br\/><\/p><p><strong>1. Informations que nous collectons<\/strong><\/p><p>Nous collectons les informations suivantes :<\/p><p> • <strong>Informations personnelles<\/strong> : nom, adresse, email, téléphone<\/p><p> • <strong>Informations financières<\/strong> : détails de paiement, numéros de carte de crédit<\/p><p> • <strong>Informations sur la navigation<\/strong> : cookies, adresses IP<\/p><p><br\/><\/p><p><strong>2. Méthodes de collecte des données<\/strong><\/p><p>Nous collectons vos données lorsque :<\/p><p> • Vous remplissez des formulaires en ligne<\/p><p> • Vous effectuez des achats sur notre site<\/p><p> • Vous utilisez notre site web (via les cookies)<\/p><p><br\/><\/p><p><strong>3. Utilisation des données collectées<\/strong><\/p><p>Nous utilisons vos données pour :<\/p><p> • Traiter vos commandes<\/p><p> • Améliorer nos services<\/p><p> • Vous envoyer des informations marketing (avec votre consentement)<\/p><p><br\/><\/p><p><strong>4. Partage des données<\/strong><\/p><p>Nous partageons vos données avec :<\/p><p> • Nos partenaires de livraison<\/p><p> • Nos services de paiement (Shopify Pay, PayPal)<\/p><p> • Notre application de gestion des abonnements (Recharge App)<\/p><p> • Nos partenaires de logistique<\/p><p><br\/><\/p><p><strong>5. Protection des données<\/strong><\/p><p>Nous mettons en place des mesures de sécurité pour protéger vos données, notamment :<\/p><p> • Utilisation de protocoles de sécurité SSL pour sécuriser les transactions<\/p><p> • Stockage sécurisé des informations financières<\/p><p> • Accès limité aux informations personnelles aux seuls employés autorisés<\/p><p><br\/><\/p><p><strong>6. Droits des utilisateurs<\/strong><\/p><p>Vous avez le droit de :<\/p><p> • Accéder à vos données<\/p><p> • Modifier vos données<\/p><p> • Demander la suppression de vos données<\/p><p><br\/><\/p><p>Pour exercer ces droits, veuillez nous contacter à hello@drinknuoro.com.<\/p><p><br\/><\/p><p><strong>7. Durée de conservation des données<\/strong><\/p><p>Nous conservons vos données pendant la durée nécessaire pour remplir les objectifs décrits dans cette politique de confidentialité, sauf si une période de conservation plus longue est requise ou permise par la loi.<\/p><p><br\/><\/p><p><strong>8. Politique de cookies<\/strong><\/p><p>Nous utilisons des cookies pour :<\/p><p> • Améliorer votre expérience de navigation sur notre site<\/p><p> • Analyser l’utilisation de notre site web<\/p><p> • Personnaliser le contenu et les publicités<\/p><p>Nous utilisons un bandeau de consentement pour les cookies CMP afin de vous informer et de recueillir votre consentement pour l’utilisation des cookies.<\/p><p><br\/><\/p><p><strong>9. Gestion des abonnements<\/strong><\/p><p>Nos abonnements sont gérés par l’application “Recharge App”. Les abonnements sont flexibles, avec un engagement de deux mois minimum. Après ces deux mois, vous pouvez annuler ou mettre en pause votre abonnement à tout moment.<\/p><p><br\/><\/p><p><strong>10. Modifications de la politique de confidentialité<\/strong><\/p><p>Nous nous réservons le droit de modifier cette politique de confidentialité. Toute modification sera publiée sur cette page et prendra effet immédiatement après la publication.<\/p><p><br\/><\/p><p><strong>11. Contact<\/strong><\/p><p>Pour toute question concernant cette politique de confidentialité, veuillez nous contacter à :<\/p><p> • <strong>Adresse<\/strong> : 229 rue Saint-Honoré, 75001 Paris<\/p><p> • <strong>Email<\/strong> : hello@drinknuoro.com<\/p>"
           }
         },
         "text_XqT7KL": {
@@ -42,4 +55,3 @@
     "faq_home_KTeCni"
   ]
 }
-

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "home_hero_CF9PjB": {
@@ -59,6 +68,12 @@
           "settings": {
             "title": "Adaptogènes"
           }
+        },
+        "text_j4kFiY": {
+          "type": "text",
+          "settings": {
+            "title": "Électrolytes"
+          }
         }
       },
       "block_order": [
@@ -68,7 +83,8 @@
         "text_rtNaRA",
         "text_tUWGkL",
         "text_EzanTX",
-        "text_6TGWJU"
+        "text_6TGWJU",
+        "text_j4kFiY"
       ],
       "settings": {
         "revers": false,
@@ -130,7 +146,7 @@
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": false,
-        "enable_video_looping": true,
+        "enable_video_looping": false,
         "padding_top": 45,
         "padding_bottom": 0,
         "padding_top_mobile": 45,
@@ -456,7 +472,7 @@
           "type": "text",
           "settings": {
             "title": "Quel goût a NU.O.RO ?",
-            "text": "<p>Les adeptes de NU.O.RO louent son goût agréable et sain, et nous avons passé des mois à perfectionner sa saveur mais ne nous méprenons  pas, NUORO n'a pas vocation à être délicieux, il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l'ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs. Aucun compromis.<\/p>"
+            "text": "<p>Les adeptes de NU.O.RO louent son goût agréable et sain, et nous avons passé des mois à perfectionner sa saveur. Mais ne nous méprenons  pas, NUORO n'a pas vocation à être délicieux, il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l'ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs. Aucun compromis. <\/p>"
           }
         },
         "text_wJfUdG": {
@@ -470,21 +486,21 @@
           "type": "text",
           "settings": {
             "title": "Quels produits NU.O.RO remplace-t-il ?",
-            "text": "<p>Une dose quotidienne de NU.O.RO élimine le besoin d'autres compléments tels qu'un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, colagène,<strong> <\/strong>adaptogènes, enzymes digestives, prébiotiques, probiotiques et synbiotiques. Vous pouvez compter sur l'efficacité de NU.O.RO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<\/p>"
+            "text": "<p>Une dose quotidienne de NU.O.RO élimine le besoin d'autres compléments tels qu'un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures,<strong> <\/strong>adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes. Vous pouvez compter sur l'efficacité de NU.O.RO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<\/p>"
           }
         },
         "text_rbj4JL": {
           "type": "text",
           "settings": {
             "title": "Quelles mesures prenez-vous pour garantir la qualité de NU.O.RO?",
-            "text": "<p>NU.O.RO adopte une approche sans compromis en matière de formulation et de qualité du produit. NU.O.RO est fabriqué dans un établissement <strong>certifié GMP (Good Manufacturing Practice)<\/strong>, et en conformité avec le standard ISO 22000. Nous conservons des dossiers complets de fabrication pour chaque lot, ce qui signifie que tous les produits finis sont 100% traçables pour les tests analytiques et microbiologiques. Nous réalisons des audits rigoureux indépendants  de notre installation de fabrication, ainsi que des revues toxicologiques qui vérifient la formulation du produit, les allégations sur les étiquettes et préviennent les niveaux dangereux de contaminants.<\/p>"
+            "text": "<p>Chez NU.O.RO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité. NU.O.RO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.<\/p>"
           }
         },
         "text_zNaVKF": {
           "type": "text",
           "settings": {
             "title": "Comment prendre NU.O.RO ?",
-            "text": "<p>NU.O.RO se dilue très bien avec de l'eau froide. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l'ajouter à du lait d'avoine. Il existe une poignée de façons d'intégrer NU.O.RO dans votre journée. N'oubliez pas, pour maximiser les effets, il est recommandé de consommer NU.O.RO à jeun, 15 minutes avant son premier repas de la journée. <\/p>"
+            "text": "<p>NU.O.RO se dilue très bien avec de l'eau fraiche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l'ajouter à du lait d'avoine. Il existe une poignée de façons d'intégrer NU.O.RO dans votre journée. N'oubliez pas, pour maximiser les effets, il est recommandé de consommer NU.O.RO à jeun, 15 minutes avant son premier repas de la journée. <\/p>"
           }
         }
       },

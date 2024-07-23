@@ -106,3 +106,11 @@ div[data-rc-login-form-submit-btn-animation] {
         font-size: 40px !important;
     }
 }
+.deferred-media.media {
+    video {
+        object-fit: cover !important;
+    }
+}
+.product__media-icon.motion-reduce {
+    display: none !important;
+}

@@ -2,7 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true
+      "disabled": true,
+      "settings": {
+      }
     },
     "faq_home_KTeCni": {
       "type": "faq-home",
@@ -42,4 +44,3 @@
     "faq_home_KTeCni"
   ]
 }
-

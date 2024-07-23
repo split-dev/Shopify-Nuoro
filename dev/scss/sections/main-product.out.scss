@@ -353,6 +353,8 @@
             li {
                 max-width: 100% !important;
                 min-height: 100vh !important;
+                display: flex;
+                align-items: center;
                 @media (max-width: 750px) {
                     min-height: auto !important;
                 }

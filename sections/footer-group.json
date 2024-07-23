@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -58,6 +49,8 @@
         "social_title": "Réseaux Sociaux:",
         "contact_info_title": "Contactez Nous:",
         "contact_info": "<p>hello<a href=\"mailto:contact@drinknuoro.com\" title=\"mailto:contact@drinknuoro.com\">@drinknuoro.com<\/a><\/p>",
+        "page_label_0": "Conditions Générales de Vente",
+        "page_link_0": "",
         "page_label_1": "Protection des données",
         "page_link_1": "shopify:\/\/pages\/privacy-policy",
         "page_label_2": "Préférences Cookies",

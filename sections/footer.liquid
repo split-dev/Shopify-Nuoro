@@ -264,6 +264,9 @@
               {%- endif -%}
             </div>
             <div class="footer__useful-links d-flex">
+              {%- if section.settings.page_label_0 != blank -%}
+                <a class="text-15px" href="{{section.settings.page_link_0 }}">{{section.settings.page_label_0 }}</a>
+              {%- endif -%}
               {%- if section.settings.page_label_1 != blank -%}
                 <a class="text-15px" href="{{section.settings.page_link_1 }}">{{section.settings.page_label_1 }}</a>
               {%- endif -%}
@@ -620,25 +623,36 @@
     },
     {
       "type": "text",
-      "id": "page_label_1",
+      "id": "page_label_0",
       "label": "Link Label 1",
       "default": "Cookies Policy"
     },
     {
       "type": "url",
-      "id": "page_link_1",
+      "id": "page_link_0",
       "label": "Link 1"
     },
     {
       "type": "text",
+      "id": "page_label_1",
+      "label": "Link Label 12",
+      "default": "Cookies Policy"
+    },
+    {
+      "type": "url",
+      "id": "page_link_1",
+      "label": "Link 2"
+    },
+    {
+      "type": "text",
       "id": "page_label_2",
-      "label": "Link Label 2",
+      "label": "Link Label 3",
       "default": "Privacy Policy"
     },
     {
       "type": "url",
       "id": "page_link_2",
-      "label": "Link 2"
+      "label": "Link 3"
     },
     {
       "type": "header",

@@ -114,3 +114,11 @@ div[data-rc-login-form-submit-btn-animation] {
 .product__media-icon.motion-reduce {
     display: none !important;
 }
+.article-template__content.rte {
+    h4 {
+        text-transform: none !important;
+    }
+}
+.article-template__back {
+    display: none;
+}

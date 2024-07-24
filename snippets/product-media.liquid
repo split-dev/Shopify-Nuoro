@@ -99,3 +99,29 @@
     </deferred-media>
   {%- endif -%}
 {%- endif -%}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var isFirefox = typeof InstallTrigger !== 'undefined';
+
+    if (isFirefox) {
+      var parentElements = document.querySelectorAll('.deferred-media.media');
+      var hasVideos = false;
+
+      parentElements.forEach(function(parent) {
+        if (parent.querySelectorAll('video').length > 0) {
+          hasVideos = true;
+        }
+      });
+
+      if (hasVideos) {
+        parentElements.forEach(function(parent) {
+          var videos = parent.querySelectorAll('video');
+          videos.forEach(function(video) {
+            video.setAttribute('onload', 'this.play();');
+            video.play();
+          });
+        });
+      }
+    }
+  });
+</script>

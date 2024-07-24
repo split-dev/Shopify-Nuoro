@@ -90,10 +90,10 @@
         "revers": false,
         "bg_color": "#ffa842",
         "image": "shopify:\/\/shop_images\/Ingredients-NU.O.RO-LIGHT.jpg",
-        "title": "La meilleure façon d'investir dans votre santé.",
+        "title": "Investissez dans votre santé.",
         "subtitle": "",
-        "text": "Nuoro est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne",
-        "button_label": "Ingredients & Bénéfices",
+        "text": "NU.O.RO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.",
+        "button_label": "Ingrédients & Bénéfices",
         "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 70,
         "padding_bottom": 70,
@@ -115,7 +115,7 @@
             "subscribe_list_item_4": "2,6€\/portion",
             "subscribe_bottom_text": "Livraison gratuite",
             "one_time_subtitle": "",
-            "one_time_title": "ESSAYER UNE FOIS",
+            "one_time_title": "ESSAYEZ UNE FOIS",
             "one_time_list_item_1": "Achat unique de 30 portions",
             "one_time_list_item_2": "Shaker Nu.o.ro offert",
             "one_time_list_item_3": "",
@@ -167,7 +167,7 @@
           "type": "text",
           "settings": {
             "title": "70 ingrédients",
-            "text": "Chacun choisis pour sa pureté et son efficacité assimilables"
+            "text": "Chacun choisi pour sa pureté et son efficacité assimilables"
           }
         },
         "text_hdQH9c": {
@@ -222,7 +222,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/eac909bb0d7e85d9c96114aed5187d72.jpg",
             "title": "Métabolisme Énergétique¹",
-            "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
+            "text": "La vitamine C, le magnésium et le fer contribuent à un métabolisme énergétique normal."
           }
         },
         "text_GmfBLC": {
@@ -230,7 +230,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
             "title": "Système Immunitaire²",
-            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
+            "text": "Le sélénium et le zinc contribuent au fonctionnement normal du système immunitaire."
           }
         },
         "text_6dzmih": {
@@ -238,15 +238,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/d23e080f7772b1ec2f2732bd6045e710.jpg",
             "title": "Fonction Cognitive³",
-            "text": "Aiguisez votre esprit, améliorez votre concentration et libérez votre potentiel cognitif."
+            "text": "Le fer, le zinc et l'iode contribuent à une fonction cognitive normale."
           }
         },
         "text_BJnQxH": {
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
-            "title": "Fonction Cardiaque⁴",
-            "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
+            "title": "Stress oxydatif⁴",
+            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
           }
         },
         "text_FY6ErV": {
@@ -254,7 +254,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg",
             "title": "Peau et Cheveux⁵",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
+            "text": "Le zinc et la biotine contribuent au maintien d'une peau et de cheveux normaux."
           }
         },
         "text_qMVzfQ": {
@@ -262,7 +262,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
             "title": "Activité hormonale⁶",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra sem et est fermentum"
+            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
           }
         }
       },
@@ -451,68 +451,68 @@
           "type": "text",
           "settings": {
             "title": "Comment savoir si NU.O.RO me convient ?",
-            "text": "<p>NU.O.RO est idéal pour toute personne souhaitant s'assurer que ses besoins nutritionnels sont satisfaits au quotidien. Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d'entraînement intensif ou que vous voyagiez fréquemment, NU.O.RO apporte un soutien nutritionnel lorsque vous en avez le plus besoin. NU.O.RO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes. Plus d'informations quand aux précautions d'emploi dans le footer.<\/p>"
-          }
-        },
-        "text_UBeTfw": {
-          "type": "text",
-          "settings": {
-            "title": "Quand puis-je m'attendre à voir des bienfaits ?",
-            "text": "<p>De nombreux facteurs peuvent influencer l'effet de NU.O.RO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer. Votre alimentation et votre mode de vie influencent également le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains clients remarquent des améliorations en seulement quelques jours, tandis que pour d'autres, cela peut prendre jusqu'à quelques semaines. Nous sommes tous différents, donc nos corps réagissent de manière unique.<\/p>"
+            "text": "<p><strong>NU.O.RO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.<\/strong><\/p><p><\/p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NU.O.RO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.<br\/><\/p><p>NU.O.RO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<br\/><\/p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.<\/p>"
           }
         },
         "text_eEzNwL": {
           "type": "text",
           "settings": {
             "title": "Quels types de bienfaits puis-je attendre de la prise de NU.O.RO?",
-            "text": "<p>NU.O.RO soutient le métabolisme énergétique, le système immunitaire, la fonction cognitive, le stress oxydatif, la peau, les cheveux et l'activité hormonale. Chez NU.O.RO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NU.O.RO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin. De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois environ. Parmi les autres bienfaits courants, on compte une bonne concentration, et un soutien à la récupération après l'activité physique.<\/p>"
+            "text": "<p><strong>NU.O.RO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, la fonction cognitive et plus encore.<\/strong><\/p><p><\/p><p>Chez NU.O.RO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NU.O.RO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br\/><\/p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br\/><br\/><a href=\"\/pages\/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.<\/a><\/p>"
           }
         },
-        "text_RnM3Yj": {
+        "text_UBeTfw": {
           "type": "text",
           "settings": {
-            "title": "Quel goût a NU.O.RO ?",
-            "text": "<p>Les adeptes de NU.O.RO louent son goût agréable et sain, et nous avons passé des mois à perfectionner sa saveur. Mais ne nous méprenons  pas, NUORO n'a pas vocation à être délicieux, il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l'ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs. Aucun compromis. <\/p>"
+            "title": "Quand puis-je m'attendre à voir des bienfaits?",
+            "text": "<p><strong>De nombreux facteurs peuvent influencer l’effet de NU.O.RO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer.<\/strong><\/p><p><\/p><p>Mais n’oubliez pas les trois éléments essentiels pour maintenir une santé globale :<\/p><p><\/p><p>\t1.\tAlimentation variée et équilibrée<br\/>\t2.\tActivité physique régulière<br\/>\t3.\tSommeil de qualité<\/p><p><\/p><p>Ces facteurs influencent le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains membres remarquent des améliorations en seulement quelques jours, tandis que pour d’autres, cela peut prendre jusqu’à quelques semaines. Nous sommes tous différents, nos corps réagissent de manière unique.<\/p>"
           }
         },
         "text_wJfUdG": {
           "type": "text",
           "settings": {
-            "title": "Qu'est-ce qui rend NU.O.RO différent des autres produits nutritionnels ?",
-            "text": "<p>NU.O.RO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NU.O.RO est l'habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez. NU.O.RO offre un soutien nutritionnel dans cinq domaines critiques de la santé : le métabolisme énergétique, le système immunitaire, la fonction cognitive, l'activité hormonale et la lutte contre le stress oxydatif. Chacun des plus des 70 ingrédients de NU.O.RO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu'ils travaillent en conjonction avec la formule entière. Au-delà de la recherche derrière la formulation, NU.O.RO est fabriqué dans un établissement certifié GMP et ISO22000 (garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers). <\/p>"
+            "title": "Qu'est-ce qui rend NU.O.RO différent des autres produits nutritionnels?",
+            "text": "<p><strong>NU.O.RO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NU.O.RO est l’habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez.<\/strong><\/p><p><\/p><p>NU.O.RO offre un soutien nutritionnel dans cinq domaines critiques de la santé :<br\/><\/p><p>\t1.\tMétabolisme énergétique<br\/>\t2.\tSystème immunitaire<br\/>\t3.\tFonction cognitive<br\/>\t4.\tActivité hormonale<br\/>\t5.\tLutte contre le stress oxydatif<br\/><\/p><p>Chacun des plus de 70 ingrédients de NU.O.RO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu’ils travaillent en conjonction avec la formule entière.<\/p><p><\/p><p>Au-delà de la recherche derrière la formulation, NU.O.RO est fabriqué dans un établissement certifié GMP et ISO22000, garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers.<\/p>"
           }
         },
         "text_T69x8X": {
           "type": "text",
           "settings": {
-            "title": "Quels produits NU.O.RO remplace-t-il ?",
-            "text": "<p>Une dose quotidienne de NU.O.RO élimine le besoin d'autres compléments tels qu'un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures,<strong> <\/strong>adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes. Vous pouvez compter sur l'efficacité de NU.O.RO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<\/p>"
+            "title": "Quels produits NU.O.RO remplace-t-il?",
+            "text": "<p><strong>Une dose quotidienne de NU.O.RO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.<\/strong><br\/><\/p><p>Vous pouvez compter sur l’efficacité de NU.O.RO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br\/><br\/><a href=\"\/pages\/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.<\/a><\/p>"
+          }
+        },
+        "text_RnM3Yj": {
+          "type": "text",
+          "settings": {
+            "title": "Quel goût a NU.O.RO?",
+            "text": "<p><strong>Les adeptes de NU.O.RO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.<\/strong><br\/><\/p><p>Mais ne nous méprenons pas, NU.O.RO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br\/><\/p><p>Aucun compromis.<\/p>"
+          }
+        },
+        "text_zNaVKF": {
+          "type": "text",
+          "settings": {
+            "title": "Comment prendre NU.O.RO?",
+            "text": "<p><strong>NU.O.RO se dilue très bien avec de l’eau fraîche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l’ajouter à du lait d’avoine.<\/strong><\/p><p><\/p><p>Il existe une poignée de façons d’intégrer NU.O.RO dans votre journée. N’oubliez pas, pour maximiser les effets, il est recommandé de consommer NU.O.RO à jeun, 15 minutes avant son premier repas de la journée.<\/p>"
           }
         },
         "text_rbj4JL": {
           "type": "text",
           "settings": {
             "title": "Quelles mesures prenez-vous pour garantir la qualité de NU.O.RO?",
-            "text": "<p>Chez NU.O.RO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité. NU.O.RO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.<\/p>"
-          }
-        },
-        "text_zNaVKF": {
-          "type": "text",
-          "settings": {
-            "title": "Comment prendre NU.O.RO ?",
-            "text": "<p>NU.O.RO se dilue très bien avec de l'eau fraiche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l'ajouter à du lait d'avoine. Il existe une poignée de façons d'intégrer NU.O.RO dans votre journée. N'oubliez pas, pour maximiser les effets, il est recommandé de consommer NU.O.RO à jeun, 15 minutes avant son premier repas de la journée. <\/p>"
+            "text": "<p><strong>Chez NU.O.RO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.<\/strong><br\/><\/p><p>NU.O.RO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.<\/p>"
           }
         }
       },
       "block_order": [
         "text_awntK4",
-        "text_UBeTfw",
         "text_eEzNwL",
-        "text_RnM3Yj",
+        "text_UBeTfw",
         "text_wJfUdG",
         "text_T69x8X",
-        "text_rbj4JL",
-        "text_zNaVKF"
+        "text_RnM3Yj",
+        "text_zNaVKF",
+        "text_rbj4JL"
       ],
       "settings": {
         "title": "FAQS",

@@ -34,7 +34,7 @@
         "padding_top": 20,
         "padding_bottom": 90,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 50
+        "padding_bottom_mobile": 80
       }
     },
     "img_and_content_HqxQq9": {
@@ -45,7 +45,7 @@
         "image": "shopify:\/\/shop_images\/che_2.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
-        "text": "Nos installations de production sont conformes aux normes de <b>Good Manufacturing Practice (GMP)<\/b> et <b>ISO 22000<\/b>, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité.<br><br>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
+        "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité.Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,

@@ -28,7 +28,7 @@
         "image": "shopify:\/\/shop_images\/che_1.png",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
-        "text": "Notre équipe de chercheurs et de scientifiques est dédiée à une recherche rigoureuse et innovante.<br><br>Nous sommes engagés dans une démarche scientifique qui respecte et promeut les plus hauts standards de qualité et d'éthique.",
+        "text": "Notre équipe de chercheurs et de scientifiques est dédiée à une recherche rigoureuse et innovante.Nous sommes engagés dans une démarche scientifique qui respecte et promeut les plus hauts standards de qualité et d'éthique.",
         "button_label": "Notre Équipe de Chercheurs",
         "button_url": "#team",
         "padding_top": 20,
@@ -62,12 +62,12 @@
         "image": "shopify:\/\/shop_images\/che_3.jpg",
         "title": "Partage de Connaissances",
         "subtitle": "",
-        "text": "La transmission de notre savoir est une partie intégrante de notre mission.<br><br>NU.O.RO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.<br><br>Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.",
+        "text": "La transmission de notre savoir est une partie intégrante de notre mission.NU.O.RO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
         "padding_bottom": 100,
-        "padding_top_mobile": 0,
+        "padding_top_mobile": 20,
         "padding_bottom_mobile": 100
       }
     },

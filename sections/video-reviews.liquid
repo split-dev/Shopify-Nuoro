@@ -56,11 +56,44 @@
     autoplayVideos: true,
     plyr: {
       config: {
-        ratio: '4:3',
+        ratio: '9:12',
         muted: true,
       }
     }
   });
+
+  lightboxReviews.on('open', () => {
+    let interval = setInterval(() => {
+      let videoInstance = document.querySelector('#glightbox-slider video');
+      if (!videoInstance || videoInstance.readyState < 4) return;
+      clearInterval(interval);
+      videoInstance.muted = false;
+      videoInstance.play();
+    }, 100);
+    {% comment %} if (player) {
+        if (!player.ready) {
+          player.on('ready', (event) => {
+            const slider = document.getElementById('glightbox-slider');
+            if (slider) {
+              const currentSlide = slider.querySelector('.gslide');
+              if (currentSlide) {
+                const video = currentSlide.querySelector('video');
+                console.log(video);
+                if (video) {
+                  video.muted = false;
+                  video.play();
+                }
+              }
+            }
+          });
+        }
+    }  {% endcomment %}
+    {% comment %} setTimeout(function() {
+      
+    }, 2000); {% endcomment %}
+    
+  });
+
 </script>
 
 <script>

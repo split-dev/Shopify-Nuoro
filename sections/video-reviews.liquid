@@ -30,7 +30,7 @@
                 {%- break -%}
               {%- endif -%}
             {%- endfor -%}
-            " class="video-reviews__item js-glightbox-reviews swiper-slide d-flex flex-column align-items-center" data-glightbox="product-video">
+            " class="video-reviews__item js-glightbox-reviews swiper-slide d-flex flex-column align-items-center">
             <div class="video-reviews__preview">
               {{ block.settings.video | video_tag: image_size: '700x', class:'js-video-reviews-video', loop: true, autoplay: false, muted: true }}
               <svg xmlns="http://www.w3.org/2000/svg" width="33" height="37" viewBox="0 0 33 37" fill="none">
@@ -53,7 +53,13 @@
     selector: '.js-glightbox-reviews',
     touchNavigation: true,
     loop: true,
-    autoplayVideos: true
+    autoplayVideos: true,
+    plyr: {
+      config: {
+        ratio: '4:3',
+        muted: true,
+      }
+    }
   });
 </script>
 

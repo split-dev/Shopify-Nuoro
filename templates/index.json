@@ -166,14 +166,14 @@
         "text_k8dCWL": {
           "type": "text",
           "settings": {
-            "title": "70 ingrédients",
+            "title": "70 ingrédients actifs",
             "text": "Chacun choisi pour sa pureté et son efficacité assimilables"
           }
         },
-        "text_hdQH9c": {
+        "text_Xb9Dry": {
           "type": "text",
           "settings": {
-            "title": "Sans Sucre ajouté",
+            "title": "Sans additifs",
             "text": "Ni arômes, colorants ou conservateurs artificiels"
           }
         },
@@ -191,21 +191,21 @@
             "text": "10ème itération"
           }
         },
-        "text_Xb9Dry": {
+        "text_hdQH9c": {
           "type": "text",
           "settings": {
-            "title": "Pro & Prebiotiques",
-            "text": "100% naturels et de la plus haute qualité"
+            "title": "Sans Sucre ajouté",
+            "text": "Ni gluten, oeufs, lactose ou arachides"
           }
         }
       },
       "block_order": [
         "text_kDWHBd",
         "text_k8dCWL",
-        "text_hdQH9c",
+        "text_Xb9Dry",
         "text_mMyqPE",
         "text_MrFGpc",
-        "text_Xb9Dry"
+        "text_hdQH9c"
       ],
       "settings": {
         "padding_top": 80,

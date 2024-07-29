@@ -13,11 +13,62 @@
       "type": "page-title",
       "settings": {
         "title": "InStructions",
-        "text": "Complément Alimentaire à base de vitamines, minéraux et d'extraits de plantes.",
+        "text": "Complément Alimentaire à base de Vitamines, Minéraux et d'Extraits de Plantes.",
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
+      }
+    },
+    "collapsible_content_ixgdqw": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LEhXai": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Utilisation",
+            "icon": "check_mark",
+            "row_content": "<p>Portion individuelle quotidienne (12,7 g), à mélanger dans 250 ml d'eau plate à température ambiante.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xNYQKb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Conservation",
+            "icon": "check_mark",
+            "row_content": "<p>Conservez dans un contenant fermé. Protégez de l'humidité et de la lumière du soleil. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PYCM3k": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Précautions",
+            "icon": "check_mark",
+            "row_content": "<p>Les compléments alimentaires ne se substituent pas à une alimentation variée et équilibrée ainsi qu'à un mode de vie sain. Tenir hors de portée des enfants. Ne pas dépasser la dose journalière recommandée.<\/p><p>Déconseillé aux enfants; aux femmes enceintes et allaitantes; aux femmes ayant des antécédents personnels ou familiaux de cancer du sein; aux personnes sous traitement antidiabétique; aux fumeurs, en cas de traitement anti-hypertenseur; aux personnes souffrant de maladies entraînant une accumulation anormale de fer (hémochromatose; polyglobulie, etc.); aux personnes allergiques à l'ananas; au venin d'abeille ou au pollen d'olivier; en cas d'obstruction biliaire ou d'autres troubles de la fonction biliaire; en cas d'allergie croisée connue; en particulier aux plantes de la famille des asteraceae; en cas d'ulcère gastro-duodénal; d'insuffisance cardiaque ou rénale oedémateuses; en cas de pathologies cardiaques, rénales ou thyroïdiennes; aux personnes sous traitement anticoagulant et\/ou antibiotique. Usage prolongé déconseillé.<\/p><p>Ne doit pas être consommé si vous prenez le même jour d’autres produits contenant<br\/>du thé vert. Ne doit pas être consommé à jeun. Une consommation journalière de 800<br\/>mg ou plus d'épigallocatéchine-gallate est déconseillée. Contient 7,5 mg d'EGCG.<\/p><p>En cas de traitements médicamenteux, demander conseil à un professionnel de santé.<br\/>Si des effets indésirables apparaissent, interrompre l’utilisation du produit et consulter<br\/>votre médecin traitant.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LEhXai",
+        "collapsible_row_xNYQKb",
+        "collapsible_row_PYCM3k"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Utilisation et Précautions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "faq_home_xiKfpw": {
@@ -99,62 +150,11 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 65
       }
-    },
-    "collapsible_content_ixgdqw": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_LEhXai": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Utilisation",
-            "icon": "check_mark",
-            "row_content": "<p>Portion individuelle quotidienne (12,7 g), à mélanger dans 250 ml d'eau plate à température ambiante.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xNYQKb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Conservation",
-            "icon": "check_mark",
-            "row_content": "<p>Conservez dans un contenant fermé. Protégez de l'humidité et de la lumière du soleil. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_PYCM3k": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Précautions",
-            "icon": "check_mark",
-            "row_content": "<p>Les compléments alimentaires ne se substituent pas à une alimentation variée et équilibrée ainsi qu'à un mode de vie sain. Tenir hors de portée des enfants. Ne pas dépasser la dose journalière recommandée.<\/p><p>Déconseillé aux enfants; aux femmes enceintes et allaitantes; aux femmes ayant des antécédents personnels ou familiaux de cancer du sein; aux personnes sous traitement antidiabétique; aux fumeurs, en cas de traitement anti-hypertenseur; aux personnes souffrant de maladies entraînant une accumulation anormale de fer (hémochromatose; polyglobulie, etc.); aux personnes allergiques à l'ananas; au venin d'abeille ou au pollen d'olivier; en cas d'obstruction biliaire ou d'autres troubles de la fonction biliaire; en cas d'allergie croisée connue; en particulier aux plantes de la famille des asteraceae; en cas d'ulcère gastro-duodénal; d'insuffisance cardiaque ou rénale oedémateuses; en cas de pathologies cardiaques, rénales ou thyroïdiennes; aux personnes sous traitement anticoagulant et\/ou antibiotique. Usage prolongé déconseillé.<\/p><p>Ne doit pas être consommé si vous prenez le même jour d’autres produits contenant<br\/>du thé vert. Ne doit pas être consommé à jeun. Une consommation journalière de 800<br\/>mg ou plus d'épigallocatéchine-gallate est déconseillée. Contient 7,5 mg d'EGCG.<\/p><p>En cas de traitements médicamenteux, demander conseil à un professionnel de santé.<br\/>Si des effets indésirables apparaissent, interrompre l’utilisation du produit et consulter<br\/>votre médecin traitant.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_LEhXai",
-        "collapsible_row_xNYQKb",
-        "collapsible_row_PYCM3k"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "page_title_LEWC6w",
-    "faq_home_xiKfpw",
-    "collapsible_content_ixgdqw"
+    "collapsible_content_ixgdqw",
+    "faq_home_xiKfpw"
   ]
 }

@@ -9,15 +9,34 @@
 */
 {
   "sections": {
-    "page_title_LEWC6w": {
-      "type": "page-title",
+    "rich_text_hnpiYh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RdpED4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vitamines, minéraux, extraits de plants, antioxidants, superaliments",
+            "heading_size": "h1"
+          }
+        },
+        "text_PBWPxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complément Alimentaire à base de vitamines, minéraux et d'extraits de plantes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RdpED4",
+        "text_PBWPxf"
+      ],
       "settings": {
-        "title": "InStructions",
-        "text": "Complément Alimentaire à base de Vitamines, Minéraux et d'Extraits de Plantes.",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "collapsible_content_ixgdqw": {
@@ -153,7 +172,7 @@
     }
   },
   "order": [
-    "page_title_LEWC6w",
+    "rich_text_hnpiYh",
     "collapsible_content_ixgdqw",
     "faq_home_xiKfpw"
   ]

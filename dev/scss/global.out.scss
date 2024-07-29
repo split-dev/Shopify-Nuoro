@@ -97,7 +97,9 @@ div[data-rc-login-form-submit-btn-animation] {
 //     overflow: hidden !important;
 // }
 .kl-teaser-R3YXRP {
-    display: none !important;
+    pointer-events: none !important;
+    z-index: -100 !important;
+    opacity: 0 !important;
 }
 #rich-text-119715547.kl-private-reset-css-Xuajs1,
 #rich-text-119715551.kl-private-reset-css-Xuajs1 {

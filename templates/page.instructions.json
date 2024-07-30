@@ -1,14 +1,16 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
+    "page_title_eGczxF": {
+      "type": "page-title",
+      "settings": {
+        "title": "Instructions",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, iusto vero. Laboriosam saepe soluta amet ea pariatur quibusdam qui expedita ipsa, excepturi eos eaque quaerat voluptatibus repellat dicta magnam consequatur?",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "image_with_text_UYrAd6": {
       "type": "image-with-text",
       "blocks": {
@@ -179,6 +181,7 @@
     }
   },
   "order": [
+    "page_title_eGczxF",
     "image_with_text_UYrAd6",
     "collapsible_content_ixgdqw",
     "faq_home_xiKfpw"

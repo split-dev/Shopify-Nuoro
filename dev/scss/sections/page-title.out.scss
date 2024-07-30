@@ -6,6 +6,9 @@
         text-align: center;
         margin: 0;
     }
+    &__wrapper {
+        flex-direction: column;
+    }
     &__text {
         margin-top: 60px;
         max-width: 1511px;
@@ -19,7 +22,6 @@
 .template-recherche {
     .page-title {
         &__wrapper {
-            flex-direction: column;
             max-width: 1133px;
             margin: 0 auto;
         }

@@ -208,10 +208,10 @@
         "text_hdQH9c"
       ],
       "settings": {
-        "padding_top": 80,
-        "padding_bottom": 20,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 20
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
       }
     },
     "text_img_tiles_rQY4GA": {

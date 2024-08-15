@@ -13,8 +13,27 @@
         margin-top: 60px;
         max-width: 1511px;
         text-align: center;
+        font-size: 26px !important;
+        line-height: 120%; 
+        @media (max-width: 1400px) {
+            font-size: 24px !important;
+        }
         @include media-breakpoint-down(md) {
             margin-top: 40px;
+            font-size: 20px !important;
+        }
+        * {
+            font-size: 26px !important;
+            line-height: 120%;
+            @media (max-width: 1400px) {
+                font-size: 24px !important;
+            }
+            @include media-breakpoint-down(md) {
+                font-size: 20px !important;
+            }
+        }
+        a {
+            color: $c-text !important;
         }
     }
 }

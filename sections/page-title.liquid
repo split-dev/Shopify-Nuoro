@@ -24,9 +24,9 @@
         {{ page.title }}
       {% endif %}
       {% if section.settings.text != blank %}
-        <div class="page-title__text text-26px">{{ section.settings.text }}</div>
+        <div class="page-title__text">{{ section.settings.text }}</div>
         {% else %}
-        <div class="page-title__text text-26px">{{ page.content }}</div>
+        <div class="page-title__text">{{ page.content }}</div>
       {% endif %}
       
     </div>
@@ -44,7 +44,7 @@
       "label": "Title"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "text",
       "label": "Subtitle"
     },

@@ -300,7 +300,11 @@
         <a class="header__cta-button btn btn__orange" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
       {% endif %}
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__login">
+        <a 
+          {% comment %} href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" {% endcomment %}
+          href="/tools/recurring/get-subscription-access"
+          class="header__login"
+        >
           {% comment %} <account-icon>
             {%- if customer and customer.has_avatar? -%}
               {{ customer | avatar }}

@@ -214,6 +214,47 @@
         "padding_bottom_mobile": 40
       }
     },
+    "tab_images_QcxXbC": {
+      "type": "tab-images",
+      "blocks": {
+        "text_wKDNQy": {
+          "type": "text",
+          "settings": {
+            "title": "Versez une dose dans 250ml d'eau fraiche",
+            "text": "Tous les jours, à jeun de préférence",
+            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_4_1.jpg"
+          }
+        },
+        "text_F3rVtx": {
+          "type": "text",
+          "settings": {
+            "title": "Secouez",
+            "text": "Dans votre Shaker NU.O.RO",
+            "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg"
+          }
+        },
+        "text_PxUYMX": {
+          "type": "text",
+          "settings": {
+            "title": "Enjoy!",
+            "text": "",
+            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_wKDNQy",
+        "text_F3rVtx",
+        "text_PxUYMX"
+      ],
+      "settings": {
+        "title": "Comment Préparer?",
+        "padding_top": 50,
+        "padding_bottom": 110,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 75
+      }
+    },
     "text_img_tiles_rQY4GA": {
       "type": "text-img-tiles",
       "blocks": {
@@ -284,47 +325,6 @@
         "padding_bottom": 30,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 40
-      }
-    },
-    "tab_images_QcxXbC": {
-      "type": "tab-images",
-      "blocks": {
-        "text_wKDNQy": {
-          "type": "text",
-          "settings": {
-            "title": "Versez une dose dans 250ml d'eau",
-            "text": "Tous les jours, à jeun de préférence",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_4_1.jpg"
-          }
-        },
-        "text_F3rVtx": {
-          "type": "text",
-          "settings": {
-            "title": "Secouez",
-            "text": "Dans votre Shaker NU.O.RO",
-            "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg"
-          }
-        },
-        "text_PxUYMX": {
-          "type": "text",
-          "settings": {
-            "title": "Enjoy!",
-            "text": "",
-            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "text_wKDNQy",
-        "text_F3rVtx",
-        "text_PxUYMX"
-      ],
-      "settings": {
-        "title": "Comment Préparer?",
-        "padding_top": 50,
-        "padding_bottom": 110,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 75
       }
     },
     "video_reviews_hfbLxP": {
@@ -628,8 +628,8 @@
     "img_and_content_agKPqV",
     "featured_product_j8MdBd",
     "text_tiles_6GFXBz",
-    "text_img_tiles_rQY4GA",
     "tab_images_QcxXbC",
+    "text_img_tiles_rQY4GA",
     "video_reviews_hfbLxP",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "page_title_eWBP8a": {
@@ -16,7 +25,7 @@
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/che_1.png",
+        "image": "shopify:\/\/shop_images\/b06132ead0.jpg",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
         "text": "Notre équipe de chercheurs est dédiée à une recherche rigoureuse et innovante. Nous sommes engagés dans une démarche scientifique qui respecte et promeut les plus hauts standards de qualité et d'éthique.",
@@ -33,7 +42,7 @@
       "settings": {
         "revers": true,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/che_2.jpg",
+        "image": "shopify:\/\/shop_images\/cccca5819a.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
         "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité.Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",

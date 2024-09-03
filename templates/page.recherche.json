@@ -28,7 +28,7 @@
         "image": "shopify:\/\/shop_images\/b06132ead0.jpg",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
-        "text": "Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique.<br> Aujourd’hui, NU.O.RO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que NU.O.RO demeure à la pointe de la nutrition.",
+        "text": "Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique. <br><br>Aujourd’hui, NU.O.RO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que NU.O.RO demeure à la pointe de la nutrition.",
         "button_label": "Notre Équipe de Chercheurs",
         "button_url": "#team",
         "padding_top": 20,
@@ -42,10 +42,10 @@
       "settings": {
         "revers": true,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/cccca5819a.jpg",
+        "image": "shopify:\/\/shop_images\/NUORO_Poudre.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
-        "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité.Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
+        "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité. <br><br>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -105,9 +105,9 @@
             "name": "Dr. Patrick Mena",
             "position": "Directeur Médical   Médecin du Sport",
             "instagram_link": "#",
-            "instagram_title": "Instagram",
+            "instagram_title": "",
             "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
+            "linkedin_title": ""
           }
         },
         "text_iWXtfd": {

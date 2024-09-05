@@ -46,7 +46,7 @@
           <span class="text-26px">{{ section.settings.subtitle }}</span>
         {% endif %}
         {% if section.settings.text != blank %}
-          <p class="text-15px">{{ section.settings.text }}</p>
+          <div class="img-and-content__content-text text-15px">{{ section.settings.text }}</div>
         {% endif %}
         {% if section.blocks.size > 0 %}
           <ul class="img-and-content__list">
@@ -118,7 +118,7 @@
       "label": "Subtitle"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "text",
       "label": "Text"
     },

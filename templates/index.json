@@ -89,7 +89,7 @@
       "settings": {
         "revers": false,
         "bg_color": "#ffa842",
-        "image": "shopify:\/\/shop_images\/Ingredients-NU.O.RO-LIGHT.jpg",
+        "image": "shopify:\/\/shop_images\/5243489.jpg",
         "title": "Investissez dans votre santé.",
         "subtitle": "",
         "text": "NU.O.RO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.",
@@ -222,7 +222,7 @@
           "settings": {
             "title": "Versez une dose dans 250ml d'eau fraiche",
             "text": "Tous les jours, à jeun de préférence",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_4_1.jpg"
+            "image": "shopify:\/\/shop_images\/5243453.jpg"
           }
         },
         "text_F3rVtx": {
@@ -230,7 +230,7 @@
           "settings": {
             "title": "Secouez",
             "text": "Dans votre Shaker NU.O.RO",
-            "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg"
+            "image": "shopify:\/\/shop_images\/5243404.jpg"
           }
         },
         "text_PxUYMX": {
@@ -238,7 +238,7 @@
           "settings": {
             "title": "Enjoy!",
             "text": "",
-            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg"
+            "image": "shopify:\/\/shop_images\/5243424.jpg"
           }
         }
       },
@@ -387,6 +387,7 @@
         "text_H8tqn6",
         "text_fLtqA9"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#ffbcce",
         "padding_top": 90,

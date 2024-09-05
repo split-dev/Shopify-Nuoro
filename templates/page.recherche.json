@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "page_title_eWBP8a": {
@@ -16,10 +25,10 @@
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/che_1.png",
+        "image": "shopify:\/\/shop_images\/b06132ead0.jpg",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
-        "text": "Notre équipe de chercheurs est dédiée à une recherche rigoureuse et innovante. Nous sommes engagés dans une démarche scientifique qui respecte et promeut les plus hauts standards de qualité et d'éthique.",
+        "text": "Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique. <br><br>Aujourd’hui, NU.O.RO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que NU.O.RO demeure à la pointe de la nutrition.",
         "button_label": "Notre Équipe de Chercheurs",
         "button_url": "#team",
         "padding_top": 20,
@@ -33,10 +42,10 @@
       "settings": {
         "revers": true,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/che_2.jpg",
+        "image": "shopify:\/\/shop_images\/NUORO_Poudre.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
-        "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité.Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
+        "text": "Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité. <br><br>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -68,37 +77,37 @@
         "text_DdwUPy": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/team_1.jpg",
+            "image": "shopify:\/\/shop_images\/Jacek_Sidzina_NUORO.jpg",
             "name": "Jacek Sidzina",
-            "position": "Directeur de l'innovation<br> Expert en Micronutrition",
+            "position": "Directeur de l'innovation Expert en Micronutrition",
             "instagram_link": "#",
-            "instagram_title": "Instagram",
+            "instagram_title": "",
             "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
+            "linkedin_title": ""
           }
         },
         "text_pTaRx7": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/team_2.jpg",
+            "image": "shopify:\/\/shop_images\/Sebastian_Galka_-_R_D_Director_NU.O.RO.jpg",
             "name": "Sebastian Galka",
-            "position": "Directeur R&D  <br> Biotechnologiste",
+            "position": "Directeur R&D   Biotechnologiste",
             "instagram_link": "#",
-            "instagram_title": "Instagram",
+            "instagram_title": "",
             "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
+            "linkedin_title": ""
           }
         },
         "text_ggRMjp": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Retouch_20240718_191430_0.jpg",
+            "image": "shopify:\/\/shop_images\/Dr_Patrick_Mena_Directeur_Medical_NU.O.RO.jpg",
             "name": "Dr. Patrick Mena",
-            "position": "Directeur Médical <br>  Médecin du Sport",
+            "position": "Directeur Médical   Médecin du Sport",
             "instagram_link": "#",
-            "instagram_title": "Instagram",
+            "instagram_title": "",
             "linkedin_link": "#",
-            "linkedin_title": "Linkedin"
+            "linkedin_title": ""
           }
         },
         "text_iWXtfd": {

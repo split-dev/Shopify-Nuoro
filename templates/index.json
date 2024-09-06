@@ -12,7 +12,7 @@
     "home_hero_CF9PjB": {
       "type": "home-hero",
       "settings": {
-        "bg": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash.jpg",
+        "bg": "shopify:\/\/shop_images\/MG_4309_compressed.jpg",
         "bg_mobile": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
         "title": "OPTIMAL NUTRITION <br> MADE SIMPLE",
         "text": "NU.O.RO est une solution nutritionnelle optimale, scientifiquement élaborée pour optimiser votre santé et soutenir vos performances physiques et mentales.",
@@ -92,7 +92,7 @@
         "image": "shopify:\/\/shop_images\/5243489.jpg",
         "title": "Investissez dans votre santé.",
         "subtitle": "",
-        "text": "NU.O.RO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.",
+        "text": "<p>NU.O.RO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.<\/p>",
         "button_label": "Ingrédients & Bénéfices",
         "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 70,

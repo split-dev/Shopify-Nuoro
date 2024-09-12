@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -23,7 +14,7 @@
         "heading_nC4qUk": {
           "type": "heading",
           "settings": {
-            "heading": "NU.O.RO vise à créer un monde meilleur où chacun vit pleinement et sans compromis.",
+            "heading": "NU.O.RO vise à créer un monde meilleur ou chacun vit pleinement et sans compromis.",
             "heading_size": "h1"
           }
         }
@@ -46,39 +37,6 @@
         "show_text_below": false
       }
     },
-    "history_text_image_k9Qqxf": {
-      "type": "history-text-image",
-      "blocks": {
-        "text_8mif9E": {
-          "type": "text",
-          "settings": {
-            "text": "Pour nous, la création de NU.O.RO a été une évidence. Pierre-Brice, ayant grandi avec des parents médecins et fort de son passé de sportif de haut niveau, savait combien la nutrition est cruciale pour repousser ses limites. De mon côté, Adèle, j’ai toujours eu à cœur de privilégier une approche équilibrée et holistique de la santé. Ensemble, nous avons voulu créer une solution qui réponde aux besoins de chacun, en combinant le meilleur de la science et de la nature. » <br><br>En collaborant avec des experts en neurosciences et biotechnologie, nous avons développé une formule unique, scientifiquement optimisée pour maximiser ses bienfaits. Notre mission commune est de vous offrir une nutrition essentielle, conçue pour vous accompagner à chaque étape de votre vie.",
-            "image_text": ""
-          }
-        },
-        "text_BQTPER": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "image": "shopify:\/\/shop_images\/Pierre-Brice_Mena_-_Adele_Mena.jpg",
-            "image_text": "Adèle et Pierre-Brice Mena, Fondateurs"
-          }
-        }
-      },
-      "block_order": [
-        "text_8mif9E",
-        "text_BQTPER"
-      ],
-      "settings": {
-        "title": "NOTRE HISTOIRE",
-        "button_label": "",
-        "button_url": "",
-        "padding_top": 35,
-        "padding_bottom": 100,
-        "padding_top_mobile": 35,
-        "padding_bottom_mobile": 45
-      }
-    },
     "page_title_9CwdBJ": {
       "type": "page-title",
       "settings": {
@@ -98,7 +56,7 @@
         "image": "shopify:\/\/shop_images\/img_1.jpg",
         "title": "01",
         "subtitle": "Redéfinir la vie à travers une santé optimale",
-        "text": "Chez NU.O.RO, notre raison d'être transcende la simple notion de bien-être pour embrasser une vision plus vaste de notre existence.<br><br>Nous croyons que notre voyage vers la santé optimale est aussi un chemin vers la compréhension de soi, une exploration sans fin de ce que signifie vivre pleinement.<br><br>Notre mission n'est pas seulement d'améliorer la vie mais de la redéfinir, en poussant sans cesse les limites de ce qui est possible pour l'esprit et le corps humain.<br><br>Dans cette quête, chaque découverte, chaque moment de bien-être est une célébration de la vie elle-même, une étape vers la réalisation de notre potentiel le plus élevé.",
+        "text": "Chez NU.O.RO, notre raison d'être transcende la simple notion de bien-être pour embrasser une vision plus vaste de notre existance. Nous croyons que notre voyage vers la santé optimale est aussi un chemin vers la compréhension de soi, une exploration sans fin de ce que signifie vivre pleinement. Notre mission n'est pas seulement d'améliorer la vie mais de la redéfinir, en poussant sans cesse les limites de ce qui est possible pour l'esprit et le corps humain. Dans cette quête, chaque découverte, chaque moment de bien-être est une célébration de la vie elle-même, une étape vers la réalisation de notre potentiel le plus élevé.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -115,7 +73,7 @@
         "image": "shopify:\/\/shop_images\/img_2.jpg",
         "title": "02",
         "subtitle": "Innover avec Intention",
-        "text": "NU.O.RO incarne l'union de la science et de la nature dans un produit unique, méticuleusement développé pour soutenir votre santé à chaque étape de votre vie.<br><br>Notre philosophie repose sur la conviction que la qualité prime sur la quantité. Nous concentrons nos efforts sur une solution essentielle, optimisée par la science pour maximiser ses bienfaits, et non pour multiplier les offres.",
+        "text": "NU.O.RO incarne l'union de la science et de la nature dans un produit unique, méticuleusement développé pour soutenir votre santé à chaque étape de votre vie. Notre philosophie repose sur la conviction que la qualité prime sur la quantité. Nous concentrons nos efforts sur une solution essentielle, optimisée par la science pour maximiser ses bienfaits, et non pour multiplier les offres.",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -132,7 +90,7 @@
         "image": "shopify:\/\/shop_images\/img_3.png",
         "title": "03",
         "subtitle": "Contribuer à un Monde Meilleur",
-        "text": "Notre vision d'un monde plus sain englobe une nutrition optimale, le respect de l'environnement, et le renforcement des liens communautaires.<br><br>En améliorant la santé individuelle, en tissant des relations solides et en prenant soin de notre planète, nous posons les bases d'une société plus équilibrée et durable.",
+        "text": "Notre vision d'un monde plus sain englobe une nutrition optimale, le respect de l'environnement, et le renforcement des liens communautaires. En améliorant la santé individuelle, en tissant des relations solides et en prenant soin de notre planète, nous posons les bases d'une société plus équilibrée et durable",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -140,15 +98,48 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
       }
+    },
+    "history_text_image_k9Qqxf": {
+      "type": "history-text-image",
+      "blocks": {
+        "text_8mif9E": {
+          "type": "text",
+          "settings": {
+            "text": "\"Ayant grandi avec des parents médecins et en tant qu'ancien sportif de haut niveau, j'ai compris très tôt l'importance de la nutrition pour la performance et le bien-être.    <br><br>Avec NUORO, j'ai créé une marque de compléments alimentaires qui allie science et nature dans un produit unique, conçu pour soutenir la santé à chaque étape de la vie.<br><br> En collaborant avec des experts en neurosciences et biotechnologie, nous avons développé un produit optimisé scientifiquement pour maximiser ses bienfaits. Nous croyons que la qualité prime sur la quantité, en nous concentrant sur une solution essentielle.\"",
+            "image_text": ""
+          }
+        },
+        "text_BQTPER": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "image": "shopify:\/\/shop_images\/Portrait-PB-MENA-min.jpg",
+            "image_text": "Pierre-Brice Mena"
+          }
+        }
+      },
+      "block_order": [
+        "text_8mif9E",
+        "text_BQTPER"
+      ],
+      "settings": {
+        "title": "NOTRE HISTOIRE",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 100
+      }
     }
   },
   "order": [
     "main",
     "image_banner_Tw4Yd9",
-    "history_text_image_k9Qqxf",
     "page_title_9CwdBJ",
     "img_and_content_kdmKjP",
     "img_and_content_RfARHc",
-    "img_and_content_Mbaz4y"
+    "img_and_content_Mbaz4y",
+    "history_text_image_k9Qqxf"
   ]
 }

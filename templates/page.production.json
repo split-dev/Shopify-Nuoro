@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "page_title_eWBP8a": {
@@ -25,10 +16,10 @@
       "settings": {
         "revers": true,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/NU.O.RO-Production-packaging.jpg",
+        "image": "shopify:\/\/shop_images\/prod_img.jpg",
         "title": "Chez NU.O.RO, nous croyons en un monde où chacun vit pleinement et sans compromis.",
         "subtitle": "",
-        "text": "Cette philosophie est au cœur de chaque décision que nous prenons, y compris la manière dont nous produisons nos solutions nutritionnelles.Située en Pologne, notre usine de production incarne notre engagement envers l'excellence, la durabilité et l'innovation.",
+        "text": "Cette philosophie est au cœur de chaque décision que nous prenons, y compris la manière dont nous produisons nos solutions nutritionnelles. Située en Pologne, notre usine de production incarne notre engagement envers l'excellence, la durabilité et l'innovation.",
         "button_label": "",
         "button_url": "",
         "padding_top": 115,
@@ -45,7 +36,7 @@
           "settings": {
             "title": "01",
             "heading": "Un Engagement pour la Qualité et la Sécurité",
-            "text": "<p>Notre usine en Pologne est à la pointe de la technologie, équipée pour répondre aux normes les plus élevées de sécurité alimentaire et de qualité européenne.<\/p><p>En choisissant la Pologne pour notre production, nous bénéficions d'un accès à une main-d'œuvre hautement qualifiée et d'une expertise reconnue dans le domaine de la production alimentaire.<\/p><p>Chaque étape du processus de production est surveillée avec rigueur pour garantir que chaque sachet NU.O.RO répond aux attentes de nos clients en termes de pureté, efficacité et sécurité.<\/p>"
+            "text": "<p>Notre usine en Pologne est à la pointe de la technologie, équipée pour répondre aux normes les plus élevées de sécurité alimentaire et de qualité européenne. En choisissant la Pologne pour notre production, nous bénéficions d'un accès à une main-d'œuvre hautement qualifiée et d'une expertise reconnue dans le domaine de la production alimentaire. Chaque étape du processus de production est surveillée avec rigueur pour garantir que chaque sachet NU.O.RO répond aux attentes de nos clients en termes de pureté, efficacité et sécurité.<\/p>"
           }
         },
         "text_PPkTXC": {
@@ -53,7 +44,7 @@
           "settings": {
             "title": "02",
             "heading": "Réduction de l'Empreinte Carbone",
-            "text": "<p>Située au cœur de l'Europe, notre usine en Pologne joue un rôle crucial dans notre stratégie de minimisation de l'empreinte écologique.<\/p><p>En tant que hub central, elle nous permet de réduire considérablement les kilomètres parcourus par nos matières premières, optimisant ainsi les chaînes d'approvisionnement et diminuant les émissions de CO2 associées au transport.<\/p><p>Cette localisation stratégique garantit une efficacité logistique maximale, tout en soutenant notre engagement pour une production plus verte et plus responsable.<\/p>"
+            "text": "<p>Située au cœur de l'Europe, notre usine en Pologne joue un rôle crucial dans notre stratégie de minimisation de l'empreinte écologique. En tant que hub central, elle nous permet de réduire considérablement les kilomètres parcourus par nos matières premières, optimisant ainsi les chaînes d'approvisionnement et diminuant les émissions de CO2 associées au transport. Cette localisation stratégique garantit une efficacité logistique maximale, tout en soutenant notre engagement pour une production plus verte et plus responsable.<\/p>"
           }
         },
         "text_L7NbPf": {
@@ -61,7 +52,7 @@
           "settings": {
             "title": "03",
             "heading": "Des Ingrédients Choisis avec Soin",
-            "text": "<p>La recette NU.O.RO contient 73 ingrédients, chacun sélectionné pour ses bénéfices nutritionnels et sa qualité supérieure.<\/p><p>Nous travaillons étroitement avec des fournisseurs locaux et internationaux qui partagent notre vision de durabilité et d'éthique.<\/p><p>Chaque ingrédient est soumis à des tests rigoureux pour s'assurer qu'il répond à nos standards stricts avant d'être utilisé dans notre production.<\/p>"
+            "text": "<p>La recette <a href=\"\/pages\/ingredients\" target=\"_blank\" title=\"Ingredients\">NU.O.RO<\/a> contient 70 ingrédients provenant du monde entier, chacun sélectionné pour ses bénéfices nutritionnels et sa qualité supérieure. Nous travaillons étroitement avec des fournisseurs locaux et internationaux qui partagent notre vision de durabilité et d'éthique. Chaque ingrédient est soumis à des tests rigoureux pour s'assurer qu'il répond à nos standards stricts avant d'être utilisé dans notre production.<\/p>"
           }
         },
         "text_xXcYmf": {
@@ -69,7 +60,7 @@
           "settings": {
             "title": "04",
             "heading": "Technologie et Innovation",
-            "text": "<p>Notre usine utilise des technologies avancées pour optimiser la fusion de ces ingrédients divers dans une solution nutritionnelle complète.<\/p><p>Cette approche innovante permet non seulement une haute efficacité de production mais assure également que les propriétés bénéfiques de chaque composant sont préservées, maximisant ainsi les bienfaits pour la santé de nos utilisateurs.<\/p>"
+            "text": "<p>Notre usine utilise des technologies avancées pour optimiser la fusion de ces ingrédients divers dans une solution nutritionnelle complète. Cette approche innovante permet non seulement une haute efficacité de production mais assure également que les propriétés bénéfiques de chaque composant sont préservées, maximisant ainsi les bienfaits pour la santé de nos utilisateurs.<\/p>"
           }
         },
         "text_M8YEGb": {
@@ -77,7 +68,7 @@
           "settings": {
             "title": "05",
             "heading": "Durabilité et Responsabilité",
-            "text": "<p>Conformément à notre mission, nous adoptons des pratiques durables dans notre processus de fabrication.<\/p><p>Cela inclut l'utilisation d'énergies renouvelables et la mise en œuvre de procédés qui réduisent notre consommation d'eau et nos déchets.<\/p><p>Chaque décision que nous prenons vise à protéger notre planète pour les générations futures, tout en fournissant des produits de haute qualité à nos clients.<\/p>"
+            "text": "<p>Conformément à notre mission, nous adoptons des pratiques durables dans notre processus de fabrication. Cela inclut l'utilisation d'énergies renouvelables et la mise en œuvre de procédés qui réduisent notre consommation d'eau et nos déchets. Chaque décision que nous prenons vise à protéger notre planète pour les générations futures, tout en fournissant des produits de haute qualité à nos clients.<\/p>"
           }
         }
       },

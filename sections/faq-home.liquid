@@ -35,9 +35,15 @@
         {% endfor %}
         {% if section.settings.button_label != blank %}
           <div class="faq-home__button page-width d-flex justify-content-center">
-            <a class="btn btn__primary js-image-link" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
-              {% render 'icon-download' %}
-            </a>
+            {% if section.settings.button_url %}
+              <a class="btn btn__primary js-image-link jpg" target="_blank" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+                {% render 'icon-download' %}
+              </a>
+              {% else %}
+              <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">{{ section.settings.button_label }}
+                {% render 'icon-download' %}
+              </a>
+            {% endif %}
           </div>
         {% endif %}
         <div id="popup" class="popup">
@@ -72,9 +78,15 @@
       {% endfor %}
       {% if section.settings.button_label != blank %}
         <div class="faq-home__button page-width d-flex justify-content-center">
-          <a class="btn btn__primary js-image-link-mobile" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+          {% if section.settings.button_url %}
+          <a class="btn btn__primary js-image-link-mobile jpg" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
             {% render 'icon-download' %}
           </a>
+          {% else %}
+          <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">{{ section.settings.button_label }}
+            {% render 'icon-download' %}
+          </a>
+        {% endif %}
         </div>
       {% endif %}
       <div id="popup_mobile" class="popup">
@@ -199,7 +211,12 @@ popupMobile.addEventListener('click', function(event) {
     {
       "type": "url",
       "id": "button_url",
-      "label": "Button URL"
+      "label": "Button URL Image"
+    },
+    {
+      "type": "url",
+      "id": "button_url_pdf",
+      "label": "Button URL PDF"
     },
     {
       "type": "header",

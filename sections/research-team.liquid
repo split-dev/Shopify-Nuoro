@@ -39,7 +39,7 @@
                     <p class="name">{{ block.settings.name }}</p>
                   {% endif %}
                   {% if block.settings.position != blank %}
-                    {{ block.settings.position }}
+                    <p class="text-15px position">{{ block.settings.position }}</p>
                   {% endif %} 
                 </div>
                 <div class="item-content__bottom">
@@ -140,7 +140,7 @@
             "label": "Name Surname"
         },
         {
-            "type": "richtext",
+            "type": "text",
             "id": "position",
             "label": "Position"
         },

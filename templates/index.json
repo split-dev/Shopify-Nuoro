@@ -462,6 +462,13 @@
             "text": "<p><strong>NUORO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, la fonction cognitive et plus encore.<\/strong><\/p><p><\/p><p>Chez NUORO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NUORO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br\/><\/p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br\/><br\/><a href=\"\/pages\/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.<\/a><\/p>"
           }
         },
+        "text_tRJKWk": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO se prend en cure ?",
+            "text": "<p>NUORO est avant tout une routine quotidienne conçue pour vous accompagner sur le long terme. Grâce à ses 71 ingrédients soigneusement sélectionnés, il soutient votre bien-être global au fil des jours.<\/p><p>Cependant, NUORO peut également être pris en cure de 3 mois, notamment pendant des périodes plus stressantes, intensives ou de rééquilibrage. Que ce soit pour un usage continu ou en cure à des moments clés de l'année, NUORO s'adapte à vos besoins pour vous aider à rester au meilleur de votre forme.<\/p>"
+          }
+        },
         "text_UBeTfw": {
           "type": "text",
           "settings": {
@@ -508,6 +515,7 @@
       "block_order": [
         "text_awntK4",
         "text_eEzNwL",
+        "text_tRJKWk",
         "text_UBeTfw",
         "text_wJfUdG",
         "text_T69x8X",

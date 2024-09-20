@@ -237,7 +237,8 @@
           "type": "text",
           "settings": {
             "title": "Enjoy!",
-            "text": ""
+            "text": "",
+            "image": "shopify:\/\/shop_images\/Nuoro_D_gustation.jpg"
           }
         }
       },

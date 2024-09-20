@@ -221,7 +221,8 @@
           "type": "text",
           "settings": {
             "title": "Versez une dose dans 250ml d'eau fraîche",
-            "text": "Tous les jours, à jeun de préférence"
+            "text": "Tous les jours, à jeun de préférence",
+            "image": "shopify:\/\/shop_images\/Nuoro_Preparation_Versement.jpg"
           }
         },
         "text_F3rVtx": {

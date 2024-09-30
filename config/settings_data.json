@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Capa_1-2.svg",
+    "logo": "shopify://shop_images/Capa_1-2.svg",
     "logo_width": 120,
-    "favicon": "shopify:\/\/shop_images\/Favicon_Black_f0a60dee-6391-435a-90d3-924fb4eb1fa2.svg",
+    "favicon": "shopify://shop_images/Favicon_Black_f0a60dee-6391-435a-90d3-924fb4eb1fa2.svg",
     "override_with_custom_fonts": true,
     "type_header_font": "abril_fatface_n4",
     "heading_scale": 100,
@@ -107,11 +107,11 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "https:\/\/instagram.com\/drinknuoro",
-    "social_instagram_link": "https:\/\/instagram.com\/drinknuoro",
+    "social_facebook_link": "https://instagram.com/drinknuoro",
+    "social_instagram_link": "https://instagram.com/drinknuoro",
     "social_youtube_link": "",
     "social_tiktok_link": "",
-    "social_twitter_link": "https:\/\/instagram.com\/drinknuoro",
+    "social_twitter_link": "https://instagram.com/drinknuoro",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -143,13 +143,13 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "17151115064775110295": {
-        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
         "settings": {
           "color_brand": "#ffa842",
@@ -162,6 +162,12 @@
           "images_aspect_ratio": "1",
           "cards_background": "#ffffff",
           "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "15128825611575457054": {
+        "type": "shopify://apps/gtm-data-layer-gtm-kit/blocks/star_rating/2250107a-52da-4a4c-90f3-9dc740388cdb",
+        "disabled": false,
+        "settings": {
         }
       }
     },

@@ -166,7 +166,7 @@
       },
       "15128825611575457054": {
         "type": "shopify://apps/gtm-data-layer-gtm-kit/blocks/star_rating/2250107a-52da-4a4c-90f3-9dc740388cdb",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

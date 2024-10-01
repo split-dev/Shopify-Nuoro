@@ -12,9 +12,9 @@
     "home_hero_CF9PjB": {
       "type": "home-hero",
       "settings": {
-        "bg": "shopify://shop_images/Nuoro-friends.jpg",
+        "bg": "shopify://shop_images/MG_4309.jpg",
         "bg_mobile": "shopify://shop_images/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
-        "title": "OPTIMAL NUTRITION  MADE SIMPLE",
+        "title": "OPTIMAL NUTRITION,  MADE SIMPLE",
         "text": "NUORO est une solution nutritionnelle optimale, scientifiquement élaborée pour optimiser votre santé et soutenir vos performances physiques et mentales.",
         "button_label": "Commencez NUORO",
         "button_url": "#featured-product",

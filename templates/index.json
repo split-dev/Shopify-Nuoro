@@ -180,14 +180,14 @@
         "text_mMyqPE": {
           "type": "text",
           "settings": {
-            "title": "Contrôle Qualité Rigoureux",
+            "title": "Contrôle Qualité <br>Rigoureux",
             "text": "Certifié GMP et ISO 22000"
           }
         },
         "text_MrFGpc": {
           "type": "text",
           "settings": {
-            "title": "Recette constamment améliorée",
+            "title": "Recette constamment <br>améliorée",
             "text": "10ème itération"
           }
         },

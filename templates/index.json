@@ -159,21 +159,21 @@
         "text_kDWHBd": {
           "type": "text",
           "settings": {
-            "title": "Abonnement sans engagement",
+            "title": "Abonnement sans <br>engagement",
             "text": "Choisissez l'abonnement sans risque et annulez à tout moment."
           }
         },
         "text_k8dCWL": {
           "type": "text",
           "settings": {
-            "title": "71 ingrédients actifs",
+            "title": "71 ingrédients <br>actifs",
             "text": "Chacun choisi pour sa pureté et son efficacité assimilables"
           }
         },
         "text_Xb9Dry": {
           "type": "text",
           "settings": {
-            "title": "Sans additifs",
+            "title": "Sans <br>additifs",
             "text": "Ni arômes, colorants ou conservateurs artificiels"
           }
         },
@@ -194,7 +194,7 @@
         "text_hdQH9c": {
           "type": "text",
           "settings": {
-            "title": "Sans Sucre ajouté",
+            "title": "Sans Sucre <br>ajouté",
             "text": "Ni gluten, oeufs, lactose ou arachides"
           }
         }

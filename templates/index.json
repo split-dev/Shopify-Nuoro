@@ -107,8 +107,8 @@
         "product_recharge_QGPLdq": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Abonnement",
-            "subscribe_title": "Offre 1er mois à",
+            "subscribe_subtitle": "Abonnement - Offre de lancement",
+            "subscribe_title": "1er mois à",
             "subscribe_list_item_1": "Prix après le mois d’essai : 79€/mois",
             "subscribe_list_item_2": "Pause ou annulation à tout moment",
             "subscribe_list_item_3": "Shaker NUORO offert",

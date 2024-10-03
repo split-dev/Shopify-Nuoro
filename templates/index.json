@@ -109,8 +109,8 @@
           "settings": {
             "subscribe_subtitle": "Abonnement",
             "subscribe_title": "Offre 1er mois à",
-            "subscribe_list_item_1": "Prix de l’abonnement après le mois d’essai : 79€/mois",
-            "subscribe_list_item_2": "Pause, report ou annulation à tout moment",
+            "subscribe_list_item_1": "Prix après le mois d’essai : 79€/mois",
+            "subscribe_list_item_2": "Pause ou annulation à tout moment",
             "subscribe_list_item_3": "Shaker NUORO offert",
             "subscribe_list_item_4": "1,96€ par sachet",
             "subscribe_bottom_text": "Livraison gratuite",

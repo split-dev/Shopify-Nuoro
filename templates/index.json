@@ -445,6 +445,29 @@
         "padding_bottom_mobile": 55
       }
     },
+    "video_reviews_jTMMEL": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_b438QR": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
+            "title": "\"Un boost d’énergie chaque matin\"",
+            "text": "Alix B"
+          }
+        }
+      },
+      "block_order": [
+        "text_b438QR"
+      ],
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
+      }
+    },
     "faq_home_VX69Gg": {
       "type": "faq-home",
       "blocks": {
@@ -528,7 +551,7 @@
         "button_label": "",
         "button_url": "",
         "button_url_pdf": "",
-        "padding_top": 0,
+        "padding_top": 55,
         "padding_bottom": 50,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 20
@@ -642,6 +665,7 @@
     "text_img_tiles_rQY4GA",
     "video_reviews_hfbLxP",
     "title_and_list_YBkG6P",
+    "video_reviews_jTMMEL",
     "faq_home_VX69Gg",
     "list_logos_qpYYXr"
   ]

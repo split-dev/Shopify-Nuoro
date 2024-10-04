@@ -553,8 +553,8 @@
         "button_url_pdf": "",
         "padding_top": 55,
         "padding_bottom": 50,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 35
       }
     },
     "list_logos_qpYYXr": {

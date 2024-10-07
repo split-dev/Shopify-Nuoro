@@ -91,20 +91,6 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} template-{{ request.page_type | handle }} template-{{ template.suffix }}">
-<!-- STARTING AFFILAE TRACKING CODE -->
-
-<script type="text/javascript">
-    var _ae = {
-        "pid":"66e1bbe0a39dcdde31130b6b",
-    };
-    (function() {
-        var element = document.createElement('script'); element.type = 'text/javascript'; element.async = true;
-        element.src = '//static.affilae.com/ae-v3.5.js';
-        var scr = document.getElementsByTagName('script')[0]; scr.parentNode.insertBefore(element, scr);
-    })();
-</script>
-
-<!-- ENDING AFFILAE TRACKING CODE -->
     
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}

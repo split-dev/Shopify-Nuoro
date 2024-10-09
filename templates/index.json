@@ -336,7 +336,7 @@
           "settings": {
             "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
             "title": "\"Un boost d’énergie chaque matin\"",
-            "text": "Alix B."
+            "text": "Alix B. <br>Étude Observationnelle"
           }
         },
         "text_EaWhaW": {
@@ -344,7 +344,7 @@
           "settings": {
             "video": "shopify://files/videos/Copie de Nuoro - vidéo UGC light.mp4",
             "title": "\"Bien commencer la journée\"",
-            "text": "Didier O."
+            "text": "Didier O. <br> Étude Observationnelle"
           }
         }
       },

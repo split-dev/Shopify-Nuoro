@@ -338,10 +338,19 @@
             "title": "\"Un boost d’énergie chaque matin\"",
             "text": "Alix B."
           }
+        },
+        "text_EaWhaW": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Copie de Nuoro - vidéo UGC light.mp4",
+            "title": "\"Bien commencer la journée\"",
+            "text": "Didier O."
+          }
         }
       },
       "block_order": [
-        "text_b438QR"
+        "text_b438QR",
+        "text_EaWhaW"
       ],
       "settings": {
         "bg_color": "#ffbcce",

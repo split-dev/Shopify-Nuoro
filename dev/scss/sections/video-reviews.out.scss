@@ -44,6 +44,10 @@
         }
         &:hover {
             transform: scale(1.05);
+            > svg {
+                opacity: 0;
+                pointer-events: none;
+            }
         }
         video {
             width: 100%;
@@ -57,6 +61,7 @@
             left: 50%;
             top: 50%;
             transform: translate(-50%,-50%);
+            transition: 0.3s;
         }
     }
     &__pagination {

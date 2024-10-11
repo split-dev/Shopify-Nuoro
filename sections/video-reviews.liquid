@@ -64,46 +64,35 @@
 
   lightboxReviews.on('open', () => {
     let interval = setInterval(() => {
-      let videoInstance = document.querySelector('#glightbox-slider video');
+     
+      let activeSlide = document.querySelector('.gslide.current');
+      let videoInstance = activeSlide ? activeSlide.querySelector('video') : null;
+
       if (!videoInstance || videoInstance.readyState < 4) return;
+
+   
+      document.querySelectorAll('#glightbox-slider video').forEach(video => {
+        video.pause();
+      });
+
+  
       clearInterval(interval);
       videoInstance.muted = false;
       videoInstance.play();
     }, 100);
-    {% comment %} if (player) {
-        if (!player.ready) {
-          player.on('ready', (event) => {
-            const slider = document.getElementById('glightbox-slider');
-            if (slider) {
-              const currentSlide = slider.querySelector('.gslide');
-              if (currentSlide) {
-                const video = currentSlide.querySelector('video');
-                console.log(video);
-                if (video) {
-                  video.muted = false;
-                  video.play();
-                }
-              }
-            }
-          });
-        }
-    }  {% endcomment %}
-    {% comment %} setTimeout(function() {
-      
-    }, 2000); {% endcomment %}
-    
   });
-
 </script>
+
 
 <script>
   var videoRewiesSlider = new Swiper('.js-video-reviews-slider-init-{{ section.index }}', {
     slidesPerView: 1.7,
     freeMode: false,
     centeredSlides: true,
-    loop: true,
+    loop: false,
     spaceBetween: 33,
     autoplay: false,
+    
     pagination: {
       el: ".js-pagination-reviews",
       type: "fraction",
@@ -112,23 +101,25 @@
         480: {
           slidesPerView: 2,
           spaceBetween: 33,
-
+          initialSlide: 1
         },
         575: {
             slidesPerView: 2.6,
             spaceBetween: 33,
-
+            initialSlide: 1,
         },
         991: {
             slidesPerView: 2.8,
             spaceBetween: 40,
+            initialSlide: 1,
         },
         1260: {
             slidesPerView: 3.8,
             spaceBetween: 60,
+            initialSlide: 1,
         }
     },
-});
+  });
 </script>
 
 <script>

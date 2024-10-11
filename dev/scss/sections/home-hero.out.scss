@@ -42,14 +42,14 @@
         min-height: 600px;
         z-index: 2;
         position: relative;
-        height: 85vh;
+        height: 100svh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         @include media-breakpoint-down(md) {
             min-height: 600px;
-            height: 94svh;
+            height: 100svh;
         }
         h1 {
             text-align: center;

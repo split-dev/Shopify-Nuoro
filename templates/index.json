@@ -359,8 +359,8 @@
           "type": "text",
           "settings": {
             "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
-            "title": "Un Mot du co-fondateur",
-            "text": "Pierre-Brice, co-fondateur"
+            "title": "Un Môt du co-fondateur",
+            "text": "Pierre-Brice <br>co-fondateur"
           }
         }
       },

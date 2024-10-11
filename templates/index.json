@@ -354,12 +354,21 @@
             "title": "Énergie pour le sport",
             "text": "Kathleen O. <br>Étude Osbservationnelle"
           }
+        },
+        "text_JJ4zBn": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
+            "title": "Un Mot du co-fondateur",
+            "text": "Pierre-Brice, co-fondateur"
+          }
         }
       },
       "block_order": [
         "text_b438QR",
         "text_EaWhaW",
-        "text_8VEJdJ"
+        "text_8VEJdJ",
+        "text_JJ4zBn"
       ],
       "settings": {
         "bg_color": "#ffbcce",

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "home_hero_CF9PjB": {
@@ -346,11 +346,20 @@
             "title": "\"Bien commencer la journée\"",
             "text": "Didier O. <br> Étude Observationnelle"
           }
+        },
+        "text_8VEJdJ": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Kathleen - Etude Observationnelle .mp4",
+            "title": "Énergie pour le sport",
+            "text": "Kathleen O. <br>Étude Osbservationnelle"
+          }
         }
       },
       "block_order": [
         "text_b438QR",
-        "text_EaWhaW"
+        "text_EaWhaW",
+        "text_8VEJdJ"
       ],
       "settings": {
         "bg_color": "#ffbcce",

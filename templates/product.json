@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -17,8 +17,8 @@
           "settings": {
             "subscribe_subtitle": "Abonnement - Offre de lancement",
             "subscribe_title": "1er mois à",
-            "subscribe_list_item_1": "Prix après le mois d’essai : 79€/mois",
-            "subscribe_list_item_2": "Pause ou annulation à tout moment",
+            "subscribe_list_item_1": "Pause ou annulation à tout moment",
+            "subscribe_list_item_2": "Prix après le mois d’essai : 79€/mois",
             "subscribe_list_item_3": "Shaker NUORO offert",
             "subscribe_list_item_4": "1,96€ par sachet",
             "subscribe_bottom_text": "Livraison gratuite",

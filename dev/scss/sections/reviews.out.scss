@@ -1,0 +1,40 @@
+.page__reviews {
+    padding-left: 45px;
+    padding-right: 45px;
+    .reviews__wrapper {
+        h2 {
+            font-size: 70px;
+            line-height: 70px;
+            font-weight: 400;
+            margin-bottom: 32px;
+            font-family: var(--font-heading-family);
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 500;
+            font-family: var(--font-body-family);
+            text-align: center;
+        }
+        img {
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 48px;
+        }
+        .reviews__container {
+            article {
+                background: white;
+                padding: 27px;
+                text-align: center;
+                h4 {
+                    font-size: 35px;
+                    line-height: 35px;
+                    font-weight: 400;
+                    // color: #1D1D1B;
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}

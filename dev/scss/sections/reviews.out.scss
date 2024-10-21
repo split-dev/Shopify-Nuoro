@@ -1,6 +1,10 @@
 .page__reviews {
     padding-left: 45px;
     padding-right: 45px;
+    @media (max-width: 768px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     .reviews__wrapper {
         h2 {
             font-size: 70px;
@@ -9,6 +13,10 @@
             margin-bottom: 32px;
             font-family: var(--font-heading-family);
             text-align: center;
+            @media (max-width: 768px) {
+                font-size: 40px;
+                line-height: 40px;
+            }
         }
         p {
             font-size: 20px;
@@ -16,23 +24,67 @@
             font-weight: 500;
             font-family: var(--font-body-family);
             text-align: center;
+            @media (max-width: 768px) {
+                font-size: 15px;
+                line-height: 18px;
+            }
         }
         img {
             margin: 0 auto;
             display: block;
             margin-bottom: 48px;
         }
-        .reviews__container {
-            article {
-                background: white;
-                padding: 27px;
-                text-align: center;
-                h4 {
-                    font-size: 35px;
-                    line-height: 35px;
-                    font-weight: 400;
-                    // color: #1D1D1B;
-                    margin-bottom: 24px;
+        .swiper__reviews {
+            border: 1px solid red;
+            .reviews__container {
+                article {
+                    background: white;
+                    padding: 27px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    .card-count {
+                        .slider-content--stars {
+                            margin: 0;
+                            svg {
+                                height: 23px;
+                                width: 23px;
+                                fill: #FFA72D;
+                                stroke: #FFA72D;
+                            }
+                        }
+                    }
+                    h4 {
+                        font-size: 35px;
+                        line-height: 35px;
+                        font-weight: 400;
+                        margin-bottom: 24px;
+                        @media (max-width: 768px) {
+                            font-size: 20px;
+                            line-height: 20px;
+                        }
+                    }
+                    .card-content {
+                        @media (max-width: 768px) {
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                    }
+                    .card-name {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: auto;
+                        span {
+                            font-size: 24px !important;
+                            line-height: 28px;
+                            font-weight: 500;
+                            @media (max-width: 768px) {
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                    }
                 }
             }
         }

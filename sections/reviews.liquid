@@ -9,7 +9,7 @@
 
 <div class="reviews__wrapper section-{{ section.id }}-padding">
   <h2>{{ section.settings.title }}</h2>
-  <p>{{ section.settings.sub_title }}</p>
+  <p class="subtitle">{{ section.settings.sub_title }}</p>
   {{ section.settings.image | image_url: width: 142 | image_tag: class: 'reviews__image', loading: 'lazy' }}
 
   <div class="swiper swip__reviews">

@@ -10,23 +10,33 @@
             font-size: 70px;
             line-height: 70px;
             font-weight: 400;
-            margin-bottom: 32px;
+            margin-bottom: 24px;
+            margin-top: 200px;
             font-family: var(--font-heading-family);
             text-align: center;
+            max-width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            @media (max-width: 1440px) {
+                font-size: 52px;
+                line-height: 55px;
+                margin-top: 128px;
+                max-width: 100%;
+            }
             @media (max-width: 768px) {
                 font-size: 40px;
                 line-height: 40px;
             }
         }
-        p {
-            font-size: 20px;
+        p.subtitle {
+            font-size: 20px !important;
             line-height: 24px;
             font-weight: 500;
             font-family: var(--font-body-family);
             text-align: center;
             margin: 0;
             @media (max-width: 768px) {
-                font-size: 15px;
+                font-size: 15px !important;
                 line-height: 18px;
             }
         }
@@ -37,7 +47,6 @@
         }
         .swip__reviews {
             padding: 50px;
-            // height: 450px;
             @media (max-width: 768px) {
                 padding: 0;
             }
@@ -73,15 +82,15 @@
                             line-height: 35px;
                             font-weight: 400;
                             margin-bottom: 24px;
-                            @media (max-width: 1200px) {
-                                font-size: 20px;
-                                line-height: 20px;
+                            @media (max-width: 1440px) {
+                                font-size: 24px;
+                                line-height: 24px;
                             }
                         }
                         .card-content {
                             margin-bottom: 30px;
-                            @media (max-width: 768px) {
-                                font-size: 15px;
+                            @media (max-width: 1440px) {
+                                font-size: 18px !important;
                                 line-height: 18px;
                             }
                         }
@@ -95,7 +104,7 @@
                                 line-height: 28px;
                                 font-weight: 500;
                                 @media (max-width: 768px) {
-                                    font-size: 16px;
+                                    font-size: 16px !important;
                                     line-height: 19px;
                                 }
                             }
@@ -137,9 +146,8 @@
                 @media (max-width: 768px) {
                     display: none;
                 }
-            }
-
-                                                
+            }                                   
         }
     }
 }
+

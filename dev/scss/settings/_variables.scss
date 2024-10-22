@@ -2,24 +2,24 @@
     --transition-default: 300ms;
   }
   
-    // Type
-    $font-family-base: var(--font-body-family);
-    $font-family-headings: var(--font-heading-family);
+  // Type
+  $font-family-base: var(--font-body-family);
+  $font-family-headings: var(--font-heading-family);
 
-    // Colors
-    $c-orange: rgb(var(--custom-color-primary));
-    $c-text: rgb(var(--custom-color-text));
-    $c-button-hover: rgb(var(--custom-color-button-hover));
-    $c-gray: rgb(var(--custom-color-gray));
-    $c-almost-white: rgb(var( --custom-color-background-accent));
+  // Colors
+  $c-orange: rgb(var(--custom-color-primary));
+  $c-text: rgb(var(--custom-color-text));
+  $c-button-hover: rgb(var(--custom-color-button-hover));
+  $c-gray: rgb(var(--custom-color-gray));
+  $c-almost-white: rgb(var( --custom-color-background-accent));
 
-    $c-light-grey: #D7DCE1;
-    $c-light-grey-2: #F6F4ED;
-    $c-light-grey-3: #D9D9D9;
+  $c-light-grey: #D7DCE1;
+  $c-light-grey-2: #F6F4ED;
+  $c-light-grey-3: #D9D9D9;
 
-    // Grid
-    $sm: 0;
-    $md: 576px;
-    $lg: 750px;
-    $xl: 990px;
-    $xxl: 1200px;
+  // Grid
+  $sm: 0;
+  $md: 576px;
+  $lg: 750px;
+  $xl: 990px;
+  $xxl: 1200px;

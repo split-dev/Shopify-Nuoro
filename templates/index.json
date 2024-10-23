@@ -323,59 +323,9 @@
       "settings": {
         "title": "Comment Préparer?",
         "padding_top": 50,
-        "padding_bottom": 110,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 75
-      }
-    },
-    "video_reviews_jTMMEL": {
-      "type": "video-reviews",
-      "blocks": {
-        "text_b438QR": {
-          "type": "text",
-          "settings": {
-            "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
-            "title": "\"Un boost d’énergie chaque matin\"",
-            "text": "Alix B. <br>Étude Observationnelle"
-          }
-        },
-        "text_EaWhaW": {
-          "type": "text",
-          "settings": {
-            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
-            "title": "\"Bien commencer la journée\"",
-            "text": "Didier O. <br> Étude Observationnelle"
-          }
-        },
-        "text_8VEJdJ": {
-          "type": "text",
-          "settings": {
-            "video": "shopify://files/videos/Kathleen - Etude Observationnelle .mp4",
-            "title": "\"Soutient mes séances de sport\"",
-            "text": "Kathleen O. Étude Osbservationnelle"
-          }
-        },
-        "text_JJ4zBn": {
-          "type": "text",
-          "settings": {
-            "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
-            "title": "Un Môt du co-fondateur",
-            "text": "Pierre-Brice <br>co-fondateur"
-          }
-        }
-      },
-      "block_order": [
-        "text_b438QR",
-        "text_EaWhaW",
-        "text_8VEJdJ",
-        "text_JJ4zBn"
-      ],
-      "settings": {
-        "bg_color": "#ffbcce",
-        "padding_top": 70,
         "padding_bottom": 50,
-        "padding_top_mobile": 45,
-        "padding_bottom_mobile": 45
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
       }
     },
     "reviews": {
@@ -442,6 +392,56 @@
         "image": "shopify://shop_images/trustpilot_logo.svg",
         "logo_trustpilot": "shopify://shop_images/Verifie.svg",
         "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
+      }
+    },
+    "video_reviews_jTMMEL": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_b438QR": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
+            "title": "\"Un boost d’énergie chaque matin\"",
+            "text": "Alix B. <br>Étude Observationnelle"
+          }
+        },
+        "text_EaWhaW": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
+            "title": "\"Bien commencer la journée\"",
+            "text": "Didier O. <br> Étude Observationnelle"
+          }
+        },
+        "text_8VEJdJ": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Kathleen - Etude Observationnelle .mp4",
+            "title": "\"Soutient mes séances de sport\"",
+            "text": "Kathleen O. Étude Osbservationnelle"
+          }
+        },
+        "text_JJ4zBn": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
+            "title": "Un Môt du co-fondateur",
+            "text": "Pierre-Brice <br>co-fondateur"
+          }
+        }
+      },
+      "block_order": [
+        "text_b438QR",
+        "text_EaWhaW",
+        "text_8VEJdJ",
+        "text_JJ4zBn"
+      ],
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
       }
     },
     "title_and_list_YBkG6P": {

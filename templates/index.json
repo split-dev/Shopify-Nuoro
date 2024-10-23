@@ -154,6 +154,62 @@
         "padding_bottom_mobile": 0
       }
     },
+    "reviews": {
+      "type": "reviews",
+      "blocks": {
+        "reviews_kdzdfL": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 4,
+            "card_title": "Je sens la différence !",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
+          }
+        },
+        "reviews_GjiHkj": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Très bon retour à faire sur cette…",
+            "card_subtitle": "Très bon retour à faire sur cette nouvelle super poudre! Le goût est bon. Simple à diluer dans 300ml. La concentration des nutriments est forte. Je ne suis qu’à mon premier mois mais je me sens super bien!",
+            "card_name": "Xavier"
+          }
+        },
+        "reviews_piYmYE": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 3,
+            "card_title": "Première commande",
+            "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
+            "card_name": "Alexis Mary"
+          }
+        },
+        "reviews_4CKmyg": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 4,
+            "card_title": "Je sens la différence !",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_kdzdfL",
+        "reviews_GjiHkj",
+        "reviews_piYmYE",
+        "reviews_4CKmyg"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "title": "Histoires vraies, résultats réels",
+        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
+        "image": "shopify://shop_images/trustpilot_logo.svg",
+        "logo_trustpilot": "shopify://shop_images/image_20.png",
+        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
+      }
+    },
     "text_tiles_6GFXBz": {
       "type": "text-tiles",
       "blocks": {
@@ -688,6 +744,7 @@
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "featured_product_j8MdBd",
+    "reviews",
     "text_tiles_6GFXBz",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",

@@ -1,7 +1,7 @@
 @import "../settings/variables";
 @import "../settings/bootstrap-media";
 
-
+// $c-orange: rgb(var(--custom-color-primary));
 .template-404 {
     .bg-404 {
         background-color: $c-orange;

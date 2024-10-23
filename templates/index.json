@@ -231,7 +231,7 @@
           "type": "reviews",
           "settings": {
             "count_reviews": 2,
-            "card_title": "Cure commencée il y a 3 semaines",
+            "card_title": "Forme et meilleur sommeil",
             "card_subtitle": "Cure commencée il y a 3 semaines, sommeil plus régulier et bien meilleure forme tout au long de la journée.",
             "card_name": "Valérie P."
           }
@@ -240,27 +240,27 @@
           "type": "reviews",
           "settings": {
             "count_reviews": 3,
-            "card_title": "",
-            "card_subtitle": "",
-            "card_name": ""
+            "card_title": "Essayer c'est l'adopter!",
+            "card_subtitle": "Essayer Nuoro c'est l'adopter, son goût est bon et l'on ressent vraiment la différence, moins de stress et plus d'énergie.",
+            "card_name": "Cannelle B."
           }
         },
         "reviews_piYmYE": {
           "type": "reviews",
           "settings": {
             "count_reviews": 4,
-            "card_title": "Première commande",
-            "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
-            "card_name": "Alexis Mary"
+            "card_title": "Boost Nutritionnel",
+            "card_subtitle": "Je le conseillerai aussi à tous mes sportifs pour qui la diététique s'impose et à tous ceux qui veulent garder la forme.",
+            "card_name": "Dr. Patrick M."
           }
         },
         "reviews_tFgKYn": {
           "type": "reviews",
           "settings": {
             "count_reviews": 5,
-            "card_title": "",
-            "card_subtitle": "",
-            "card_name": ""
+            "card_title": "Meilleure récupération",
+            "card_subtitle": "Ça m’aide beaucoup à récupérer après des séances de sport. Je recommande vivement.",
+            "card_name": "Amine A."
           }
         }
       },
@@ -271,7 +271,6 @@
         "reviews_piYmYE",
         "reviews_tFgKYn"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 35,

@@ -178,7 +178,7 @@
         "reviews_piYmYE": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 3,
+            "count_reviews": 5,
             "card_title": "Première commande",
             "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
             "card_name": "Alexis Mary"
@@ -187,7 +187,7 @@
         "reviews_4CKmyg": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 4,
+            "count_reviews": 5,
             "card_title": "Je sens la différence !",
             "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
             "card_name": "Paul Tancrède"

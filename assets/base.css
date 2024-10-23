@@ -3465,3 +3465,16 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+.text-img-tiles__header p.text-26px {
+  font-size: 20px !important;
+}
+@media (max-width: 765px) {
+  .text-img-tiles__header p.text-26px {
+      font-size: 15px !important;
+    }
+}
+.img-and-content__content-text.text-15px p {
+  font-size: 20px !important;
+}

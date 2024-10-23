@@ -287,72 +287,6 @@
         "padding_bottom_mobile": 40
       }
     },
-    "reviews": {
-      "type": "reviews",
-      "blocks": {
-        "reviews_kdzdfL": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 5,
-            "card_title": "Efficace et simple!",
-            "card_subtitle": "J’attaque mon deuxième mois de traitement, je me sens moins fatigué au quotidien, et surtout je note une différence au niveau de la digestion, plus aucun ballonnement, mal de ventre après mangé",
-            "card_name": "Maximilien M."
-          }
-        },
-        "reviews_GjiHkj": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 5,
-            "card_title": "Forme et meilleur sommeil",
-            "card_subtitle": "Cure commencée il y a 3 semaines, sommeil plus régulier et bien meilleure forme tout au long de la journée.",
-            "card_name": "Valérie P."
-          }
-        },
-        "reviews_CLWgc8": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 5,
-            "card_title": "Essayer c'est l'adopter!",
-            "card_subtitle": "Essayer Nuoro c'est l'adopter, son goût est bon et l'on ressent vraiment la différence, moins de stress et plus d'énergie.",
-            "card_name": "Cannelle B."
-          }
-        },
-        "reviews_piYmYE": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 5,
-            "card_title": "Boost Nutritionnel",
-            "card_subtitle": "Je le conseillerai aussi à tous mes sportifs pour qui la diététique s'impose et à tous ceux qui veulent garder la forme.",
-            "card_name": "Dr. Patrick M."
-          }
-        },
-        "reviews_tFgKYn": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 5,
-            "card_title": "Meilleure récupération",
-            "card_subtitle": "Ça m’aide beaucoup à récupérer après des séances de sport. Je recommande vivement.",
-            "card_name": "Amine A."
-          }
-        }
-      },
-      "block_order": [
-        "reviews_kdzdfL",
-        "reviews_GjiHkj",
-        "reviews_CLWgc8",
-        "reviews_piYmYE",
-        "reviews_tFgKYn"
-      ],
-      "settings": {
-        "padding_top": 25,
-        "padding_bottom": 35,
-        "title": "Des Histoires vraies, <br>des résultats réels",
-        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
-        "image": "shopify://shop_images/trustpilot_logo.svg",
-        "logo_trustpilot": "shopify://shop_images/Verifie.svg",
-        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
-      }
-    },
     "tab_images_QcxXbC": {
       "type": "tab-images",
       "blocks": {
@@ -442,6 +376,72 @@
         "padding_bottom": 50,
         "padding_top_mobile": 45,
         "padding_bottom_mobile": 45
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "blocks": {
+        "reviews_kdzdfL": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Efficace et simple!",
+            "card_subtitle": "J’attaque mon deuxième mois de traitement, je me sens moins fatigué au quotidien, et surtout je note une différence au niveau de la digestion, plus aucun ballonnement, mal de ventre après mangé",
+            "card_name": "Maximilien M."
+          }
+        },
+        "reviews_GjiHkj": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Forme et meilleur sommeil",
+            "card_subtitle": "Cure commencée il y a 3 semaines, sommeil plus régulier et bien meilleure forme tout au long de la journée.",
+            "card_name": "Valérie P."
+          }
+        },
+        "reviews_CLWgc8": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Essayer c'est l'adopter!",
+            "card_subtitle": "Essayer Nuoro c'est l'adopter, son goût est bon et l'on ressent vraiment la différence, moins de stress et plus d'énergie.",
+            "card_name": "Cannelle B."
+          }
+        },
+        "reviews_piYmYE": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Boost Nutritionnel",
+            "card_subtitle": "Je le conseillerai aussi à tous mes sportifs pour qui la diététique s'impose et à tous ceux qui veulent garder la forme.",
+            "card_name": "Dr. Patrick M."
+          }
+        },
+        "reviews_tFgKYn": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Meilleure récupération",
+            "card_subtitle": "Ça m’aide beaucoup à récupérer après des séances de sport. Je recommande vivement.",
+            "card_name": "Amine A."
+          }
+        }
+      },
+      "block_order": [
+        "reviews_kdzdfL",
+        "reviews_GjiHkj",
+        "reviews_CLWgc8",
+        "reviews_piYmYE",
+        "reviews_tFgKYn"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 35,
+        "title": "Des Histoires vraies, des résultats réels",
+        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
+        "image": "shopify://shop_images/trustpilot_logo.svg",
+        "logo_trustpilot": "shopify://shop_images/Verifie.svg",
+        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
       }
     },
     "video_reviews_hfbLxP": {
@@ -756,9 +756,9 @@
     "featured_product_j8MdBd",
     "text_tiles_6GFXBz",
     "text_img_tiles_rQY4GA",
-    "reviews",
     "tab_images_QcxXbC",
     "video_reviews_jTMMEL",
+    "reviews",
     "video_reviews_hfbLxP",
     "title_and_list_YBkG6P",
     "faq_home_VX69Gg",

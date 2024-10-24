@@ -265,51 +265,10 @@
         "text_hdQH9c"
       ],
       "settings": {
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 50,
+        "padding_bottom": 20,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 40
-      }
-    },
-    "tab_images_QcxXbC": {
-      "type": "tab-images",
-      "blocks": {
-        "text_wKDNQy": {
-          "type": "text",
-          "settings": {
-            "title": "Versez une dose dans 250ml d'eau fraîche",
-            "text": "Tous les jours, à jeun de préférence",
-            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
-          }
-        },
-        "text_F3rVtx": {
-          "type": "text",
-          "settings": {
-            "title": "Secouez",
-            "text": "Dans votre Shaker NUORO",
-            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
-          }
-        },
-        "text_PxUYMX": {
-          "type": "text",
-          "settings": {
-            "title": "Enjoy!",
-            "text": "",
-            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "text_wKDNQy",
-        "text_F3rVtx",
-        "text_PxUYMX"
-      ],
-      "settings": {
-        "title": "Comment Préparer?",
-        "padding_top": 50,
-        "padding_bottom": 110,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 75
       }
     },
     "text_img_tiles_rQY4GA": {
@@ -378,10 +337,117 @@
         "image": "shopify://shop_images/Group_21.svg",
         "button_label": "Ingredients & Bénéfices",
         "button_url": "shopify://pages/ingredients",
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 30,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 40
+      }
+    },
+    "tab_images_QcxXbC": {
+      "type": "tab-images",
+      "blocks": {
+        "text_wKDNQy": {
+          "type": "text",
+          "settings": {
+            "title": "Versez une dose dans 250ml d'eau fraîche",
+            "text": "Tous les jours, à jeun de préférence",
+            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
+          }
+        },
+        "text_F3rVtx": {
+          "type": "text",
+          "settings": {
+            "title": "Secouez",
+            "text": "Dans votre Shaker NUORO",
+            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
+          }
+        },
+        "text_PxUYMX": {
+          "type": "text",
+          "settings": {
+            "title": "Enjoy!",
+            "text": "",
+            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_wKDNQy",
+        "text_F3rVtx",
+        "text_PxUYMX"
+      ],
+      "settings": {
+        "title": "Comment Préparer?",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "blocks": {
+        "reviews_kdzdfL": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Efficace et simple!",
+            "card_subtitle": "J’attaque mon deuxième mois de traitement, je me sens moins fatigué au quotidien, et surtout je note une différence au niveau de la digestion, plus aucun ballonnement, mal de ventre après mangé",
+            "card_name": "Maximilien M."
+          }
+        },
+        "reviews_GjiHkj": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Forme et meilleur sommeil",
+            "card_subtitle": "Cure commencée il y a 3 semaines, sommeil plus régulier et bien meilleure forme tout au long de la journée.",
+            "card_name": "Valérie P."
+          }
+        },
+        "reviews_CLWgc8": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Essayer c'est l'adopter!",
+            "card_subtitle": "Essayer Nuoro c'est l'adopter, son goût est bon et l'on ressent vraiment la différence, moins de stress et plus d'énergie.",
+            "card_name": "Cannelle B."
+          }
+        },
+        "reviews_piYmYE": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Boost Nutritionnel",
+            "card_subtitle": "Je le conseillerai aussi à tous mes sportifs pour qui la diététique s'impose et à tous ceux qui veulent garder la forme.",
+            "card_name": "Dr. Patrick M."
+          }
+        },
+        "reviews_tFgKYn": {
+          "type": "reviews",
+          "settings": {
+            "count_reviews": 5,
+            "card_title": "Meilleure récupération",
+            "card_subtitle": "Ça m’aide beaucoup à récupérer après des séances de sport. Je recommande vivement.",
+            "card_name": "Amine A."
+          }
+        }
+      },
+      "block_order": [
+        "reviews_kdzdfL",
+        "reviews_GjiHkj",
+        "reviews_CLWgc8",
+        "reviews_piYmYE",
+        "reviews_tFgKYn"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 35,
+        "title": "Des Histoires vraies, des résultats réels",
+        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
+        "image": "shopify://shop_images/trustpilot_logo.svg",
+        "logo_trustpilot": "shopify://shop_images/Verifie.svg",
+        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
       }
     },
     "video_reviews_jTMMEL": {
@@ -432,6 +498,55 @@
         "padding_bottom": 50,
         "padding_top_mobile": 45,
         "padding_bottom_mobile": 45
+      }
+    },
+    "title_and_list_YBkG6P": {
+      "type": "title-and-list",
+      "blocks": {
+        "text_TUe9R4": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Gluten"
+          }
+        },
+        "text_mQhUNV": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Lactose"
+          }
+        },
+        "text_tNtQRB": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Oeufs"
+          }
+        },
+        "text_dmhykw": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Arachides"
+          }
+        },
+        "text_GrcA7W": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Sucre ajouté"
+          }
+        }
+      },
+      "block_order": [
+        "text_TUe9R4",
+        "text_mQhUNV",
+        "text_tNtQRB",
+        "text_dmhykw",
+        "text_GrcA7W"
+      ],
+      "settings": {
+        "title": "Sans arômes, colorants et conservateurs artificiels.",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_mobile": 70,
+        "padding_bottom_mobile": 55
       }
     },
     "video_reviews_hfbLxP": {
@@ -501,55 +616,6 @@
         "padding_bottom": 70,
         "padding_top_mobile": 50,
         "padding_bottom_mobile": 50
-      }
-    },
-    "title_and_list_YBkG6P": {
-      "type": "title-and-list",
-      "blocks": {
-        "text_TUe9R4": {
-          "type": "text",
-          "settings": {
-            "text": "Sans Gluten"
-          }
-        },
-        "text_mQhUNV": {
-          "type": "text",
-          "settings": {
-            "text": "Sans Lactose"
-          }
-        },
-        "text_tNtQRB": {
-          "type": "text",
-          "settings": {
-            "text": "Sans Oeufs"
-          }
-        },
-        "text_dmhykw": {
-          "type": "text",
-          "settings": {
-            "text": "Sans Arachides"
-          }
-        },
-        "text_GrcA7W": {
-          "type": "text",
-          "settings": {
-            "text": "Sans Sucre ajouté"
-          }
-        }
-      },
-      "block_order": [
-        "text_TUe9R4",
-        "text_mQhUNV",
-        "text_tNtQRB",
-        "text_dmhykw",
-        "text_GrcA7W"
-      ],
-      "settings": {
-        "title": "Sans arômes, colorants et conservateurs artificiels.",
-        "padding_top": 70,
-        "padding_bottom": 50,
-        "padding_top_mobile": 70,
-        "padding_bottom_mobile": 55
       }
     },
     "faq_home_VX69Gg": {
@@ -746,11 +812,12 @@
     "featured_product_j8MdBd",
     "reviews",
     "text_tiles_6GFXBz",
-    "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
+    "tab_images_QcxXbC",
+    "reviews",
     "video_reviews_jTMMEL",
-    "video_reviews_hfbLxP",
     "title_and_list_YBkG6P",
+    "video_reviews_hfbLxP",
     "faq_home_VX69Gg",
     "list_logos_qpYYXr"
   ]

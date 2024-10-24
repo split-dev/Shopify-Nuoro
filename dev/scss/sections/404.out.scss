@@ -1,6 +1,5 @@
-@import "../settings/variables";
-@import "../settings/bootstrap-media";
-
+@use "../settings/variables" as *;
+@use '../settings/bootstrap-media' as *;
 
 .template-404 {
     .bg-404 {

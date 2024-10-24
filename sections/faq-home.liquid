@@ -1,6 +1,5 @@
 {{ 'faq-home.out.css' | asset_url | stylesheet_tag }}
 
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top_mobile }}px;
@@ -36,19 +35,21 @@
         {% if section.settings.button_label != blank %}
           <div class="faq-home__button page-width d-flex justify-content-center">
             {% if section.settings.button_url %}
-              <a class="btn btn__primary js-image-link jpg" target="_blank" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
+              <a class="btn btn__primary js-image-link jpg" target="_blank" href="{{ section.settings.button_url }}">
+                {{- section.settings.button_label }}
                 {% render 'icon-download' %}
               </a>
-              {% else %}
-              <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">{{ section.settings.button_label }}
+            {% else %}
+              <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">
+                {{- section.settings.button_label }}
                 {% render 'icon-download' %}
               </a>
             {% endif %}
           </div>
         {% endif %}
         <div id="popup" class="popup">
-            <span class="close">&times;</span>
-            <img class="popup-content" id="popup-img">
+          <span class="close">&times;</span>
+          <img class="popup-content" id="popup-img">
         </div>
       </div>
       <div class="faq-home__answers">
@@ -71,7 +72,12 @@
               <path d="M6.84349 20.6212C7.23402 21.0117 7.86718 21.0117 8.25771 20.6212L14.6217 14.2572C15.0122 13.8667 15.0122 13.2335 14.6217 12.843C14.2311 12.4525 13.598 12.4525 13.2075 12.843L7.5506 18.4998L1.89374 12.843C1.50322 12.4525 0.870055 12.4525 0.479531 12.843C0.0890065 13.2335 0.0890065 13.8667 0.479531 14.2572L6.84349 20.6212ZM6.5506 0.744141L6.5506 19.9141L8.5506 19.9141L8.5506 0.744141L6.5506 0.744141Z" fill="#1D1D1B"/>
             </svg>
           </div>
-          <div class="faq-home__accordion-answer" {% if forloop.first %}style="max-height: {{ block.settings.text | size }}px;"{% endif %}>
+          <div
+            class="faq-home__accordion-answer"
+            {% if forloop.first %}
+              style="max-height: {{ block.settings.text | size }}px;"
+            {% endif %}
+          >
             <div>{{ block.settings.text }}</div>
           </div>
         {% endif %}
@@ -79,14 +85,16 @@
       {% if section.settings.button_label != blank %}
         <div class="faq-home__button page-width d-flex justify-content-center">
           {% if section.settings.button_url %}
-          <a class="btn btn__primary js-image-link-mobile jpg" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}
-            {% render 'icon-download' %}
-          </a>
+            <a class="btn btn__primary js-image-link-mobile jpg" href="{{ section.settings.button_url }}">
+              {{- section.settings.button_label }}
+              {% render 'icon-download' %}
+            </a>
           {% else %}
-          <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">{{ section.settings.button_label }}
-            {% render 'icon-download' %}
-          </a>
-        {% endif %}
+            <a class="btn btn__primary pdf" target="_blank" href="{{ section.settings.button_url_pdf }}">
+              {{- section.settings.button_label }}
+              {% render 'icon-download' %}
+            </a>
+          {% endif %}
         </div>
       {% endif %}
       <div id="popup_mobile" class="popup">
@@ -98,99 +106,97 @@
 </section>
 
 <script>
-  //TABS
-  function openTab_{{ section.index }}(evt, tabName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+    //TABS
+    function openTab_{{ section.index }}(evt, tabName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("js-tabcontent-{{ section.index }}");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("js-tabcontent-{{ section.index }}");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("js-tablinks-{{ section.index }}");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "flex";
+    evt.currentTarget.className += " active";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("js-tablinks-{{ section.index }}");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(tabName).style.display = "flex";
-  evt.currentTarget.className += " active";
-}
+  //ACCORDION
+    var acc = document.getElementsByClassName("js-accordion-{{ section.index }}");
+    var i;
 
-
-//ACCORDION
-  var acc = document.getElementsByClassName("js-accordion-{{ section.index }}");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
-  }
-
-  // Set the first accordion as open on page load
-  if (acc.length > 0) {
-    var firstPanel = acc[0].nextElementSibling;
-    firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
-  }
-
-  // Recalculate maxHeight on window resize
-  window.addEventListener('resize', function() {
     for (i = 0; i < acc.length; i++) {
-      var panel = acc[i].nextElementSibling;
-      if (acc[i].classList.contains('active')) {
-        panel.style.maxHeight = panel.scrollHeight + "px";
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+    // Set the first accordion as open on page load
+    if (acc.length > 0) {
+      var firstPanel = acc[0].nextElementSibling;
+      firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
+    }
+
+    // Recalculate maxHeight on window resize
+    window.addEventListener('resize', function() {
+      for (i = 0; i < acc.length; i++) {
+        var panel = acc[i].nextElementSibling;
+        if (acc[i].classList.contains('active')) {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
       }
-    }
-});
+  });
 
 
-const popup = document.getElementById('popup');
-const popupMobile = document.getElementById('popup_mobile');
-const popupImg = document.getElementById('popup-img');
-const popupImgMobile = document.getElementById('popup-img-mobile');
-const imageLink = document.querySelector('.js-image-link');
-const imageLinkMobile = document.querySelector('.js-image-link-mobile');
-const closeBtn = document.querySelector('.close');
-const closeBtnMobile = document.querySelector('.close_mobile');
+  const popup = document.getElementById('popup');
+  const popupMobile = document.getElementById('popup_mobile');
+  const popupImg = document.getElementById('popup-img');
+  const popupImgMobile = document.getElementById('popup-img-mobile');
+  const imageLink = document.querySelector('.js-image-link');
+  const imageLinkMobile = document.querySelector('.js-image-link-mobile');
+  const closeBtn = document.querySelector('.close');
+  const closeBtnMobile = document.querySelector('.close_mobile');
 
-imageLink.addEventListener('click', function(event) {
-  event.preventDefault();
-  popup.style.display = 'block';
-  popupImg.src = this.href;
-})
-imageLinkMobile.addEventListener('click', function(event) {
-  event.preventDefault();
-  popupMobile.style.display = 'block';
-  popupImgMobile.src = this.href;
-})
-closeBtn.addEventListener('click', function() {
-    popup.style.display = 'none';
-});
-closeBtnMobile.addEventListener('click', function() {
-  popupMobile.style.display = 'none';
-});
-popup.addEventListener('click', function(event) {
-    if (event.target === popup) {
-        popup.style.display = 'none';
-    }
-});
-popupMobile.addEventListener('click', function(event) {
-    if (event.target === popupMobile) {
-      popupMobile.style.display = 'none';
-    }
-});
-
-
+  imageLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    popup.style.display = 'block';
+    popupImg.src = this.href;
+  })
+  imageLinkMobile.addEventListener('click', function(event) {
+    event.preventDefault();
+    popupMobile.style.display = 'block';
+    popupImgMobile.src = this.href;
+  })
+  closeBtn.addEventListener('click', function() {
+      popup.style.display = 'none';
+  });
+  closeBtnMobile.addEventListener('click', function() {
+    popupMobile.style.display = 'none';
+  });
+  popup.addEventListener('click', function(event) {
+      if (event.target === popup) {
+          popup.style.display = 'none';
+      }
+  });
+  popupMobile.addEventListener('click', function(event) {
+      if (event.target === popupMobile) {
+        popupMobile.style.display = 'none';
+      }
+  });
 </script>
 
 {% schema %}
@@ -284,5 +290,4 @@ popupMobile.addEventListener('click', function(event) {
     }
   ]
 }
-
 {% endschema %}

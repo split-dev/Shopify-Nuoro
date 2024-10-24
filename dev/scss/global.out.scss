@@ -1,8 +1,8 @@
-@import "./settings/variables"; 
-@import "./settings/buttons";
-// @import "./settings/reset";
-@import "./settings/bootstrap"; 
-@import "./settings/typography";
+@use "./settings/variables"; 
+@use "./settings/buttons";
+// @use "./settings/reset";
+@use "./settings/bootstrap"; 
+@use "./settings/typography";
 
 * {
     -webkit-font-smoothing: antialiased;

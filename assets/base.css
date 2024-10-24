@@ -3475,6 +3475,8 @@ details-disclosure > details {
       font-size: 15px !important;
     }
 }
-.img-and-content__content-text.text-15px p {
-  font-size: 20px !important;
+@media (min-width: 450px) {
+  .img-and-content__content-text.text-15px p {
+    font-size: 20px !important;
+  }
 }

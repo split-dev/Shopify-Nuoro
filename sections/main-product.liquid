@@ -23,14 +23,14 @@
 
   {%- style -%}
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
   {%- endstyle -%}
@@ -73,6 +73,31 @@
     <div class="custom-main-product product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
+
+        <div class="custom-main-product__accordion custom-main-product__accordion-desktop">
+          {% for block in section.blocks %}
+            {%- case block.type -%}
+              {%- when 'accordion' -%}
+                {% if block.settings.title %}
+                  <div id="faq-question-{{ forloop.index }}" class="js-accordion-{{ section.index }} custom-main-product__accordion-question d-flex justify-content-between">
+                    <h4>{{ block.settings.title }}</h4>
+                
+                    <svg class="icon-plus" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.9502 21.5576V0.0244141H12.001V21.5576H9.9502ZM0.208984 11.8408V9.74121H21.7666V11.8408H0.208984Z" fill="black"/>
+                    </svg>
+                    
+                    <svg class="icon-minus" width="16" height="3" viewBox="0 0 16 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.2021 0.374023V2.4248H0.84668V0.374023H15.2021Z" fill="black"/>
+                    </svg>
+                  </div>
+                  <div class="custom-main-product__accordion-answer">
+                    <div>{{ block.settings.text }}</div>
+                  </div>
+                {% endif %}
+            {%- endcase -%}
+          {% endfor %}
+        </div>
+        
       </div>
       <div class="js-product-content product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <product-info
@@ -85,6 +110,29 @@
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
+            {%- when 'labels' -%}
+              <div class="custom-main-product__labels">
+                {%- if block.settings.text_1 != blank -%}
+                  <p>{{ block.settings.text_1 }}</p>
+                {%- endif -%}
+                {%- if block.settings.text_2 != blank -%}
+                  <p>{{ block.settings.text_2 }}</p>
+                {%- endif -%}
+                {%- if block.settings.text_3 != blank -%}
+                  <p>{{ block.settings.text_3 }}</p>
+                {%- endif -%}
+                {%- if block.settings.text_4 != blank -%}
+                  <p>{{ block.settings.text_4 }}</p>
+                {%- endif -%}
+                {%- if block.settings.text_5 != blank -%}
+                  <p>{{ block.settings.text_5 }}</p>
+                {%- endif -%}
+                {%- if block.settings.text_6 != blank -%}
+                  <p>{{ block.settings.text_6 }}</p>
+                {%- endif -%}
+              </div>
+            {%- when 'html' -%}
+              <div>{{ block.settings.html }}</div>
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
@@ -667,6 +715,31 @@
             {% render 'icon-arrow' %}
           </a>
         </product-info>
+        
+      </div>
+
+      <div class="custom-main-product__accordion custom-main-product__accordion-mobile">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'accordion' -%}
+              {% if block.settings.title %}
+                <div id="faq-question-{{ forloop.index }}" class="js-accordion-{{ section.index }} custom-main-product__accordion-question d-flex justify-content-between">
+                  <h4>{{ block.settings.title }}</h4>
+              
+                  <svg class="icon-plus" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.9502 21.5576V0.0244141H12.001V21.5576H9.9502ZM0.208984 11.8408V9.74121H21.7666V11.8408H0.208984Z" fill="black"/>
+                  </svg>
+                  
+                  <svg class="icon-minus" width="16" height="3" viewBox="0 0 16 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.2021 0.374023V2.4248H0.84668V0.374023H15.2021Z" fill="black"/>
+                  </svg>
+                </div>
+                <div class="custom-main-product__accordion-answer">
+                  <div>{{ block.settings.text }}</div>
+                </div>
+              {% endif %}
+          {%- endcase -%}
+        {% endfor %}
       </div>
     </div>
 
@@ -766,6 +839,37 @@
 </section>
 
 <script>
+  // ACCORDION
+  var acc = document.getElementsByClassName("js-accordion-{{ section.index }}");
+
+  for (let i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+
+      // Управление видимостью панели
+      let panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+
+  // Обновление высоты на изменение окна
+  window.addEventListener('resize', function() {
+    for (let i = 0; i < acc.length; i++) {
+      let panel = acc[i].nextElementSibling;
+      if (acc[i].classList.contains('active')) {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    }
+  });
+</script>
+
+
+
+<script>
   // Функция для обработки изменения выбранного тарифного плана
   function handlePlanChange(event) {
     // Скрыть все цены
@@ -854,6 +958,69 @@
       "type": "@app"
     },
     {
+      "name": "Accordion Item",
+      "type": "accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "type": "labels",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Label 1"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "Label 2"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "label": "Label 3"
+        },
+        {
+          "type": "text",
+          "id": "text_4",
+          "label": "Label 4"
+        },
+        {
+          "type": "text",
+          "id": "text_5",
+          "label": "Label 5"
+        },
+        {
+          "type": "text",
+          "id": "text_6",
+          "label": "Label 6"
+        }
+      ]
+    },
+    {
+      "name": "Custom HTML",
+      "type": "html",
+      "settings": [
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Custom Code"
+        }
+      ]
+    },
+    {
       "type": "product_recharge",
       "name": "Custom Recharge",
       "settings": [
@@ -872,6 +1039,12 @@
           "id": "subscribe_title",
           "label": "Subscribe Title",
           "default": "ABONNEMENT"
+        },
+        {
+          "type": "text",
+          "id": "item_cost_subscribe",
+          "label": "Subscribe Item Cost",
+          "default": "{1,96€ / sachet* }"
         },
         {
           "type": "text",
@@ -917,6 +1090,12 @@
           "id": "one_time_title",
           "label": "One Time Title",
           "default": "ESSAYER UNE FOIS"
+        },
+        {
+          "type": "text",
+          "id": "item_cost_one_time",
+          "label": "One Time Item Cost",
+          "default": "{3,23€ / sachet*}"
         },
         {
           "type": "text",
@@ -2453,22 +2632,38 @@
     {
       "type": "range",
       "id": "padding_top",
+      "label": "Desktop padding top",
       "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "max": 200,
+      "step": 5,
+      "default": 0
     },
     {
       "type": "range",
       "id": "padding_bottom",
+      "label": "Desktop padding bottom",
       "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
     }
   ]
 }

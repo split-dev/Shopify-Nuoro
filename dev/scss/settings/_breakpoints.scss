@@ -1,4 +1,5 @@
-@use "./functions";
+@use './variables' as *;
+@use './functions' as *;
 
 @mixin media-breakpoint-up($breakpoint) {
   @if $breakpoint == "xxl" {

@@ -5,127 +5,153 @@
   <div class="custom-recharge__wrapper">
     <input class="custom-recharge__input" id="recharge_subscribe" type="radio" name="recharge_input" checked>
     <label class="custom-recharge__subscribe" for="recharge_subscribe">
-      <span class="d-block text-15px mb-2 custom-recharge__text-opacity">{{ block.settings.subscribe_subtitle }}</span>
-      <span class="custom-recharge__title h1">{{ block.settings.subscribe_title }}</span>
-      <span
-        class="custom-recharge__price-wrapper d-flex align-items-center justify-content-center"
-      >
-        {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
-          <span class="custom-recharge__regular-price text-26px">{{ allocation.compare_at_price | money }}</span>
-          <span
-            class="custom-recharge__price custom-recharge__plan-price text-26px"
-            id="price_for_plan_{{ allocation.selling_plan.id }}"
-          >
-            {{ allocation.per_delivery_price | money }}
+      <div>
+        <span class="d-block text-15px mb-2 custom-recharge__text-opacity">{{ block.settings.subscribe_subtitle }}</span>
+        <div class="custom-recharge__title-box d-flex">
+          <span class="custom-recharge__title h1">
+            <span class="custom-recharge__select">
+              <span class="custom-recharge__select-check">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.5 8C2.5 4.92357 4.92357 2.5 8 2.5C11.0764 2.5 13.5 4.92357 13.5 8C13.5 11.0764 11.0764 13.5 8 13.5C4.92357 13.5 2.5 11.0764 2.5 8Z" fill="#FFA72D" stroke="white" stroke-width="5"/>
+                </svg>            
+              </span>
+              <span class="custom-recharge__select-uncheck">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8C1 4.09514 4.09514 1 8 1C11.9049 1 15 4.09514 15 8C15 11.9049 11.9049 15 8 15C4.09514 15 1 11.9049 1 8Z" fill="white" stroke="#7D8998" stroke-width="2"/>
+                </svg>
+              </span>
+            </span>
+            {{ block.settings.subscribe_title }}
           </span>
-          
-        {% endfor %}
-      </span>
-      {% if block.settings.subscribe_list_item_1 != blank %}
-        <ul class="custom-recharge__list">
-          {% if block.settings.subscribe_list_item_1 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.subscribe_list_item_1 }}
-            </li>
-          {% endif %}
-          {% if block.settings.subscribe_list_item_2 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.subscribe_list_item_2 }}
-            </li>
-          {% endif %}
-          {% if block.settings.subscribe_list_item_3 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.subscribe_list_item_3 }}
-            </li>
-          {% endif %}
-          {% if block.settings.subscribe_list_item_4 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.subscribe_list_item_4 }}
-            </li>
-          {% endif %}
-        </ul>
-      {% endif %}
-      <span class="custom-recharge__select">
-        <span class="custom-recharge__select-check">
-          <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6.39252 11.986L0.882812 6.47634L1.98692 5.37197L6.39252 9.77756L15.859 0.311035L16.9632 1.4154L6.39252 11.986Z" fill="#1D1D1B"/>
-          </svg>  
-          {{ 'products.product.selected' | t }}</span>
-        <span class="custom-recharge__select-uncheck">{{ 'products.product.select' | t }}</span>
-      </span>
-      <span class="d-block custom-recharge__text-opacity">{{ block.settings.subscribe_bottom_text }}</span>
-      <div class="custom-recharge__plans d-none">
-        {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
-          <input
-            class="js-test"
-            data-selling-plan-toggle
-            name="recharge_plan"
-            id="recharge_plan_{{ allocation.selling_plan.id }}"
-            type="radio"
-            {% if forloop.first %}
-              checked
+          <span class="custom-recharge__item-cost">{{ block.settings.item_cost_subscribe }}</span>
+        </div>
+        {% if block.settings.subscribe_list_item_1 != blank %}
+          <ul class="custom-recharge__list">
+            {% if block.settings.subscribe_list_item_1 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.subscribe_list_item_1 }}
+              </li>
             {% endif %}
-            value="{{ allocation.selling_plan.id }}"
-          >
-          <label class="p2 color-very-dark-blue font-garamond" for="recharge_plan_{{ allocation.selling_plan.id }}">
-            {{- allocation.selling_plan.name -}}
-          </label>
-        {% endfor %}
+            {% if block.settings.subscribe_list_item_2 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.subscribe_list_item_2 }}
+              </li>
+            {% endif %}
+            {% if block.settings.subscribe_list_item_3 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.subscribe_list_item_3 }}
+              </li>
+            {% endif %}
+            {% if block.settings.subscribe_list_item_4 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.subscribe_list_item_4 }}
+              </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+        <div class="custom-recharge__plans d-none">
+          {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
+            <input
+              class="js-test"
+              data-selling-plan-toggle
+              name="recharge_plan"
+              id="recharge_plan_{{ allocation.selling_plan.id }}"
+              type="radio"
+              {% if forloop.first %}
+                checked
+              {% endif %}
+              value="{{ allocation.selling_plan.id }}"
+            >
+            <label class="p2 color-very-dark-blue font-garamond" for="recharge_plan_{{ allocation.selling_plan.id }}">
+              {{- allocation.selling_plan.name -}}
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="custom-recharge__subscribe-price">
+        <span
+          class="custom-recharge__price-wrapper d-flex align-items-center"
+        >
+          {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
+            <span class="custom-recharge__regular-price text-26px">{{ allocation.compare_at_price | money }}</span>
+            <span
+              class="custom-recharge__price custom-recharge__plan-price text-26px"
+              id="price_for_plan_{{ allocation.selling_plan.id }}"
+            >
+              {{ allocation.per_delivery_price | money }}
+            </span>
+            
+          {% endfor %}
+        </span>
+        <span class="d-block custom-recharge__text-opacity">{{ block.settings.subscribe_bottom_text }}</span>
       </div>
     </label>
     <input class="custom-recharge__input" id="recharge_one_time" type="radio" name="recharge_input" data-selling-plan-toggle>
     <label class="custom-recharge__one-time " for="recharge_one_time">
-      <span class="d-block custom-recharge__text-opacity">{{ block.settings.one_time_subtitle }}</span>
-      <span class="custom-recharge__title h1">{{ block.settings.one_time_title }}</span>
-      <span
-        class="custom-recharge__price-wrapper text-26px"
-        data-product-variant-id="{{ product.selected_or_first_available_variant.id }}"
-      >
-        <div class="no-js-hidden text-26px" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-          {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
+      <div>
+        <span class="d-block custom-recharge__text-opacity">{{ block.settings.one_time_subtitle }}</span>
+        <div class="custom-recharge__title-box d-flex">
+          <span class="custom-recharge__title h1">
+            <span class="custom-recharge__select">
+              <span class="custom-recharge__select-check">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.5 8C2.5 4.92357 4.92357 2.5 8 2.5C11.0764 2.5 13.5 4.92357 13.5 8C13.5 11.0764 11.0764 13.5 8 13.5C4.92357 13.5 2.5 11.0764 2.5 8Z" fill="#FFA72D" stroke="white" stroke-width="5"/>
+                </svg>            
+              </span>
+              <span class="custom-recharge__select-uncheck">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8C1 4.09514 4.09514 1 8 1C11.9049 1 15 4.09514 15 8C15 11.9049 11.9049 15 8 15C4.09514 15 1 11.9049 1 8Z" fill="white" stroke="#7D8998" stroke-width="2"/>
+                </svg>
+              </span>
+            </span>
+            {{ block.settings.one_time_title }}
+          </span>
+          <span class="custom-recharge__item-cost">{{ block.settings.item_cost_one_time }}</span>
         </div>
-      </span>
-      {% if block.settings.one_time_list_item_1 != blank %}
-        <ul class="custom-recharge__list">
-          {% if block.settings.one_time_list_item_1 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.one_time_list_item_1 }}
-            </li>
-          {% endif %}
-          {% if block.settings.one_time_list_item_2 != blank %}
-            <li class="custom-recharge__list-item">
-              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
-              </svg>
-              {{ block.settings.one_time_list_item_2 }}
-            </li>
-          {% endif %}
-        </ul>
-      {% endif %}
-      <span class="custom-recharge__select">
-        <span class="custom-recharge__select-check">
-          <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6.39252 11.986L0.882812 6.47634L1.98692 5.37197L6.39252 9.77756L15.859 0.311035L16.9632 1.4154L6.39252 11.986Z" fill="#1D1D1B"/>
-          </svg>  
-          {{ 'products.product.selected' | t }}</span>
-        <span class="custom-recharge__select-uncheck">{{ 'products.product.select' | t }}</span>
-      </span>
-      <span class="d-block custom-recharge__text-opacity">{{ block.settings.one_time_bottom_text }}</span>
+        {% if block.settings.one_time_list_item_1 != blank %}
+          <ul class="custom-recharge__list">
+            {% if block.settings.one_time_list_item_1 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.one_time_list_item_1 }}
+              </li>
+            {% endif %}
+            {% if block.settings.one_time_list_item_2 != blank %}
+              <li class="custom-recharge__list-item">
+                <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+                </svg>
+                {{ block.settings.one_time_list_item_2 }}
+              </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+      </div>
+      <div class="custom-recharge__one-time-price">
+        <span
+          class="custom-recharge__price-wrapper text-26px"
+          data-product-variant-id="{{ product.selected_or_first_available_variant.id }}"
+        >
+          <div class="no-js-hidden text-26px" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+            {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
+          </div>
+        </span>
+        <span class="d-block custom-recharge__text-opacity">{{ block.settings.one_time_bottom_text }}</span>
+      </div>
     </label>
   </div>
 </div>

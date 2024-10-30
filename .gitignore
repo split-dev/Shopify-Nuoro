@@ -11,9 +11,10 @@ Thumbs.db
 node_modules/
 *.log
 yarn.lock
+package-lock.json
 
 # Webstorm
-.idea
+.idea/
 
 # Local development
 .local_dev/

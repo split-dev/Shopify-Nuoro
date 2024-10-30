@@ -1,5 +1,4 @@
-@use "../settings/variables";
-@use "../settings/bootstrap-media";
+@use '../settings/config' as *;
 
 .shopify-section-header-sticky {
     padding-left: 35px;
@@ -8,11 +7,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    // header.header {
-    //     @include media-breakpoint-down(md) {
-    //         padding: 10px !important;
-    //     }
-    // }
+ 
 }
 .header {
     &__login {

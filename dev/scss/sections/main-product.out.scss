@@ -1,19 +1,19 @@
-@use "../settings/variables";
-@use "../settings/bootstrap-media";
+@use '../settings/config' as *;
 
 .custom-main-product {
     .product__media-wrapper {
+        padding-left: 10px;
         @media (max-width: 750px) {
             overflow: hidden;
+            padding-left: 0;
         }
     }
     .product__info-wrapper {
-        padding-left: 43px !important;
-        padding-right: 50px !important;
+        padding-left: 65px !important;
+        padding-right: 10px !important;
         display: flex;
-        align-items: center;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 10px;
+        padding-bottom: 20px;
         @media (max-width: 1099px) {
             padding-left: 21px !important;
         }
@@ -28,7 +28,9 @@
     }
     .product__info-container {
         width: 100%;
-        max-width: 650px !important;
+        max-width: 100% !important;
+        height: fit-content;
+        top: 10px;
         @include media-breakpoint-down(md) {
             max-width: 100% !important;
         }
@@ -97,7 +99,7 @@
         }
     }
     .custom-recharge {
-        max-width: 650px;
+        max-width: 100%;
         width: 100%;
         @include media-breakpoint-down(md) {
             max-width: 100%;
@@ -105,6 +107,7 @@
         label {
             display: flex;
             cursor: pointer;
+            justify-content: space-between;
         }
         
         .text-26px {
@@ -115,10 +118,7 @@
         &__one-time,
         &__subscribe {
             background-color: #fff;
-            padding: 14px;
-            display: flex;
-            flex-direction: column !important;
-            align-items: center !important;
+            padding: 24px 16px 16px 55px;
             @media (max-width: 990px) {
                 padding: 18px;
             }
@@ -131,16 +131,23 @@
         &__subscribe {
             margin-bottom: 21px;
         }
+        &__subscribe-price,
+        &__one-time-price {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-left: 8px;
+        }
         span {
-            text-align: center;
+            text-align: left;
         }
         ul {
             list-style: none;
             padding: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            margin-bottom: 8px;
+            margin-bottom: 0;
             margin-top: 8px;
             @media (max-width: 420px) {
                 align-items: flex-start;
@@ -149,12 +156,14 @@
             li {
                 margin-bottom: 8px;
                 display: flex;
-                align-items: center;
                 @include media-breakpoint-down(sm) {
                     font-size: 14px !important;
                 }
                 @media (max-width: 420px) {
                     width: 100%;
+                }
+                &:last-of-type {
+                    margin-bottom: 0;
                 }
                 svg {
                     margin-right: 8px;
@@ -167,16 +176,22 @@
         &__text-opacity {
             opacity: 0.4 !important;
         }
-        &__title {
+        &__title-box {
+            align-items: flex-end;
             padding-bottom: 4px;
-            text-align: center;
+        }
+        &__title {
             display: block;
-            @media (max-height: 820px) and (min-width:  751px) {
+            font-size: 22px !important;
+            position: relative;
+            margin-right: 16px;
+            @media (min-width:  750px) {
                 font-size: 32px !important;
             }
-            @media (max-width: 991px) {
-                font-size: 32px !important;
-            }
+        }
+        &__item-cost {
+            font-size: 11px !important;
+            padding-bottom: 3px;
         }
         &__box {
             padding: 24px 0;
@@ -184,23 +199,11 @@
             display: flex;
         }
         &__select {
-            height: 61px;
-            width: 184px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 4px;
-            border: solid 1px $c-text;
-            background-color: $c-text;
-            color: #fff;
-            margin-bottom: 8px;
-            font-size: 15px;
-            @include media-breakpoint-down(md) {
-                height: 51px
-            }
-            @media (max-height:800px) and (orientation:landscape) {
-                height: 45px;
-            }
+            height: 16px;
+            width: 16px;
+            position: absolute;
+            top: 3px;
+            left: -30px;
         }
         &__select-check {
             display: none;
@@ -257,10 +260,6 @@
             opacity: 0;
         }
         &__input:checked+label {
-            .custom-recharge__select {
-                background-color: #fff;
-                color: $c-text;
-            }
             .custom-recharge__select-check {
                 display: block;
             }
@@ -352,7 +351,7 @@
             }
             li {
                 max-width: 100% !important;
-                min-height: 100vh !important;
+                min-height: 100% !important;
                 display: flex;
                 align-items: center;
                 @media (max-width: 750px) {
@@ -362,25 +361,117 @@
         }
         .product__media.media,
         .deferred-media.media {
-            padding-top: 100vh !important;
-            @media (max-height: 820px) and (min-width:  751px) {
-                padding-top: 100vh !important;
-            }
-            @media (max-height: 790px) and (min-width:  751px) {
-                padding-top: 100vh !important;
-            }
-            @media (max-height: 760px) and (min-width:  751px) {
-                padding-top: 100vh !important;
-            }
-            @media (max-height: 730px) and (min-width:  751px) {
-                padding-top: 100vh !important;
-            }
-            @media (max-height: 700px) and (min-width:  751px) {
-                padding-top: 700px !important;
-            }
+            padding-top: 100% !important;
             @media (max-width: 750px) {
                 padding-top: 100% !important;
             }
         }
     }
+    //Accordion
+    &__accordion-desktop {
+        @include media-breakpoint-down(md) {
+            display: none !important;
+        }
+    }
+    &__accordion-mobile {
+        display: none;
+        padding: 0 15px;
+        @include media-breakpoint-down(md) {
+            display: block !important;
+        }
+    }
+    &__accordion-question {
+        cursor: pointer;
+        padding: 18px 30px 18px 0;
+        width: 100%;
+        border-top: solid 1px #9f9e99;
+        transition: 0.3s;
+        position: relative;
+      
+        &:first-of-type {
+          border-top: none;
+        }
+      
+        h4 {
+          margin: 0;
+          font-size: 36px;
+          @include media-breakpoint-down(md) {
+            font-size: 26px;
+          }
+        }
+      
+        .icon-plus,
+        .icon-minus {
+          margin-left: 24px;
+          position: absolute;
+          right: 0;
+          top: 27px;
+          transition: opacity 0.3s ease, transform 0.3s ease;
+          @include media-breakpoint-down(md) {
+            top: 22px;
+        }
+        }
+      
+        .icon-plus {
+          opacity: 1; 
+          transform: rotate(0deg);
+          width: 22px;
+          height: 22px;
+          min-width: 22px;
+        }
+      
+        .icon-minus {
+          opacity: 0;
+          transform: rotate(-180deg);
+          width: 22px;
+          height: 22px;
+          min-width: 22px;
+        }
+      
+        &.active {
+          .icon-plus {
+            opacity: 0; 
+            transform: rotate(180deg);
+          }
+      
+          .icon-minus {
+            opacity: 1; 
+            transform: rotate(0deg); 
+          }
+        }
+    }
+      
+    &__accordion-answer {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    p, strong, li, em {
+        font-size: 20px !important;
+        @include media-breakpoint-down(md) {
+            font-size: 15px !important;
+          }
+    }
+    strong {
+        font-weight: 500 !important;
+        background-color: $c-orange;
+    }
+    p {
+        margin-top: 0;
+    }
+    }
+    //Labels blocks
+    &__labels {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p {
+            padding: 8px;
+            border-radius: 8px;
+            background-color: #fff;
+            margin: 0;
+        }
+    }  
 }

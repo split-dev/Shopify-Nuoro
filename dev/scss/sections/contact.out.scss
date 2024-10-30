@@ -1,5 +1,4 @@
-@use "../settings/variables";
-@use "../settings/bootstrap-media";
+@use '../settings/config' as *;
 
 .contact {
     & form {

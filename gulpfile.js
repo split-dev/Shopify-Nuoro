@@ -1,54 +1,57 @@
-const gulp = require("gulp");
-const sass = require("gulp-sass")(require("sass"));
-const autoprefixer = require("gulp-autoprefixer");
-const babel = require("gulp-babel");
-const concat = require("gulp-concat");
-const uglify = require("gulp-uglify");
-// Define paths to your source files and output directory
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const autoprefixer = require('gulp-autoprefixer');
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
+const cached = require('gulp-cached');
+const newer = require('gulp-newer');
+const rename = require('gulp-rename');
+
 const paths = {
   styles: {
-    src: ["dev/scss/*.out.scss", "dev/scss/sections/*.out.scss"],
-    dest: "./assets",
+    src: 'dev/scss/**/*.scss',
+    dest: './assets',
   },
   scripts: {
-    src: "dev/js/*.js",
-    dest: "./assets",
+    src: 'dev/js/*.js',
+    dest: './assets',
   },
 };
-// Define the SCSS compilation task for main styles
-function compileSass() {
-  return gulp
-    .src(paths.styles.src[0])
-    .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
+
+function compileStyles() {
+  return gulp.src(paths.styles.src)
+    .pipe(cached('sass'))
+    .pipe(newer(paths.styles.dest))
+    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(autoprefixer())
+    .pipe(rename(function (path) {
+      path.dirname = '';
+    }))
     .pipe(gulp.dest(paths.styles.dest));
 }
-// Define the SCSS compilation task for component styles
-function compileComponentStyles() {
-  return gulp
-    .src(paths.styles.src[1])
-    .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-    .pipe(autoprefixer())
-    .pipe(gulp.dest(paths.styles.dest));
-}
-// Define the JavaScript compilation task
+
 function compileScripts() {
-  return gulp
-    .src(paths.scripts.src)
-    .pipe(babel({ presets: ["@babel/preset-env"] }))
-    .pipe(concat("main.min.js"))
+  return gulp.src(paths.scripts.src)
+    .pipe(cached('scripts'))
+    .pipe(newer(paths.scripts.dest))
+    .pipe(babel({ presets: ['@babel/preset-env'] }))
     .pipe(uglify())
+    .pipe(rename(function (path) {
+      path.dirname = '';
+    }))
     .pipe(gulp.dest(paths.scripts.dest));
 }
-// Define the watch task to recompile files on change
+
 function watchFiles() {
-  gulp.watch(paths.styles.src, compileSass);
-  gulp.watch(paths.styles.src[1], compileComponentStyles);
+  gulp.watch(paths.styles.src, compileStyles);
   gulp.watch(paths.scripts.src, compileScripts);
 }
-// Define the default task to run all compilation tasks and the watch task
+
 exports.default = gulp.series(
-  gulp.parallel(compileSass, compileComponentStyles, compileScripts),
+  gulp.parallel(compileStyles, compileScripts),
   watchFiles
 );
-gulp.task('production', gulp.series(gulp.parallel(compileSass, compileComponentStyles, compileScripts)));
+
+exports.production = gulp.series(
+  gulp.parallel(compileStyles, compileScripts)
+);

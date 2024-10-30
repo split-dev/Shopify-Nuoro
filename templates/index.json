@@ -105,39 +105,67 @@
     "featured_product_j8MdBd": {
       "type": "featured-product",
       "blocks": {
+        "title_hTmxna": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "html_WxJ8EM": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>"
+          }
+        },
+        "labels_yxQ9mw": {
+          "type": "labels",
+          "settings": {
+            "text_1": "71 ingrédients",
+            "text_2": "Sans Additifs",
+            "text_3": "Sans Sucres Ajoutés",
+            "text_4": "Remplace 14 gélules",
+            "text_5": "Sans Gluten",
+            "text_6": ""
+          }
+        },
         "product_recharge_QGPLdq": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Abonnement - Offre de lancement",
-            "subscribe_title": "1er mois à",
-            "subscribe_list_item_1": "Pause ou annulation à tout moment",
-            "subscribe_list_item_2": "Prix après le mois d’essai : 79€/mois",
-            "subscribe_list_item_3": "Shaker NUORO offert",
-            "subscribe_list_item_4": "1,96€ par sachet",
-            "subscribe_bottom_text": "Livraison gratuite",
+            "subscribe_subtitle": "Offre de lancement | Vous économisez 38 €",
+            "subscribe_title": "ABONNEMENT",
+            "item_cost_subscribe": "{1,96€ / sachet* }",
+            "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
+            "subscribe_list_item_2": "Sans Engagement",
+            "subscribe_list_item_3": "Pause ou annulation à tout moment",
+            "subscribe_list_item_4": "",
+            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€/mois",
             "one_time_subtitle": "",
-            "one_time_title": "ESSAYEZ UNE FOIS",
-            "one_time_list_item_1": "Achat unique, boîte de 30 sachets",
-            "one_time_list_item_2": "Shaker NUORO offert",
+            "one_time_title": "Achat Unique",
+            "item_cost_one_time": "{3,23€ / sachet*}",
+            "one_time_list_item_1": "Boite de 30 sachets expédié une fois",
+            "one_time_list_item_2": "",
             "one_time_list_item_3": "",
             "one_time_list_item_4": "",
-            "one_time_bottom_text": "Livraison gratuite"
+            "one_time_bottom_text": ""
           }
         },
         "buy_buttons_C3rcre": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
+            "show_gift_card_recipient": false,
+            "bottom_text": "Garantie satisfait ou remboursé de 30 jours"
           }
         }
       },
       "block_order": [
+        "title_hTmxna",
+        "html_WxJ8EM",
+        "labels_yxQ9mw",
         "product_recharge_QGPLdq",
         "buy_buttons_C3rcre"
       ],
       "settings": {
-        "title": "Commencez votre routine bien-être!",
         "product": "nuoro-solution-nutritionnelle-optimale",
         "color_scheme": "",
         "secondary_background": false,
@@ -148,9 +176,9 @@
         "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 45,
-        "padding_bottom": 0,
-        "padding_top_mobile": 45,
+        "padding_top": 90,
+        "padding_bottom": 30,
+        "padding_top_mobile": 60,
         "padding_bottom_mobile": 0
       }
     },

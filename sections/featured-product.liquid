@@ -61,7 +61,7 @@
 <section id="featured-product" class="custom-featured-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
     <div class="page-width custom-featured-product__title">
-      <h2>{{section.settings.title }}</h2>
+      <h2>{{product.title }}</h2>
     </div>
     <div class="featured-product product product--{{ section.settings.media_size }} grid grid--1-col gradient color-{{ section.settings.color_scheme }} product--{{ section.settings.media_position }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 or section.settings.product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
@@ -89,6 +89,29 @@
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
+              {%- when 'labels' -%}
+                <div class="custom-featured-product__labels">
+                  {%- if block.settings.text_1 != blank -%}
+                    <p>{{ block.settings.text_1 }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.text_2 != blank -%}
+                    <p>{{ block.settings.text_2 }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.text_3 != blank -%}
+                    <p>{{ block.settings.text_3 }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.text_4 != blank -%}
+                    <p>{{ block.settings.text_4 }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.text_5 != blank -%}
+                    <p>{{ block.settings.text_5 }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.text_6 != blank -%}
+                    <p>{{ block.settings.text_6 }}</p>
+                  {%- endif -%}
+                </div>
+              {%- when 'html' -%}
+                <div class="custom-featured-product__html">{{ block.settings.html }}</div>
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
@@ -613,6 +636,53 @@
   },
   "blocks": [
     {
+      "name": "Custom HTML",
+      "type": "html",
+      "settings": [
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Custom Code"
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "type": "labels",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Label 1"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "Label 2"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "label": "Label 3"
+        },
+        {
+          "type": "text",
+          "id": "text_4",
+          "label": "Label 4"
+        },
+        {
+          "type": "text",
+          "id": "text_5",
+          "label": "Label 5"
+        },
+        {
+          "type": "text",
+          "id": "text_6",
+          "label": "Label 6"
+        }
+      ]
+    },
+    {
       "type": "@app"
     },
     {
@@ -634,6 +704,12 @@
           "id": "subscribe_title",
           "label": "Subscribe Title",
           "default": "ABONNEMENT"
+        },
+        {
+          "type": "text",
+          "id": "item_cost_subscribe",
+          "label": "Subscribe Item Cost",
+          "default": "{1,96€ / sachet* }"
         },
         {
           "type": "text",
@@ -679,6 +755,12 @@
           "id": "one_time_title",
           "label": "One Time Title",
           "default": "ESSAYER UNE FOIS"
+        },
+        {
+          "type": "text",
+          "id": "item_cost_one_time",
+          "label": "One Time Item Cost",
+          "default": "{3,23€ / sachet*}"
         },
         {
           "type": "text",
@@ -868,6 +950,12 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        },
+        {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Text",
+          "default": "Garantie satisfait ou remboursé de 30 jours"
         }
       ]
     },
@@ -1532,12 +1620,6 @@
     }
   ],
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title",
-      "default": "Commencez votre routine bien-être!"
-    },
     {
       "type": "product",
       "id": "product",

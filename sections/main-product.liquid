@@ -72,6 +72,15 @@
   <div class="">
     <div class="custom-main-product product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
+        {%- if section.settings.back != blank -%}
+          <a href="{{ routes.root_url }}" class="d-flex justify-content-center align-items-center custom-main-product__back">
+            <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.00568 15.5L0.369318 7.86364L8.00568 0.227273L9.31818 1.52273L3.91477 6.92614H27.1818V8.80114H3.91477L9.31818 14.1875L8.00568 15.5Z" fill="#D8D8D8"/>
+            </svg>
+            {{ section.settings.back }}
+          </a>
+        {%- endif -%}
+        
         {% render 'product-media-gallery', variant_images: variant_images %}
 
         <div class="custom-main-product__accordion custom-main-product__accordion-desktop">
@@ -132,7 +141,7 @@
                 {%- endif -%}
               </div>
             {%- when 'html' -%}
-              <div>{{ block.settings.html }}</div>
+              <div class="custom-main-product__html">{{ block.settings.html }}</div>
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
@@ -1306,6 +1315,12 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        },
+        {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Text",
+          "default": "Garantie satisfait ou remboursé de 30 jours"
         }
       ]
     },
@@ -2471,6 +2486,12 @@
     }
   ],
   "settings": [
+    {
+      "type": "text",
+      "id": "back",
+      "label": "Back Link Label",
+      "default": "Back"
+    },
     {
       "type": "checkbox",
       "id": "enable_sticky_info",

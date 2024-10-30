@@ -101,6 +101,14 @@
             </span>
             {%- render 'loading-spinner' -%}
           </button>
+          {% if block.settings.bottom_text != blank %}
+            <p class="custom-main-product__bottom-button-text custom-featured-product__bottom-button-text d-flex justify-content-center align-items-center text-center">
+              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.39929 16.3231L0 8.92378L1.48277 7.44066L7.39929 13.3572L20.1124 0.644043L21.5952 2.12716L7.39929 16.3231Z" fill="#1D1D1B"/>
+              </svg>
+              {{ block.settings.bottom_text }}
+            </p>
+          {% endif %}
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
@@ -121,6 +129,7 @@
       </div>
     </div>
   {%- endif -%}
+
 
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}

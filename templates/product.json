@@ -20,7 +20,7 @@
         "html_LTedDE": {
           "type": "html",
           "settings": {
-            "html": "<!-- TrustBox widget - Micro TrustScore -->\n<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b637fa0340045cd0c936\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"100%\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>"
           }
         },
         "labels_HGr8xW": {
@@ -37,7 +37,7 @@
         "product_recharge_DtLgtE": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "",
+            "subscribe_subtitle": "Offre de lancement | Vous économisez 38 €",
             "subscribe_title": "ABONNEMENT",
             "item_cost_subscribe": "{1,96€ / sachet* }",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",

@@ -83,3 +83,12 @@ p, span, li, .text-15px {
         font-size: 20px !important;
     }
   }
+  .text-22px {
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 42px */
+    @include media-breakpoint-down(md) {
+        font-size: 16px !important;
+    }
+  }

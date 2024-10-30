@@ -6,7 +6,7 @@
     <input class="custom-recharge__input" id="recharge_subscribe" type="radio" name="recharge_input" checked>
     <label class="custom-recharge__subscribe" for="recharge_subscribe">
       <div>
-        <span class="d-block text-15px mb-2 custom-recharge__text-opacity">{{ block.settings.subscribe_subtitle }}</span>
+        <span class="d-block custom-recharge__subtitle">{{ block.settings.subscribe_subtitle }}</span>
         <div class="custom-recharge__title-box d-flex">
           <span class="custom-recharge__title h1">
             <span class="custom-recharge__select">
@@ -85,9 +85,9 @@
           class="custom-recharge__price-wrapper d-flex align-items-center"
         >
           {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
-            <span class="custom-recharge__regular-price text-26px">{{ allocation.compare_at_price | money }}</span>
+            <span class="custom-recharge__regular-price text-22px">{{ allocation.compare_at_price | money }}</span>
             <span
-              class="custom-recharge__price custom-recharge__plan-price text-26px"
+              class="custom-recharge__price custom-recharge__plan-price text-22px"
               id="price_for_plan_{{ allocation.selling_plan.id }}"
             >
               {{ allocation.per_delivery_price | money }}
@@ -95,7 +95,7 @@
             
           {% endfor %}
         </span>
-        <span class="d-block custom-recharge__text-opacity">{{ block.settings.subscribe_bottom_text }}</span>
+        <span class="d-block custom-recharge__text-bottom custom-recharge__text-opacity">{{ block.settings.subscribe_bottom_text }}</span>
       </div>
     </label>
     <input class="custom-recharge__input" id="recharge_one_time" type="radio" name="recharge_input" data-selling-plan-toggle>
@@ -143,14 +143,14 @@
       </div>
       <div class="custom-recharge__one-time-price">
         <span
-          class="custom-recharge__price-wrapper text-26px"
+          class="custom-recharge__price-wrapper text-22px"
           data-product-variant-id="{{ product.selected_or_first_available_variant.id }}"
         >
-          <div class="no-js-hidden text-26px" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+          <div class="no-js-hidden text-22px" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
             {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
           </div>
         </span>
-        <span class="d-block custom-recharge__text-opacity">{{ block.settings.one_time_bottom_text }}</span>
+        <span class="d-block custom-recharge__text-bottom custom-recharge__text-opacity">{{ block.settings.one_time_bottom_text }}</span>
       </div>
     </label>
   </div>

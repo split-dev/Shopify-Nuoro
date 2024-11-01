@@ -32,9 +32,14 @@ if (!customElements.get('media-gallery')) {
         const activeMedia =
           this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`) ||
           this.elements.viewer.querySelector('[data-media-id]');
+
         if (!activeMedia) {
           return;
         }
+
+        const currentIndex = parseInt(activeMedia.dataset.swiperSlideIndex);
+        document.querySelector('.product__custom-media').swiper.slideTo(currentIndex);
+
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {
           element.classList.remove('is-active');
         });
@@ -51,7 +56,7 @@ if (!customElements.get('media-gallery')) {
           const top = activeMediaRect.top + window.scrollY;
           window.scrollTo({ top: top, behavior: 'smooth' });
         });
-        this.playActiveMedia(activeMedia);
+        // this.playActiveMedia(activeMedia);
 
         if (!this.elements.thumbnails) return;
         const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${mediaId}"]`);

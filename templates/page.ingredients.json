@@ -1,19 +1,10 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "page_title_eWBP8a": {
       "type": "page-title",
       "settings": {
         "title": "Ingrédients et bénéfices",
-        "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales. <br/><br/>Nos produits sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs.</p>",
+        "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales. <br\/><br\/>Nos produits sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs.<\/p>",
         "padding_top": 0,
         "padding_bottom": 30,
         "padding_top_mobile": 0,
@@ -25,10 +16,10 @@
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify://shop_images/Rose-Musquee.jpg",
+        "image": "shopify:\/\/shop_images\/Rose-Musquee.jpg",
         "title": "Sélection Rigoureuse des Ingrédients",
         "subtitle": "",
-        "text": "<p>71 ingrédients, chacun choisi pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.</p>",
+        "text": "<p>71 ingrédients, chacun choisi pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.<\/p>",
         "button_label": "",
         "button_url": "",
         "padding_top": 90,
@@ -44,56 +35,56 @@
           "type": "text",
           "settings": {
             "title": "Vitamines",
-            "text": "<p><strong>Vitamine A</strong>  <br/>Contribue au maintien d’une vision normale.</p><p><strong>Vitamine B6</strong> <br/>Contribue à réguler l’activité hormonale.</p><p><strong>Vitamine B12</strong> <br/>Contribue au fonctionnement normal du système immunitaire.</p><p><strong>Vitamine C</strong> <br/>Contribue à la formation normale de collagène pour assurer la fonction normale de la peau.</p><p><strong>Vitamine D</strong> <br/>Contribue au maintien d’une fonction musculaire normale.</p><p><strong>Vitamine E</strong><br/>Contribue à protéger les cellules contre le stress oxydatif.</p><p><strong>Vitamine K</strong> <br/>Contribue à une coagulation sanguine normale.</p><p><strong>Vitamine B3 (Niacine)</strong><br/>Contribue au maintien d’une peau normale.</p><p><strong>Vitamine B2 (Riboflavine)</strong><br/>Contribue au maintien d’une peau normale.</p><p><strong>Vitamine B7 (Biotine)</strong><br/>Contribue au maintien de cheveux normaux.</p><p><strong>Vitamine B9 (Acide folique)</strong><br/>Les folates contribuent au métabolisme normal de l’homocystéine.</p><p><strong>Vitamine B5 (Acide pantothénique)</strong> <br/>Contribue à réduire la fatigue.</p><p><strong>Vitamine B1</strong> <strong>(Thiamine)</strong><br/>Contribue à des fonctions psychologiques normales.</p>"
+            "text": "<p><strong>Vitamine A<\/strong>  <br\/>Contribue au maintien d’une vision normale.<\/p><p><strong>Vitamine B6<\/strong> <br\/>Contribue à réguler l’activité hormonale.<\/p><p><strong>Vitamine B12<\/strong> <br\/>Contribue au fonctionnement normal du système immunitaire.<\/p><p><strong>Vitamine C<\/strong> <br\/>Contribue à la formation normale de collagène pour assurer la fonction normale de la peau.<\/p><p><strong>Vitamine D<\/strong> <br\/>Contribue au maintien d’une fonction musculaire normale.<\/p><p><strong>Vitamine E<\/strong><br\/>Contribue à protéger les cellules contre le stress oxydatif.<\/p><p><strong>Vitamine K<\/strong> <br\/>Contribue à une coagulation sanguine normale.<\/p><p><strong>Vitamine B3 (Niacine)<\/strong><br\/>Contribue au maintien d’une peau normale.<\/p><p><strong>Vitamine B2 (Riboflavine)<\/strong><br\/>Contribue au maintien d’une peau normale.<\/p><p><strong>Vitamine B7 (Biotine)<\/strong><br\/>Contribue au maintien de cheveux normaux.<\/p><p><strong>Vitamine B9 (Acide folique)<\/strong><br\/>Les folates contribuent au métabolisme normal de l’homocystéine.<\/p><p><strong>Vitamine B5 (Acide pantothénique)<\/strong> <br\/>Contribue à réduire la fatigue.<\/p><p><strong>Vitamine B1<\/strong> <strong>(Thiamine)<\/strong><br\/>Contribue à des fonctions psychologiques normales.<\/p>"
           }
         },
         "text_3GhTDy": {
           "type": "text",
           "settings": {
             "title": "Minéraux",
-            "text": "<p><strong>Phosphate de sodium (phosphore)</strong><br/>Contribue au maintien d’une ossature normale.</p><p><strong>Chlorure de magnésium (magnésium)</strong><br/>Contribue à une fonction musculaire normale.</p><p><strong>Carbonate de calcium (calcium)</strong><br/>Contribue au maintien d’une ossature normale.</p><p><strong>Gluconate de zinc (zinc)</strong><br/>Contribue à un métabolisme glucidique normal.</p><p><strong>Chlorure de potassium (potassium)</strong> Contribue au fonctionnement normal du système nerveux.</p><p><strong>Gluconate de manganèse (manganèse)</strong><br/>Contribue  à un métabolisme énergétique normal.<br/><br/><strong>Fumarate de fer II (fer)</strong> <br/>Contribue à la formation normale de globules rouges et d’hémoglobine.</p><p><strong>Gluconate de cuivre (cuivre)</strong><br/>Contribue au maintien de tissus conjonctifs normaux.</p><p><strong>Sélénométhionine (sélénium)</strong> <br/>Contribue à protéger les cellules contre le stress oxydatif.</p><p><strong>Picolinate de chrome (chrome)</strong><br/>Contribue au métabolisme normal des macronutriments.</p><p><strong>Iode</strong><br/>Contribue à une fonction thyroïdienne normale.</p>"
+            "text": "<p><strong>Phosphate de sodium (phosphore)<\/strong><br\/>Contribue au maintien d’une ossature normale.<\/p><p><strong>Chlorure de magnésium (magnésium)<\/strong><br\/>Contribue à une fonction musculaire normale.<\/p><p><strong>Carbonate de calcium (calcium)<\/strong><br\/>Contribue au maintien d’une ossature normale.<\/p><p><strong>Gluconate de zinc (zinc)<\/strong><br\/>Contribue à un métabolisme glucidique normal.<\/p><p><strong>Chlorure de potassium (potassium)<\/strong> Contribue au fonctionnement normal du système nerveux.<\/p><p><strong>Gluconate de manganèse (manganèse)<\/strong><br\/>Contribue  à un métabolisme énergétique normal.<br\/><br\/><strong>Fumarate de fer II (fer)<\/strong> <br\/>Contribue à la formation normale de globules rouges et d’hémoglobine.<\/p><p><strong>Gluconate de cuivre (cuivre)<\/strong><br\/>Contribue au maintien de tissus conjonctifs normaux.<\/p><p><strong>Sélénométhionine (sélénium)<\/strong> <br\/>Contribue à protéger les cellules contre le stress oxydatif.<\/p><p><strong>Picolinate de chrome (chrome)<\/strong><br\/>Contribue au métabolisme normal des macronutriments.<\/p><p><strong>Iode<\/strong><br\/>Contribue à une fonction thyroïdienne normale.<\/p>"
           }
         },
         "text_gdJYHc": {
           "type": "text",
           "settings": {
             "title": "Probiotiques et Prébiotiques",
-            "text": "<p><strong>Probiotiques</strong> :</p><p><strong>Bifidobacterium bifidum BB01</strong> <br/>Contribue à l’équilibre de la flore intestinale.</p><p><strong>Lactobacillus acidophilus LA02</strong> <br/>Favorise une digestion saine et soutient le système immunitaire.<br/><br/><br/><strong>Prébiotiques</strong> :</p><p><strong>Extrait de racine de chicorée (Cichorium intybus L.)</strong><br/>Soutient la santé du foie.</p><p><strong>Inuline</strong> <br/>Favorise la croissance de bactéries bénéfiques dans l’intestin.</p>"
+            "text": "<p><strong>Probiotiques<\/strong> :<\/p><p><strong>Bifidobacterium bifidum BB01<\/strong> <br\/>Contribue à l’équilibre de la flore intestinale.<\/p><p><strong>Lactobacillus acidophilus LA02<\/strong> <br\/>Favorise une digestion saine et soutient le système immunitaire.<br\/><br\/><br\/><strong>Prébiotiques<\/strong> :<\/p><p><strong>Extrait de racine de chicorée (Cichorium intybus L.)<\/strong><br\/>Soutient la santé du foie.<\/p><p><strong>Inuline<\/strong> <br\/>Favorise la croissance de bactéries bénéfiques dans l’intestin.<\/p>"
           }
         },
         "text_UHkBHB": {
           "type": "text",
           "settings": {
             "title": "Extraits de Plantes",
-            "text": "<p><strong>Extrait de racine de chicorée (Cichorium intybus L.)</strong><br/>Soutient la santé du foie.</p><p><strong>Extrait de rose musquée (Rosa canina L.)</strong> <br/>Contribue aux défenses naturelles de l’organisme.</p><p><strong>Extrait de feuille d’artichaut (Cynara scolymus)</strong><br/>Contribue au confort intestinal.</p><p><strong>Extrait de racine de gingembre (Zingiber officinale)</strong><br/>Contribue à la santé vasculaire.</p><p><strong>Extrait de fucus (Fucus vesiculosus)</strong><br/>Contribue à un transit intestinal régulier.</p><p><strong>Extrait de graines de chardon-Marie (Silybum marianum)</strong><br/>Soutient la fonction hépatique.</p><p><strong>Extrait de cacao (Theobroma cacao)</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Extrait d’orme rouge (Ulmus rubra)</strong><br/>Aide à soutenir le système digestif.</p><p><strong>Extrait de moringa oleifera (Moringa oleifera Lam.)</strong> <br/>Contribue à la vitalité.</p><p><strong>Extrait de pissenlit (Taraxacum officinale)</strong> <br/>Contribue à la santé digestive.</p><p><strong>Extrait de baie de Goji (Lycium Barbarum)</strong> <br/>Soutient les défenses immunitaires.</p><p><strong>Extrait de thé vert (Camellia Sinensis)</strong> <br/>Aide à maintenir des taux de cholestérol sains.</p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)</strong> <br/>Contribue à une activité intellectuelle et cognitive optimale.</p><p><strong>Extrait de racine de bardane (Arctium lappa)</strong><br/>Contribue au confort digestif.</p><p><strong>Extrait d’aubépine (Crataegus laevigata)</strong> <br/>Soutient la fonction cardiovasculaire.</p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)</strong><br/>Contribue au métabolisme normal du glucose et de l’insuline.</p><p><strong>Extrait de bacopa (Bacopa Monnieri)</strong><br/>Soutient les fonctions cognitives.</p><p><strong>Extrait de romarin (Salvia rosmarinus)</strong> : Contribue à la protection cellulaire.</p>"
+            "text": "<p><strong>Extrait de racine de chicorée (Cichorium intybus L.)<\/strong><br\/>Soutient la santé du foie.<\/p><p><strong>Extrait de rose musquée (Rosa canina L.)<\/strong> <br\/>Contribue aux défenses naturelles de l’organisme.<\/p><p><strong>Extrait de feuille d’artichaut (Cynara scolymus)<\/strong><br\/>Contribue au confort intestinal.<\/p><p><strong>Extrait de racine de gingembre (Zingiber officinale)<\/strong><br\/>Contribue à la santé vasculaire.<\/p><p><strong>Extrait de fucus (Fucus vesiculosus)<\/strong><br\/>Contribue à un transit intestinal régulier.<\/p><p><strong>Extrait de graines de chardon-Marie (Silybum marianum)<\/strong><br\/>Soutient la fonction hépatique.<\/p><p><strong>Extrait de cacao (Theobroma cacao)<\/strong> <br\/>Contribue à la protection des cellules contre le stress oxydatif.<\/p><p><strong>Extrait d’orme rouge (Ulmus rubra)<\/strong><br\/>Aide à soutenir le système digestif.<\/p><p><strong>Extrait de moringa oleifera (Moringa oleifera Lam.)<\/strong> <br\/>Contribue à la vitalité.<\/p><p><strong>Extrait de pissenlit (Taraxacum officinale)<\/strong> <br\/>Contribue à la santé digestive.<\/p><p><strong>Extrait de baie de Goji (Lycium Barbarum)<\/strong> <br\/>Soutient les défenses immunitaires.<\/p><p><strong>Extrait de thé vert (Camellia Sinensis)<\/strong> <br\/>Aide à maintenir des taux de cholestérol sains.<\/p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)<\/strong> <br\/>Contribue à une activité intellectuelle et cognitive optimale.<\/p><p><strong>Extrait de racine de bardane (Arctium lappa)<\/strong><br\/>Contribue au confort digestif.<\/p><p><strong>Extrait d’aubépine (Crataegus laevigata)<\/strong> <br\/>Soutient la fonction cardiovasculaire.<\/p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)<\/strong><br\/>Contribue au métabolisme normal du glucose et de l’insuline.<\/p><p><strong>Extrait de bacopa (Bacopa Monnieri)<\/strong><br\/>Soutient les fonctions cognitives.<\/p><p><strong>Extrait de romarin (Salvia rosmarinus)<\/strong> : Contribue à la protection cellulaire.<\/p>"
           }
         },
         "text_FLJdfy": {
           "type": "text",
           "settings": {
             "title": "Antioxydants",
-            "text": "<p><strong>Extrait de Cacao (Theobroma cacao)</strong> <br/>Contribue à protéger les cellules contre le stress oxydatif.<br/><br/><strong>Extrait de gingembre (Zingiber officinale)<br/></strong>Contribue à la santé vasculaire.<br/><br/><strong>Extrait de thé vert (Camellia Sinensis)</strong><br/>Aide à renforcer les défenses antioxydantes de l’organisme.<br/><br/><strong>Dl-alpha tocophérol (vitamine E)</strong><br/>Contribue à protéger les cellules contre le stress oxydatif.</p>"
+            "text": "<p><strong>Extrait de Cacao (Theobroma cacao)<\/strong> <br\/>Contribue à protéger les cellules contre le stress oxydatif.<br\/><br\/><strong>Extrait de gingembre (Zingiber officinale)<br\/><\/strong>Contribue à la santé vasculaire.<br\/><br\/><strong>Extrait de thé vert (Camellia Sinensis)<\/strong><br\/>Aide à renforcer les défenses antioxydantes de l’organisme.<br\/><br\/><strong>Dl-alpha tocophérol (vitamine E)<\/strong><br\/>Contribue à protéger les cellules contre le stress oxydatif.<\/p>"
           }
         },
         "text_jUYLfr": {
           "type": "text",
           "settings": {
             "title": "Superaliments",
-            "text": "<p><strong>Spiruline (Arthrospira platensis)</strong><br/>Soutient le système immunitaire.<br/><br/><strong>Extrait de baie de Goji (Lycium Barbarum)<br/></strong>Soutient les défenses immunitaires.<br/><br/><strong>Poudre de chlorelle (Chlorella Pyrenoidosa C.)</strong><br/>Favorise la détoxification de l’organisme.</p><p><strong>Poudre de jus d’herbe d’orge (Hordeum vulgare)</strong> <br/>Soutient la santé digestive.</p><p><strong>Poudre de brocoli</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Feuilles d’épinards en poudre</strong><br/>Contribuent au maintien de l’énergie et de la vitalité.</p><p><strong>Poudre de jus de betterave</strong> :<br/>Contribue au bon fonctionnement du système cardiovasculaire.</p><p><strong>Jus de carotte en poudre</strong><br/>Contribue au maintien d’une vision normale.</p><p><strong>Champignon Shiitake (Lentinula edodes)</strong><br/>Soutient le système immunitaire.</p><p><strong>Champignon Reishi (Ganoderma lucidum)</strong><br/>Contribue aux défenses naturelles.</p>"
+            "text": "<p><strong>Spiruline (Arthrospira platensis)<\/strong><br\/>Soutient le système immunitaire.<br\/><br\/><strong>Extrait de baie de Goji (Lycium Barbarum)<br\/><\/strong>Soutient les défenses immunitaires.<br\/><br\/><strong>Poudre de chlorelle (Chlorella Pyrenoidosa C.)<\/strong><br\/>Favorise la détoxification de l’organisme.<\/p><p><strong>Poudre de jus d’herbe d’orge (Hordeum vulgare)<\/strong> <br\/>Soutient la santé digestive.<\/p><p><strong>Poudre de brocoli<\/strong> <br\/>Contribue à la protection des cellules contre le stress oxydatif.<\/p><p><strong>Feuilles d’épinards en poudre<\/strong><br\/>Contribuent au maintien de l’énergie et de la vitalité.<\/p><p><strong>Poudre de jus de betterave<\/strong> :<br\/>Contribue au bon fonctionnement du système cardiovasculaire.<\/p><p><strong>Jus de carotte en poudre<\/strong><br\/>Contribue au maintien d’une vision normale.<\/p><p><strong>Champignon Shiitake (Lentinula edodes)<\/strong><br\/>Soutient le système immunitaire.<\/p><p><strong>Champignon Reishi (Ganoderma lucidum)<\/strong><br\/>Contribue aux défenses naturelles.<\/p>"
           }
         },
         "text_wmGEQE": {
           "type": "text",
           "settings": {
             "title": "Adaptogènes",
-            "text": "<p><strong>Extrait de ginseng américain (Panax quinquefolius) Cereboost®</strong><br/>Le Ginseng américain contribue à accroître l’énergie intellectuelle et physique.</p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)</strong><br/>Le Ginseng sibérien soutient les défenses naturelles.</p><p><strong>Extrait de racine de rhodiola rosea (Rhodiola rosea)</strong> <br/>La Rhodiola rosea aide à réduire la fatigue liée au stress.</p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)</strong> <br/>Le Ginseng asiatique contribue à des performances cognitives normales.</p><p><strong>Extrait de bacopa (Bacopa Monnieri)</strong> <br/>Le Bacopa Monnieri soutient les fonctions cognitives.</p>"
+            "text": "<p><strong>Extrait de ginseng américain (Panax quinquefolius) Cereboost®<\/strong><br\/>Le Ginseng américain contribue à accroître l’énergie intellectuelle et physique.<\/p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)<\/strong><br\/>Le Ginseng sibérien soutient les défenses naturelles.<\/p><p><strong>Extrait de racine de rhodiola rosea (Rhodiola rosea)<\/strong> <br\/>La Rhodiola rosea aide à réduire la fatigue liée au stress.<\/p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)<\/strong> <br\/>Le Ginseng asiatique contribue à des performances cognitives normales.<\/p><p><strong>Extrait de bacopa (Bacopa Monnieri)<\/strong> <br\/>Le Bacopa Monnieri soutient les fonctions cognitives.<\/p>"
           }
         },
         "text_9nE9en": {
           "type": "text",
           "settings": {
             "title": "Autres Ingrédients Fonctionnels",
-            "text": "<p><strong>Fibre d’agrumes</strong> <br/>Favorise la digestion et la santé intestinale.</p><p><strong>Collagène de poisson hydrolysé</strong><br/>Soutient la santé de la peau et des articulations.</p><p><strong>Lécithine de tournesol</strong> <br/>Favorise la santé du cerveau.</p><p><strong>Glycosides de stéviol (édulcorant)</strong><br/>Offre une alternative sucrée naturelle sans calories supplémentaires.</p><p><strong>Ubiquinone (CoQ10)</strong><br/>Soutient la santé cardiovasculaire et la production d’énergie cellulaire.</p><p><strong>Policonasol</strong> <br/>Soutient la santé cardiovasculaire.</p><p><strong>Arômes naturels</strong><br/>Ajoute de la saveur sans additifs artificiels.</p><p><strong>Protéines d’alfalfa (Medicago sativa) Luzixine™</strong><br/>Source de protéines végétales.</p><p><strong>Isolat de protéine de pois</strong><br/>Source de protéines végétales.</p><p><strong>Acide malique</strong><br/>Contribue à la production d’énergie.</p><p><strong>Bêta-glucanes d’avoine PromOat®</strong> <br/>Contribuent à la santé cardiovasculaire.</p><p><strong>Poudre de jus de citron</strong> <br/>Source de vitamine C.</p><p><strong>Poudre de jus de pomme</strong><br/>Source de vitamines et de fibres.</p><p><strong>Poudre d’huile d’onagre (Oenothera biennis L.)</strong> <br/>Soutient la santé hormonale.</p><p><strong>Poudre de jus d’ananas</strong><br/>Contient des enzymes qui favorisent la digestion.</p>"
+            "text": "<p><strong>Fibre d’agrumes<\/strong> <br\/>Favorise la digestion et la santé intestinale.<\/p><p><strong>Collagène de poisson hydrolysé<\/strong><br\/>Soutient la santé de la peau et des articulations.<\/p><p><strong>Lécithine de tournesol<\/strong> <br\/>Favorise la santé du cerveau.<\/p><p><strong>Glycosides de stéviol (édulcorant)<\/strong><br\/>Offre une alternative sucrée naturelle sans calories supplémentaires.<\/p><p><strong>Ubiquinone (CoQ10)<\/strong><br\/>Soutient la santé cardiovasculaire et la production d’énergie cellulaire.<\/p><p><strong>Policonasol<\/strong> <br\/>Soutient la santé cardiovasculaire.<\/p><p><strong>Arômes naturels<\/strong><br\/>Ajoute de la saveur sans additifs artificiels.<\/p><p><strong>Protéines d’alfalfa (Medicago sativa) Luzixine™<\/strong><br\/>Source de protéines végétales.<\/p><p><strong>Isolat de protéine de pois<\/strong><br\/>Source de protéines végétales.<\/p><p><strong>Acide malique<\/strong><br\/>Contribue à la production d’énergie.<\/p><p><strong>Bêta-glucanes d’avoine PromOat®<\/strong> <br\/>Contribuent à la santé cardiovasculaire.<\/p><p><strong>Poudre de jus de citron<\/strong> <br\/>Source de vitamine C.<\/p><p><strong>Poudre de jus de pomme<\/strong><br\/>Source de vitamines et de fibres.<\/p><p><strong>Poudre d’huile d’onagre (Oenothera biennis L.)<\/strong> <br\/>Soutient la santé hormonale.<\/p><p><strong>Poudre de jus d’ananas<\/strong><br\/>Contient des enzymes qui favorisent la digestion.<\/p>"
           }
         }
       },
@@ -111,7 +102,7 @@
         "title": "Ingrédients",
         "button_label": "Téléchargez la liste des ingrédients",
         "button_url": "",
-        "button_url_pdf": "https://cdn.shopify.com/s/files/1/0811/8229/4348/files/Valeurs_nutritionnelles_NUORO.pdf?v=1726048736",
+        "button_url_pdf": "https:\/\/cdn.shopify.com\/s\/files\/1\/0811\/8229\/4348\/files\/Valeurs_nutritionnelles_NUORO.pdf?v=1726048736",
         "padding_top": 0,
         "padding_bottom": 60,
         "padding_top_mobile": 0,
@@ -126,7 +117,7 @@
           "settings": {
             "title": "01",
             "heading": "Métabolisme Énergétique",
-            "text": "<p>La vitamine C, le magnésium et le fer, contribuent à un métabolisme énergétique normal.</p>"
+            "text": "<p>La vitamine C, le magnésium et le fer, contribuent à un métabolisme énergétique normal.<\/p>"
           }
         },
         "text_wECiRA": {
@@ -134,7 +125,7 @@
           "settings": {
             "title": "02",
             "heading": "Système Immunitaire",
-            "text": "<p>La vitamine C, le sélénium et le zinc, contribuent au fonctionnement normal du système immunitaire.</p>"
+            "text": "<p>La vitamine C, le sélénium et le zinc, contribuent au fonctionnement normal du système immunitaire.<\/p>"
           }
         },
         "text_w3QQBr": {
@@ -142,7 +133,7 @@
           "settings": {
             "title": "03",
             "heading": "Fonction Cognitive",
-            "text": "<p>Le fer, le zinc, et l'iode contribuent à une fonction cognitive normale.</p>"
+            "text": "<p>Le fer, le zinc, et l'iode contribuent à une fonction cognitive normale.<\/p>"
           }
         },
         "text_WajaTn": {
@@ -150,7 +141,7 @@
           "settings": {
             "title": "04",
             "heading": "Stress Oxydatif",
-            "text": "<p>La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif.</p>"
+            "text": "<p>La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif.<\/p>"
           }
         },
         "text_HQqdaU": {
@@ -158,7 +149,7 @@
           "settings": {
             "title": "05",
             "heading": "Peau et Cheveux",
-            "text": "<p>Le zinc et la biotine, contribuent au maintien d'une peau et de cheveux normaux.</p>"
+            "text": "<p>Le zinc et la biotine, contribuent au maintien d'une peau et de cheveux normaux.<\/p>"
           }
         },
         "text_3gBPEP": {
@@ -166,7 +157,7 @@
           "settings": {
             "title": "06",
             "heading": "Activité Hormonale",
-            "text": "<p>La vitamine B6 contribue à réguler l'activité hormonale.</p>"
+            "text": "<p>La vitamine B6 contribue à réguler l'activité hormonale.<\/p>"
           }
         },
         "text_6akWmA": {
@@ -174,7 +165,7 @@
           "settings": {
             "title": "08",
             "heading": "Métabolisme Digestif",
-            "text": "<p>La Chlorelle favorise et aide le métabolisme digestif.</p>"
+            "text": "<p>La Chlorelle favorise et aide le métabolisme digestif.<\/p>"
           }
         },
         "text_WdtxA4": {
@@ -182,7 +173,7 @@
           "settings": {
             "title": "06",
             "heading": "Muscles et Os Sains",
-            "text": "<p>Nos formulations incluent calcium, magnésium, et vitamine D pour le soutien musculaire et le maintien d'une ossature normale, essentiels pour une fonction musculaire optimale.</p>"
+            "text": "<p>Nos formulations incluent calcium, magnésium, et vitamine D pour le soutien musculaire et le maintien d'une ossature normale, essentiels pour une fonction musculaire optimale.<\/p>"
           }
         },
         "text_3T8RMn": {
@@ -190,7 +181,7 @@
           "settings": {
             "title": "07",
             "heading": "Système Nerveux",
-            "text": "<p>L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse.</p>"
+            "text": "<p>L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse.<\/p>"
           }
         },
         "text_k9TQw4": {
@@ -198,7 +189,7 @@
           "settings": {
             "title": "10",
             "heading": "Fertilité",
-            "text": "<p>Le zinc est essentiel pour une fertilité et une reproduction normales, aidant à soutenir la santé reproductive à la fois chez les hommes et les femmes.</p>"
+            "text": "<p>Le zinc est essentiel pour une fertilité et une reproduction normales, aidant à soutenir la santé reproductive à la fois chez les hommes et les femmes.<\/p>"
           }
         }
       },

@@ -1,20 +1,11 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "home_hero_CF9PjB": {
       "type": "home-hero",
       "settings": {
-        "video": "shopify://files/videos/NUORO+sounds (demo 2) 08.10.mp4",
-        "bg": "shopify://shop_images/MG_4309.jpg",
-        "bg_mobile": "shopify://shop_images/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
+        "video": "shopify:\/\/files\/videos\/NUORO+sounds (demo 2) 08.10.mp4",
+        "bg": "shopify:\/\/shop_images\/MG_4309.jpg",
+        "bg_mobile": "shopify:\/\/shop_images\/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
         "title": "Exploitez votre plein potentiel",
         "text": "NUORO est une solution nutritionnelle optimale conçue pour soutenir votre bien-être au quotidien.",
         "button_label": "Commencez NUORO",
@@ -90,12 +81,12 @@
       "settings": {
         "revers": false,
         "bg_color": "#ffa842",
-        "image": "shopify://shop_images/Liste_des_71_ingr_dients_NUORO.jpg",
+        "image": "shopify:\/\/shop_images\/Liste_des_71_ingr_dients_NUORO.jpg",
         "title": "Investissez dans votre santé.",
         "subtitle": "",
-        "text": "<p>NUORO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.</p>",
+        "text": "<p>NUORO est formulée pour remplacer plusieurs compléments alimentaires grâce à un mélange optimal de nutriments, concentrés dans une seule prise quotidienne.<\/p>",
         "button_label": "Ingrédients & Bénéfices",
-        "button_url": "shopify://pages/ingredients",
+        "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 70,
         "padding_bottom": 70,
         "padding_top_mobile": 45,
@@ -114,7 +105,7 @@
         "html_WxJ8EM": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>"
+            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https:\/\/fr.trustpilot.com\/review\/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>"
           }
         },
         "labels_yxQ9mw": {
@@ -133,15 +124,15 @@
           "settings": {
             "subscribe_subtitle": "Offre de lancement | Vous économisez 38 €",
             "subscribe_title": "ABONNEMENT",
-            "item_cost_subscribe": "{1,96€ / sachet* }",
+            "item_cost_subscribe": "{1,96€ \/ sachet* }",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
             "subscribe_list_item_2": "Sans Engagement",
             "subscribe_list_item_3": "Pause ou annulation à tout moment",
             "subscribe_list_item_4": "",
-            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€/mois",
+            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€\/mois",
             "one_time_subtitle": "",
             "one_time_title": "Achat Unique",
-            "item_cost_one_time": "{3,23€ / sachet*}",
+            "item_cost_one_time": "{3,23€ \/ sachet*}",
             "one_time_list_item_1": "Boite de 30 sachets expédié une fois",
             "one_time_list_item_2": "",
             "one_time_list_item_3": "",
@@ -249,7 +240,7 @@
         "text_63z8pt": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/eac909bb0d7e85d9c96114aed5187d72.jpg",
+            "image": "shopify:\/\/shop_images\/eac909bb0d7e85d9c96114aed5187d72.jpg",
             "title": "Métabolisme Énergétique¹",
             "text": "La vitamine C, le magnésium et le fer contribuent à un métabolisme énergétique normal."
           }
@@ -257,7 +248,7 @@
         "text_GmfBLC": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/03a57b5c6346a94bc7b16403e1b509b7.jpg",
+            "image": "shopify:\/\/shop_images\/03a57b5c6346a94bc7b16403e1b509b7.jpg",
             "title": "Système Immunitaire²",
             "text": "Le sélénium et le zinc contribuent au fonctionnement normal du système immunitaire."
           }
@@ -265,7 +256,7 @@
         "text_6dzmih": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/d23e080f7772b1ec2f2732bd6045e710.jpg",
+            "image": "shopify:\/\/shop_images\/d23e080f7772b1ec2f2732bd6045e710.jpg",
             "title": "Fonction Cognitive³",
             "text": "Le fer, le zinc et l'iode contribuent à une fonction cognitive normale."
           }
@@ -273,7 +264,7 @@
         "text_BJnQxH": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
+            "image": "shopify:\/\/shop_images\/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
             "title": "Stress oxydatif⁴",
             "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
           }
@@ -281,7 +272,7 @@
         "text_FY6ErV": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/997358d8a94317dca626fb7dc32a41df.jpg",
+            "image": "shopify:\/\/shop_images\/997358d8a94317dca626fb7dc32a41df.jpg",
             "title": "Peau et Cheveux⁵",
             "text": "Le zinc et la biotine contribuent au maintien d'une peau et de cheveux normaux."
           }
@@ -289,7 +280,7 @@
         "text_qMVzfQ": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
+            "image": "shopify:\/\/shop_images\/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
             "title": "Activité hormonale⁶",
             "text": "La vitamine B6 contribue à réguler l'activité hormonale."
           }
@@ -306,9 +297,9 @@
       "settings": {
         "title": "Exploitez votre plein potentiel",
         "subtitle": "Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
-        "image": "shopify://shop_images/Group_21.svg",
+        "image": "shopify:\/\/shop_images\/Group_21.svg",
         "button_label": "Ingredients & Bénéfices",
-        "button_url": "shopify://pages/ingredients",
+        "button_url": "shopify:\/\/pages\/ingredients",
         "padding_top": 20,
         "padding_bottom": 30,
         "padding_top_mobile": 20,
@@ -323,7 +314,7 @@
           "settings": {
             "title": "Versez une dose dans 250ml d'eau fraîche",
             "text": "Tous les jours, à jeun de préférence",
-            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
+            "image": "shopify:\/\/shop_images\/Nuoro_Preparation_Versement.jpg"
           }
         },
         "text_F3rVtx": {
@@ -331,7 +322,7 @@
           "settings": {
             "title": "Secouez",
             "text": "Dans votre Shaker NUORO",
-            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
+            "image": "shopify:\/\/shop_images\/NUORO_bouteille_nutrition_optimale.jpg"
           }
         },
         "text_PxUYMX": {
@@ -339,7 +330,7 @@
           "settings": {
             "title": "Enjoy!",
             "text": "",
-            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
+            "image": "shopify:\/\/shop_images\/Nuoro_D_gustation.jpg"
           }
         }
       },
@@ -417,9 +408,9 @@
         "padding_bottom": 35,
         "title": "Des Histoires vraies, des résultats réels",
         "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
-        "image": "shopify://shop_images/trustpilot_logo.svg",
-        "logo_trustpilot": "shopify://shop_images/Verifie.svg",
-        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
+        "image": "shopify:\/\/shop_images\/trustpilot_logo.svg",
+        "logo_trustpilot": "shopify:\/\/shop_images\/Verifie.svg",
+        "logo_trustpilot_url": "https:\/\/fr.trustpilot.com\/review\/drinknuoro.com"
       }
     },
     "video_reviews_jTMMEL": {
@@ -428,7 +419,7 @@
         "text_b438QR": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
+            "video": "shopify:\/\/files\/videos\/Nuoro - vidéo UGC.mp4",
             "title": "\"Un boost d’énergie chaque matin\"",
             "text": "Alix B. <br>Étude Observationnelle"
           }
@@ -436,7 +427,7 @@
         "text_EaWhaW": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
+            "video": "shopify:\/\/files\/videos\/Etude Observationnelle - Didier - 1 mois light.mov",
             "title": "\"Bien commencer la journée\"",
             "text": "Didier O. <br> Étude Observationnelle"
           }
@@ -444,7 +435,7 @@
         "text_8VEJdJ": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Kathleen - Etude Observationnelle .mp4",
+            "video": "shopify:\/\/files\/videos\/Kathleen - Etude Observationnelle .mp4",
             "title": "\"Soutient mes séances de sport\"",
             "text": "Kathleen O. Étude Osbservationnelle"
           }
@@ -452,7 +443,7 @@
         "text_JJ4zBn": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
+            "video": "shopify:\/\/files\/videos\/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
             "title": "Un Môt du co-fondateur",
             "text": "Pierre-Brice <br>co-fondateur"
           }
@@ -527,7 +518,7 @@
         "text_xXBcXz": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/111111.mp4",
+            "video": "shopify:\/\/files\/videos\/111111.mp4",
             "title": "“NATURELLEMENT EN PLEINE FORME”",
             "text": "Hi there! :)"
           }
@@ -535,7 +526,7 @@
         "text_HARtzD": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/testimonial-e146bd3c.mp4",
+            "video": "shopify:\/\/files\/videos\/testimonial-e146bd3c.mp4",
             "title": "Test Title",
             "text": "Test Text"
           }
@@ -543,7 +534,7 @@
         "text_AnkbfY": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/444444_ca08f9fa-ab1b-4497-bbed-854e91fb9c44.mp4",
+            "video": "shopify:\/\/files\/videos\/444444_ca08f9fa-ab1b-4497-bbed-854e91fb9c44.mp4",
             "title": "“NATURELLEMENT EN PLEINE FORME”",
             "text": "Océane Andreaa - Sportive"
           }
@@ -551,7 +542,7 @@
         "text_jdPpJG": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
             "title": "“NATURELLEMENT EN PLEINE FORME”",
             "text": "Océane Andreaa - Sportive"
           }
@@ -559,7 +550,7 @@
         "text_H8tqn6": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
             "title": "\"Océane Andreaa - Sportive\"",
             "text": "Hello world"
           }
@@ -567,7 +558,7 @@
         "text_fLtqA9": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "video": "shopify:\/\/files\/videos\/4762226-hd_1920_1080_25fps.mp4",
             "title": "\"Oles PLichko\"",
             "text": "My Product Review"
           }
@@ -597,63 +588,63 @@
           "type": "text",
           "settings": {
             "title": "Comment savoir si NUORO me convient?",
-            "text": "<p><strong>NUORO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.</strong></p><p></p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NUORO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.<br/></p><p>NUORO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<br/></p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.</p>"
+            "text": "<p><strong>NUORO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.<\/strong><\/p><p><\/p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NUORO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.<br\/><\/p><p>NUORO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<br\/><\/p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.<\/p>"
           }
         },
         "text_eEzNwL": {
           "type": "text",
           "settings": {
             "title": "Quels types de bienfaits puis-je attendre de la prise de NUORO?",
-            "text": "<p><strong>NUORO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, le métabolisme digestif et plus encore.</strong></p><p></p><p>Chez NUORO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NUORO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br/></p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.</a></p>"
+            "text": "<p><strong>NUORO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, le métabolisme digestif et plus encore.<\/strong><\/p><p><\/p><p>Chez NUORO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NUORO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br\/><\/p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br\/><br\/><a href=\"\/pages\/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.<\/a><\/p>"
           }
         },
         "text_tRJKWk": {
           "type": "text",
           "settings": {
             "title": "Est-ce que NUORO se prend en cure ?",
-            "text": "<p><strong>NUORO est avant tout une routine quotidienne</strong> <strong>conçue pour vous accompagner sur le long terme.</strong> Grâce à ses 71 ingrédients soigneusement sélectionnés, il soutient votre bien-être global au fil des jours.</p><p><strong>Cependant, NUORO peut également être pris en cure de 3 mois, notamment pendant des périodes plus stressantes, intensives ou de rééquilibrage.</strong> Que ce soit pour un usage continu ou en cure à des moments clés de l'année, NUORO s'adapte à vos besoins pour vous aider à rester au meilleur de votre forme.</p>"
+            "text": "<p><strong>NUORO est avant tout une routine quotidienne<\/strong> <strong>conçue pour vous accompagner sur le long terme.<\/strong> Grâce à ses 71 ingrédients soigneusement sélectionnés, il soutient votre bien-être global au fil des jours.<\/p><p><strong>Cependant, NUORO peut également être pris en cure de 3 mois, notamment pendant des périodes plus stressantes, intensives ou de rééquilibrage.<\/strong> Que ce soit pour un usage continu ou en cure à des moments clés de l'année, NUORO s'adapte à vos besoins pour vous aider à rester au meilleur de votre forme.<\/p>"
           }
         },
         "text_UBeTfw": {
           "type": "text",
           "settings": {
             "title": "Quand puis-je m'attendre à voir des bienfaits?",
-            "text": "<p><strong>De nombreux facteurs peuvent influencer l’effet de NUORO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer.</strong></p><p></p><p>Mais n’oubliez pas les trois éléments essentiels pour maintenir une santé globale :</p><p></p><p>\t1.\tAlimentation variée et équilibrée<br/>\t2.\tActivité physique régulière<br/>\t3.\tSommeil de qualité</p><p></p><p>Ces facteurs influencent le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains membres remarquent des améliorations en seulement quelques jours, tandis que pour d’autres, cela peut prendre jusqu’à quelques semaines. Nous sommes tous différents, nos corps réagissent de manière unique.</p>"
+            "text": "<p><strong>De nombreux facteurs peuvent influencer l’effet de NUORO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer.<\/strong><\/p><p><\/p><p>Mais n’oubliez pas les trois éléments essentiels pour maintenir une santé globale :<\/p><p><\/p><p>\t1.\tAlimentation variée et équilibrée<br\/>\t2.\tActivité physique régulière<br\/>\t3.\tSommeil de qualité<\/p><p><\/p><p>Ces facteurs influencent le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains membres remarquent des améliorations en seulement quelques jours, tandis que pour d’autres, cela peut prendre jusqu’à quelques semaines. Nous sommes tous différents, nos corps réagissent de manière unique.<\/p>"
           }
         },
         "text_wJfUdG": {
           "type": "text",
           "settings": {
             "title": "Qu'est-ce qui rend NUORO différent des autres produits nutritionnels?",
-            "text": "<p><strong>NUORO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NUORO est l’habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez.</strong></p><p></p><p>NUORO offre un soutien nutritionnel dans cinq domaines critiques de la santé :<br/></p><p>\t1.\tMétabolisme énergétique<br/>\t2.\tSystème immunitaire<br/>\t3.\tFonction cognitive<br/>\t4.\tActivité hormonale<br/>\t5.\tLutte contre le stress oxydatif<br/></p><p>Chacun des plus de 70 ingrédients de NUORO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu’ils travaillent en conjonction avec la formule entière.</p><p></p><p>Au-delà de la recherche derrière la formulation, NUORO est fabriqué dans un établissement certifié GMP et ISO22000, garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers.</p>"
+            "text": "<p><strong>NUORO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NUORO est l’habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez.<\/strong><\/p><p><\/p><p>NUORO offre un soutien nutritionnel dans cinq domaines critiques de la santé :<br\/><\/p><p>\t1.\tMétabolisme énergétique<br\/>\t2.\tSystème immunitaire<br\/>\t3.\tFonction cognitive<br\/>\t4.\tActivité hormonale<br\/>\t5.\tLutte contre le stress oxydatif<br\/><\/p><p>Chacun des plus de 70 ingrédients de NUORO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu’ils travaillent en conjonction avec la formule entière.<\/p><p><\/p><p>Au-delà de la recherche derrière la formulation, NUORO est fabriqué dans un établissement certifié GMP et ISO22000, garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers.<\/p>"
           }
         },
         "text_T69x8X": {
           "type": "text",
           "settings": {
             "title": "Quels produits NUORO remplace-t-il?",
-            "text": "<p><strong>Une dose quotidienne de NUORO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.</strong><br/></p><p>Vous pouvez compter sur l’efficacité de NUORO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.</a></p>"
+            "text": "<p><strong>Une dose quotidienne de NUORO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.<\/strong><br\/><\/p><p>Vous pouvez compter sur l’efficacité de NUORO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br\/><br\/><a href=\"\/pages\/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.<\/a><\/p>"
           }
         },
         "text_RnM3Yj": {
           "type": "text",
           "settings": {
             "title": "Quel goût a NUORO?",
-            "text": "<p><strong>Les adeptes de NUORO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.</strong><br/></p><p>Mais ne nous méprenons pas, NUORO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br/></p><p>Aucun compromis.</p>"
+            "text": "<p><strong>Les adeptes de NUORO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.<\/strong><br\/><\/p><p>Mais ne nous méprenons pas, NUORO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br\/><\/p><p>Aucun compromis.<\/p>"
           }
         },
         "text_zNaVKF": {
           "type": "text",
           "settings": {
             "title": "Comment prendre NUORO?",
-            "text": "<p><strong>NUORO se dilue très bien avec de l’eau fraîche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l’ajouter à du lait d’avoine.</strong></p><p></p><p>Il existe une poignée de façons d’intégrer NUORO dans votre journée. N’oubliez pas, pour maximiser les effets, il est recommandé de consommer NUORO à jeun, 15 minutes avant son premier repas de la journée.</p>"
+            "text": "<p><strong>NUORO se dilue très bien avec de l’eau fraîche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l’ajouter à du lait d’avoine.<\/strong><\/p><p><\/p><p>Il existe une poignée de façons d’intégrer NUORO dans votre journée. N’oubliez pas, pour maximiser les effets, il est recommandé de consommer NUORO à jeun, 15 minutes avant son premier repas de la journée.<\/p>"
           }
         },
         "text_rbj4JL": {
           "type": "text",
           "settings": {
             "title": "Quelles mesures prenez-vous pour garantir la qualité de NUORO?",
-            "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.</strong><br/></p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>"
+            "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.<\/strong><br\/><\/p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.<\/p>"
           }
         }
       },
@@ -685,73 +676,73 @@
         "text_hT6ctA": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Group_6_3.svg"
+            "image": "shopify:\/\/shop_images\/Group_6_3.svg"
           }
         },
         "text_RAc8Fa": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_8.svg"
+            "image": "shopify:\/\/shop_images\/Vector_8.svg"
           }
         },
         "text_hdETTh": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_9.svg"
+            "image": "shopify:\/\/shop_images\/Vector_9.svg"
           }
         },
         "text_CMNmDy": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Group_6_3_1094f8c4-d958-4ffe-accc-e3950393285b.svg"
+            "image": "shopify:\/\/shop_images\/Group_6_3_1094f8c4-d958-4ffe-accc-e3950393285b.svg"
           }
         },
         "text_fHMwF7": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_8_769f5854-2362-4e38-91b0-bfd379c7bf2e.svg"
+            "image": "shopify:\/\/shop_images\/Vector_8_769f5854-2362-4e38-91b0-bfd379c7bf2e.svg"
           }
         },
         "text_w4eLLn": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_9_95c0bc36-d3f8-4713-a36e-0c9a7732db84.svg"
+            "image": "shopify:\/\/shop_images\/Vector_9_95c0bc36-d3f8-4713-a36e-0c9a7732db84.svg"
           }
         },
         "text_BkapHN": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Group_6_3_9161f304-7f74-407a-a811-b40714672805.svg"
+            "image": "shopify:\/\/shop_images\/Group_6_3_9161f304-7f74-407a-a811-b40714672805.svg"
           }
         },
         "text_dhQ3Hr": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_8_bcc43cc4-7d65-41d8-b3d6-60140c235950.svg"
+            "image": "shopify:\/\/shop_images\/Vector_8_bcc43cc4-7d65-41d8-b3d6-60140c235950.svg"
           }
         },
         "text_fYDPE4": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_9_6720b871-034a-4502-bdbd-1e132e4ad289.svg"
+            "image": "shopify:\/\/shop_images\/Vector_9_6720b871-034a-4502-bdbd-1e132e4ad289.svg"
           }
         },
         "text_J66WwM": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Group_6_3_591060b9-7034-4d52-94c2-d78b22dac3d8.svg"
+            "image": "shopify:\/\/shop_images\/Group_6_3_591060b9-7034-4d52-94c2-d78b22dac3d8.svg"
           }
         },
         "text_wqFTdY": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_8_1f0a7c6b-3864-4c5f-8fc3-035ddd4658b6.svg"
+            "image": "shopify:\/\/shop_images\/Vector_8_1f0a7c6b-3864-4c5f-8fc3-035ddd4658b6.svg"
           }
         },
         "text_E3Kh8Y": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector_9_4737ca43-bbf5-4735-a8a6-663582fa047e.svg"
+            "image": "shopify:\/\/shop_images\/Vector_9_4737ca43-bbf5-4735-a8a6-663582fa047e.svg"
           }
         }
       },

@@ -1,7 +1,9 @@
 <div class="custom-recharge">
-  {% comment %} <div class="page-width custom-featured-product__title-mobile">
-    <h2>{{section.settings.title }}</h2>
-  </div> {% endcomment %}
+  {% comment %}
+    <div class="page-width custom-featured-product__title-mobile">
+      <h2>{{section.settings.title }}</h2>
+    </div>
+  {% endcomment %}
   <div class="custom-recharge__wrapper">
     <input class="custom-recharge__input" id="recharge_subscribe" type="radio" name="recharge_input" checked>
     <label class="custom-recharge__subscribe" for="recharge_subscribe">
@@ -13,7 +15,7 @@
               <span class="custom-recharge__select-check">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2.5 8C2.5 4.92357 4.92357 2.5 8 2.5C11.0764 2.5 13.5 4.92357 13.5 8C13.5 11.0764 11.0764 13.5 8 13.5C4.92357 13.5 2.5 11.0764 2.5 8Z" fill="#FFA72D" stroke="white" stroke-width="5"/>
-                </svg>            
+                </svg>
               </span>
               <span class="custom-recharge__select-uncheck">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +94,6 @@
             >
               {{ allocation.per_delivery_price | money }}
             </span>
-            
           {% endfor %}
         </span>
         <span class="d-block custom-recharge__text-bottom custom-recharge__text-opacity">{{ block.settings.subscribe_bottom_text }}</span>
@@ -108,7 +109,7 @@
               <span class="custom-recharge__select-check">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2.5 8C2.5 4.92357 4.92357 2.5 8 2.5C11.0764 2.5 13.5 4.92357 13.5 8C13.5 11.0764 11.0764 13.5 8 13.5C4.92357 13.5 2.5 11.0764 2.5 8Z" fill="#FFA72D" stroke="white" stroke-width="5"/>
-                </svg>            
+                </svg>
               </span>
               <span class="custom-recharge__select-uncheck">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

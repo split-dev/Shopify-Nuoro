@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,7 @@
         "html_LTedDE": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https:\/\/fr.trustpilot.com\/review\/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>"
+            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>"
           }
         },
         "labels_HGr8xW": {
@@ -30,15 +39,15 @@
           "settings": {
             "subscribe_subtitle": "Offre de lancement | Vous économisez 38 €",
             "subscribe_title": "ABONNEMENT",
-            "item_cost_subscribe": "{1,96€ \/ sachet* }",
+            "item_cost_subscribe": "{1,96€ / sachet* }",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
             "subscribe_list_item_2": "Sans Engagement",
             "subscribe_list_item_3": "Pause ou annulation à tout moment",
             "subscribe_list_item_4": "",
-            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€\/mois",
+            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€/mois",
             "one_time_subtitle": "",
             "one_time_title": "Achat Unique",
-            "item_cost_one_time": "{3,23€ \/ sachet*}",
+            "item_cost_one_time": "{3,23€ / sachet*}",
             "one_time_list_item_1": "Boite de 30 sachets expédié une fois",
             "one_time_list_item_2": "",
             "one_time_list_item_3": "",
@@ -51,6 +60,9 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
+            "features_title": "Votre achat inclut:",
+            "feature_1": "Livraison Gratuite à chaque envoie",
+            "feature_2": "Shaker NUORO offert",
             "bottom_text": "Garantie satisfait ou remboursé de 30 jours"
           }
         },
@@ -58,28 +70,28 @@
           "type": "accordion",
           "settings": {
             "title": "Description Porduit",
-            "text": "<p>Solution<em> <\/em>nutritionnelle optimale sous forme de poudre. Formule unique de <strong>71 ingrédients actifs<\/strong> offrant les nutriments essentiels et un soutien digestif optimal.<\/p><p>NUORO vous aide à:<br\/><\/p><ul><li>Booster votre énergie et concentration<\/li><li>Améliorer votre récupération<\/li><li>Soutenir la régularité digestive<\/li><li>Réduire les balonnements<\/li><li>Renforcer votre système immunitaire<\/li><li>Soutenir un vieillissement sain<\/li><\/ul>"
+            "text": "<p>Solution<em> </em>nutritionnelle optimale sous forme de poudre. Formule unique de <strong>71 ingrédients actifs</strong> offrant les nutriments essentiels et un soutien digestif optimal.</p><p>NUORO vous aide à:<br/></p><p>-&gt; Booster votre énergie et concentration<br/>-&gt; Améliorer votre récupération<br/>-&gt; Soutenir la régularité digestive<br/>-&gt; Réduire les balonnements<br/>-&gt; Renforcer votre système immunitaire</p><p>Soutenir un vieillissement sain</p>"
           }
         },
         "accordion_FzKirF": {
           "type": "accordion",
           "settings": {
             "title": "Mode de Prise",
-            "text": "<ol><li>1 sachet par jour, tous les jours.<\/li><li>À mélanger avec 250ml d'eau fraiche.<\/li><li>Pour une meilleure absorption des nutriments, consommer à jeun, au moins 10 mn avant votre premier repas.<\/li><\/ol>"
+            "text": "<ol><li>1 sachet par jour, tous les jours.</li><li>À mélanger avec 250ml d'eau fraiche.</li><li>Pour une meilleure absorption des nutriments, consommer à jeun, au moins 10 mn avant votre premier repas.</li></ol>"
           }
         },
         "accordion_aGFjKC": {
           "type": "accordion",
           "settings": {
             "title": "Ingrédients",
-            "text": "<p><strong>71 ingrédients actifs<\/strong>, chacun sélectionné avec soin pour sa pureté, sa qualité et ses bienfaits exceptionnels.<\/p><p>Chaque Sachet NUORO contient: <br\/><br\/>Vitamines & Minéraux | Antioxydants & Phytonutriment | Adaptogènes & Superaliments Probiotiques & Prébiotiques | Enzymes digestives\u2028& plus..<\/p>"
+            "text": "<p><strong>71 ingrédients actifs</strong>, chacun sélectionné avec soin pour sa pureté, sa qualité et ses bienfaits exceptionnels.</p><p>Chaque Sachet NUORO contient: <br/><br/>Vitamines & Minéraux | Antioxydants & Phytonutriment | Adaptogènes & Superaliments Probiotiques & Prébiotiques | Enzymes digestives & plus..</p>"
           }
         },
         "accordion_rbzdX8": {
           "type": "accordion",
           "settings": {
             "title": "FAQS",
-            "text": "<p>Question<\/p><p>Answer<\/p>"
+            "text": "<p>Question</p><p>Answer</p>"
           }
         }
       },
@@ -140,7 +152,7 @@
           "settings": {
             "count_reviews": 4,
             "card_title": "Je sens la différence !",
-            "card_subtitle": "Je sens la différence !\u2028Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_subtitle": "Je sens la différence ! Depuis que je bois Nuoro, je me sens plus en forme.",
             "card_name": "Paul Tancrède"
           }
         },
@@ -158,7 +170,7 @@
           "settings": {
             "count_reviews": 3,
             "card_title": "Première commande",
-            "card_subtitle": "Bon, pratique et avec un réel impact \/ intérêt nutritionnel",
+            "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
             "card_name": "Alexis Mary"
           }
         },
@@ -167,7 +179,7 @@
           "settings": {
             "count_reviews": 4,
             "card_title": "Je sens la différence !",
-            "card_subtitle": "Je sens la différence !\u2028Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_subtitle": "Je sens la différence ! Depuis que je bois Nuoro, je me sens plus en forme.",
             "card_name": "Paul Tancrède"
           }
         }
@@ -184,7 +196,7 @@
         "padding_bottom": 50,
         "title": "Histoires vraies, résultats réels",
         "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
-        "image": "shopify:\/\/shop_images\/Frame_427319018.png",
+        "image": "shopify://shop_images/Frame_427319018.png",
         "logo_trustpilot_url": ""
       }
     }

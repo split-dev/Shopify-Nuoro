@@ -61,7 +61,7 @@
 <section id="featured-product" class="custom-featured-product color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
     <div class="page-width custom-featured-product__title">
-      <h2>{{product.title }}</h2>
+      <h2>{{ product.title }}</h2>
     </div>
     <div class="featured-product product product--{{ section.settings.media_size }} grid grid--1-col gradient color-{{ section.settings.color_scheme }} product--{{ section.settings.media_position }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 or section.settings.product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
@@ -131,12 +131,7 @@
                 </h2>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
+                  {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
                 </div>
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
@@ -177,12 +172,7 @@
                 </p>
               {%- when 'product_recharge' -%}
                 <div data-recharge-wrapper>
-                  {% render 'product-recharge',
-                    block: block,
-                    product: product,
-                    use_variant: true,
-                    show_badges: false,
-                    price_class: 'price--large' %}
+                  {% render 'product-recharge', block: block, product: product, use_variant: true, show_badges: false, price_class: 'price--large' %}
                 </div>
               {%- when 'quantity_selector' -%}
                 <div
@@ -192,9 +182,7 @@
                 >
                   {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
                   {% # theme-check-disable %}
-                  {%- assign cart_qty = cart
-                    | item_count_for_variant: product.selected_or_first_available_variant.id
-                  -%}
+                  {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                   {% # theme-check-enable %}
                   <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
@@ -267,9 +255,7 @@
                               </dl>
                             {%- endif -%}
                             {%- if current_qty_for_volume_pricing < volume_pricing_array.last.minimum_quantity -%}
-                              {%- assign variant_price = product.selected_or_first_available_variant.price
-                                | money_with_currency
-                              -%}
+                              {%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency -%}
                               <span class="price-per-item--current">
                                 {{- 'products.product.volume_pricing.price_at_each' | t: price: variant_price -}}
                               </span>
@@ -278,10 +264,7 @@
                                 {%- if current_qty_for_volume_pricing >= price_break.minimum_quantity -%}
                                   {%- assign price_break_price = price_break.price | money_with_currency -%}
                                   <span class="price-per-item--current">
-                                    {{-
-                                      'products.product.volume_pricing.price_at_each'
-                                      | t: price: price_break_price
-                                    -}}
+                                    {{- 'products.product.volume_pricing.price_at_each' | t: price: price_break_price -}}
                                   </span>
                                   {%- break -%}
                                 {%- endif -%}
@@ -289,9 +272,7 @@
                             {%- endif -%}
                           </div>
                         {%- else -%}
-                          {%- assign variant_price = product.selected_or_first_available_variant.price
-                            | money_with_currency
-                          -%}
+                          {%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency -%}
                           {%- assign variant_price_compare = product.selected_or_first_available_variant.compare_at_price -%}
                           <div class="price-per-item">
                             {%- if variant_price_compare -%}
@@ -326,26 +307,17 @@
                   <div class="quantity__rules caption" id="Quantity-Rules-{{ section.id }}">
                     {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                       <span class="divider">
-                        {{-
-                          'products.product.quantity.multiples_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.increment
-                        -}}
+                        {{- 'products.product.quantity.multiples_of' | t: quantity: product.selected_or_first_available_variant.quantity_rule.increment -}}
                       </span>
                     {%- endif -%}
                     {%- if product.selected_or_first_available_variant.quantity_rule.min > 1 -%}
                       <span class="divider">
-                        {{-
-                          'products.product.quantity.minimum_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.min
-                        -}}
+                        {{- 'products.product.quantity.minimum_of' | t: quantity: product.selected_or_first_available_variant.quantity_rule.min -}}
                       </span>
                     {%- endif -%}
                     {%- if product.selected_or_first_available_variant.quantity_rule.max != null -%}
                       <span class="divider">
-                        {{-
-                          'products.product.quantity.maximum_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
-                        -}}
+                        {{- 'products.product.quantity.maximum_of' | t: quantity: product.selected_or_first_available_variant.quantity_rule.max -}}
                       </span>
                     {%- endif -%}
                   </div>
@@ -356,9 +328,7 @@
                         <ul class="list-unstyled">
                           <li>
                             <span>{{ product.selected_or_first_available_variant.quantity_rule.min }}+</span>
-                            {%- assign price = product.selected_or_first_available_variant.price
-                              | money_with_currency
-                            -%}
+                            {%- assign price = product.selected_or_first_available_variant.price | money_with_currency -%}
                             <span data-text="{{ 'products.product.volume_pricing.price_at_each' | t: price: variant_price }}">
                               {{ 'sections.quick_order_list.each' | t: money: price -}}
                             </span>
@@ -384,9 +354,7 @@
                               id="Show-More-{{ section.id }}"
                               type="button"
                             >
-                              <span class="label-show-more label-text"
-                                ><span aria-hidden="true">+ </span>{{ 'products.facets.show_more' | t }}
-                              </span>
+                              <span class="label-show-more label-text"><span aria-hidden="true">+ </span>{{ 'products.facets.show_more' | t }} </span>
                             </button>
                           </show-more-button>
                         {%- endif -%}
@@ -400,19 +368,9 @@
                   render 'share-button', block: block, share_link: share_url
                 %}
               {%- when 'variant_picker' -%}
-                {% render 'product-variant-picker',
-                  product: product,
-                  block: block,
-                  product_form_id: product_form_id,
-                  update_url: false
-                %}
+                {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, update_url: false %}
               {%- when 'buy_buttons' -%}
-                {%- render 'buy-buttons',
-                  block: block,
-                  product: product,
-                  product_form_id: product_form_id,
-                  section_id: section.id
-                -%}
+                {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id -%}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating' -%}
@@ -457,17 +415,19 @@
                 {% render 'icon-with-text', block: block %}
             {%- endcase -%}
           {%- endfor -%}
-          {% comment %} <a
-            {% if product == blank %}
-              role="link" aria-disabled="true"
-            {% else %}
-              href="{{ product.url }}"
-            {% endif %}
-            class="link product__view-details animate-arrow"
-          >
-            {{ 'products.product.view_full_details' | t }}
-            {% render 'icon-arrow' %}
-          </a> {% endcomment %}
+          {% comment %}
+            <a
+              {% if product == blank %}
+                role="link" aria-disabled="true"
+              {% else %}
+                href="{{ product.url }}"
+              {% endif %}
+              class="link product__view-details animate-arrow"
+            >
+              {{ 'products.product.view_full_details' | t }}
+              {% render 'icon-arrow' %}
+            </a>
+          {% endcomment %}
         </product-info>
       </div>
     </div>
@@ -552,7 +512,7 @@
   // Функция для обработки изменения выбранного тарифного плана
   function handlePlanChange(event) {
     // Скрыть все цены
-    document.querySelectorAll('.custom-recharge__plan-price').forEach(function(priceElement) {
+    document.querySelectorAll('.custom-recharge__plan-price').forEach(function (priceElement) {
       priceElement.style.display = 'none';
     });
 
@@ -562,28 +522,28 @@
     if (selectedPriceElement) {
       selectedPriceElement.style.display = 'block';
     }
-  
+
     const selectedPriceElementSubmit = document.querySelector(`#price_for_plan_submit_${selectedPlanId}`);
     if (selectedPriceElementSubmit) {
       selectedPriceElementSubmit.style.display = 'block';
     }
 
-    function getSellingPlanValue () {
-        return Array.from(document.querySelectorAll('[data-selling-plan-toggle]')).find((input) => input.checked).value;
+    function getSellingPlanValue() {
+      return Array.from(document.querySelectorAll('[data-selling-plan-toggle]')).find((input) => input.checked).value;
     }
     var currentValue = getSellingPlanValue();
     document.querySelector('product-form input[name="selling_plan"]').value = currentValue === 'on' ? '' : currentValue;
 
-    document.querySelectorAll('[data-selling-plan-toggle]').forEach(item => {
+    document.querySelectorAll('[data-selling-plan-toggle]').forEach((item) => {
       item.addEventListener('change', (e) => {
         currentValue = getSellingPlanValue();
         document.querySelector('product-form input[name="selling_plan"]').value = currentValue === 'on' ? '' : currentValue;
-      })
-    })
+      });
+    });
   }
 
   // Найти и добавить обработчик события изменения для радио-кнопок
-  document.querySelectorAll('input[name="recharge_plan"]').forEach(function(input) {
+  document.querySelectorAll('input[name="recharge_plan"]').forEach(function (input) {
     input.addEventListener('change', handlePlanChange);
   });
 
@@ -594,11 +554,11 @@
   }
   if (document.querySelector('.custom-recharge')) {
     function ChangeVarianteRadioChange() {
-      const rechargeSubscribe = document.getElementById("recharge_subscribe");
-      const rechargeOneTime = document.getElementById("recharge_one_time");
+      const rechargeSubscribe = document.getElementById('recharge_subscribe');
+      const rechargeOneTime = document.getElementById('recharge_one_time');
 
-      const subscribeSubmit = document.querySelector(".js-subscribe-submit");
-      const oneTimeSubmit = document.querySelector(".js-one-time-submit");
+      const subscribeSubmit = document.querySelector('.js-subscribe-submit');
+      const oneTimeSubmit = document.querySelector('.js-one-time-submit');
 
       function handleRadioChange() {
         if (rechargeSubscribe.checked) {
@@ -610,20 +570,17 @@
         }
       }
       if (rechargeSubscribe) {
-        rechargeSubscribe.addEventListener("change", handleRadioChange);
+        rechargeSubscribe.addEventListener('change', handleRadioChange);
       }
       if (rechargeOneTime) {
-        rechargeOneTime.addEventListener("change", handleRadioChange);
+        rechargeOneTime.addEventListener('change', handleRadioChange);
       }
-      
+
       handleRadioChange();
     }
 
     ChangeVarianteRadioChange();
   }
-
-  
-  
 </script>
 
 {% schema %}
@@ -950,6 +907,28 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        },
+        {
+          "type": "header",
+          "content": "Product feature"
+        },
+        {
+          "type": "text",
+          "id": "features_title",
+          "label": "Title",
+          "default": "Votre achat inclut:"
+        },
+        {
+          "type": "text",
+          "id": "feature_1",
+          "label": "Feature 1 copy",
+          "default": "Livraison Gratuite à chaque envoie"
+        },
+        {
+          "type": "text",
+          "id": "feature_2",
+          "label": "Feature 2 copy",
+          "default": "Shaker NUORO offert"
         },
         {
           "type": "text",

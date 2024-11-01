@@ -1,5 +1,4 @@
-@use './settings/foundation' as *;
-
+@use "./settings/foundation" as *;
 
 * {
     -webkit-font-smoothing: antialiased;
@@ -26,22 +25,46 @@ html {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
-.w-100 { width: 100% !important;}
-.d-none { display: none !important;}
-.d-block { display: block !important;}
-.d-flex { display: flex !important;}
-.justify-content-start   { justify-content: flex-start !important; }
-.justify-content-end     { justify-content: flex-end !important; }
-.justify-content-center  { justify-content: center !important; }
-.justify-content-between { justify-content: space-between !important; }
+.w-100 {
+    width: 100% !important;
+}
+.d-none {
+    display: none !important;
+}
+.d-block {
+    display: block !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.justify-content-start {
+    justify-content: flex-start !important;
+}
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
 
-.align-items-start    { align-items: flex-start !important; }
-.align-items-end      { align-items: flex-end !important; }
-.align-items-center   { align-items: center !important; }
-.flex-wrap {flex-wrap: wrap !important;}
+.align-items-start {
+    align-items: flex-start !important;
+}
+.align-items-end {
+    align-items: flex-end !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
 .c-text {
     color: $c-text !important;
-} 
+}
 
 .text-left {
     text-align: left !important;
@@ -56,7 +79,9 @@ html {
 .goverlay {
     display: block !important;
 }
-.glightbox-clean .gclose, .glightbox-clean .gnext, .glightbox-clean .gprev {
+.glightbox-clean .gclose,
+.glightbox-clean .gnext,
+.glightbox-clean .gprev {
     background-color: $c-orange !important;
     transition: 0.2s;
     &:hover {
@@ -92,7 +117,8 @@ div[data-rc-login-form-submit-btn-animation] {
     padding-top: 4px !important;
     padding-bottom: 4px !important;
 }
-.rc-login-form-button, .rc-enter-code-btn {
+.rc-login-form-button,
+.rc-enter-code-btn {
     height: 50px !important;
 }
 
@@ -131,4 +157,32 @@ div[data-rc-login-form-submit-btn-animation] {
 }
 .article-template__back {
     display: none;
+}
+
+.product-feature {
+    &__title {
+        color: #9f9e99;
+    }
+    &__icon {
+        margin-right: 8px;
+    }
+
+    &__status {
+        color: #26a244;
+    }
+    &__item {
+        margin-top: 1.6rem;
+    }
+}
+.product-form {
+    &__total {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        border-top: 1px solid #e4e4e4;
+        padding-top: 8px;
+        &__small {
+            color: #9f9e99;
+            font-size: 12px;
+        }
+    }
 }

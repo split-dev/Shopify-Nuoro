@@ -123,11 +123,11 @@
                 </p>
               {%- when 'title' -%}
                 <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                  {%- if product.title != blank -%}
+                  {% if product.metafields.custom.product_title_overwrite != blank %}
+                    {{ product.metafields.custom.product_title_overwrite }}
+                  {% else %}
                     {{ product.title | escape }}
-                  {%- else -%}
-                    {{ 'onboarding.product_title' | t }}
-                  {%- endif -%}
+                  {% endif %}
                 </h2>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>

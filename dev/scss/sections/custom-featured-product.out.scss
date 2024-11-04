@@ -91,6 +91,9 @@
         }
     }
     .product__gallery-pagination {
+        @media (min-width: 992px) {
+            display: none;
+        }
         position: absolute;
         bottom: 50px;
         z-index: 2;
@@ -391,8 +394,16 @@
         display: none !important;
     }
     //media
-    .thumbnail-slider {
-        display: none !important;
+    .thumbnail-list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-top: 10px;
+        margin-bottom: 37px;
+        grid-gap: 8px;
+        &__item {
+            flex: 0 0 80px;
+        }
     }
     .product__custom-media {
         overflow: hidden;
@@ -425,7 +436,6 @@
     media-gallery {
         min-height: inherit !important;
         display: block;
-        height: 100%;
         slider-component {
             display: block;
             height: 100%;

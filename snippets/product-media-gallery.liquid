@@ -162,7 +162,7 @@
       assign is_not_limited_to_single_item = true
     endif
   -%}
-  {%- if is_not_limited_to_single_item and media_count > 1 and section.settings.gallery_layout contains 'thumbnail' or section.settings.mobile_thumbnails == 'show' -%}
+  {%- if is_not_limited_to_single_item and media_count > 1 -%}
     <slider-component
       id="GalleryThumbnails-{{ section.id }}"
       class="thumbnail-slider slider-mobile-gutter quick-add-hidden small-hide medium-hide {% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"

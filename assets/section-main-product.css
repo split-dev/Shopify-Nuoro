@@ -74,12 +74,12 @@
 
   .product--medium:not(.product--no-media) .product__media-wrapper,
   .product--small:not(.product--no-media) .product__info-wrapper {
-    width: 45.833%;
+    width: 46.527%;
   }
 
   .product--medium:not(.product--no-media) .product__info-wrapper,
   .product--small:not(.product--no-media) .product__media-wrapper {
-    width: 54.166%;
+    width: 53.472%;
   }
 }
 

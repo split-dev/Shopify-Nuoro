@@ -10,16 +10,14 @@
         }
     }
     .product__info-wrapper {
-        padding-left: 65px !important;
-        padding-right: 10px !important;
+        padding-left: 32px !important;
+        padding-right: 32px !important;
         display: flex;
         padding-top: 10px;
         padding-bottom: 20px;
-        @media (max-width: 1325px) {
-            padding-left: 32px !important;
-        }
         @media (max-width: 1099px) {
             padding-left: 21px !important;
+            padding-right: 21px !important;
         }
         @include media-breakpoint-down(md) {
             padding: 0 15px !important;
@@ -34,7 +32,7 @@
         width: 100%;
         max-width: 100% !important;
         height: fit-content;
-        top: 10px;
+        top: 20px;
         @include media-breakpoint-down(md) {
             max-width: 100% !important;
         }

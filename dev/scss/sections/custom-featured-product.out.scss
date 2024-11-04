@@ -289,9 +289,6 @@
                     @include media-breakpoint-down(md) {
                         font-size: 16px !important;
                     }
-                    @media (max-height: 820px) and (min-width: 751px) {
-                        font-size: 16px !important;
-                    }
                 }
             }
         }

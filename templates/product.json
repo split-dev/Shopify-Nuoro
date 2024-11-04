@@ -89,9 +89,10 @@
         },
         "accordion_rbzdX8": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "FAQS",
-            "text": "<p>Question</p><p>Answer</p>"
+            "text": "<h3>Comment savoir si NUORO me convient?</h3><p><strong>NUORO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.</strong></p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NUORO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.</p><p>NUORO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.</p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.</p>"
           }
         }
       },
@@ -199,11 +200,101 @@
         "image": "shopify://shop_images/Frame_427319018.png",
         "logo_trustpilot_url": ""
       }
+    },
+    "faq_home_eYeYMq": {
+      "type": "faq-home",
+      "blocks": {
+        "text_V9Lh7t": {
+          "type": "text",
+          "settings": {
+            "title": "Comment savoir si NUORO me convient?",
+            "text": "<p><strong>NUORO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.</strong></p><p></p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NUORO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.<br/></p><p>NUORO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<br/></p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.</p>"
+          }
+        },
+        "text_7PGaFP": {
+          "type": "text",
+          "settings": {
+            "title": "Quels types de bienfaits puis-je attendre de la prise de NUORO?",
+            "text": "<p><strong>NUORO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, le métabolisme digestif et plus encore.</strong></p><p></p><p>Chez NUORO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NUORO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br/></p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.</a></p>"
+          }
+        },
+        "text_ebXXQR": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO se prend en cure?",
+            "text": "<p><strong>NUORO est avant tout une routine quotidienne</strong> <strong>conçue pour vous accompagner sur le long terme.</strong> Grâce à ses 71 ingrédients soigneusement sélectionnés, il soutient votre bien-être global au fil des jours.</p><p><strong>Cependant, NUORO peut également être pris en cure de 3 mois, notamment pendant des périodes plus stressantes, intensives ou de rééquilibrage.</strong> Que ce soit pour un usage continu ou en cure à des moments clés de l'année, NUORO s'adapte à vos besoins pour vous aider à rester au meilleur de votre forme.</p>"
+          }
+        },
+        "text_N4UpeY": {
+          "type": "text",
+          "settings": {
+            "title": "Quand puis-je m'attendre à voir des bienfaits?",
+            "text": "<p><strong>De nombreux facteurs peuvent influencer l’effet de NUORO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer.</strong></p><p></p><p>Mais n’oubliez pas les trois éléments essentiels pour maintenir une santé globale :</p><p></p><p>\t1.\tAlimentation variée et équilibrée<br/>\t2.\tActivité physique régulière<br/>\t3.\tSommeil de qualité</p><p></p><p>Ces facteurs influencent le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains membres remarquent des améliorations en seulement quelques jours, tandis que pour d’autres, cela peut prendre jusqu’à quelques semaines. Nous sommes tous différents, nos corps réagissent de manière unique.</p>"
+          }
+        },
+        "text_DjJqkD": {
+          "type": "text",
+          "settings": {
+            "title": "Qu'est-ce qui rend NUORO différent des autres produits nutritionnels?",
+            "text": "<p><strong>NUORO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NUORO est l’habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez.</strong></p><p></p><p>NUORO offre un soutien nutritionnel dans cinq domaines critiques de la santé :<br/></p><p>\t1.\tMétabolisme énergétique<br/>\t2.\tSystème immunitaire<br/>\t3.\tFonction cognitive<br/>\t4.\tActivité hormonale<br/>\t5.\tLutte contre le stress oxydatif<br/></p><p>Chacun des plus de 70 ingrédients de NUORO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu’ils travaillent en conjonction avec la formule entière.</p><p></p><p>Au-delà de la recherche derrière la formulation, NUORO est fabriqué dans un établissement certifié GMP et ISO22000, garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers.</p>"
+          }
+        },
+        "text_E63ijt": {
+          "type": "text",
+          "settings": {
+            "title": "Quels produits NUORO remplace-t-il?",
+            "text": "<p><strong>Une dose quotidienne de NUORO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.</strong><br/></p><p>Vous pouvez compter sur l’efficacité de NUORO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.</a></p>"
+          }
+        },
+        "text_rUHVfx": {
+          "type": "text",
+          "settings": {
+            "title": "Quel goût a NUORO?",
+            "text": "<p><strong>Les adeptes de NUORO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.</strong><br/></p><p>Mais ne nous méprenons pas, NUORO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br/></p><p>Aucun compromis.</p>"
+          }
+        },
+        "text_bdif8w": {
+          "type": "text",
+          "settings": {
+            "title": "Comment prendre NUORO?",
+            "text": "<p><strong>NUORO se dilue très bien avec de l’eau fraîche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l’ajouter à du lait d’avoine.</strong></p><p></p><p>Il existe une poignée de façons d’intégrer NUORO dans votre journée. N’oubliez pas, pour maximiser les effets, il est recommandé de consommer NUORO à jeun, 15 minutes avant son premier repas de la journée.</p>"
+          }
+        },
+        "text_WFF64p": {
+          "type": "text",
+          "settings": {
+            "title": "Quelles mesures prenez-vous pour garantir la qualité de NUORO?",
+            "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.</strong><br/></p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V9Lh7t",
+        "text_7PGaFP",
+        "text_ebXXQR",
+        "text_N4UpeY",
+        "text_DjJqkD",
+        "text_E63ijt",
+        "text_rUHVfx",
+        "text_bdif8w",
+        "text_WFF64p"
+      ],
+      "settings": {
+        "title": "FAQS",
+        "button_label": "",
+        "button_url": "",
+        "button_url_pdf": "",
+        "padding_top": 35,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 35
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "reviews"
+    "reviews",
+    "faq_home_eYeYMq"
   ]
 }

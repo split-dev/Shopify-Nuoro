@@ -285,16 +285,25 @@
 </media-gallery>
 
 <script>
-  var productGallerySlider = new Swiper('.js-product-gallery-slider-init-{{ section.index }}', {
-    slidesPerView: 1,
-    loop: true,
-    navigation: {
-      nextEl: '.js-swiper-next-product-gallery',
-      prevEl: '.js-swiper-prev-product-gallery',
-    },
-    pagination: {
-      el: '.js-pagination-product-gallery',
-      clickable: true,
-    },
+  document.addEventListener('DOMContentLoaded', () => {
+    new Swiper('.js-product-gallery-slider-init-{{ section.index }}', {
+      slidesPerView: 1,
+      loop: false,
+      navigation: {
+        nextEl: '.js-swiper-next-product-gallery',
+        prevEl: '.js-swiper-prev-product-gallery',
+      },
+      pagination: {
+        el: '.js-pagination-product-gallery',
+        clickable: true,
+      },
+      on: {
+        slideChange: (e) => {
+          console.log(e);
+          console.log(e.activeIndex);
+          document.querySelectorAll(`.thumbnail-list__item`)[e.activeIndex].querySelector('button').click();
+        },
+      },
+    });
   });
 </script>

@@ -10,7 +10,7 @@ class HTMLUpdateUtility {
   #preProcessCallbacks = [];
   #postProcessCallbacks = [];
 
-  constructor() {}
+  constructor() { }
 
   addPreProcessCallback(callback) {
     this.#preProcessCallbacks.push(callback);
@@ -752,11 +752,24 @@ class SliderComponent extends HTMLElement {
     return element.offsetLeft + element.clientWidth <= lastVisibleSlide && element.offsetLeft >= this.slider.scrollLeft;
   }
 
-  onButtonClick(event) {
-    event.preventDefault();
-    const step = event.currentTarget.dataset.step || 1;
+  onButtonClick(event, index = null) {
+    let isEvent = event instanceof Event;
+    let step;
+    let name;
+
+    console.log(event);
+
+    if (isEvent) {
+      event.preventDefault();
+      step = event.currentTarget.dataset.step || 1;
+      name = event.currentTarget.name;
+    } else {
+      name = event;
+      step = index;
+    }
+
     this.slideScrollPosition =
-      event.currentTarget.name === 'next'
+      name === 'next'
         ? this.slider.scrollLeft + step * this.sliderItemOffset
         : this.slider.scrollLeft - step * this.sliderItemOffset;
     this.setSlidePosition(this.slideScrollPosition);
@@ -996,7 +1009,7 @@ class SlideshowComponent extends SliderComponent {
     const slideScrollPosition =
       this.slider.scrollLeft +
       this.sliderFirstItemNode.clientWidth *
-        (this.sliderControlLinksArray.indexOf(event.currentTarget) + 1 - this.currentPage);
+      (this.sliderControlLinksArray.indexOf(event.currentTarget) + 1 - this.currentPage);
     this.slider.scrollTo({
       left: slideScrollPosition,
     });
@@ -1043,7 +1056,7 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.removeErrorMessage();
 
-    let callback = () => {};
+    let callback = () => { };
     if (this.dataset.url !== targetUrl) {
       this.updateURL(targetUrl);
       this.updateShareUrl(targetUrl);

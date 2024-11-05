@@ -405,6 +405,9 @@
             flex: 0 0 80px;
         }
     }
+    .thumbnail[aria-current] {
+        --color-foreground: 255, 167, 45;
+    }
     .product__custom-media {
         overflow: hidden;
         position: relative;

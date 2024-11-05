@@ -10,9 +10,18 @@
 <div class="reviews__wrapper section-{{ section.id }}-padding">
   <h2>{{ section.settings.title }}</h2>
   <p class="subtitle">{{ section.settings.sub_title }}</p>
-  <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">
-    {{ section.settings.image | image_url: width: 142 | image_tag: class: 'reviews__image', loading: 'lazy' }}
-  </a>
+
+  <!-- TrustBox widget - Micro TrustScore -->
+  <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6659801df278f22f2d471a1d" data-style-height="20px" data-style-width="100%">
+    <a href="https://fr.trustpilot.com/review/drinknuoro.com" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
+  <!-- End TrustBox widget -->
+
+  {% comment %}
+    <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">
+      {{ section.settings.image | image_url: width: 142 | image_tag: class: 'reviews__image', loading: 'lazy' }}
+    </a>
+  {% endcomment %}
 
   <div class="swiper swip__reviews">
     <div class="swiper-wrapper reviews__container">
@@ -21,6 +30,9 @@
           {% when 'reviews' %}
             <article class="swiper-slide">
               <div class="card__inner">
+                {%- if block.settings.review_image != blank -%}
+                  {{ block.settings.review_image | image_url: width: 400 | image_tag: class: 'review__image', loading: 'lazy' }}
+                {%- endif -%}
                 <div class="card-count" data-count="{{ block.settings.count_reviews }}"></div>
                 <h4>{{ block.settings.card_title }}</h4>
                 <p class="card-content">{{ block.settings.card_subtitle }}</p>
@@ -155,6 +167,11 @@
       "name": "Reviews card",
       "type": "reviews",
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "review_image",
+          "label": "Image for item review"
+        },
         {
           "type": "number",
           "id": "count_reviews",

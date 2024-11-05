@@ -334,6 +334,7 @@
         "reviews_kdzdfL": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/original_ea14276c1939388f3df47a7e14a372f7_1.png",
             "count_reviews": 5,
             "card_title": "Efficace et simple!",
             "card_subtitle": "J’attaque mon deuxième mois de traitement, je me sens moins fatigué au quotidien, et surtout je note une différence au niveau de la digestion, plus aucun ballonnement, mal de ventre après mangé",

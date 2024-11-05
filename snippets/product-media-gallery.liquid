@@ -298,10 +298,11 @@
         clickable: true,
       },
       on: {
-        slideChange: (e) => {
-          console.log(e);
-          console.log(e.activeIndex);
-          document.querySelectorAll(`.thumbnail-list__item`)[e.activeIndex].querySelector('button').click();
+        realIndexChange: (e) => {
+          document.querySelectorAll(`.thumbnail-list__item`).forEach((item) => {
+            item.querySelector('button').removeAttribute('aria-current');
+          });
+          document.querySelectorAll(`.thumbnail-list__item`)[e.activeIndex].querySelector('button').setAttribute('aria-current', 'true');
         },
       },
     });

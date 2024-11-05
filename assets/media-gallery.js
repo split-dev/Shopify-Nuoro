@@ -37,8 +37,8 @@ if (!customElements.get('media-gallery')) {
           return;
         }
 
-        const currentIndex = parseInt(activeMedia.dataset.swiperSlideIndex);
-        document.querySelector('.product__custom-media').swiper.slideTo(currentIndex);
+        const currentIndex = parseInt(activeMedia.getAttribute('aria-label').split('/')[0]);
+        document.querySelector('.product__custom-media').swiper.slideTo(currentIndex - 1);
 
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {
           element.classList.remove('is-active');

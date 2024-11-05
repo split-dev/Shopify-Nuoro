@@ -1,5 +1,6 @@
-@use "./variables";
-@use "./_breakpoints.scss";
+@use "./variables" as *;
+@use "./_breakpoints.scss" as *;
+
 
 .btn {
     display: flex;

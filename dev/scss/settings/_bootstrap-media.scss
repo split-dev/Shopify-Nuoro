@@ -1,6 +1,6 @@
 //Variables (replace Bootstrap variable defaults)
-@use './variables';
-@use './helpers';
+@use './variables' as *;
+@use './helpers' as *;
 // --------------------------------------------------
 // Bootstrap
-@use "./breakpoints";
+@use "./_breakpoints" as *;

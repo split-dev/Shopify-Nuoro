@@ -1,7 +1,7 @@
 //Variables (replace Bootstrap variable defaults)
-@use './variables';
+@use './variables' as *;
 
-@use './helpers';
+@use './helpers' as *;
 
 // --------------------------------------------------
 // Bootstrap

@@ -74,11 +74,11 @@
                         img.review__image {
                             width: 100%;
                             height: auto;
+                            aspect-ratio: 80 / 61;
                         }
                         .card-count {
                             .slider-content--stars {
                                 margin: 0;
-                                border: 1px solid red;
                                 svg {
                                     height: 23px;
                                     width: 23px;

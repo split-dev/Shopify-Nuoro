@@ -30,9 +30,11 @@
           {% when 'reviews' %}
             <article class="swiper-slide">
               <div class="card__inner">
-                {%- if block.settings.review_image != blank -%}
-                  {{ block.settings.review_image | image_url: width: 400 | image_tag: class: 'review__image', loading: 'lazy' }}
-                {%- endif -%}
+                <div class="review__image-wrapper">
+                  {%- if block.settings.review_image != blank -%}
+                    {{ block.settings.review_image | image_url: width: 400 | image_tag: class: 'review__image', loading: 'lazy' }}
+                  {%- endif -%}
+                </div>
                 <div class="card-count" data-count="{{ block.settings.count_reviews }}"></div>
                 <h4>{{ block.settings.card_title }}</h4>
                 <p class="card-content">{{ block.settings.card_subtitle }}</p>

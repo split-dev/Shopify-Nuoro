@@ -1,5 +1,6 @@
-@use "../settings/variables";
-@use "../settings/bootstrap-media";
+@use "../settings/variables" as *;
+@use "../settings/bootstrap-media" as *;
+@use "../settings/breakpoints" as *;
 
 .template-ingredients {
     .img-and-content__content {

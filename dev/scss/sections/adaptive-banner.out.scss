@@ -1,5 +1,6 @@
-@use "../settings/variables";
+@use "../settings/variables" as *;
 @use "../settings/bootstrap-media";
+@use "../settings/breakpoints" as *;
 
 .adaptive-banner {
     position: relative;

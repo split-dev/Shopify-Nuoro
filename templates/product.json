@@ -77,7 +77,7 @@
           "type": "accordion",
           "settings": {
             "title": "Mode de Prise",
-            "text": "<ol><li>1 sachet par jour, tous les jours.</li><li>À mélanger avec 250ml d'eau fraiche.</li><li>Pour une meilleure absorption des nutriments, consommer à jeun, au moins 10 mn avant votre premier repas.</li></ol>"
+            "text": "<p>1 sachet par jour, tous les jours.</p><p>À mélanger avec 250ml d'eau fraiche.</p>"
           }
         },
         "accordion_aGFjKC": {

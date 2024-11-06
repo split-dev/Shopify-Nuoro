@@ -436,12 +436,12 @@
             "text": "Alix B. <br>Étude Observationnelle"
           }
         },
-        "text_EaWhaW": {
+        "text_JJ4zBn": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
-            "title": "\"Bien commencer la journée\"",
-            "text": "Didier O. <br> Étude Observationnelle"
+            "video": "shopify://files/videos/Nuoro - vidéo Fondateur Pierre-Brice Mena compress.mp4",
+            "title": "Un Môt du co-fondateur",
+            "text": "Pierre-Brice co-fondateur"
           }
         },
         "text_8VEJdJ": {
@@ -452,20 +452,20 @@
             "text": "Kathleen O. Étude Osbservationnelle"
           }
         },
-        "text_JJ4zBn": {
+        "text_EaWhaW": {
           "type": "text",
           "settings": {
-            "video": "shopify://files/videos/Pierre-Brice Mena - Co Fondateur de NUORO.mp4",
-            "title": "Un Môt du co-fondateur",
-            "text": "Pierre-Brice <br>co-fondateur"
+            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
+            "title": "\"Bien commencer la journée\"",
+            "text": "Didier O. <br> Étude Observationnelle"
           }
         }
       },
       "block_order": [
         "text_b438QR",
-        "text_EaWhaW",
+        "text_JJ4zBn",
         "text_8VEJdJ",
-        "text_JJ4zBn"
+        "text_EaWhaW"
       ],
       "settings": {
         "bg_color": "#ffbcce",

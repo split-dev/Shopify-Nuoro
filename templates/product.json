@@ -271,35 +271,35 @@
           "type": "text",
           "settings": {
             "title": "Peut-on mélanger NUORO avec autre chose que de l’eau ?",
-            "text": "<p>Oui, absolument ! NUORO peut être mélangé avec d’autres liquides comme du lait végétal pour varier les saveurs. Nous vous recommandons toutefois de l’éviter avec des boissons chaudes pour préserver l’intégrité des nutriments.</p>"
+            "text": "<p><strong>Oui, absolument ! NUORO peut être mélangé avec d’autres liquides comme du lait végétal pour varier les saveurs.</strong> Nous vous recommandons toutefois de l’éviter avec des boissons chaudes pour préserver l’intégrité des nutriments.</p>"
           }
         },
         "text_Ke3N36": {
           "type": "text",
           "settings": {
             "title": "Quand vais-je recevoir ma commande ?",
-            "text": "<p>Votre commande est expédiée le jour même si elle est passée avant 15h, ou le jour ouvré suivant si elle est passée après 15h (hors week-ends et jours fériés). La livraison prend ensuite généralement entre 3 et 4 jours ouvrés.</p>"
+            "text": "<p>Votre commande est expédiée le jour même si elle est passée avant 15h, ou le jour ouvré suivant si elle est passée après 15h (hors week-ends et jours fériés). <strong>La livraison prend ensuite généralement entre 3 et 4 jours ouvrés.</strong></p>"
           }
         },
         "text_gWWaED": {
           "type": "text",
           "settings": {
             "title": "Puis-je modifier ou annuler ma commande ?",
-            "text": "<p>Une fois votre commande validée et payée, il n’est malheureusement pas possible de la modifier ou de l’annuler, car nous nous assurons de traiter les commandes le plus rapidement possible. Cependant, vous avez la possibilité de retourner votre commande pour un remboursement une fois reçue.</p>"
+            "text": "<p><strong>Une fois votre commande validée et payée, il n’est malheureusement pas possible de la modifier ou de l’annuler,</strong> car nous nous assurons de traiter les commandes le plus rapidement possible. <strong>Cependant, vous avez la possibilité de retourner votre commande pour un remboursement une fois reçue.</strong></p>"
           }
         },
         "text_UkNAUx": {
           "type": "text",
           "settings": {
             "title": "Retourner ma commande, c’est possible ?",
-            "text": "<p>Tout à fait ! Les articles non ouverts peuvent être retournés dans les 30 jours suivant la livraison pour un remboursement. Consultez notre politique de remboursement pour plus de détails.</p>"
+            "text": "<p><strong>Tout à fait ! Les articles non ouverts peuvent être retournés dans les 30 jours suivant la livraison pour un remboursement. </strong>Consultez notre politique de remboursement pour plus de détails.</p>"
           }
         },
         "text_9Vm6Ya": {
           "type": "text",
           "settings": {
             "title": "Comment gérer mon abonnement ?",
-            "text": "<p>Pour gérer votre abonnement, connectez-vous simplement à votre compte. Vous pourrez y mettre à jour vos coordonnées, sauter une livraison, annuler votre abonnement ou encore choisir une nouvelle date de réassort.</p>"
+            "text": "<p><strong>Pour gérer votre abonnement, connectez-vous simplement à votre compte.</strong> Vous pourrez y mettre à jour vos coordonnées, sauter une livraison, annuler votre abonnement ou encore choisir une nouvelle date de réassort.</p>"
           }
         }
       },

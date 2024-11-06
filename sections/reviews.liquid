@@ -11,9 +11,17 @@
   <h2>{{ section.settings.title }}</h2>
   <p class="subtitle">{{ section.settings.sub_title }}</p>
 
-  <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="6659801df278f22f2d471a1d" data-style-height="20px" data-style-width="420px">
+  {% comment %}
+    <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="6659801df278f22f2d471a1d" data-style-height="20px" data-style-width="420px">
+      <a href="https://fr.trustpilot.com/review/drinknuoro.com" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+  {% endcomment %}
+
+  <!-- TrustBox widget - Micro Combo -->
+  <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="6659801df278f22f2d471a1d" data-style-height="20px" data-style-width="100%">
     <a href="https://fr.trustpilot.com/review/drinknuoro.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
+  <!-- End TrustBox widget -->
 
   {% comment %}
     <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">

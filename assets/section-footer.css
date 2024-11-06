@@ -339,6 +339,9 @@
 .copyright__content a {
   color: rgba(var(--color-foreground), 0.75);
 }
+.footer-block__details-content .list-menu__item--link {
+  text-decoration: none;
+}
 
 .footer-block__details-content .list-menu__item--active {
   transition: text-decoration-thickness var(--duration-short) ease;

@@ -266,6 +266,41 @@
             "title": "Quelles mesures prenez-vous pour garantir la qualité de NUORO?",
             "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.</strong><br/></p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>"
           }
+        },
+        "text_WipTqh": {
+          "type": "text",
+          "settings": {
+            "title": "Peut-on mélanger NUORO avec autre chose que de l’eau ?",
+            "text": "<p>Oui, absolument ! NUORO peut être mélangé avec d’autres liquides comme du lait végétal pour varier les saveurs. Nous vous recommandons toutefois de l’éviter avec des boissons chaudes pour préserver l’intégrité des nutriments.</p>"
+          }
+        },
+        "text_Ke3N36": {
+          "type": "text",
+          "settings": {
+            "title": "Quand vais-je recevoir ma commande ?",
+            "text": "<p>Votre commande est expédiée le jour même si elle est passée avant 15h, ou le jour ouvré suivant si elle est passée après 15h (hors week-ends et jours fériés). La livraison prend ensuite généralement entre 3 et 4 jours ouvrés.</p>"
+          }
+        },
+        "text_gWWaED": {
+          "type": "text",
+          "settings": {
+            "title": "Puis-je modifier ou annuler ma commande ?",
+            "text": "<p>Une fois votre commande validée et payée, il n’est malheureusement pas possible de la modifier ou de l’annuler, car nous nous assurons de traiter les commandes le plus rapidement possible. Cependant, vous avez la possibilité de retourner votre commande pour un remboursement une fois reçue.</p>"
+          }
+        },
+        "text_UkNAUx": {
+          "type": "text",
+          "settings": {
+            "title": "Retourner ma commande, c’est possible ?",
+            "text": "<p>Tout à fait ! Les articles non ouverts peuvent être retournés dans les 30 jours suivant la livraison pour un remboursement. Consultez notre politique de remboursement pour plus de détails.</p>"
+          }
+        },
+        "text_9Vm6Ya": {
+          "type": "text",
+          "settings": {
+            "title": "Comment gérer mon abonnement ?",
+            "text": "<p>Pour gérer votre abonnement, connectez-vous simplement à votre compte. Vous pourrez y mettre à jour vos coordonnées, sauter une livraison, annuler votre abonnement ou encore choisir une nouvelle date de réassort.</p>"
+          }
         }
       },
       "block_order": [
@@ -277,7 +312,12 @@
         "text_E63ijt",
         "text_rUHVfx",
         "text_bdif8w",
-        "text_WFF64p"
+        "text_WFF64p",
+        "text_WipTqh",
+        "text_Ke3N36",
+        "text_gWWaED",
+        "text_UkNAUx",
+        "text_9Vm6Ya"
       ],
       "settings": {
         "title": "FAQS",

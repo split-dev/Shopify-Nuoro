@@ -137,14 +137,14 @@
         "text_Xb9Dry": {
           "type": "text",
           "settings": {
-            "title": "Sans <br>additifs",
+            "title": "Sans Additifs",
             "text": "Ni arômes, colorants ou conservateurs artificiels"
           }
         },
         "text_hdQH9c": {
           "type": "text",
           "settings": {
-            "title": "Sans Sucre <br>ajouté",
+            "title": "Sans Sucre Ajouté",
             "text": "Ni gluten, oeufs, lactose ou arachides"
           }
         },

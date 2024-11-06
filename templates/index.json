@@ -102,6 +102,180 @@
         "padding_bottom_mobile": 45
       }
     },
+    "text_tiles_6GFXBz": {
+      "type": "text-tiles",
+      "blocks": {
+        "text_kDWHBd": {
+          "type": "text",
+          "settings": {
+            "title": "Formule unique",
+            "text": "Scientifiquement élaborée pour optimiser les bénéfices"
+          }
+        },
+        "text_k8dCWL": {
+          "type": "text",
+          "settings": {
+            "title": "71 ingrédients actifs",
+            "text": "Chacun choisit pour sa pureté et son efficacité assimilables"
+          }
+        },
+        "text_MrFGpc": {
+          "type": "text",
+          "settings": {
+            "title": "90% d'ingrédients Naturels",
+            "text": "Pour une nutrition essentielle et pure"
+          }
+        },
+        "text_Xb9Dry": {
+          "type": "text",
+          "settings": {
+            "title": "Sans <br>additifs",
+            "text": "Ni arômes, colorants ou conservateurs artificiels"
+          }
+        },
+        "text_hdQH9c": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Sucre <br>ajouté",
+            "text": "Ni gluten, oeufs, lactose ou arachides"
+          }
+        },
+        "text_mMyqPE": {
+          "type": "text",
+          "settings": {
+            "title": "Remplace 14 gélules",
+            "text": "En une seule prise"
+          }
+        }
+      },
+      "block_order": [
+        "text_kDWHBd",
+        "text_k8dCWL",
+        "text_MrFGpc",
+        "text_Xb9Dry",
+        "text_hdQH9c",
+        "text_mMyqPE"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 20,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "tab_images_QcxXbC": {
+      "type": "tab-images",
+      "blocks": {
+        "text_wKDNQy": {
+          "type": "text",
+          "settings": {
+            "title": "Versez une dose dans 250ml d'eau fraîche",
+            "text": "Tous les jours, à jeun de préférence",
+            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
+          }
+        },
+        "text_F3rVtx": {
+          "type": "text",
+          "settings": {
+            "title": "Secouez",
+            "text": "Dans votre Shaker NUORO",
+            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
+          }
+        },
+        "text_PxUYMX": {
+          "type": "text",
+          "settings": {
+            "title": "Enjoy!",
+            "text": "",
+            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_wKDNQy",
+        "text_F3rVtx",
+        "text_PxUYMX"
+      ],
+      "settings": {
+        "title": "Comment Préparer?",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "text_img_tiles_rQY4GA": {
+      "type": "text-img-tiles",
+      "blocks": {
+        "text_63z8pt": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/eac909bb0d7e85d9c96114aed5187d72.jpg",
+            "title": "Métabolisme Énergétique¹",
+            "text": "La vitamine C, le magnésium et le fer contribuent à un métabolisme énergétique normal."
+          }
+        },
+        "text_GmfBLC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/03a57b5c6346a94bc7b16403e1b509b7.jpg",
+            "title": "Système Immunitaire²",
+            "text": "Le sélénium et le zinc contribuent au fonctionnement normal du système immunitaire."
+          }
+        },
+        "text_6dzmih": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/d23e080f7772b1ec2f2732bd6045e710.jpg",
+            "title": "Fonction Cognitive³",
+            "text": "Le fer, le zinc et l'iode contribuent à une fonction cognitive normale."
+          }
+        },
+        "text_BJnQxH": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
+            "title": "Stress oxydatif⁴",
+            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
+          }
+        },
+        "text_FY6ErV": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/997358d8a94317dca626fb7dc32a41df.jpg",
+            "title": "Peau et Cheveux⁵",
+            "text": "Le zinc et la biotine contribuent au maintien d'une peau et de cheveux normaux."
+          }
+        },
+        "text_qMVzfQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
+            "title": "Activité hormonale⁶",
+            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
+          }
+        }
+      },
+      "block_order": [
+        "text_63z8pt",
+        "text_GmfBLC",
+        "text_6dzmih",
+        "text_BJnQxH",
+        "text_FY6ErV",
+        "text_qMVzfQ"
+      ],
+      "settings": {
+        "title": "Exploitez votre plein potentiel",
+        "subtitle": "Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
+        "image": "shopify://shop_images/Group_21.svg",
+        "button_label": "Ingredients & Bénéfices",
+        "button_url": "shopify://pages/ingredients",
+        "padding_top": 20,
+        "padding_bottom": 30,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40
+      }
+    },
     "featured_product_j8MdBd": {
       "type": "featured-product",
       "blocks": {
@@ -183,180 +357,6 @@
         "padding_bottom": 30,
         "padding_top_mobile": 60,
         "padding_bottom_mobile": 0
-      }
-    },
-    "text_tiles_6GFXBz": {
-      "type": "text-tiles",
-      "blocks": {
-        "text_kDWHBd": {
-          "type": "text",
-          "settings": {
-            "title": "Abonnement sans engagement",
-            "text": "Choisissez l'abonnement sans risque et annulez à tout moment"
-          }
-        },
-        "text_k8dCWL": {
-          "type": "text",
-          "settings": {
-            "title": "71 ingrédients actifs",
-            "text": "Chacun choisit pour sa pureté et son efficacité assimilables"
-          }
-        },
-        "text_Xb9Dry": {
-          "type": "text",
-          "settings": {
-            "title": "Sans <br>additifs",
-            "text": "Ni arômes, colorants ou conservateurs artificiels"
-          }
-        },
-        "text_mMyqPE": {
-          "type": "text",
-          "settings": {
-            "title": "Remplace <br>14 gélules",
-            "text": "Dans une seul sachet"
-          }
-        },
-        "text_MrFGpc": {
-          "type": "text",
-          "settings": {
-            "title": "Recette constamment <br>améliorée",
-            "text": "10ème itération"
-          }
-        },
-        "text_hdQH9c": {
-          "type": "text",
-          "settings": {
-            "title": "Sans Sucre <br>ajouté",
-            "text": "Ni gluten, oeufs, lactose ou arachides"
-          }
-        }
-      },
-      "block_order": [
-        "text_kDWHBd",
-        "text_k8dCWL",
-        "text_Xb9Dry",
-        "text_mMyqPE",
-        "text_MrFGpc",
-        "text_hdQH9c"
-      ],
-      "settings": {
-        "padding_top": 50,
-        "padding_bottom": 20,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 40
-      }
-    },
-    "text_img_tiles_rQY4GA": {
-      "type": "text-img-tiles",
-      "blocks": {
-        "text_63z8pt": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/eac909bb0d7e85d9c96114aed5187d72.jpg",
-            "title": "Métabolisme Énergétique¹",
-            "text": "La vitamine C, le magnésium et le fer contribuent à un métabolisme énergétique normal."
-          }
-        },
-        "text_GmfBLC": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/03a57b5c6346a94bc7b16403e1b509b7.jpg",
-            "title": "Système Immunitaire²",
-            "text": "Le sélénium et le zinc contribuent au fonctionnement normal du système immunitaire."
-          }
-        },
-        "text_6dzmih": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/d23e080f7772b1ec2f2732bd6045e710.jpg",
-            "title": "Fonction Cognitive³",
-            "text": "Le fer, le zinc et l'iode contribuent à une fonction cognitive normale."
-          }
-        },
-        "text_BJnQxH": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
-            "title": "Stress oxydatif⁴",
-            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
-          }
-        },
-        "text_FY6ErV": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/997358d8a94317dca626fb7dc32a41df.jpg",
-            "title": "Peau et Cheveux⁵",
-            "text": "Le zinc et la biotine contribuent au maintien d'une peau et de cheveux normaux."
-          }
-        },
-        "text_qMVzfQ": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
-            "title": "Activité hormonale⁶",
-            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
-          }
-        }
-      },
-      "block_order": [
-        "text_63z8pt",
-        "text_GmfBLC",
-        "text_6dzmih",
-        "text_BJnQxH",
-        "text_FY6ErV",
-        "text_qMVzfQ"
-      ],
-      "settings": {
-        "title": "Exploitez votre plein potentiel",
-        "subtitle": "Conçu pour vous soutenir quotidiennement dans tous les aspects de votre vie. Chaque ingrédient est choisi pour son impact maximal sur votre bien-être global.",
-        "image": "shopify://shop_images/Group_21.svg",
-        "button_label": "Ingredients & Bénéfices",
-        "button_url": "shopify://pages/ingredients",
-        "padding_top": 20,
-        "padding_bottom": 30,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 40
-      }
-    },
-    "tab_images_QcxXbC": {
-      "type": "tab-images",
-      "blocks": {
-        "text_wKDNQy": {
-          "type": "text",
-          "settings": {
-            "title": "Versez une dose dans 250ml d'eau fraîche",
-            "text": "Tous les jours, à jeun de préférence",
-            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
-          }
-        },
-        "text_F3rVtx": {
-          "type": "text",
-          "settings": {
-            "title": "Secouez",
-            "text": "Dans votre Shaker NUORO",
-            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
-          }
-        },
-        "text_PxUYMX": {
-          "type": "text",
-          "settings": {
-            "title": "Enjoy!",
-            "text": "",
-            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "text_wKDNQy",
-        "text_F3rVtx",
-        "text_PxUYMX"
-      ],
-      "settings": {
-        "title": "Comment Préparer?",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
       }
     },
     "reviews": {
@@ -784,10 +784,10 @@
   "order": [
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
-    "featured_product_j8MdBd",
     "text_tiles_6GFXBz",
-    "text_img_tiles_rQY4GA",
     "tab_images_QcxXbC",
+    "text_img_tiles_rQY4GA",
+    "featured_product_j8MdBd",
     "reviews",
     "video_reviews_jTMMEL",
     "title_and_list_YBkG6P",

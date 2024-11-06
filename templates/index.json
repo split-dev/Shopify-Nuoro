@@ -211,32 +211,32 @@
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/eac909bb0d7e85d9c96114aed5187d72.jpg",
-            "title": "Métabolisme Énergétique¹",
-            "text": "La vitamine C, le magnésium et le fer contribuent à un métabolisme énergétique normal."
+            "title": "Énergie Durable¹",
+            "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
           }
         },
         "text_GmfBLC": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/03a57b5c6346a94bc7b16403e1b509b7.jpg",
-            "title": "Système Immunitaire²",
-            "text": "Le sélénium et le zinc contribuent au fonctionnement normal du système immunitaire."
+            "title": "Défenses Immunitaires²",
+            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
           }
         },
         "text_6dzmih": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/d23e080f7772b1ec2f2732bd6045e710.jpg",
-            "title": "Fonction Cognitive³",
-            "text": "Le fer, le zinc et l'iode contribuent à une fonction cognitive normale."
+            "title": "Performances Mentales³",
+            "text": "Aiguisez votre esprit, améliorez votre concentration et libérez votre potentiel cognitif."
           }
         },
         "text_BJnQxH": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
-            "title": "Stress oxydatif⁴",
-            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
+            "title": "Santé Cardiovasculaire⁴",
+            "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
           }
         },
         "text_FY6ErV": {
@@ -244,15 +244,15 @@
           "settings": {
             "image": "shopify://shop_images/997358d8a94317dca626fb7dc32a41df.jpg",
             "title": "Peau et Cheveux⁵",
-            "text": "Le zinc et la biotine contribuent au maintien d'une peau et de cheveux normaux."
+            "text": "Favorisez la régénération cellulaire, renforcez la structure capillaire et préservez l’hydratation naturelle."
           }
         },
         "text_qMVzfQ": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
-            "title": "Activité hormonale⁶",
-            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
+            "title": "Équilibre Hormonal⁶",
+            "text": "Soutenez l’équilibre de votre système hormonal pour un bien-être optimal et une vitalité quotidienne."
           }
         }
       },

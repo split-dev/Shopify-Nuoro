@@ -29,9 +29,9 @@
         }
     }
     .product__title {
-        @include media-breakpoint-down(md) {
-            display: none;
-        }
+        // @include media-breakpoint-down(md) {
+        //     display: none;
+        // }
     }
     .product__media-wrapper {
         padding-left: 10px;

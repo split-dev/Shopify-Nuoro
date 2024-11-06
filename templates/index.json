@@ -370,63 +370,68 @@
     "reviews": {
       "type": "reviews",
       "blocks": {
-        "reviews_kdzdfL": {
+        "reviews_43mVrY": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/original_ea14276c1939388f3df47a7e14a372f7_1.png",
             "count_reviews": 5,
-            "card_title": "Efficace et simple!",
-            "card_subtitle": "J’attaque mon deuxième mois de traitement, je me sens moins fatigué au quotidien, et surtout je note une différence au niveau de la digestion, plus aucun ballonnement, mal de ventre après mangé",
-            "card_name": "Maximilien M."
+            "card_title": "“Je sens la différence !”",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
           }
         },
-        "reviews_GjiHkj": {
+        "reviews_TB3Ccf": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/original_ea14276c1939388f3df47a7e14a372f7_1.png",
             "count_reviews": 5,
-            "card_title": "Forme et meilleur sommeil",
-            "card_subtitle": "Cure commencée il y a 3 semaines, sommeil plus régulier et bien meilleure forme tout au long de la journée.",
-            "card_name": "Valérie P."
+            "card_title": "“Je sens la différence !”",
+            "card_subtitle": "Très bon retour à faire sur cette nouvelle super poudre! Le goût est bon. Simple à diluer dans 300ml. La concentration des nutriments est forte. Je ne suis qu’à mon premier mois mais je me sens super bien!",
+            "card_name": "Paul Tancrède"
           }
         },
-        "reviews_CLWgc8": {
+        "reviews_i8Uhyy": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/91d0f4b222e38167f4146b5741ea177c.jpg",
             "count_reviews": 5,
-            "card_title": "Essayer c'est l'adopter!",
-            "card_subtitle": "Essayer Nuoro c'est l'adopter, son goût est bon et l'on ressent vraiment la différence, moins de stress et plus d'énergie.",
-            "card_name": "Cannelle B."
+            "card_title": "“Je sens la différence !”",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
           }
         },
-        "reviews_piYmYE": {
+        "reviews_VGVbRU": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/original_ea14276c1939388f3df47a7e14a372f7_1.png",
             "count_reviews": 5,
-            "card_title": "Boost Nutritionnel",
-            "card_subtitle": "Je le conseillerai aussi à tous mes sportifs pour qui la diététique s'impose et à tous ceux qui veulent garder la forme.",
-            "card_name": "Dr. Patrick M."
+            "card_title": "“Je sens la différence !”",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
           }
         },
-        "reviews_tFgKYn": {
+        "reviews_byP73F": {
           "type": "reviews",
           "settings": {
+            "review_image": "shopify://shop_images/original_ea14276c1939388f3df47a7e14a372f7_1.png",
             "count_reviews": 5,
-            "card_title": "Meilleure récupération",
-            "card_subtitle": "Ça m’aide beaucoup à récupérer après des séances de sport. Je recommande vivement.",
-            "card_name": "Amine A."
+            "card_title": "“Je sens la différence !”",
+            "card_subtitle": "Je sens la différence !Depuis que je bois Nuoro, je me sens plus en forme.",
+            "card_name": "Paul Tancrède"
           }
         }
       },
       "block_order": [
-        "reviews_kdzdfL",
-        "reviews_GjiHkj",
-        "reviews_CLWgc8",
-        "reviews_piYmYE",
-        "reviews_tFgKYn"
+        "reviews_43mVrY",
+        "reviews_TB3Ccf",
+        "reviews_i8Uhyy",
+        "reviews_VGVbRU",
+        "reviews_byP73F"
       ],
       "settings": {
         "padding_top": 40,
         "padding_bottom": 35,
-        "title": "Des Histoires vraies, des résultats réels",
+        "title": "Histoires vraies, résultats réels",
         "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
         "image": "shopify://shop_images/trustpilot_logo.svg",
         "logo_trustpilot": "shopify://shop_images/Verifie.svg",

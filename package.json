@@ -4,7 +4,7 @@
   "author": "SPLIT Development",
   "scripts": {
     "start": "run-p -sr shopify:dev gulp:watch",
-    "shopify:dev": "shopify theme dev -s 0b9b2a-c1",
+    "shopify:dev": "shopify theme dev -s 0b9b2a-c1 --theme-editor-sync",
     "deploy": "run-s gulp:production && shopify theme push -s 0b9b2a-c1",
     "deploy:new": "run-s gulp:production && shopify theme push --unpublished -s 0b9b2a-c1",
     "gulp:watch": "gulp",

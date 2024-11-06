@@ -288,7 +288,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     new Swiper('.js-product-gallery-slider-init-{{ section.index }}', {
       slidesPerView: 1,
-      loop: false,
+      loop: true,
       navigation: {
         nextEl: '.js-swiper-next-product-gallery',
         prevEl: '.js-swiper-prev-product-gallery',
@@ -303,6 +303,9 @@
             item.querySelector('button').removeAttribute('aria-current');
           });
           document.querySelectorAll(`.thumbnail-list__item`)[e.activeIndex].querySelector('button').setAttribute('aria-current', 'true');
+          if (e.activeIndex == document.querySelectorAll(`.thumbnail-list__item`).length - 1) {
+            e.activeIndex = -1;
+          }
         },
       },
     });

@@ -54,7 +54,6 @@
     {% render 'css-variables' %}
 
     {%- unless settings.type_body_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link
         rel="preload"
         as="font"
@@ -62,10 +61,8 @@
         type="font/woff2"
         crossorigin
       >
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link
         rel="preload"
         as="font"
@@ -73,7 +70,6 @@
         type="font/woff2"
         crossorigin
       >
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}

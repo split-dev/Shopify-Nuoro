@@ -30,48 +30,56 @@
       "blocks": {
         "text_bBnMM4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Vitamines"
           }
         },
         "text_YXCM86": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Minéraux"
           }
         },
         "text_JDAdfR": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Pro & Prebiotiques"
           }
         },
         "text_tUWGkL": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Antioxydants"
           }
         },
         "text_rtNaRA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Extraits de plantes"
           }
         },
         "text_EzanTX": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Superaliments"
           }
         },
         "text_6TGWJU": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Adaptogènes"
           }
         },
         "text_j4kFiY": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Électrolytes"
           }

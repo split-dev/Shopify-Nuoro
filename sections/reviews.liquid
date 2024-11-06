@@ -10,9 +10,16 @@
 <div class="reviews__wrapper section-{{ section.id }}-padding">
   <h2>{{ section.settings.title }}</h2>
   <p class="subtitle">{{ section.settings.sub_title }}</p>
-  <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">
-    {{ section.settings.image | image_url: width: 142 | image_tag: class: 'reviews__image', loading: 'lazy' }}
-  </a>
+
+  <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="6659801df278f22f2d471a1d" data-style-height="20px" data-style-width="420px">
+    <a href="https://fr.trustpilot.com/review/drinknuoro.com" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
+
+  {% comment %}
+    <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">
+      {{ section.settings.image | image_url: width: 142 | image_tag: class: 'reviews__image', loading: 'lazy' }}
+    </a>
+  {% endcomment %}
 
   <div class="swiper swip__reviews">
     <div class="swiper-wrapper reviews__container">
@@ -21,6 +28,19 @@
           {% when 'reviews' %}
             <article class="swiper-slide">
               <div class="card__inner">
+                <div class="review__image-wrapper">
+                  {%- if block.settings.review_image != blank -%}
+                    {{ block.settings.review_image | image_url: width: 400 | image_tag: class: 'review__image', loading: 'lazy' }}
+                  {% else %}
+                    <img
+                      class="default-image"
+                      src="https://cdn.shopify.com/s/files/1/0811/8229/4348/files/default-img.png?v=1730878391"
+                      alt=""
+                      width=""
+                      height=""
+                    >
+                  {%- endif -%}
+                </div>
                 <div class="card-count" data-count="{{ block.settings.count_reviews }}"></div>
                 <h4>{{ block.settings.card_title }}</h4>
                 <p class="card-content">{{ block.settings.card_subtitle }}</p>
@@ -68,8 +88,8 @@
           slidesPerView: 3,
           spaceBetween: 16,
         },
-        1441: {
-          slidesPerView: 3,
+        1922: {
+          slidesPerView: 4,
           spaceBetween: 24,
         },
       },
@@ -155,6 +175,11 @@
       "name": "Reviews card",
       "type": "reviews",
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "review_image",
+          "label": "Image for item review"
+        },
         {
           "type": "number",
           "id": "count_reviews",

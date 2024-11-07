@@ -1,0 +1,174 @@
+{{ 'home-hero.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .home-hero__wrapper {
+        min-height: 600px;
+        height: 94svh;
+    }
+  }
+{%- endstyle -%}
+
+<section class="home-hero">
+  {% if section.settings.video != blank %}
+    {{ section.settings.video | video_tag: image_size: '1920x', id: 'js-home-hero-video', loop: true, mute: false, autoplay: true }}
+    {{ section.settings.video_mobile | video_tag: image_size: '450x', id: 'js-home-hero-video--mobile', loop: true, mute: false, autoplay: true }}
+  {% else %}
+    {% if section.settings.bg != blank %}
+      <picture>
+        {%- if section.settings.bg_mobile != blank -%}
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              {%- if section.settings.bg_mobile.width >= 375 -%}{{ section.settings.bg_mobile | image_url: width: 375 }} 375w,{%- endif -%}
+              {%- if section.settings.bg_mobile.width >= 550 -%}{{ section.settings.bg_mobile | image_url: width: 550 }} 550w,{%- endif -%}
+              {%- if section.settings.bg_mobile.width >= 750 -%}{{ section.settings.bg_mobile | image_url: width: 750 }} 750w,{%- endif -%}
+            "
+          >
+        {%- endif -%}
+        {{ section.settings.bg | image_url: width: 3400 | image_tag: width: '100%', height: '85vh', class: '', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780', alt: 'Banner image' }}
+      </picture>
+    {% endif %}
+  {% endif %}
+  <div class="home-hero__wrapper section-{{ section.id }}-padding page-width">
+    {% if section.settings.title != blank %}
+      <h1>{{ section.settings.title }}</h1>
+    {% endif %}
+
+    <div>
+      {% if section.settings.text != blank %}
+        <p class="text-26px">{{ section.settings.text }}</p>
+      {% endif %}
+      {% if section.settings.button_label != blank %}
+        <div class="home-hero__button d-flex justify-content-center">
+          <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+  @media (min-width: 451px) {
+    #js-home-hero-video {
+      display: block;
+    }
+    #js-home-hero-video--mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 450px) {
+    #js-home-hero-video {
+      display: none;
+    }
+    #js-home-hero-video--mobile {
+      display: block;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Home Hero",
+  "class": "shopify-section--home-hero",
+  "settings": [
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "video",
+      "id": "video_mobile",
+      "label": "Video for mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "Background Image Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_mobile",
+      "label": "Background Image Mobile"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Hero",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

@@ -23,6 +23,7 @@
 <section class="home-hero">
   {% if section.settings.video != blank %}
     {{ section.settings.video | video_tag: image_size: '1920x', id: 'js-home-hero-video', loop: true, mute: false, autoplay: true }}
+    {{ section.settings.video_mobile | video_tag: image_size: '450x', id: 'js-home-hero-video--mobile', loop: true, mute: false, autoplay: true }}
   {% else %}
     {% if section.settings.bg != blank %}
       <picture>
@@ -58,6 +59,25 @@
   </div>
 </section>
 
+<style>
+  @media (min-width: 451px) {
+    #js-home-hero-video {
+      display: block;
+    }
+    #js-home-hero-video--mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 450px) {
+    #js-home-hero-video {
+      display: none;
+    }
+    #js-home-hero-video--mobile {
+      display: block;
+    }
+  }
+</style>
+
 {% schema %}
 {
   "name": "Home Hero",
@@ -67,6 +87,11 @@
       "type": "video",
       "id": "video",
       "label": "Video"
+    },
+    {
+      "type": "video",
+      "id": "video_mobile",
+      "label": "Video for mobile"
     },
     {
       "type": "image_picker",

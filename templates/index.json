@@ -9,8 +9,26 @@
  */
 {
   "sections": {
+    "home_hero_v2": {
+      "type": "home-hero-v2",
+      "settings": {
+        "video": "shopify://files/videos/NUORO+sounds (1).mp4",
+        "video_mobile": "shopify://files/videos/1.webm",
+        "bg": "shopify://shop_images/MG_4309.jpg",
+        "bg_mobile": "shopify://shop_images/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
+        "title": "Exploitez votre plein potentiel",
+        "text": "NUORO est une fomule unique de 71 ingrédients, conçue pour soutenir votre santé au quotidien.",
+        "button_label": "Commencez NUORO",
+        "button_url": "#featured-product",
+        "padding_top": 150,
+        "padding_bottom": 40,
+        "padding_top_mobile": 125,
+        "padding_bottom_mobile": 30
+      }
+    },
     "home_hero_CF9PjB": {
       "type": "home-hero",
+      "disabled": true,
       "settings": {
         "video": "shopify://files/videos/NUORO+sounds (1).mp4",
         "video_mobile": "shopify://files/videos/1.webm",
@@ -796,6 +814,7 @@
     }
   },
   "order": [
+    "home_hero_v2",
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "text_tiles_6GFXBz",

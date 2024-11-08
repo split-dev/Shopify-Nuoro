@@ -138,15 +138,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17151115064775110295": {
         "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
@@ -167,14 +164,12 @@
       "18380801738182334087": {
         "type": "shopify://apps/addingwell/blocks/aw-gtm/c8ed21e7-0ac8-4249-8c91-cbdde850b5b8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15128825611575457054": {
         "type": "shopify://apps/gtm-data-layer-gtm-kit/blocks/star_rating/2250107a-52da-4a4c-90f3-9dc740388cdb",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {

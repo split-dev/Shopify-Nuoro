@@ -21,7 +21,7 @@
       "type": "page-title",
       "settings": {
         "title": "Recherche Scientifique",
-        "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales.<br\/><br\/>Nos produits<em> <\/em>sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs. <\/p>",
+        "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales.<br/><br/>Nos produits<em> </em>sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs. </p>",
         "padding_top": 0,
         "padding_bottom": 60,
         "padding_top_mobile": 0,
@@ -33,10 +33,10 @@
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/Nuoro_recette_scientifique_71_ingredients.jpg",
+        "image": "shopify://shop_images/Nuoro_recette_scientifique_71_ingredients.jpg",
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
-        "text": "<p>Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique. <br\/><br\/>Aujourd’hui, NUORO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que Nuoro demeure à la pointe de la nutrition.<\/p>",
+        "text": "<p>Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique. <br/><br/>Aujourd’hui, NUORO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que Nuoro demeure à la pointe de la nutrition.</p>",
         "button_label": "Notre Équipe de Chercheurs",
         "button_url": "",
         "padding_top": 20,
@@ -50,10 +50,10 @@
       "settings": {
         "revers": true,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/NUORO_Recherche_Scientifique.jpg",
+        "image": "shopify://shop_images/NUORO_Recherche_Scientifique.jpg",
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
-        "text": "<p>Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité. <br\/><br\/>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.<\/p>",
+        "text": "<p>Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité. <br/><br/>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -67,10 +67,10 @@
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
-        "image": "shopify:\/\/shop_images\/che_3.jpg",
+        "image": "shopify://shop_images/che_3.jpg",
         "title": "Partage de Connaissances",
         "subtitle": "",
-        "text": "<p>La transmission de notre savoir est une partie intégrante de notre mission. NUORO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.<\/p>",
+        "text": "<p>La transmission de notre savoir est une partie intégrante de notre mission. NUORO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.</p>",
         "button_label": "",
         "button_url": "",
         "padding_top": 0,
@@ -85,9 +85,9 @@
         "text_pHcdHm": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jacek_Sidzina_NUORO.jpg",
+            "image": "shopify://shop_images/Jacek_Sidzina_NUORO.jpg",
             "name": "Jacek Sidzina",
-            "position": "<p>Directeur de l'innovation <br\/>Expert en Micronutrition<\/p>",
+            "position": "<p>Directeur de l'innovation <br/>Expert en Micronutrition</p>",
             "instagram_link": "",
             "instagram_title": "",
             "linkedin_link": "",
@@ -97,9 +97,9 @@
         "text_KwkhHh": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sebastian_Galka_-_R_D_Director_NU.O.RO.jpg",
+            "image": "shopify://shop_images/Sebastian_Galka_-_R_D_Director_NU.O.RO.jpg",
             "name": "Sebastian Galka",
-            "position": "<p>Directeur R&D<br\/>Biotechnologiste<\/p>",
+            "position": "<p>Directeur R&D<br/>Biotechnologiste</p>",
             "instagram_link": "",
             "instagram_title": "",
             "linkedin_link": "",
@@ -109,9 +109,9 @@
         "text_yGXGGU": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dr_Patrick_Mena_Directeur_Medical_NU.O.RO.jpg",
+            "image": "shopify://shop_images/Dr_Patrick_Mena.heic",
             "name": "Dr. Patrick Mena",
-            "position": "<p>Directeur Médical<br\/>Médecin du Sport<\/p>",
+            "position": "<p>Directeur Médical<br/>Conseiller Scientifique</p>",
             "instagram_link": "",
             "instagram_title": "",
             "linkedin_link": "",
@@ -122,9 +122,9 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/team_4.jpg",
+            "image": "shopify://shop_images/team_4.jpg",
             "name": "Dr. Annick Mena",
-            "position": "<p>Directeur Santé Hormonale et Métabolique Médecin Endocrinologue<\/p>",
+            "position": "<p>Directeur Santé Hormonale et Métabolique Médecin Endocrinologue</p>",
             "instagram_link": "",
             "instagram_title": "",
             "linkedin_link": "",
@@ -141,7 +141,7 @@
       "settings": {
         "title": "Notre Équipe de Chercheurs",
         "button_label": "Notre production",
-        "button_url": "shopify:\/\/pages\/production",
+        "button_url": "shopify://pages/production",
         "padding_top": 0,
         "padding_bottom": 120,
         "padding_top_mobile": 0,

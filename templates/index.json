@@ -409,6 +409,16 @@
             "card_name": "Maximilien M."
           }
         },
+        "reviews_byP73F": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/MG_4823.jpg",
+            "count_reviews": 5,
+            "card_title": "\"Un booster au quotidien\"",
+            "card_subtitle": " En plus d'améliorer mes performances sportives, je me sens plus équilibré et en meilleure santé. Je le recommande vivement à ceux qui cherchent une solution simple pour soutenir leur bien-être au quotidien.",
+            "card_name": "Pauline M."
+          }
+        },
         "reviews_i8Uhyy": {
           "type": "reviews",
           "settings": {
@@ -428,24 +438,14 @@
             "card_subtitle": "Je fais pas mal de sport, et Nuoro est devenu un vrai allié pour mes phases de récupération. Je sens que mes muscles récupèrent plus et je me sens plus en forme.",
             "card_name": "Amine M."
           }
-        },
-        "reviews_byP73F": {
-          "type": "reviews",
-          "settings": {
-            "review_image": "shopify://shop_images/MG_4823.jpg",
-            "count_reviews": 5,
-            "card_title": "\"Un booster au quotidien\"",
-            "card_subtitle": " En plus d'améliorer mes performances sportives, je me sens plus équilibré et en meilleure santé. Je le recommande vivement à ceux qui cherchent une solution simple pour soutenir leur bien-être au quotidien.",
-            "card_name": "Pauline M."
-          }
         }
       },
       "block_order": [
         "reviews_43mVrY",
         "reviews_TB3Ccf",
+        "reviews_byP73F",
         "reviews_i8Uhyy",
-        "reviews_VGVbRU",
-        "reviews_byP73F"
+        "reviews_VGVbRU"
       ],
       "settings": {
         "padding_top": 40,

@@ -419,16 +419,6 @@
             "card_name": "Pauline M."
           }
         },
-        "reviews_i8Uhyy": {
-          "type": "reviews",
-          "settings": {
-            "review_image": "shopify://shop_images/91d0f4b222e38167f4146b5741ea177c.jpg",
-            "count_reviews": 5,
-            "card_title": "“Cheveux et ongles plus forts”",
-            "card_subtitle": "Très nette amélioration sur mes ongles qui ne se cassent plus et ma perte de cheveux a considérablement diminuée.Mieux qu’une cure de gélules.",
-            "card_name": "Apolline B."
-          }
-        },
         "reviews_VGVbRU": {
           "type": "reviews",
           "settings": {
@@ -438,14 +428,24 @@
             "card_subtitle": "Je fais pas mal de sport, et Nuoro est devenu un vrai allié pour mes phases de récupération. Je sens que mes muscles récupèrent plus et je me sens plus en forme.",
             "card_name": "Amine M."
           }
+        },
+        "reviews_i8Uhyy": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/91d0f4b222e38167f4146b5741ea177c.jpg",
+            "count_reviews": 5,
+            "card_title": "“Cheveux et ongles plus forts”",
+            "card_subtitle": "Très nette amélioration sur mes ongles qui ne se cassent plus et ma perte de cheveux a considérablement diminuée.Mieux qu’une cure de gélules.",
+            "card_name": "Apolline B."
+          }
         }
       },
       "block_order": [
         "reviews_43mVrY",
         "reviews_TB3Ccf",
         "reviews_byP73F",
-        "reviews_i8Uhyy",
-        "reviews_VGVbRU"
+        "reviews_VGVbRU",
+        "reviews_i8Uhyy"
       ],
       "settings": {
         "padding_top": 40,

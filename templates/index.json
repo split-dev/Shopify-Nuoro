@@ -677,6 +677,13 @@
             "text": "<p><strong>Les adeptes de NUORO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.</strong><br/></p><p>Mais ne nous méprenons pas, NUORO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br/></p><p>Aucun compromis.</p>"
           }
         },
+        "text_mPFGtT": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO remplace un repas ?",
+            "text": "<p><strong>Non, NUORO n’est pas conçu pour remplacer un repas.</strong> Il s’agit d’un complément nutritionnel qui apporte des micronutriments essentiels, mais il ne fournit pas les macronutriments (protéines, glucides, lipides) nécessaires pour constituer un repas complet.<br/></p><p>NUORO est idéal pour <strong>compléter une alimentation équilibrée</strong> en apportant des vitamines, minéraux et autres micronutriments essentiels pour soutenir votre bien-être quotidien.</p>"
+          }
+        },
         "text_zNaVKF": {
           "type": "text",
           "settings": {
@@ -700,6 +707,7 @@
         "text_wJfUdG",
         "text_T69x8X",
         "text_RnM3Yj",
+        "text_mPFGtT",
         "text_zNaVKF",
         "text_rbj4JL"
       ],

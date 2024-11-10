@@ -322,11 +322,11 @@
           "type": "labels",
           "settings": {
             "text_1": "Formule unique",
-            "text_2": "Issu de la science",
-            "text_3": "Sans additifs",
-            "text_4": "Sans sucres ajoutés",
-            "text_5": "Sans gluten",
-            "text_6": "Sans lactose"
+            "text_2": "Sans additifs",
+            "text_3": "Sans sucres ajoutés",
+            "text_4": "Sans gluten",
+            "text_5": "Sans lactose",
+            "text_6": ""
           }
         },
         "product_recharge_QGPLdq": {

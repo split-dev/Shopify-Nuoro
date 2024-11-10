@@ -244,6 +244,13 @@
             "text": "<p><strong>Une dose quotidienne de NUORO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.</strong><br/></p><p>Vous pouvez compter sur l’efficacité de NUORO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.</a></p>"
           }
         },
+        "text_a7C3AB": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO remplace un repas ?",
+            "text": "<p><strong>Non, NUORO n’est pas conçu pour remplacer un repas.</strong> Il s’agit d’un complément alimentaire qui apporte des micronutriments essentiels, mais il ne fournit pas les macronutriments (protéines, glucides, lipides) nécessaires pour constituer un repas complet.<br/></p><p>NUORO est idéal pour <strong>compléter une alimentation équilibrée</strong> en apportant des vitamines, minéraux et autres nutriments essentiels pour soutenir votre bien-être quotidien.</p>"
+          }
+        },
         "text_rUHVfx": {
           "type": "text",
           "settings": {
@@ -308,6 +315,7 @@
         "text_N4UpeY",
         "text_DjJqkD",
         "text_E63ijt",
+        "text_a7C3AB",
         "text_rUHVfx",
         "text_bdif8w",
         "text_WFF64p",

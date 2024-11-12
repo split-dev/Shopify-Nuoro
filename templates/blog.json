@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "collage",
         "show_image": true,
@@ -23,7 +24,6 @@
     },
     "featured_blog_cLDP4G": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "heading": "Articles",
         "heading_size": "h1",

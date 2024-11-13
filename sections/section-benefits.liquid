@@ -1,0 +1,253 @@
+{{ 'section-benefits.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mb }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding page-width">
+  <div class="sp_brand__wrapper">
+    <div class="sp_brand__title-wrapper">
+      <h3 class="uppercase text-center h2">{{ section.settings.title }}</h3>
+      <div class="text-center h5">{{ section.settings.subheading }}</div>
+    </div>
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'first_block' -%}
+          <div class="sp_brand__block">
+            {%- case block.settings.display_type -%}
+              {%- when 'icon' -%}
+                {%- if block.settings.image != blank -%}
+                <div>
+                    {{ block.settings.image | image_url: width: 3840 | image_tag: width: block.settings.image.width, height: block.settings.image.height, class: 'sp_brand__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+                  </div>
+                {%- endif -%}
+              {%- when 'text' -%}
+                {{ block.settings.text }}
+            {%- endcase -%}
+            {%- if block.settings.image_center != blank -%}
+           <div>
+                {{ block.settings.image_center | image_url: width: 3840 | image_tag: width: block.settings.image.image_center, height: block.settings.image_center.height, class: 'sp_brand__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+              </div>
+            {%- endif -%}
+            <div>{{ block.settings.text_last }}</div>
+          </div>
+        {%- when 'main_block' -%}
+          <div class="sp_brand__block">
+            <div class="sp_brand__text">{{ block.settings.text_first }}</div>
+            {%- case block.settings.display.type -%}
+              {%- when 'checkmark' -%}
+                <div class="sp_brand__checkmark">
+                  {{- 'icon-checkmark.svg' | inline_asset_content -}}
+                </div>
+              {%- when 'text' -%}
+                <div class="sp_brand__text sup">{{ block.settings.text_center }}</div>
+            {%- endcase -%}
+            <div class="sp_brand__text text-center">{{ block.settings.text_last }}</div>
+          </div>
+        {%- when 'last_block' -%}
+          <div class="sp_brand__block">
+            <div class="sp_brand__text">{{ block.settings.text_first }}</div>
+            <div class="sp_brand__text text-center">{{ block.settings.text_center }}</div>
+            <div class="sp_brand__text text-center">{{ block.settings.text_last }}</div>
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+  <div class="text-center">{{ section.settings.description }}</div>
+</div>
+
+{% schema %}
+{
+  "name": "Brand Benefits",
+  "class": "sp_brand",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Padding (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Padding (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mb",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "first_block",
+      "name": "First Block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "display_type",
+          "label": "Display Type",
+          "options": [
+            {
+              "value": "icon",
+              "label": "Icon"
+            },
+            {
+              "value": "text",
+              "label": "Text"
+            }
+          ],
+          "default": "icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image",
+          "info": "Upload an image to display as an icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text Content",
+          "info": "Text to display if 'Text' is selected"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_center",
+          "label": "Image Center Column"
+        },
+        {
+          "type": "text",
+          "id": "text_last",
+          "label": "Text Last Column"
+        }
+      ]
+    },
+    {
+      "type": "main_block",
+      "name": "Main Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_first",
+          "label": "Text First Column"
+        },
+        {
+          "type": "select",
+          "id": "display_type",
+          "label": "Display Type Second Column",
+          "options": [
+            {
+              "value": "checkmark",
+              "label": "Checkmark"
+            },
+            {
+              "value": "text",
+              "label": "Text"
+            }
+          ],
+          "default": "checkmark"
+        },
+        {
+          "type": "text",
+          "id": "text_center",
+          "label": "Text Center Column"
+        },
+        {
+          "type": "text",
+          "id": "text_last",
+          "label": "Text Last Column"
+        }
+      ]
+    },
+    {
+      "type": "last_block",
+      "name": "Last Block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_first",
+          "label": "Text First Column"
+        },
+        {
+          "type": "text",
+          "id": "text_center",
+          "label": "Text Center Column"
+        },
+        {
+          "type": "text",
+          "id": "text_last",
+          "label": "Text Last Solumn"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand Benefits"
+    }
+  ]
+}
+{% endschema %}

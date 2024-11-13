@@ -1,0 +1,45 @@
+@use "../settings/config" as *;
+
+.sp_brand {
+    &__title-wrapper {
+        margin-bottom: 3rem;
+    }
+
+    &__top-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: fit-content;
+        max-height: 8rem;
+    }
+
+    &__block {
+        display: grid;
+        align-items: end;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        border-bottom: 1px solid #F6F4EC;
+        & > div {
+            width: 100%;
+        }
+        & > div:nth-child(1) {
+            justify-items: start;
+        }
+        & > div:nth-child(2) {
+            background-color: rgb(var(--custom-color-primary));
+        }
+    }
+
+    &__text {
+        &.sup::first-letter {
+            font-size: 60%;
+        }
+    }
+
+    &__checkmark {
+        background: rgb(var(--custom-color-primary));
+        svg {
+            max-width: 1.6rem;
+            max-height: 1.1rem;
+        }
+    }
+}

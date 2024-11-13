@@ -1,8 +1,41 @@
 @use "../settings/config" as *;
 
 .sp_brand {
+    background: $white;
+    &__wrapper + div {
+        margin-top: 1.6rem;
+        margin-inline: auto;
+        @include media-breakpoint-up(xl) {
+            margin-top: 2.4rem;
+            max-width: 60vw;
+        }
+        @include media-breakpoint-up(xxl) {
+            margin-top: 4rem;
+        }
+        p {
+            font-size: 12px !important;
+            text-align: left;
+            margin: 0;
+            @include media-breakpoint-up(md) {
+                text-align: center;
+            }
+        }
+    }
     &__title-wrapper {
-        margin-bottom: 3rem;
+        margin-bottom: 3.2rem;
+        margin-inline: auto;
+        @include media-breakpoint-up(xl) {
+            margin-bottom: 3.8rem;
+        }
+        @include media-breakpoint-up(xxl) {
+            margin-bottom: 4.8rem;
+        }
+        h3 {
+            margin: 0;
+            & + div {
+                margin-top: 1.5rem;
+            }
+        }
     }
 
     &__top-content {
@@ -14,15 +47,19 @@
 
     &__block {
         display: grid;
-        align-items: end;
-        justify-items: center;
         grid-template-columns: repeat(3, 1fr);
-        border-bottom: 1px solid #F6F4EC;
+        border-bottom: 1px solid $almost-white;
+        min-height: 4.8rem;
         & > div {
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            height: 100%;
             width: 100%;
         }
         & > div:nth-child(1) {
-            justify-items: start;
+            justify-content: start;
+            word-break: break-word;
         }
         & > div:nth-child(2) {
             background-color: rgb(var(--custom-color-primary));
@@ -30,16 +67,57 @@
     }
 
     &__text {
-        &.sup::first-letter {
-            font-size: 60%;
+        font-weight: 500;
+        padding-block: 0.6rem;
+        &.sup {
+            margin: 0;
+            &::first-letter {
+                font-size: 60%;
+                vertical-align: top;
+                margin-right: 3px;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            &:not(.text-22px) {
+                font-size: 14px !important;
+            }
         }
     }
 
+    &__item-img {
+        height: 2.28rem;
+        width: auto;
+        object-fit: contain;
+    }
+
     &__checkmark {
+        padding: 0.6rem;
         background: rgb(var(--custom-color-primary));
         svg {
             max-width: 1.6rem;
             max-height: 1.1rem;
+        }
+    }
+
+    .weight-600 {
+        font-weight: 600;
+    }
+
+    .weight-700 {
+        font-weight: 600;
+        @include media-breakpoint-up(md) {
+            font-weight: 700;
+        }
+    }
+
+    .text-grey {
+        color: $c-light-grey-4;
+    }
+
+    .text-14px-small {
+        font-size: 14px;
+        @include media-breakpoint-down(sm) {
+            font-size: 12px;
         }
     }
 }

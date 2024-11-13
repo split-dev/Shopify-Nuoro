@@ -16,10 +16,16 @@
 
 <div class="section-{{ section.id }}-padding page-width">
   <div class="sp_brand__wrapper">
-    <div class="sp_brand__title-wrapper">
-      <h3 class="uppercase text-center h2">{{ section.settings.title }}</h3>
-      <div class="text-center h5">{{ section.settings.subheading }}</div>
-    </div>
+    {%- if section.settings.title != blank or section.settings.subheading != blank -%}
+      <div class="sp_brand__title-wrapper">
+        {%- if section.settings.title != blank -%}
+          <h3 class="uppercase text-center h2">{{ section.settings.title }}</h3>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <div class="text-center h5">{{ section.settings.subheading }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'first_block' -%}
@@ -27,43 +33,45 @@
             {%- case block.settings.display_type -%}
               {%- when 'icon' -%}
                 {%- if block.settings.image != blank -%}
-                <div>
+                  <div>
                     {{ block.settings.image | image_url: width: 3840 | image_tag: width: block.settings.image.width, height: block.settings.image.height, class: 'sp_brand__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
                   </div>
                 {%- endif -%}
               {%- when 'text' -%}
-                {{ block.settings.text }}
+                <div class="weight-600">{{ block.settings.text }}</div>
             {%- endcase -%}
             {%- if block.settings.image_center != blank -%}
-           <div>
+              <div style="border-radius: 8px 8px 0 0;">
                 {{ block.settings.image_center | image_url: width: 3840 | image_tag: width: block.settings.image.image_center, height: block.settings.image_center.height, class: 'sp_brand__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
               </div>
             {%- endif -%}
-            <div>{{ block.settings.text_last }}</div>
+            <div class="weight-600 text-14px-small">{{ block.settings.text_last }}</div>
           </div>
         {%- when 'main_block' -%}
           <div class="sp_brand__block">
-            <div class="sp_brand__text">{{ block.settings.text_first }}</div>
-            {%- case block.settings.display.type -%}
+            <div>
+              <p class="sp_brand__text sup">{{ block.settings.text_first }}</p>
+            </div>
+            {%- case block.settings.display_type -%}
               {%- when 'checkmark' -%}
                 <div class="sp_brand__checkmark">
                   {{- 'icon-checkmark.svg' | inline_asset_content -}}
                 </div>
               {%- when 'text' -%}
-                <div class="sp_brand__text sup">{{ block.settings.text_center }}</div>
+                <div class="sp_brand__text">{{ block.settings.text_center }}</div>
             {%- endcase -%}
-            <div class="sp_brand__text text-center">{{ block.settings.text_last }}</div>
+            <div class="sp_brand__text text-grey">{{ block.settings.text_last }}</div>
           </div>
         {%- when 'last_block' -%}
-          <div class="sp_brand__block">
-            <div class="sp_brand__text">{{ block.settings.text_first }}</div>
-            <div class="sp_brand__text text-center">{{ block.settings.text_center }}</div>
-            <div class="sp_brand__text text-center">{{ block.settings.text_last }}</div>
+          <div class="sp_brand__block" style="border: none;">
+            <div class="sp_brand__text weight-600">{{ block.settings.text_first }}</div>
+            <div class="sp_brand__text weight-700 text-22px" style="border-radius: 0 0 8px 8px;">{{ block.settings.text_center }}</div>
+            <div class="sp_brand__text weight-700 text-22px text-grey">{{ block.settings.text_last }}</div>
           </div>
       {%- endcase -%}
     {%- endfor -%}
   </div>
-  <div class="text-center">{{ section.settings.description }}</div>
+  <div class="text-center text-small">{{ section.settings.description }}</div>
 </div>
 
 {% schema %}

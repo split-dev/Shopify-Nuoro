@@ -220,14 +220,14 @@
             "display_type": "icon",
             "image": "shopify://shop_images/Microbs.png",
             "text": "",
-            "image_center": "shopify://shop_images/Vector.png",
+            "image_center": "shopify://shop_images/Vector_1.png",
             "text_last": "Coût Mensuel"
           }
         },
         "main_block_YDK6hJ": {
           "type": "main_block",
           "settings": {
-            "text_first": "⁠1Multivitamines",
+            "text_first": "1Multivitamines",
             "display_type": "checkmark",
             "text_center": "",
             "text_last": "18,90 €"
@@ -240,6 +240,60 @@
             "display_type": "checkmark",
             "text_center": "",
             "text_last": "14,90 €"
+          }
+        },
+        "main_block_T6TPtb": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "3Probiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "29,90 €"
+          }
+        },
+        "main_block_8MfaeE": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "4Prebiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,90 €"
+          }
+        },
+        "main_block_rpwppg": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "5Enzymes digestives",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "12,90 €"
+          }
+        },
+        "main_block_ePmMDd": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "6Antioxydants",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_RXRCh6": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "7Champignons fonctionnels",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_fkGqDA": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "8Extraits de plantes",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,20 €"
           }
         },
         "last_block_kV96hU": {
@@ -255,6 +309,12 @@
         "first_block_RzMAYt",
         "main_block_YDK6hJ",
         "main_block_k87BYD",
+        "main_block_T6TPtb",
+        "main_block_8MfaeE",
+        "main_block_rpwppg",
+        "main_block_ePmMDd",
+        "main_block_RXRCh6",
+        "main_block_fkGqDA",
         "last_block_kV96hU"
       ],
       "settings": {

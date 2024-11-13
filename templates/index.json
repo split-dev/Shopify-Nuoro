@@ -129,6 +129,88 @@
         "padding_bottom_mobile": 45
       }
     },
+    "text_icon_blocks_8t7gbe": {
+      "type": "text-icon-blocks",
+      "blocks": {
+        "text_kKdzxd": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/emily-sanburg-KzDKyDi8wos-unsplash.png",
+            "title": "Vitamines",
+            "text": "Soutiennent les fonctions essentielles de l’organisme pour une vitalité au quotidien."
+          }
+        },
+        "text_WCR9Qi": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/image_7.png",
+            "title": "Minéraux",
+            "text": "Renforcent les systèmes immunitaire, musculaire et osseux."
+          }
+        },
+        "text_UtPw3N": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Bifidobacterium_adolescentis_Gram_jpg.png",
+            "title": "Pro & Prebiotiques",
+            "text": "Favorisent une digestion saine et équilibrent le microbiome intestinal."
+          }
+        },
+        "text_VGCAab": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/pineaple_1.png",
+            "title": "Enzymes digestives",
+            "text": "Facilitent l’absorption des nutriments et soutiennent la digestion."
+          }
+        },
+        "text_bfUxJM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/image_14.png",
+            "title": "Antioxydants",
+            "text": "Protègent les cellules contre le stress oxydatif et favorisent la santé globale."
+          }
+        },
+        "text_fzxwXM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/mush_1.png",
+            "title": "Champignons fonctionnels",
+            "text": "Boostent l’immunité et soutiennent l’équilibre physique et mental."
+          }
+        },
+        "text_rV4kmk": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/image_16.png",
+            "title": "⁠⁠Extraits de plantes",
+            "text": "Offrent des bienfaits naturels pour l’énergie, la vitalité et le bien-être."
+          }
+        }
+      },
+      "block_order": [
+        "text_kKdzxd",
+        "text_WCR9Qi",
+        "text_UtPw3N",
+        "text_VGCAab",
+        "text_bfUxJM",
+        "text_fzxwXM",
+        "text_rV4kmk"
+      ],
+      "settings": {
+        "title": "Des ingrédients rigoureusement sélectionnés",
+        "description": "Chaque sachet de NUORO réunit des ingrédients soigneusement choisis pour leur absorption optimale, leurs synergies naturelles et leur densité nutritionnelle exceptionnelle.",
+        "alignment": "center",
+        "image": "shopify://shop_images/MG_3670_1.png",
+        "button_label": "Ingrédients & Bénéfices →",
+        "button_link": "shopify://collections",
+        "padding_top": 105,
+        "padding_bottom": 110,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
     "text_tiles_6GFXBz": {
       "type": "text-tiles",
       "blocks": {
@@ -825,6 +907,7 @@
     "home_hero_v2",
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
+    "text_icon_blocks_8t7gbe",
     "text_tiles_6GFXBz",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",

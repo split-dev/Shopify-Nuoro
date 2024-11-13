@@ -1,0 +1,176 @@
+{{ 'text-icon-blocks.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="icon-blocks section-{{ section.id }}-padding">
+  <div class="icon-blocks__wrapper d-flex w-100 page-width">
+    <div class="icon-blocks__header">
+      {% if section.settings.title != blank %}
+        <h2 class="text-{{ section.settings.alignment }}">{{ section.settings.title }}</h2>
+      {% endif %}
+      {% if section.settings.description != blank %}
+        <p class="text-20px text-{{ section.settings.alignment }}">{{ section.settings.description }}</p>
+      {% endif %}
+      {% if section.settings.image != blank %}
+        <div class="icon-blocks__img">
+          {{ section.settings.image | image_url: width: 1700 | image_tag: width: section.settings.image.width, height: section.settings.image.height, class: 'icon-blocks__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+        </div>
+      {% endif %}
+    </div>
+    <div class="icon-blocks__wrapper-blocks d-flex flex-column">
+      {% for block in section.blocks %}
+        <div class="icon-blocks__content d-flex">
+          <div class="icon-blocks__item">
+            {% if block.settings.image != blank %}
+              {{ block.settings.image | image_url: width: 3840 | image_tag: width: block.settings.image.width, height: block.settings.image.height, class: 'icon-blocks__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+            {% endif %}
+          </div>
+          <div class="d-flex flex-column justify-content-center">
+            {% if block.settings.title != blank %}
+              <h4 class="uppercase">{{ block.settings.title }}</h4>
+            {% endif %}
+            {% if block.settings.text != blank %}
+              <p>{{ block.settings.text }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      {%- if section.settings.button_label != blank -%}
+        <a
+          {% if block.settings.button_link != blank %}
+            role="link" aria-disabled="true"
+          {% else %}
+            href="{{ section.settings.button_link }}"
+          {% endif %}
+          class="btn btn__primary"
+        >
+          {{- section.settings.button_label | escape -}}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Icon Blocks",
+  "class": "shopify-section--icon-blocks",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description Text"
+    },
+    {
+      "type": "text_alignment",
+      "id": "alignment",
+      "label": "Text alignment",
+      "default": "center"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Image"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button URL"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Icon Blocks",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

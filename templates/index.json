@@ -206,7 +206,7 @@
         "button_label": "Ingrédients & Bénéfices",
         "button_link": "shopify://collections",
         "padding_top": 110,
-        "padding_bottom": 70,
+        "padding_bottom": 110,
         "padding_top_mobile": 75,
         "padding_bottom_mobile": 75
       }
@@ -320,7 +320,7 @@
       "settings": {
         "title": "NUORO REMPLACE",
         "subheading": "",
-        "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois<br/>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
+        "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
         "padding_top": 70,
         "padding_bottom": 70,
         "padding_top_mb": 50,

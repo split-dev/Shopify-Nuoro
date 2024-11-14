@@ -111,6 +111,7 @@
             margin: 0;
             @include media-breakpoint-down(md) {
                 font-size: 14px !important;
+                letter-spacing: 0.06px;
             }
         }
     }

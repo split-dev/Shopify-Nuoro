@@ -2,6 +2,10 @@
 
 .sp_brand {
     background: $white;
+    &__wrapper {
+        margin-inline: auto;
+        max-width: 76rem;
+    }
     &__wrapper + div {
         margin-top: 1.6rem;
         margin-inline: auto;

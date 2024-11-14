@@ -203,12 +203,12 @@
         "description": "Chaque sachet de NUORO réunit des ingrédients soigneusement choisis pour leur absorption optimale, leurs synergies naturelles et leur densité nutritionnelle exceptionnelle.",
         "alignment": "center",
         "image": "shopify://shop_images/MG_3670_1.png",
-        "button_label": "Ingrédients & Bénéfices →",
+        "button_label": "Ingrédients & Bénéfices",
         "button_link": "shopify://collections",
-        "padding_top": 105,
-        "padding_bottom": 110,
-        "padding_top_mobile": 80,
-        "padding_bottom_mobile": 80
+        "padding_top": 110,
+        "padding_bottom": 70,
+        "padding_top_mobile": 75,
+        "padding_bottom_mobile": 75
       }
     },
     "section_benefits_bwad3F": {

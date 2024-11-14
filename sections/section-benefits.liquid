@@ -14,8 +14,8 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding page-width">
-  <div class="sp_brand__wrapper">
+<div class="sp_brand section-{{ section.id }}-padding">
+  <div class="sp_brand__wrapper page-width">
     {%- if section.settings.title != blank or section.settings.subheading != blank -%}
       <div class="sp_brand__title-wrapper">
         {%- if section.settings.title != blank -%}
@@ -77,7 +77,6 @@
 {% schema %}
 {
   "name": "Brand Benefits",
-  "class": "sp_brand",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

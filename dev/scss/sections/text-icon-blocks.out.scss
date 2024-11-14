@@ -8,6 +8,11 @@
             gap: 5.5rem;
         }
     }
+    @include media-breakpoint-up(md) {
+        &__wrapper-blocks {
+            margin-top: 4px;
+        }
+    }
 
     &__header {
         width: 50%;
@@ -29,10 +34,10 @@
     &__img {
         display: flex;
         justify-content: center;
-        height: 32.6rem;
+        height: 26.5rem;
         max-width: 100%;
         @include media-breakpoint-down(md) {
-            height: 15.5rem;
+            height: 15rem;
         }
         img {
             max-height: 100%;
@@ -59,11 +64,23 @@
         }
 
         .btn.btn__primary {
-            margin-top: 4rem;
+            margin-top: 2.4rem;
             margin-inline: auto;
             border-radius: 3.75px;
+            min-width: 261px;
             @include media-breakpoint-down(md) {
-                margin-top: 3.2rem;
+                margin-top: 1.4rem;
+            }
+            svg {
+                margin-left: 5px;
+            }
+            path {
+                transition: all 0.3s ease-in-out;
+                stroke: transparent;
+                fill: white;
+            }
+            &:hover path {
+                fill: black;
             }
         }
     }
@@ -74,9 +91,13 @@
 
     &__item {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 8rem;
+        min-width: 8rem;
+        max-height: 8rem;
+        max-width: 8rem;
         img {
-            height: 8rem;
-            width: 8rem;
             object-fit: contain;
             border-radius: 0.8rem;
         }

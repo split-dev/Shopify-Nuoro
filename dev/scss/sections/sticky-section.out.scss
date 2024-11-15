@@ -4,6 +4,7 @@
     position: -webkit-fixed;
     position: fixed;
     bottom: 0;
+    width: 100%;
     padding-inline: 1.6rem;
     transition: opacity 0.3s ease;
     background-color: #f6f4ec99;
@@ -38,7 +39,7 @@
     &__wrapper {
         row-gap: 1.6rem;
         @include media-breakpoint-up(lg) {
-            gap: 1.6rem;
+            gap: .6rem;
             row-gap: 0;
         }
     }
@@ -51,7 +52,7 @@
             &:before {
                 content: "|";
                 width: 1px;
-                margin-right: 4px;
+                margin-right: 8px;
             }
         }
         @media (width < 395px) {
@@ -75,6 +76,7 @@
             display: block;
             p {
                 font-size: 12px !important;
+                margin: 0;
             }
         }
     }
@@ -118,6 +120,7 @@
         }
         @include media-breakpoint-down(lg) {
             width: 100%;
+            min-height: 54px;
         }
     }
 

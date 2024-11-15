@@ -1,7 +1,6 @@
 @use "../settings/config" as *;
 
 .sp_brand {
-    background: $white;
     &__wrapper {
         margin-inline: auto;
         max-width: 85rem;

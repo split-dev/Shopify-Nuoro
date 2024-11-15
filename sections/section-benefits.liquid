@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<div class="sp_brand section-{{ section.id }}-padding">
+<div class="sp_brand section-{{ section.id }}-padding" style="background-color: {{ section.settings.bg_color }};">
   <div class="sp_brand__wrapper page-width">
     {%- if section.settings.title != blank or section.settings.subheading != blank -%}
       <div class="sp_brand__title-wrapper">
@@ -95,6 +95,11 @@
       "type": "richtext",
       "id": "description",
       "label": "Description"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Color Background"
     },
     {
       "type": "header",

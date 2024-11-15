@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){});
+document.addEventListener("DOMContentLoaded",function(){document.addEventListener("scroll",function(){var e=document.querySelector(".sticky-section"),t=document.querySelector(".sticky-section__trigger"),n=document.querySelector("footer"),t=t.getBoundingClientRect().bottom,n=n.getBoundingClientRect().top;t<=window.innerHeight&&n>window.innerHeight?e.classList.remove("d-none"):e.classList.add("d-none")})});

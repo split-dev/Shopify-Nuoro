@@ -100,6 +100,8 @@
         img {
             object-fit: contain;
             border-radius: 0.8rem;
+            max-height: 100%;
+            max-width: 100%;
         }
     }
 

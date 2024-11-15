@@ -1,0 +1,139 @@
+{{ 'text-grid.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="text-grid section-{{ section.id }}-padding" style="background-color: {{ section.settings.bg_color }}">
+  <div class="page-width">
+    <div class="text-grid__title-wrapper">
+      <h3 class="text-grid__title {{ section.settings.text_transform }} h2">{{ section.settings.title }}</h3>
+      <p class="text-grid__subheading h2">{{ section.settings.subheading }}</p>
+    </div>
+    <div class="text-grid__wrapper">
+      {% for block in section.blocks %}
+        <div class="text-grid__item d-flex flex-column align-items-center text-center">
+          {%- if block.settings.icon -%}
+            <div>{{ block.settings.icon | image_url: width: 3840 | image_tag: width: section.settings.image.icon, height: section.settings.icon.height, class: 'text-grid__img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}</div>
+          {%- endif -%}
+          <h4>{{ block.settings.title }}</h4>
+          <p class="text-15px">{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Text Grid",
+  "class": "shopify-section--text-grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text Transform",
+      "options": [
+        { "value": "uppercase", "label": "Uppercase" },
+        { "value": "capitalize", "label": "Capitalize" }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#FFBBCD"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile padding top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text Grid",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

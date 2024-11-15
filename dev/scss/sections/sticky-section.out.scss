@@ -37,9 +37,9 @@
     }
 
     &__wrapper {
-        row-gap: 1.6rem;
+        row-gap: .6rem;
         @include media-breakpoint-up(lg) {
-            gap: .6rem;
+            gap: 1.6rem;
             row-gap: 0;
         }
     }

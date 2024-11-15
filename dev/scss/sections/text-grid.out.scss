@@ -30,6 +30,12 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
         }
+        @include media-breakpoint-down(lg) {
+            gap: 3rem;
+            h4 {
+                font-size: 25px;
+            }
+        }
     }
 
     &__item {

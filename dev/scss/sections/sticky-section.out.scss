@@ -20,17 +20,18 @@
         box-shadow: 0px 1px 4px 0px #00000040;
     }
     * {
-        letter-spacing: 0.06px;
+        letter-spacing: 0.3px;
     }
 
     &__img {
+        display: flex;
         @include media-breakpoint-down(lg) {
             display: none;
         }
         img {
             height: 7rem;
             width: 7rem;
-            object-fit: contain;
+            object-fit: cover;
         }
     }
 
@@ -50,7 +51,12 @@
             &:before {
                 content: "|";
                 width: 1px;
-                margin-right: 6px;
+                margin-right: 4px;
+            }
+        }
+        @media (width < 395px) {
+            &:before {
+                display: none;
             }
         }
     }
@@ -74,10 +80,13 @@
     }
     ul {
         padding: 0;
+        margin: 0;
     }
     ul li {
+        font-weight: 400;
         list-style: none;
         position: relative;
+        color: #54534e;
     }
 
     ul li::before {
@@ -103,6 +112,7 @@
         color: rgb(var(--custom-color-text)) !important;
         border: none;
         min-width: 275px;
+        font-size: 14px !important;
         &:hover {
             background-color: rgb(var(--custom-color-button-hover)) !important;
         }
@@ -114,6 +124,12 @@
     .custom-recharge__subscribe-price {
         @include media-breakpoint-down(lg) {
             display: flex;
+        }
+        @media (width < 395px) {
+            flex-direction: column;
+            &:before {
+                display: none;
+            }
         }
     }
 

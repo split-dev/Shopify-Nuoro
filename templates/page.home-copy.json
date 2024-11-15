@@ -7,17 +7,1081 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "home_hero_v2": {
+      "type": "home-hero-v2",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "video": "shopify://files/videos/NUORO+sounds (1).mp4",
+        "video_mobile": "shopify://files/videos/1.webm",
+        "bg": "shopify://shop_images/MG_4309.jpg",
+        "bg_mobile": "shopify://shop_images/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
+        "title": "Exploitez votre plein potentiel",
+        "text": "NUORO est une fomule unique de 71 ingrédients, conçue pour soutenir votre santé au quotidien.",
+        "button_label": "Commencez NUORO",
+        "button_url": "#featured-product",
+        "padding_top": 150,
+        "padding_bottom": 40,
+        "padding_top_mobile": 125,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "home_hero_CF9PjB": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "video": "shopify://files/videos/NUORO+sounds (1).mp4",
+        "video_mobile": "shopify://files/videos/1.webm",
+        "bg": "shopify://shop_images/MG_4309.jpg",
+        "bg_mobile": "shopify://shop_images/francesco-giacomini-R4-x0UFrSNA-unsplash_1_2_1.jpg",
+        "title": "Exploitez votre plein potentiel",
+        "text": "NUORO est une fomule unique de 71 ingrédients, conçue pour soutenir votre santé au quotidien.",
+        "button_label": "Commencez NUORO",
+        "button_url": "#featured-product",
+        "padding_top": 150,
+        "padding_bottom": 40,
+        "padding_top_mobile": 125,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "img_and_content_agKPqV": {
+      "type": "img-and-content",
+      "blocks": {
+        "text_bBnMM4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Vitamines"
+          }
+        },
+        "text_YXCM86": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Minéraux"
+          }
+        },
+        "text_JDAdfR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Pro & Prebiotiques"
+          }
+        },
+        "text_tUWGkL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Antioxydants"
+          }
+        },
+        "text_rtNaRA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Extraits de plantes"
+          }
+        },
+        "text_EzanTX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Superaliments"
+          }
+        },
+        "text_6TGWJU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Adaptogènes"
+          }
+        },
+        "text_j4kFiY": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Électrolytes"
+          }
+        }
+      },
+      "block_order": [
+        "text_bBnMM4",
+        "text_YXCM86",
+        "text_JDAdfR",
+        "text_tUWGkL",
+        "text_rtNaRA",
+        "text_EzanTX",
+        "text_6TGWJU",
+        "text_j4kFiY"
+      ],
+      "settings": {
+        "revers": false,
+        "bg_color": "#ffa842",
+        "image": "shopify://shop_images/NUORO_complement_Alimentaire_tout-en-un.jpg",
+        "title": "Moins de gélules, plus de nutriments",
+        "subtitle": "",
+        "text": "<p>NUORO est conçu pour remplacer plusieurs compléments. Avec un sachet par jour, il vous apporte les micronutriments essentiels pour un soutien global, au quotidien et sur le long terme.</p><p><br/>En bref, c’est une façon d’investir dans votre santé, pour aujourd’hui comme pour demain.</p>",
+        "display_type": "icon",
+        "icon": "shopify://shop_images/Microbs_1.png",
+        "button_label": "Ingrédients & Bénéfices",
+        "button_url": "shopify://pages/ingredients",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
+      }
+    },
+    "text_icon_blocks_8t7gbe": {
+      "type": "text-icon-blocks",
+      "blocks": {
+        "text_kKdzxd": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_1.jpg",
+            "title": "Vitamines",
+            "text": "Soutiennent les fonctions essentielles de l’organisme pour une vitalité au quotidien."
+          }
+        },
+        "text_WCR9Qi": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_3.jpg",
+            "title": "Minéraux",
+            "text": "Renforcent les systèmes immunitaire, musculaire et osseux."
+          }
+        },
+        "text_UtPw3N": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_2.jpg",
+            "title": "Pro & Prebiotiques",
+            "text": "Favorisent une digestion saine et équilibrent le microbiome intestinal."
+          }
+        },
+        "text_VGCAab": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_4.jpg",
+            "title": "Enzymes digestives",
+            "text": "Facilitent l’absorption des nutriments et soutiennent la digestion."
+          }
+        },
+        "text_bfUxJM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_5.jpg",
+            "title": "Antioxydants",
+            "text": "Protègent les cellules contre le stress oxydatif et favorisent la santé globale."
+          }
+        },
+        "text_fzxwXM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_6.jpg",
+            "title": "Champignons fonctionnels",
+            "text": "Boostent l’immunité et soutiennent l’équilibre physique et mental."
+          }
+        },
+        "text_rV4kmk": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_7.jpg",
+            "title": "⁠⁠Extraits de plantes",
+            "text": "Offrent des bienfaits naturels pour l’énergie, la vitalité et le bien-être."
+          }
+        }
+      },
+      "block_order": [
+        "text_kKdzxd",
+        "text_WCR9Qi",
+        "text_UtPw3N",
+        "text_VGCAab",
+        "text_bfUxJM",
+        "text_fzxwXM",
+        "text_rV4kmk"
+      ],
+      "settings": {
+        "title": "Des ingrédients rigoureusement sélectionnés",
+        "description": "Chaque sachet de NUORO réunit des ingrédients soigneusement choisis pour leur absorption optimale, leurs synergies naturelles et leur densité nutritionnelle exceptionnelle.",
+        "alignment": "center",
+        "image": "shopify://shop_images/MG_3670_1.png",
+        "button_label": "Ingrédients & Bénéfices",
+        "button_link": "shopify://pages/ingredients",
+        "padding_top": 110,
+        "padding_bottom": 110,
+        "padding_top_mobile": 75,
+        "padding_bottom_mobile": 75
+      }
+    },
+    "text_grid_3column_Mq7irD": {
+      "type": "text-grid-3column",
+      "blocks": {
+        "text_F66byg": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Supplément Protéiné",
+            "text": "Bien que NUORO contienne des protéines d’origine végétale, il ne remplace pas un supplément de protéines. Vous pouvez le combiner avec une source de protéines de votre choix."
+          }
+        },
+        "text_Jgb34W": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Remplaçant de Repas",
+            "text": "NUORO n’est pas conçu pour remplacer un repas. Il s’agit d’un complément alimentaire qui apporte des micronutriments essentiels et est conçu pour compléter une alimentation saine, pas la remplacer."
+          }
+        },
+        "text_dEyb8Y": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Simple Jus Vert",
+            "text": "NUORO apporte des nutriments issus de fruits et légumes mais évite les sucres excessifs grâce à l’utilisation d’extraits de haute qualité."
+          }
+        }
+      },
+      "block_order": [
+        "text_F66byg",
+        "text_Jgb34W",
+        "text_dEyb8Y"
+      ],
+      "settings": {
+        "title": "Qu'est-ce que NUORO n'est pas",
+        "text_transform": "uppercase",
+        "subheading": "",
+        "bg_color": "#ffbbcd",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_benefits_bwad3F": {
+      "type": "section-benefits",
+      "blocks": {
+        "first_block_RzMAYt": {
+          "type": "first_block",
+          "settings": {
+            "display_type": "icon",
+            "image": "shopify://shop_images/Microbs.png",
+            "text": "",
+            "image_center": "shopify://shop_images/Vector_1.png",
+            "text_last": "Coût Mensuel"
+          }
+        },
+        "main_block_YDK6hJ": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "1Multivitamines",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_k87BYD": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "2Multiminéraux",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,90 €"
+          }
+        },
+        "main_block_T6TPtb": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "3Probiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "29,90 €"
+          }
+        },
+        "main_block_8MfaeE": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "4Prebiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,90 €"
+          }
+        },
+        "main_block_rpwppg": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "5Enzymes digestives",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "12,90 €"
+          }
+        },
+        "main_block_ePmMDd": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "6Antioxydants",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_RXRCh6": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "7Champignons fonctionnels",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_fkGqDA": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "8Extraits de plantes",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,20 €"
+          }
+        },
+        "last_block_kV96hU": {
+          "type": "last_block",
+          "settings": {
+            "text_first": "Total par mois",
+            "text_center": "59 €*",
+            "text_last": "143,5 €**"
+          }
+        }
+      },
+      "block_order": [
+        "first_block_RzMAYt",
+        "main_block_YDK6hJ",
+        "main_block_k87BYD",
+        "main_block_T6TPtb",
+        "main_block_8MfaeE",
+        "main_block_rpwppg",
+        "main_block_ePmMDd",
+        "main_block_RXRCh6",
+        "main_block_fkGqDA",
+        "last_block_kV96hU"
+      ],
+      "settings": {
+        "title": "NUORO REMPLACE",
+        "subheading": "",
+        "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
+        "bg_color": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mb": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "text_tiles_6GFXBz": {
+      "type": "text-tiles",
+      "blocks": {
+        "text_kDWHBd": {
+          "type": "text",
+          "settings": {
+            "title": "Formule unique",
+            "text": "Scientifiquement élaborée pour optimiser les bénéfices"
+          }
+        },
+        "text_k8dCWL": {
+          "type": "text",
+          "settings": {
+            "title": "71 ingrédients actifs",
+            "text": "Chacun choisit pour sa pureté et son efficacité assimilables"
+          }
+        },
+        "text_MrFGpc": {
+          "type": "text",
+          "settings": {
+            "title": "90% d'ingrédients Naturels",
+            "text": "Pour une nutrition essentielle et pure"
+          }
+        },
+        "text_Xb9Dry": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Additifs",
+            "text": "Ni arômes, colorants ou conservateurs artificiels"
+          }
+        },
+        "text_hdQH9c": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Sucre Ajouté",
+            "text": "Ni gluten, oeufs, lactose ou arachides"
+          }
+        },
+        "text_mMyqPE": {
+          "type": "text",
+          "settings": {
+            "title": "Remplace 14 gélules",
+            "text": "En une seule prise"
+          }
+        }
+      },
+      "block_order": [
+        "text_kDWHBd",
+        "text_k8dCWL",
+        "text_MrFGpc",
+        "text_Xb9Dry",
+        "text_hdQH9c",
+        "text_mMyqPE"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 20,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "tab_images_QcxXbC": {
+      "type": "tab-images",
+      "blocks": {
+        "text_wKDNQy": {
+          "type": "text",
+          "settings": {
+            "title": "Versez un sachet dans 250ml d'eau fraîche",
+            "text": "Tous les jours, à jeun de préférence",
+            "image": "shopify://shop_images/Nuoro_Preparation_Versement.jpg"
+          }
+        },
+        "text_F3rVtx": {
+          "type": "text",
+          "settings": {
+            "title": "Secouez",
+            "text": "Dans votre Shaker NUORO",
+            "image": "shopify://shop_images/NUORO_bouteille_nutrition_optimale.jpg"
+          }
+        },
+        "text_PxUYMX": {
+          "type": "text",
+          "settings": {
+            "title": "Enjoy!",
+            "text": "",
+            "image": "shopify://shop_images/Nuoro_D_gustation.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_wKDNQy",
+        "text_F3rVtx",
+        "text_PxUYMX"
+      ],
+      "settings": {
+        "title": "Comment Préparer?",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "text_img_tiles_rQY4GA": {
+      "type": "text-img-tiles",
+      "blocks": {
+        "text_63z8pt": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/eac909bb0d7e85d9c96114aed5187d72.jpg",
+            "title": "Énergie Durable¹",
+            "text": "Boostez naturellement votre énergie tout au long de la journée, sans baisses de régime."
+          }
+        },
+        "text_GmfBLC": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/03a57b5c6346a94bc7b16403e1b509b7.jpg",
+            "title": "Défenses Immunitaires²",
+            "text": "Renforcez vos défenses naturelles pour une protection robuste face aux agressions extérieures."
+          }
+        },
+        "text_6dzmih": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/d23e080f7772b1ec2f2732bd6045e710.jpg",
+            "title": "Support Digestif³",
+            "text": "Renforcez votre digestion grâce aux probiotiques et enzymes digestives, pour une assimilation optimale des nutriments."
+          }
+        },
+        "text_BJnQxH": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/343af3315f986103172f7c341ff0f774_b9004fa2-af1e-4e4c-b642-c4927f2a1b70.jpg",
+            "title": "Santé Cardiovasculaire⁴",
+            "text": "Fortifiez votre cœur et vos artères pour une circulation sanguine optimisée et une vie plus saine."
+          }
+        },
+        "text_FY6ErV": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/997358d8a94317dca626fb7dc32a41df.jpg",
+            "title": "Peau et Cheveux⁵",
+            "text": "Favorisez la régénération cellulaire, renforcez la structure capillaire et préservez l’hydratation naturelle."
+          }
+        },
+        "text_qMVzfQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/66ab0dcdc9a8adcb52f96a9b140c6ffa.jpg",
+            "title": "Équilibre Hormonal⁶",
+            "text": "Soutenez l’équilibre de votre système hormonal pour un bien-être optimal et une vitalité quotidienne."
+          }
+        }
+      },
+      "block_order": [
+        "text_63z8pt",
+        "text_GmfBLC",
+        "text_6dzmih",
+        "text_BJnQxH",
+        "text_FY6ErV",
+        "text_qMVzfQ"
+      ],
+      "settings": {
+        "title": "Multiples bénéfices dans un seul sachet",
+        "subtitle": "Nos scientifiques ont soigneusement sélectionné des ingrédients sous des formes que votre corps peut absorber facilement, en veillant à ce que les ingrédients travaillent ensemble pour amplifier leur efficacité.",
+        "image": "shopify://shop_images/Group_21.svg",
+        "button_label": "Ingredients & Bénéfices",
+        "button_url": "shopify://pages/ingredients",
+        "padding_top": 20,
+        "padding_bottom": 30,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "featured_product_j8MdBd": {
+      "type": "featured-product",
+      "blocks": {
+        "title_hTmxna": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "html_WxJ8EM": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"trustpilot-widget\" data-locale=\"fr-FR\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"6659801df278f22f2d471a1d\" data-style-height=\"20px\" data-style-width=\"420px\">\n  <a href=\"https://fr.trustpilot.com/review/drinknuoro.com\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>"
+          }
+        },
+        "labels_yxQ9mw": {
+          "type": "labels",
+          "settings": {
+            "text_1": "Formule unique",
+            "text_2": "Sans additifs",
+            "text_3": "Sans sucres ajoutés",
+            "text_4": "Sans gluten",
+            "text_5": "Sans lactose",
+            "text_6": ""
+          }
+        },
+        "product_recharge_QGPLdq": {
+          "type": "product_recharge",
+          "settings": {
+            "subscribe_subtitle": "Offre de lancement | Économisez 38 €",
+            "subscribe_title": "ABONNEMENT",
+            "item_cost_subscribe": "{1,96€ / sachet* }",
+            "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
+            "subscribe_list_item_2": "Sans Engagement",
+            "subscribe_list_item_3": "Flex: Pause ou annulation à tout moment",
+            "subscribe_list_item_4": "",
+            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€/mois",
+            "one_time_subtitle": "",
+            "one_time_title": "Achat Unique",
+            "item_cost_one_time": "{3,23€ / sachet*}",
+            "one_time_list_item_1": "Boite de 30 sachets expédiée une fois",
+            "one_time_list_item_2": "",
+            "one_time_list_item_3": "",
+            "one_time_list_item_4": "",
+            "one_time_bottom_text": ""
+          }
+        },
+        "buy_buttons_C3rcre": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "features_title": "Votre achat inclut:",
+            "feature_1": "Livraison Gratuite à chaque envoi",
+            "feature_2": "Shaker NUORO offert",
+            "bottom_text": "Garantie satisfait ou remboursé de 30 jours"
+          }
+        }
+      },
+      "block_order": [
+        "title_hTmxna",
+        "html_WxJ8EM",
+        "labels_yxQ9mw",
+        "product_recharge_QGPLdq",
+        "buy_buttons_C3rcre"
+      ],
+      "settings": {
+        "product": "nuoro-solution-nutritionnelle-optimale",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 90,
+        "padding_bottom": 30,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "blocks": {
+        "reviews_43mVrY": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/Adele-P-avis-NUORO.jpg",
+            "count_reviews": 5,
+            "card_title": "“Energie et digestion”",
+            "card_subtitle": "J’adore NUORO, ça a rendu ma routine bien-être tellement plus simple. Plus besoin de prendre plein de compléments différents, tout est dans un seul produit. Je me sens bien, moins stressée, et je digère mieux. Je le prends tous les matins et je vois vraiment la différence.",
+            "card_name": "Adèle P."
+          }
+        },
+        "reviews_TB3Ccf": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/Maximilien-M-Review-Nuoro.jpg",
+            "count_reviews": 5,
+            "card_title": "“Efficace et simple!”",
+            "card_subtitle": "Très bon retour à faire sur cette nouvelle super poudre! Le goût est bon. Simple à diluer dans 300ml. La concentration des nutriments est forte. Je ne suis qu’à mon premier mois mais je me sens super bien!",
+            "card_name": "Maximilien M."
+          }
+        },
+        "reviews_byP73F": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/MG_4823.jpg",
+            "count_reviews": 5,
+            "card_title": "\"Un booster au quotidien\"",
+            "card_subtitle": " En plus d'améliorer mes performances sportives, je me sens plus équilibré et en meilleure santé. Je le recommande vivement à ceux qui cherchent une solution simple pour soutenir leur bien-être au quotidien.",
+            "card_name": "Pauline M."
+          }
+        },
+        "reviews_VGVbRU": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/NUORO_Review.jpg",
+            "count_reviews": 5,
+            "card_title": "“Très bonne récup après sport”",
+            "card_subtitle": "Je fais pas mal de sport, et Nuoro est devenu un vrai allié pour mes phases de récupération. Je sens que mes muscles récupèrent plus et je me sens plus en forme.",
+            "card_name": "Amine M."
+          }
+        },
+        "reviews_i8Uhyy": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/NUORO-review-5.jpg",
+            "count_reviews": 5,
+            "card_title": "“Cheveux et ongles plus forts”",
+            "card_subtitle": "Très nette amélioration sur mes ongles qui ne se cassent plus et ma perte de cheveux a considérablement diminuée.Mieux qu’une cure de gélules.",
+            "card_name": "Apolline B."
+          }
+        }
+      },
+      "block_order": [
+        "reviews_43mVrY",
+        "reviews_TB3Ccf",
+        "reviews_byP73F",
+        "reviews_VGVbRU",
+        "reviews_i8Uhyy"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 35,
+        "title": "DES Histoires vraies, DES résultats réels",
+        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
+        "image": "shopify://shop_images/trustpilot_logo.svg",
+        "logo_trustpilot": "shopify://shop_images/Verifie.svg",
+        "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
+      }
+    },
+    "video_reviews_jTMMEL": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_b438QR": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Nuoro - vidéo UGC.mp4",
+            "title": "\"Un boost d’énergie chaque matin\"",
+            "text": "Alix B. <br>Étude Observationnelle"
+          }
+        },
+        "text_JJ4zBn": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Nuoro - vidéo Fondateur Pierre-Brice Mena compress.mp4",
+            "title": "Un Môt du co-fondateur",
+            "text": "Pierre-Brice <br>Co-fondateur"
+          }
+        },
+        "text_8VEJdJ": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Kathleen - Etude Observationnelle .mp4",
+            "title": "\"Soutient mes séances de sport\"",
+            "text": "Kathleen O. Étude Osbservationnelle"
+          }
+        },
+        "text_EaWhaW": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/Etude Observationnelle - Didier - 1 mois light.mov",
+            "title": "\"Bien commencer la journée\"",
+            "text": "Didier O. <br> Étude Observationnelle"
+          }
+        }
+      },
+      "block_order": [
+        "text_b438QR",
+        "text_JJ4zBn",
+        "text_8VEJdJ",
+        "text_EaWhaW"
+      ],
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
+      }
+    },
+    "title_and_list_YBkG6P": {
+      "type": "title-and-list",
+      "blocks": {
+        "text_TUe9R4": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Gluten"
+          }
+        },
+        "text_mQhUNV": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Lactose"
+          }
+        },
+        "text_tNtQRB": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Oeufs"
+          }
+        },
+        "text_dmhykw": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Arachides"
+          }
+        },
+        "text_GrcA7W": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Sucre ajouté"
+          }
+        }
+      },
+      "block_order": [
+        "text_TUe9R4",
+        "text_mQhUNV",
+        "text_tNtQRB",
+        "text_dmhykw",
+        "text_GrcA7W"
+      ],
+      "settings": {
+        "title": "Sans arômes, colorants et conservateurs artificiels.",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "padding_top_mobile": 70,
+        "padding_bottom_mobile": 55
+      }
+    },
+    "video_reviews_hfbLxP": {
+      "type": "video-reviews",
+      "blocks": {
+        "text_xXBcXz": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/111111.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Hi there! :)"
+          }
+        },
+        "text_HARtzD": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/testimonial-e146bd3c.mp4",
+            "title": "Test Title",
+            "text": "Test Text"
+          }
+        },
+        "text_AnkbfY": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/444444_ca08f9fa-ab1b-4497-bbed-854e91fb9c44.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Océane Andreaa - Sportive"
+          }
+        },
+        "text_jdPpJG": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "title": "“NATURELLEMENT EN PLEINE FORME”",
+            "text": "Océane Andreaa - Sportive"
+          }
+        },
+        "text_H8tqn6": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "title": "\"Océane Andreaa - Sportive\"",
+            "text": "Hello world"
+          }
+        },
+        "text_fLtqA9": {
+          "type": "text",
+          "settings": {
+            "video": "shopify://files/videos/4762226-hd_1920_1080_25fps.mp4",
+            "title": "\"Oles PLichko\"",
+            "text": "My Product Review"
+          }
+        }
+      },
+      "block_order": [
+        "text_xXBcXz",
+        "text_HARtzD",
+        "text_AnkbfY",
+        "text_jdPpJG",
+        "text_H8tqn6",
+        "text_fLtqA9"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffbcce",
+        "padding_top": 90,
+        "padding_bottom": 70,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "faq_home_VX69Gg": {
+      "type": "faq-home",
+      "blocks": {
+        "text_awntK4": {
+          "type": "text",
+          "settings": {
+            "title": "Comment savoir si NUORO me convient?",
+            "text": "<p><strong>NUORO est idéal pour toute personne souhaitant s’assurer que ses besoins nutritionnels sont satisfaits au quotidien.</strong></p><p></p><p>Que vous cherchiez à combler des carences en nutriments, que vous soyez en période d’entraînement intensif, que vous travailliez beaucoup, que vous soyez souvent en déplacement, ou que vous soyez soumis au stress quotidien de notre monde moderne, NUORO apporte un soutien nutritionnel lorsque vous en avez le plus besoin.<br/></p><p>NUORO convient aux adultes de tous âges et de tous styles de vie, y compris aux athlètes. Non adapté aux enfants et adolescents de moins de 18 ans, aux femmes enceintes ou allaitantes.<br/></p><p>Plus d’informations quant aux précautions d’emploi dans le pied de page.</p>"
+          }
+        },
+        "text_eEzNwL": {
+          "type": "text",
+          "settings": {
+            "title": "Quels types de bienfaits puis-je attendre de la prise de NUORO?",
+            "text": "<p><strong>NUORO soutient une santé globale, y compris le métabolisme énergétique, le système immunitaire, le métabolisme digestif et plus encore.</strong></p><p></p><p>Chez NUORO, nous comprenons que chacun a une histoire de santé unique et réagit différemment aux divers nutriments. NUORO a été conçue comme une formule complète pour fournir un soutien quotidien là où le corps en a le plus besoin.<br/></p><p>De nombreux membres rapportent ressentir une énergie soutenue et une meilleure digestion au cours du premier mois. Parmi les autres bienfaits courants, on compte une bonne concentration et un soutien à la récupération après l’activité physique.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Plus d'informations sur les ingrédients et bénéfices santé.</a></p>"
+          }
+        },
+        "text_tRJKWk": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO se prend en cure ?",
+            "text": "<p><strong>NUORO est avant tout une routine quotidienne</strong> <strong>conçue pour vous accompagner sur le long terme.</strong> Grâce à ses 71 ingrédients soigneusement sélectionnés, il soutient votre bien-être global au fil des jours.</p><p><strong>Cependant, NUORO peut également être pris en cure de 3 mois, notamment pendant des périodes plus stressantes, intensives ou de rééquilibrage.</strong> Que ce soit pour un usage continu ou en cure à des moments clés de l'année, NUORO s'adapte à vos besoins pour vous aider à rester au meilleur de votre forme.</p>"
+          }
+        },
+        "text_UBeTfw": {
+          "type": "text",
+          "settings": {
+            "title": "Quand puis-je m'attendre à voir des bienfaits?",
+            "text": "<p><strong>De nombreux facteurs peuvent influencer l’effet de NUORO. Cela inclut la manière dont vous le prenez, la régularité de votre routine, et votre état de santé avant de commencer.</strong></p><p></p><p>Mais n’oubliez pas les trois éléments essentiels pour maintenir une santé globale :</p><p></p><p>\t1.\tAlimentation variée et équilibrée<br/>\t2.\tActivité physique régulière<br/>\t3.\tSommeil de qualité</p><p></p><p>Ces facteurs influencent le moment où vous commencerez à voir les bienfaits et leur degré de visibilité. Certains membres remarquent des améliorations en seulement quelques jours, tandis que pour d’autres, cela peut prendre jusqu’à quelques semaines. Nous sommes tous différents, nos corps réagissent de manière unique.</p>"
+          }
+        },
+        "text_wJfUdG": {
+          "type": "text",
+          "settings": {
+            "title": "Qu'est-ce qui rend NUORO différent des autres produits nutritionnels?",
+            "text": "<p><strong>NUORO est une solution nutritionnelle optimale. La science, la qualité et la synergie derrière les compléments nutritionnels présents dans la recette nous donnent la confiance de dire que NUORO est l’habitude de nutrition fondamentale quotidienne la plus complète que vous trouverez.</strong></p><p></p><p>NUORO offre un soutien nutritionnel dans cinq domaines critiques de la santé :<br/></p><p>\t1.\tMétabolisme énergétique<br/>\t2.\tSystème immunitaire<br/>\t3.\tFonction cognitive<br/>\t4.\tActivité hormonale<br/>\t5.\tLutte contre le stress oxydatif<br/></p><p>Chacun des plus de 70 ingrédients de NUORO a été soigneusement sélectionné intentionnellement pour fournir les nutriments les plus biodisponibles de manière à ce qu’ils travaillent en conjonction avec la formule entière.</p><p></p><p>Au-delà de la recherche derrière la formulation, NUORO est fabriqué dans un établissement certifié GMP et ISO22000, garantissant le plus haut niveau de sécurité et de qualité des produits, avec des tests analytiques et microbiologiques stricts de tiers.</p>"
+          }
+        },
+        "text_T69x8X": {
+          "type": "text",
+          "settings": {
+            "title": "Quels produits NUORO remplace-t-il?",
+            "text": "<p><strong>Une dose quotidienne de NUORO élimine le besoin d’autres compléments tels qu’un multivitamines, multiminéraux, antioxydants, mélanges de superaliments, phytonutriments, mélanges de verdures, adaptogènes, enzymes digestives, prébiotiques, probiotiques et électrolytes.</strong><br/></p><p>Vous pouvez compter sur l’efficacité de NUORO sans aucun compromis et sur la plus haute qualité et le meilleur contenu nutritionnel.<br/><br/><a href=\"/pages/ingredients\" title=\"Ingredients\">Retrouvez la liste des ingrédients.</a></p>"
+          }
+        },
+        "text_RnM3Yj": {
+          "type": "text",
+          "settings": {
+            "title": "Quel goût a NUORO?",
+            "text": "<p><strong>Les adeptes de NUORO louent son goût agréable et sain. Nous avons passé des mois à perfectionner sa saveur.</strong><br/></p><p>Mais ne nous méprenons pas, NUORO n’a pas vocation à être délicieux. Il tire une partie de son goût des fruits et légumes présents dans le mélange, incluant l’ananas, le brocoli, la betterave, la carotte, et la douceur subtile de la stévia, le tout sans arômes artificiels, édulcorants ni additifs.<br/></p><p>Aucun compromis.</p>"
+          }
+        },
+        "text_mPFGtT": {
+          "type": "text",
+          "settings": {
+            "title": "Est-ce que NUORO remplace un repas ?",
+            "text": "<p><strong>Non, NUORO n’est pas conçu pour remplacer un repas.</strong> Il s’agit d’un complément alimentaire qui apporte des micronutriments essentiels, mais il ne fournit pas les macronutriments (protéines, glucides, lipides) nécessaires pour constituer un repas complet.<br/></p><p>NUORO est idéal pour <strong>compléter une alimentation équilibrée</strong> en apportant des vitamines, minéraux et autres micronutriments essentiels pour soutenir votre bien-être quotidien.</p>"
+          }
+        },
+        "text_zNaVKF": {
+          "type": "text",
+          "settings": {
+            "title": "Comment prendre NUORO?",
+            "text": "<p><strong>NUORO se dilue très bien avec de l’eau fraîche. Certains préfèrent ajouter un peu de citron, le mélanger dans un smoothie, ou l’ajouter à du lait d’avoine.</strong></p><p></p><p>Il existe une poignée de façons d’intégrer NUORO dans votre journée. N’oubliez pas, pour maximiser les effets, il est recommandé de consommer NUORO à jeun, 15 minutes avant son premier repas de la journée.</p>"
+          }
+        },
+        "text_rbj4JL": {
+          "type": "text",
+          "settings": {
+            "title": "Quelles mesures prenez-vous pour garantir la qualité de NUORO?",
+            "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.</strong><br/></p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_awntK4",
+        "text_eEzNwL",
+        "text_tRJKWk",
+        "text_UBeTfw",
+        "text_wJfUdG",
+        "text_T69x8X",
+        "text_RnM3Yj",
+        "text_mPFGtT",
+        "text_zNaVKF",
+        "text_rbj4JL"
+      ],
+      "settings": {
+        "title": "FAQS",
+        "button_label": "",
+        "button_url": "",
+        "button_url_pdf": "",
+        "padding_top": 35,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 35
+      }
+    },
+    "list_logos_qpYYXr": {
+      "type": "list-logos",
+      "blocks": {
+        "text_hT6ctA": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Group_6_3.svg"
+          }
+        },
+        "text_RAc8Fa": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_8.svg"
+          }
+        },
+        "text_hdETTh": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_9.svg"
+          }
+        },
+        "text_CMNmDy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Group_6_3_1094f8c4-d958-4ffe-accc-e3950393285b.svg"
+          }
+        },
+        "text_fHMwF7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_8_769f5854-2362-4e38-91b0-bfd379c7bf2e.svg"
+          }
+        },
+        "text_w4eLLn": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_9_95c0bc36-d3f8-4713-a36e-0c9a7732db84.svg"
+          }
+        },
+        "text_BkapHN": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Group_6_3_9161f304-7f74-407a-a811-b40714672805.svg"
+          }
+        },
+        "text_dhQ3Hr": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_8_bcc43cc4-7d65-41d8-b3d6-60140c235950.svg"
+          }
+        },
+        "text_fYDPE4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_9_6720b871-034a-4502-bdbd-1e132e4ad289.svg"
+          }
+        },
+        "text_J66WwM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Group_6_3_591060b9-7034-4d52-94c2-d78b22dac3d8.svg"
+          }
+        },
+        "text_wqFTdY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_8_1f0a7c6b-3864-4c5f-8fc3-035ddd4658b6.svg"
+          }
+        },
+        "text_E3Kh8Y": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector_9_4737ca43-bbf5-4735-a8a6-663582fa047e.svg"
+          }
+        }
+      },
+      "block_order": [
+        "text_hT6ctA",
+        "text_RAc8Fa",
+        "text_hdETTh",
+        "text_CMNmDy",
+        "text_fHMwF7",
+        "text_w4eLLn",
+        "text_BkapHN",
+        "text_dhQ3Hr",
+        "text_fYDPE4",
+        "text_J66WwM",
+        "text_wqFTdY",
+        "text_E3Kh8Y"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 75
       }
     }
   },
   "order": [
-    "main"
+    "home_hero_v2",
+    "home_hero_CF9PjB",
+    "img_and_content_agKPqV",
+    "text_icon_blocks_8t7gbe",
+    "text_grid_3column_Mq7irD",
+    "section_benefits_bwad3F",
+    "text_tiles_6GFXBz",
+    "tab_images_QcxXbC",
+    "text_img_tiles_rQY4GA",
+    "featured_product_j8MdBd",
+    "reviews",
+    "video_reviews_jTMMEL",
+    "title_and_list_YBkG6P",
+    "video_reviews_hfbLxP",
+    "faq_home_VX69Gg",
+    "list_logos_qpYYXr"
   ]
 }

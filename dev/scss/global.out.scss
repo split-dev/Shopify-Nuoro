@@ -59,6 +59,9 @@ html {
 .align-items-center {
     align-items: center !important;
 }
+.flex-column {
+    flex-direction: column;
+}
 .flex-wrap {
     flex-wrap: wrap !important;
 }
@@ -74,6 +77,14 @@ html {
 }
 .text-center {
     text-align: center !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 
 .goverlay {

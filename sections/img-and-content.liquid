@@ -1,6 +1,5 @@
 {{ 'img-and-content.out.css' | asset_url | stylesheet_tag }}
 
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top_mobile }}px;
@@ -62,28 +61,25 @@
             {% endfor %}
           </ul>
         {% endif %}
-        {% if section.settings.button_label != blank %}
-          <div class="img-and-content__button">
-            <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
-          </div>
-        {% endif %}
+        {%- case section.settings.display_type -%}
+          {%- when 'icon' -%}
+            {{ section.settings.icon | image_url: width: 3840 | image_tag: width: section.settings.image.icon, height: section.settings.icon.height, class: 'img-and-content__img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+          {%- when 'button' -%}
+            {% if section.settings.button_label != blank %}
+              <div class="img-and-content__button">
+                <a class="btn btn__primary" href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+              </div>
+            {% endif %}
+        {%- endcase -%}
       </div>
       <div class="img-and-content__media">
         {% if section.settings.image != blank %}
-          {{ section.settings.image | image_url: width: 1700 | image_tag:
-            width: section.settings.image.width,
-            height: section.settings.image.height,
-            class: 'text-img-tiles__item-img',
-            loading: 'lazy',
-            sizes: '100vw',
-            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
-          }}
+          {{ section.settings.image | image_url: width: 3840 | image_tag: width: section.settings.image.width, height: section.settings.image.height, class: 'text-img-tiles__item-img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
         {% endif %}
       </div>
     </div>
   </div>
 </section>
-
 
 {% schema %}
 {
@@ -121,6 +117,21 @@
       "type": "richtext",
       "id": "text",
       "label": "Text"
+    },
+    {
+      "type": "select",
+      "id": "display_type",
+      "label": "Type Block",
+      "options": [
+        { "value": "icon", "label": "Icon" },
+        { "value": "button", "label": "Button" }
+      ],
+      "default": "icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
     },
     {
       "type": "text",
@@ -193,5 +204,4 @@
     }
   ]
 }
-
 {% endschema %}

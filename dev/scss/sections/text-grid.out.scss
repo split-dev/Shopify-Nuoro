@@ -1,0 +1,61 @@
+@use "../settings/config" as *;
+
+.text-grid {
+    &__title-wrapper {
+        text-align: center;
+        margin-inline: auto;
+        margin-bottom: 4rem;
+        @include media-breakpoint-up(lg) {
+            max-width: 62rem;
+        }
+        @include media-breakpoint-up(xxl) {
+            max-width: 74.6rem;
+        }
+    }
+
+    &__title {
+        margin: 0;
+    }
+
+    &__subheading {
+        margin-top: 1.5rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.4rem;
+        @include media-breakpoint-up(xl) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(lg) {
+            gap: 3rem;
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    &__item {
+        min-width: 26rem;
+        max-width: 41.7rem;
+        h4 {
+            margin-top: 0.7rem;
+            margin: 0;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__img {
+        height: 3rem;
+        width: 3rem;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}

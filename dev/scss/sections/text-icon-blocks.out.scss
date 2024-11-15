@@ -1,0 +1,120 @@
+@use "../settings/config" as *;
+
+.icon-blocks {
+    &__wrapper {
+        gap: 2rem;
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+            gap: 5.5rem;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        &__wrapper-blocks {
+            margin-top: 4px;
+        }
+    }
+
+    &__header {
+        width: 50%;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+        h2 {
+            margin: 0;
+            margin-bottom: 3.2rem;
+        }
+        .text-20px {
+            margin-bottom: 9.7rem;
+            @include media-breakpoint-down(md) {
+                margin-bottom: 4.5rem;
+            }
+        }
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        height: 26.5rem;
+        max-width: 100%;
+        @include media-breakpoint-down(md) {
+            height: 15rem;
+        }
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+            object-fit: contain;
+        }
+    }
+
+    &__wrapper-blocks {
+        width: 50%;
+        gap: 1.6rem;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+        h4 {
+            margin: 0;
+            font-size: 24px;
+            line-height: 36px;
+            @include media-breakpoint-down(md) {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        .btn.btn__primary {
+            margin-top: 2.4rem;
+            margin-inline: auto;
+            border-radius: 3.75px;
+            min-width: 261px;
+            @include media-breakpoint-down(md) {
+                margin-top: 1.4rem;
+            }
+            svg {
+                margin-left: 5px;
+            }
+            path {
+                transition: all 0.3s ease-in-out;
+                stroke: transparent;
+                fill: white;
+            }
+            &:hover path {
+                fill: black;
+            }
+        }
+    }
+
+    &__content {
+        gap: 1.6rem;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 8rem;
+        min-width: 8rem;
+        max-height: 8rem;
+        max-width: 8rem;
+        img {
+            object-fit: contain;
+            border-radius: 0.8rem;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+    &__item + div {
+        gap: 0.6rem;
+        p {
+            font-size: 15px !important;
+            font-weight: 400;
+            margin: 0;
+            @include media-breakpoint-down(md) {
+                font-size: 14px !important;
+                letter-spacing: 0.06px;
+            }
+        }
+    }
+}

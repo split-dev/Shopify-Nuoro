@@ -103,6 +103,10 @@
             }
         }
     }
+    &__img {
+        width: 7.7rem;
+        height: 4.05rem;
+    }
     &__button {
         @include media-breakpoint-down(md) {
             width: 100%;

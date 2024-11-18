@@ -211,67 +211,6 @@
         "padding_bottom_mobile": 75
       }
     },
-    "text_tiles_6GFXBz": {
-      "type": "text-tiles",
-      "blocks": {
-        "text_kDWHBd": {
-          "type": "text",
-          "settings": {
-            "title": "Formule unique",
-            "text": "Scientifiquement élaborée pour optimiser les bénéfices"
-          }
-        },
-        "text_k8dCWL": {
-          "type": "text",
-          "settings": {
-            "title": "71 ingrédients actifs",
-            "text": "Chacun choisit pour sa pureté et son efficacité assimilables"
-          }
-        },
-        "text_MrFGpc": {
-          "type": "text",
-          "settings": {
-            "title": "Plébiscité par des scientifiques",
-            "text": "Et experts renommés"
-          }
-        },
-        "text_Xb9Dry": {
-          "type": "text",
-          "settings": {
-            "title": "Sans Additifs",
-            "text": "Ni arômes, colorants ou conservateurs artificiels"
-          }
-        },
-        "text_hdQH9c": {
-          "type": "text",
-          "settings": {
-            "title": "Sans Sucre Ajouté",
-            "text": "Ni gluten, oeufs, lactose ou arachides"
-          }
-        },
-        "text_mMyqPE": {
-          "type": "text",
-          "settings": {
-            "title": "Soutenu par la recherche",
-            "text": "18 mois de R&D"
-          }
-        }
-      },
-      "block_order": [
-        "text_kDWHBd",
-        "text_k8dCWL",
-        "text_MrFGpc",
-        "text_Xb9Dry",
-        "text_hdQH9c",
-        "text_mMyqPE"
-      ],
-      "settings": {
-        "padding_top": 50,
-        "padding_bottom": 40,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
-      }
-    },
     "featured_product_j8MdBd": {
       "type": "featured-product",
       "blocks": {
@@ -353,6 +292,67 @@
         "padding_bottom": 50,
         "padding_top_mobile": 60,
         "padding_bottom_mobile": 0
+      }
+    },
+    "text_tiles_6GFXBz": {
+      "type": "text-tiles",
+      "blocks": {
+        "text_kDWHBd": {
+          "type": "text",
+          "settings": {
+            "title": "Formule unique",
+            "text": "Scientifiquement élaborée pour optimiser les bénéfices"
+          }
+        },
+        "text_k8dCWL": {
+          "type": "text",
+          "settings": {
+            "title": "71 ingrédients actifs",
+            "text": "Chacun choisit pour sa pureté et son efficacité assimilables"
+          }
+        },
+        "text_MrFGpc": {
+          "type": "text",
+          "settings": {
+            "title": "Plébiscité par des scientifiques",
+            "text": "Et experts renommés"
+          }
+        },
+        "text_Xb9Dry": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Additifs",
+            "text": "Ni arômes, colorants ou conservateurs artificiels"
+          }
+        },
+        "text_hdQH9c": {
+          "type": "text",
+          "settings": {
+            "title": "Sans Sucre Ajouté",
+            "text": "Ni gluten, oeufs, lactose ou arachides"
+          }
+        },
+        "text_mMyqPE": {
+          "type": "text",
+          "settings": {
+            "title": "Soutenu par la recherche",
+            "text": "18 mois de R&D"
+          }
+        }
+      },
+      "block_order": [
+        "text_kDWHBd",
+        "text_k8dCWL",
+        "text_MrFGpc",
+        "text_Xb9Dry",
+        "text_hdQH9c",
+        "text_mMyqPE"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
       }
     },
     "section_benefits_bwad3F": {
@@ -1069,8 +1069,8 @@
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "text_icon_blocks_8t7gbe",
-    "text_tiles_6GFXBz",
     "featured_product_j8MdBd",
+    "text_tiles_6GFXBz",
     "section_benefits_bwad3F",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",

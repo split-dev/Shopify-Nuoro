@@ -896,6 +896,27 @@
             "title": "Quelles mesures prenez-vous pour garantir la qualité de NUORO?",
             "text": "<p><strong>Chez NUORO, nous adoptons une approche sans compromis en matière de qualité et de formulation. Nos ingrédients sont soigneusement sélectionnés pour leur pureté et leur efficacité, et nous collaborons exclusivement avec des fournisseurs de renom pour garantir des nutriments de la plus haute qualité.</strong><br/></p><p>NUORO est fabriqué dans un établissement certifié GMP (Good Manufacturing Practice) et conforme à la norme ISO 22000. Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>"
           }
+        },
+        "text_T4TCDR": {
+          "type": "text",
+          "settings": {
+            "title": "Peut-on mélanger NUORO avec autre chose que de l’eau ?",
+            "text": "<p><strong>Oui, absolument ! NUORO peut être mélangé avec d’autres liquides comme du lait végétal pour varier les saveurs. </strong>Nous vous recommandons toutefois de l’éviter avec des boissons chaudes pour préserver l’intégrité des nutriments.</p>"
+          }
+        },
+        "text_qNc89i": {
+          "type": "text",
+          "settings": {
+            "title": "Quand vais-je recevoir ma commande ?",
+            "text": "<p>Votre commande est expédiée le jour même si elle est passée avant 15h, ou le jour ouvré suivant si elle est passée après 15h (hors week-ends et jours fériés). <strong>La livraison prend ensuite généralement entre 2 et 5 jours ouvrés.</strong></p>"
+          }
+        },
+        "text_93EteN": {
+          "type": "text",
+          "settings": {
+            "title": "Comment gérer mon abonnement ?",
+            "text": "<p><strong>Pour gérer votre abonnement, connectez-vous simplement à votre compte. </strong>Vous pourrez y mettre à jour vos coordonnées, sauter une livraison, annuler votre abonnement ou encore choisir une nouvelle date de réassort.</p>"
+          }
         }
       },
       "block_order": [
@@ -908,7 +929,10 @@
         "text_RnM3Yj",
         "text_mPFGtT",
         "text_zNaVKF",
-        "text_rbj4JL"
+        "text_rbj4JL",
+        "text_T4TCDR",
+        "text_qNc89i",
+        "text_93EteN"
       ],
       "settings": {
         "title": "FAQS",

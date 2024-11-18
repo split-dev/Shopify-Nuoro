@@ -462,10 +462,10 @@
         "last_block_kV96hU"
       ],
       "settings": {
-        "title": "NUORO REMPLACE",
+        "title": "NUORO COMBINE PLUSIEURS COMPLÉMENTS",
         "subheading": "",
         "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
-        "bg_color": "",
+        "bg_color": "#ffffff",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_mb": 50,

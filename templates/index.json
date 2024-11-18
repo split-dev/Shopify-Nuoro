@@ -213,50 +213,6 @@
         "padding_bottom_mobile": 50
       }
     },
-    "text_grid_3column_Mq7irD": {
-      "type": "text-grid-3column",
-      "blocks": {
-        "text_F66byg": {
-          "type": "text",
-          "settings": {
-            "icon": "shopify://shop_images/Vector_2.png",
-            "title": "Supplément Protéiné",
-            "text": "Bien que NUORO contienne des protéines d’origine végétale, il ne remplace pas un supplément de protéines. Vous pouvez le combiner avec une source de protéines de votre choix."
-          }
-        },
-        "text_Jgb34W": {
-          "type": "text",
-          "settings": {
-            "icon": "shopify://shop_images/Vector_2.png",
-            "title": "Remplaçant de Repas",
-            "text": "NUORO n’est pas conçu pour remplacer un repas. Il s’agit d’un complément alimentaire qui apporte des micronutriments essentiels et est conçu pour compléter une alimentation saine, pas la remplacer."
-          }
-        },
-        "text_dEyb8Y": {
-          "type": "text",
-          "settings": {
-            "icon": "shopify://shop_images/Vector_2.png",
-            "title": "Simple Jus Vert",
-            "text": "NUORO apporte des nutriments issus de fruits et légumes mais évite les sucres excessifs grâce à l’utilisation d’extraits de haute qualité."
-          }
-        }
-      },
-      "block_order": [
-        "text_F66byg",
-        "text_Jgb34W",
-        "text_dEyb8Y"
-      ],
-      "settings": {
-        "title": "Qu'est-ce que NUORO n'est pas",
-        "text_transform": "uppercase",
-        "subheading": "",
-        "bg_color": "#ffbbcd",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
-    },
     "section_benefits_bwad3F": {
       "type": "section-benefits",
       "blocks": {
@@ -967,6 +923,50 @@
         "padding_bottom_mobile": 35
       }
     },
+    "text_grid_3column_Mq7irD": {
+      "type": "text-grid-3column",
+      "blocks": {
+        "text_F66byg": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Supplément Protéiné",
+            "text": "Bien que NUORO contienne des protéines d’origine végétale, il ne remplace pas un supplément de protéines. Vous pouvez le combiner avec une source de protéines de votre choix."
+          }
+        },
+        "text_Jgb34W": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Remplaçant de Repas",
+            "text": "NUORO n’est pas conçu pour remplacer un repas. Il s’agit d’un complément alimentaire qui apporte des micronutriments essentiels et est conçu pour compléter une alimentation saine, pas la remplacer."
+          }
+        },
+        "text_dEyb8Y": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify://shop_images/Vector_2.png",
+            "title": "Simple Jus Vert",
+            "text": "NUORO apporte des nutriments issus de fruits et légumes mais évite les sucres excessifs grâce à l’utilisation d’extraits de haute qualité."
+          }
+        }
+      },
+      "block_order": [
+        "text_F66byg",
+        "text_Jgb34W",
+        "text_dEyb8Y"
+      ],
+      "settings": {
+        "title": "Qu'est-ce que NUORO n'est pas",
+        "text_transform": "uppercase",
+        "subheading": "",
+        "bg_color": "#ffbbcd",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
     "list_logos_qpYYXr": {
       "type": "list-logos",
       "blocks": {
@@ -1071,7 +1071,6 @@
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "text_icon_blocks_8t7gbe",
-    "text_grid_3column_Mq7irD",
     "section_benefits_bwad3F",
     "featured_product_j8MdBd",
     "text_tiles_6GFXBz",
@@ -1082,6 +1081,7 @@
     "title_and_list_YBkG6P",
     "video_reviews_hfbLxP",
     "faq_home_VX69Gg",
+    "text_grid_3column_Mq7irD",
     "list_logos_qpYYXr"
   ]
 }

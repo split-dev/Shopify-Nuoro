@@ -213,123 +213,6 @@
         "padding_bottom_mobile": 50
       }
     },
-    "section_benefits_bwad3F": {
-      "type": "section-benefits",
-      "blocks": {
-        "first_block_RzMAYt": {
-          "type": "first_block",
-          "settings": {
-            "display_type": "icon",
-            "image": "shopify://shop_images/Microbs.png",
-            "text": "",
-            "image_center": "shopify://shop_images/Vector_1.png",
-            "text_last": "Coût Mensuel"
-          }
-        },
-        "main_block_YDK6hJ": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "1Multivitamines",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "18,90 €"
-          }
-        },
-        "main_block_k87BYD": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "2Multiminéraux",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "14,90 €"
-          }
-        },
-        "main_block_T6TPtb": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "3Probiotiques",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "29,90 €"
-          }
-        },
-        "main_block_8MfaeE": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "4Prebiotiques",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "14,90 €"
-          }
-        },
-        "main_block_rpwppg": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "5Enzymes digestives",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "12,90 €"
-          }
-        },
-        "main_block_ePmMDd": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "6Antioxydants",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "18,90 €"
-          }
-        },
-        "main_block_RXRCh6": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "7Champignons fonctionnels",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "18,90 €"
-          }
-        },
-        "main_block_fkGqDA": {
-          "type": "main_block",
-          "settings": {
-            "text_first": "8Extraits de plantes",
-            "display_type": "checkmark",
-            "text_center": "",
-            "text_last": "14,20 €"
-          }
-        },
-        "last_block_kV96hU": {
-          "type": "last_block",
-          "settings": {
-            "text_first": "Total par mois",
-            "text_center": "59 €*",
-            "text_last": "143,5 €**"
-          }
-        }
-      },
-      "block_order": [
-        "first_block_RzMAYt",
-        "main_block_YDK6hJ",
-        "main_block_k87BYD",
-        "main_block_T6TPtb",
-        "main_block_8MfaeE",
-        "main_block_rpwppg",
-        "main_block_ePmMDd",
-        "main_block_RXRCh6",
-        "main_block_fkGqDA",
-        "last_block_kV96hU"
-      ],
-      "settings": {
-        "title": "NUORO COMBINE PLUSIEURS COMPLÉMENTS",
-        "subheading": "",
-        "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
-        "bg_color": "#ffffff",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_mb": 50,
-        "padding_bottom_mb": 60
-      }
-    },
     "featured_product_j8MdBd": {
       "type": "featured-product",
       "blocks": {
@@ -472,6 +355,123 @@
         "padding_bottom": 20,
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
+      }
+    },
+    "section_benefits_bwad3F": {
+      "type": "section-benefits",
+      "blocks": {
+        "first_block_RzMAYt": {
+          "type": "first_block",
+          "settings": {
+            "display_type": "icon",
+            "image": "shopify://shop_images/Microbs.png",
+            "text": "",
+            "image_center": "shopify://shop_images/Vector_1.png",
+            "text_last": "Coût Mensuel"
+          }
+        },
+        "main_block_YDK6hJ": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "1Multivitamines",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_k87BYD": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "2Multiminéraux",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,90 €"
+          }
+        },
+        "main_block_T6TPtb": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "3Probiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "29,90 €"
+          }
+        },
+        "main_block_8MfaeE": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "4Prebiotiques",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,90 €"
+          }
+        },
+        "main_block_rpwppg": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "5Enzymes digestives",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "12,90 €"
+          }
+        },
+        "main_block_ePmMDd": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "6Antioxydants",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_RXRCh6": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "7Champignons fonctionnels",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "18,90 €"
+          }
+        },
+        "main_block_fkGqDA": {
+          "type": "main_block",
+          "settings": {
+            "text_first": "8Extraits de plantes",
+            "display_type": "checkmark",
+            "text_center": "",
+            "text_last": "14,20 €"
+          }
+        },
+        "last_block_kV96hU": {
+          "type": "last_block",
+          "settings": {
+            "text_first": "Total par mois",
+            "text_center": "59 €*",
+            "text_last": "143,5 €**"
+          }
+        }
+      },
+      "block_order": [
+        "first_block_RzMAYt",
+        "main_block_YDK6hJ",
+        "main_block_k87BYD",
+        "main_block_T6TPtb",
+        "main_block_8MfaeE",
+        "main_block_rpwppg",
+        "main_block_ePmMDd",
+        "main_block_RXRCh6",
+        "main_block_fkGqDA",
+        "last_block_kV96hU"
+      ],
+      "settings": {
+        "title": "NUORO COMBINE PLUSIEURS COMPLÉMENTS",
+        "subheading": "",
+        "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
+        "bg_color": "#ffffff",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mb": 50,
+        "padding_bottom_mb": 60
       }
     },
     "tab_images_QcxXbC": {
@@ -1071,9 +1071,9 @@
     "home_hero_CF9PjB",
     "img_and_content_agKPqV",
     "text_icon_blocks_8t7gbe",
-    "section_benefits_bwad3F",
     "featured_product_j8MdBd",
     "text_tiles_6GFXBz",
+    "section_benefits_bwad3F",
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
     "reviews",

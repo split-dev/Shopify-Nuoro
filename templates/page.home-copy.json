@@ -207,8 +207,8 @@
         "button_link": "shopify://pages/ingredients",
         "padding_top": 70,
         "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 35
       }
     },
     "featured_product_j8MdBd": {

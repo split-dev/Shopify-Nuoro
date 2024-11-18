@@ -63,7 +63,9 @@
         {% endif %}
         {%- case section.settings.display_type -%}
           {%- when 'icon' -%}
-            {{ section.settings.icon | image_url: width: 3840 | image_tag: width: section.settings.image.icon, height: section.settings.icon.height, class: 'img-and-content__img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+            {%- if section.settings.icon != blank -%}
+              {{ section.settings.icon | image_url: width: 3840 | image_tag: width: section.settings.image.icon, height: section.settings.icon.height, class: 'img-and-content__img', loading: 'lazy', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+            {%- endif -%}
           {%- when 'button' -%}
             {% if section.settings.button_label != blank %}
               <div class="img-and-content__button">

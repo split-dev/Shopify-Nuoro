@@ -207,8 +207,8 @@
         "button_link": "shopify://pages/ingredients",
         "padding_top": 70,
         "padding_bottom": 50,
-        "padding_top_mobile": 75,
-        "padding_bottom_mobile": 75
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "featured_product_j8MdBd": {
@@ -509,7 +509,7 @@
         "title": "Comment Préparer?",
         "padding_top": 50,
         "padding_bottom": 50,
-        "padding_top_mobile": 20,
+        "padding_top_mobile": 40,
         "padding_bottom_mobile": 50
       }
     },
@@ -581,7 +581,7 @@
         "button_url": "shopify://pages/ingredients",
         "padding_top": 50,
         "padding_bottom": 50,
-        "padding_top_mobile": 20,
+        "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
     },

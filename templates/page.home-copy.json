@@ -205,8 +205,8 @@
         "image": "shopify://shop_images/MG_3670_1.png",
         "button_label": "Ingrédients & Bénéfices",
         "button_link": "shopify://pages/ingredients",
-        "padding_top": 110,
-        "padding_bottom": 110,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_top_mobile": 75,
         "padding_bottom_mobile": 75
       }
@@ -267,7 +267,7 @@
       ],
       "settings": {
         "padding_top": 50,
-        "padding_bottom": 20,
+        "padding_bottom": 40,
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
@@ -349,8 +349,8 @@
         "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 90,
-        "padding_bottom": 30,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_top_mobile": 60,
         "padding_bottom_mobile": 0
       }
@@ -466,8 +466,8 @@
         "subheading": "",
         "description": "<p>*Offre de lancement: Premier mois d'essais à 59€, puis 79€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
         "bg_color": "",
-        "padding_top": 70,
-        "padding_bottom": 70,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_top_mb": 50,
         "padding_bottom_mb": 50
       }
@@ -579,8 +579,8 @@
         "image": "shopify://shop_images/Group_21.svg",
         "button_label": "Ingredients & Bénéfices",
         "button_url": "shopify://pages/ingredients",
-        "padding_top": 20,
-        "padding_bottom": 30,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 40
       }
@@ -647,8 +647,8 @@
         "reviews_i8Uhyy"
       ],
       "settings": {
-        "padding_top": 40,
-        "padding_bottom": 35,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "title": "DES Histoires vraies, DES résultats réels",
         "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
         "image": "shopify://shop_images/trustpilot_logo.svg",

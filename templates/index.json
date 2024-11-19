@@ -247,7 +247,7 @@
             "item_cost_subscribe": "{1,96€ / sachet* }",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
             "subscribe_list_item_2": "Sans Engagement",
-            "subscribe_list_item_3": "Flex: Pause ou annulation à tout moment",
+            "subscribe_list_item_3": "Flex: Pause ou Annulation à tout moment",
             "subscribe_list_item_4": "",
             "subscribe_bottom_text": "Premier Mois d'essais, puis 69€/mois",
             "one_time_subtitle": "",
@@ -266,7 +266,7 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
             "features_title": "Votre achat inclut:",
-            "feature_1": "Livraison Gratuite à chaque envoi",
+            "feature_1": "Livraison gratuite à chaque envoi",
             "feature_2": "Shaker NUORO offert",
             "bottom_text": "Garantie satisfait ou remboursé de 30 jours"
           }

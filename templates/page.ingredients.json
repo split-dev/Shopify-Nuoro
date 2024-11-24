@@ -298,8 +298,108 @@
         "text_3T8RMn",
         "text_k9TQw4"
       ],
+      "disabled": true,
       "settings": {
         "title": "De Multiples Bénéfices dans chaque sachet",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "text_img_tiles_4FKe4N": {
+      "type": "text-img-tiles",
+      "blocks": {
+        "text_VRCWww": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/team_2.jpg",
+            "title": "Métabolisme Énergétique",
+            "text": "La vitamine B12, la niacine et le magnésium contribuent au métabolisme énergétique normal."
+          }
+        },
+        "text_fwxhe3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/NUORO_drink.jpg",
+            "title": "Système Immunitaire",
+            "text": "La vitamine C, le sélénium et le zinc, contribuent au fonctionnement normal du système immunitaire."
+          }
+        },
+        "text_Y6yjtG": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Amine-M-nuoror-reveiw.jpg",
+            "title": "Fonction Cognitive",
+            "text": "Le fer, le zinc, et l'iode contribuent à une fonction cognitive normale."
+          }
+        },
+        "text_qHRkjB": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/drink-nuoro.jpg",
+            "title": "Métabolisme Digestif",
+            "text": "Les enzymes digestives, comme la bromélaïne, et les prébiotiques tels que l’inuline, contribuent à un métabolisme digestif efficace."
+          }
+        },
+        "text_6iHBcP": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_22f849f937b5541b2fe1f5e8a33c24be.jpg",
+            "title": "Stress Oxydatif",
+            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
+          }
+        },
+        "text_dfNKhD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_36c69ee44809802d9234699db5144304.jpg",
+            "title": "Peau et Cheveux",
+            "text": "Le zinc et la biotine, contribuent au maintien d'une peau et de cheveux normaux."
+          }
+        },
+        "text_REQC4Q": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_a8b9d0fe90d8e07887326bffbff14d9f.jpg",
+            "title": "Activité Hormonale",
+            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
+          }
+        },
+        "text_jtqqLQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_e3fe81dac4f66019eeb5498ebb853e40.jpg",
+            "title": "Système Nerveux",
+            "text": "L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse."
+          }
+        },
+        "text_tGHVk7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_a78d5ae3585065fe9b726180f5a89c9d.jpg",
+            "title": "Fertilité",
+            "text": "Le zinc est essentiel pour une fertilité et une reproduction normales, aidant à soutenir la santé reproductive à la fois chez les hommes et les femmes."
+          }
+        }
+      },
+      "block_order": [
+        "text_VRCWww",
+        "text_fwxhe3",
+        "text_Y6yjtG",
+        "text_qHRkjB",
+        "text_6iHBcP",
+        "text_dfNKhD",
+        "text_REQC4Q",
+        "text_jtqqLQ",
+        "text_tGHVk7"
+      ],
+      "settings": {
+        "title": "De Multiples Bénéfices dans chaque sachet",
+        "subtitle": "Chez NUORO, chaque ingrédient a été soigneusement sélectionné pour une absorption optimale et une synergie parfaite, afin de maximiser leurs bienfaits.",
+        "image": "shopify://shop_images/6483450-16_9.jpg",
+        "button_label": "",
+        "button_url": "",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_mobile": 30,
@@ -362,6 +462,7 @@
     "text_icon_blocks_iVAVHb",
     "faq_home_xiKfpw",
     "benefits_3feYe9",
+    "text_img_tiles_4FKe4N",
     "title_and_list_kzJy7p"
   ]
 }

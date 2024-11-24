@@ -222,12 +222,62 @@
         "padding_top_mobile": 25,
         "padding_bottom_mobile": 80
       }
+    },
+    "title_and_list_kzJy7p": {
+      "type": "title-and-list",
+      "blocks": {
+        "text_7CtqkR": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Gluten"
+          }
+        },
+        "text_DP3ygP": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Lactose"
+          }
+        },
+        "text_wM9WjT": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Oeufs"
+          }
+        },
+        "text_iWdUgx": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Arachides"
+          }
+        },
+        "text_watDzm": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Sucre ajouté"
+          }
+        }
+      },
+      "block_order": [
+        "text_7CtqkR",
+        "text_DP3ygP",
+        "text_wM9WjT",
+        "text_iWdUgx",
+        "text_watDzm"
+      ],
+      "settings": {
+        "title": "Sans arômes, colorants et conservateurs artificiels.",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
     }
   },
   "order": [
     "page_title_eWBP8a",
     "img_and_content_atRwY9",
     "faq_home_xiKfpw",
-    "benefits_3feYe9"
+    "benefits_3feYe9",
+    "title_and_list_kzJy7p"
   ]
 }

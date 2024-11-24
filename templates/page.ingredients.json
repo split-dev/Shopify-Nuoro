@@ -12,16 +12,17 @@
     "page_title_eWBP8a": {
       "type": "page-title",
       "settings": {
-        "title": "Ingrédients et bénéfices",
+        "title": "Des ingrédients optimisés pour une efficacité maximale",
         "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales. <br/><br/>Nos produits sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs.</p>",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 30
       }
     },
     "img_and_content_atRwY9": {
       "type": "img-and-content",
+      "disabled": true,
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
@@ -36,6 +37,88 @@
         "padding_bottom": 100,
         "padding_top_mobile": 70,
         "padding_bottom_mobile": 80
+      }
+    },
+    "text_icon_blocks_iVAVHb": {
+      "type": "text-icon-blocks",
+      "blocks": {
+        "text_w3NBLy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_1.jpg",
+            "title": "Vitamines",
+            "text": "Soutiennent les fonctions essentielles de l’organisme pour une vitalité au quotidien."
+          }
+        },
+        "text_7icNDc": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_3.jpg",
+            "title": "Minéraux",
+            "text": "Renforcent les systèmes immunitaire, musculaire et osseux."
+          }
+        },
+        "text_LE96Rz": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_2.jpg",
+            "title": "Pro & Prébiotiques",
+            "text": "Favorisent une digestion saine et équilibrent le microbiome intestinal."
+          }
+        },
+        "text_ptML6B": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_4.jpg",
+            "title": "Enzymes digestives",
+            "text": "Facilitent l’absorption des nutriments et soutiennent la digestion."
+          }
+        },
+        "text_YrDFBr": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_5.jpg",
+            "title": "Antioxydants",
+            "text": "Protègent les cellules contre le stress oxydatif et favorisent la santé globale."
+          }
+        },
+        "text_yMCpPa": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_6.jpg",
+            "title": "Champignons fonctionnels",
+            "text": "Boostent l’immunité et soutiennent l’équilibre physique et mental."
+          }
+        },
+        "text_pQWzRA": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_7.jpg",
+            "title": "⁠⁠Extraits de plantes",
+            "text": "Offrent des bienfaits naturels pour l’énergie, la vitalité et le bien-être."
+          }
+        }
+      },
+      "block_order": [
+        "text_w3NBLy",
+        "text_7icNDc",
+        "text_LE96Rz",
+        "text_ptML6B",
+        "text_YrDFBr",
+        "text_yMCpPa",
+        "text_pQWzRA"
+      ],
+      "settings": {
+        "title": "Sélection Rigoureuse des Ingrédients",
+        "description": "71 ingrédients, chacun choisi pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.",
+        "alignment": "center",
+        "image": "shopify://shop_images/Nuoro_recette_scientifique_71_ingredients.jpg",
+        "button_label": "",
+        "button_link": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "faq_home_xiKfpw": {
@@ -113,10 +196,10 @@
         "button_label": "Téléchargez la liste des ingrédients",
         "button_url": "",
         "button_url_pdf": "https://cdn.shopify.com/s/files/1/0811/8229/4348/files/La_liste_des_ingredients_NUORO_e74af541-19e7-48f3-a3c6-12ae3c4cf3b4.pdf?v=1730836437",
-        "padding_top": 0,
-        "padding_bottom": 60,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 65
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "benefits_3feYe9": {
@@ -217,10 +300,10 @@
       ],
       "settings": {
         "title": "De Multiples Bénéfices dans chaque sachet",
-        "padding_top": 0,
-        "padding_bottom": 80,
-        "padding_top_mobile": 25,
-        "padding_bottom_mobile": 80
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "title_and_list_kzJy7p": {
@@ -266,16 +349,17 @@
       ],
       "settings": {
         "title": "Sans arômes, colorants et conservateurs artificiels.",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     }
   },
   "order": [
     "page_title_eWBP8a",
     "img_and_content_atRwY9",
+    "text_icon_blocks_iVAVHb",
     "faq_home_xiKfpw",
     "benefits_3feYe9",
     "title_and_list_kzJy7p"

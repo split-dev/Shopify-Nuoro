@@ -11,17 +11,19 @@
   "sections": {
     "page_title_eWBP8a": {
       "type": "page-title",
+      "disabled": true,
       "settings": {
-        "title": "Ingrédients et bénéfices",
+        "title": "Des ingrédients optimisés pour une efficacité maximale",
         "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales. <br/><br/>Nos produits sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs.</p>",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 30
       }
     },
     "img_and_content_atRwY9": {
       "type": "img-and-content",
+      "disabled": true,
       "settings": {
         "revers": false,
         "bg_color": "rgba(0,0,0,0)",
@@ -29,12 +31,95 @@
         "title": "Sélection Rigoureuse des Ingrédients",
         "subtitle": "",
         "text": "<p>71 ingrédients, chacun choisi pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.</p>",
+        "display_type": "icon",
         "button_label": "",
         "button_url": "",
         "padding_top": 90,
         "padding_bottom": 100,
         "padding_top_mobile": 70,
         "padding_bottom_mobile": 80
+      }
+    },
+    "text_icon_blocks_iVAVHb": {
+      "type": "text-icon-blocks",
+      "blocks": {
+        "text_w3NBLy": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_1.jpg",
+            "title": "Vitamines",
+            "text": "Soutiennent les fonctions essentielles de l’organisme pour une vitalité au quotidien."
+          }
+        },
+        "text_7icNDc": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_3.jpg",
+            "title": "Minéraux",
+            "text": "Renforcent les systèmes immunitaire, musculaire et osseux."
+          }
+        },
+        "text_LE96Rz": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_2.jpg",
+            "title": "Pro & Prébiotiques",
+            "text": "Favorisent une digestion saine et équilibrent le microbiome intestinal."
+          }
+        },
+        "text_ptML6B": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_4.jpg",
+            "title": "Enzymes digestives",
+            "text": "Facilitent l’absorption des nutriments et soutiennent la digestion."
+          }
+        },
+        "text_YrDFBr": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_5.jpg",
+            "title": "Antioxydants",
+            "text": "Protègent les cellules contre le stress oxydatif et favorisent la santé globale."
+          }
+        },
+        "text_yMCpPa": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_6.jpg",
+            "title": "Champignons fonctionnels",
+            "text": "Boostent l’immunité et soutiennent l’équilibre physique et mental."
+          }
+        },
+        "text_pQWzRA": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/ingredients_7.jpg",
+            "title": "⁠⁠Extraits de plantes",
+            "text": "Offrent des bienfaits naturels pour l’énergie, la vitalité et le bien-être."
+          }
+        }
+      },
+      "block_order": [
+        "text_w3NBLy",
+        "text_7icNDc",
+        "text_LE96Rz",
+        "text_ptML6B",
+        "text_YrDFBr",
+        "text_yMCpPa",
+        "text_pQWzRA"
+      ],
+      "settings": {
+        "title": "Une Sélection Rigoureuse des Ingrédients",
+        "description": "71 ingrédients, chacun choisi pour sa pureté et son efficacité, provenant de sources durables et éthiques. Nous utilisons principalement des composants naturels et des extraits de plantes, chacun étant tracé méticuleusement de sa source à notre produit final.",
+        "alignment": "center",
+        "image": "shopify://shop_images/Nuoro_recette_scientifique_71_ingredients.jpg",
+        "button_label": "",
+        "button_link": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "faq_home_xiKfpw": {
@@ -65,28 +150,28 @@
           "type": "text",
           "settings": {
             "title": "Extraits de Plantes",
-            "text": "<p><strong>Extrait de racine de chicorée (Cichorium intybus L.)</strong><br/>Soutient la santé du foie.</p><p><strong>Extrait de rose musquée (Rosa canina L.)</strong> <br/>Contribue aux défenses naturelles de l’organisme.</p><p><strong>Extrait de feuille d’artichaut (Cynara scolymus)</strong><br/>Contribue au confort intestinal.</p><p><strong>Extrait de racine de gingembre (Zingiber officinale)</strong><br/>Contribue à la santé vasculaire.</p><p><strong>Extrait de fucus (Fucus vesiculosus)</strong><br/>Contribue à un transit intestinal régulier.</p><p><strong>Extrait de graines de chardon-Marie (Silybum marianum)</strong><br/>Soutient la fonction hépatique.</p><p><strong>Extrait de cacao (Theobroma cacao)</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Extrait d’orme rouge (Ulmus rubra)</strong><br/>Aide à soutenir le système digestif.</p><p><strong>Extrait de moringa oleifera (Moringa oleifera Lam.)</strong> <br/>Contribue à la vitalité.</p><p><strong>Extrait de pissenlit (Taraxacum officinale)</strong> <br/>Contribue à la santé digestive.</p><p><strong>Extrait de baie de Goji (Lycium Barbarum)</strong> <br/>Soutient les défenses immunitaires.</p><p><strong>Extrait de thé vert (Camellia Sinensis)</strong> <br/>Aide à maintenir des taux de cholestérol sains.</p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)</strong> <br/>Contribue à une activité intellectuelle et cognitive optimale.</p><p><strong>Extrait de racine de bardane (Arctium lappa)</strong><br/>Contribue au confort digestif.</p><p><strong>Extrait d’aubépine (Crataegus laevigata)</strong> <br/>Soutient la fonction cardiovasculaire.</p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)</strong><br/>Contribue au métabolisme normal du glucose et de l’insuline.</p><p><strong>Extrait de bacopa (Bacopa Monnieri)</strong><br/>Soutient les fonctions cognitives.</p><p><strong>Extrait de romarin (Salvia rosmarinus)</strong> : Contribue à la protection cellulaire.</p>"
+            "text": "<p><strong>Racine de chicorée (Cichorium intybus L.)</strong><br/>Soutient la santé du foie.</p><p><strong>Rose musquée (Rosa canina L.)</strong> <br/>Contribue aux défenses naturelles de l’organisme.</p><p><strong>Feuille d’artichaut (Cynara scolymus)</strong><br/>Contribue au confort intestinal.</p><p><strong>Racine de gingembre (Zingiber officinale)</strong><br/>Contribue à la santé vasculaire.</p><p><strong>Fucus (Fucus vesiculosus)</strong><br/>Contribue à un transit intestinal régulier.</p><p><strong>Graines de chardon-Marie (Silybum marianum)</strong><br/>Soutient la fonction hépatique.</p><p><strong>Cacao (Theobroma cacao)</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Orme rouge (Ulmus rubra)</strong><br/>Aide à soutenir le système digestif.</p><p><strong>Moringa oleifera (Moringa oleifera Lam.)</strong> <br/>Contribue à la vitalité.</p><p><strong>Pissenlit (Taraxacum officinale)</strong> <br/>Contribue à la santé digestive.</p><p><strong>Baie de Goji (Lycium Barbarum)</strong> <br/>Soutient les défenses immunitaires.</p><p><strong>Thé vert (Camellia Sinensis)</strong> <br/>Aide à maintenir des taux de cholestérol sains.</p><p><strong>Ginseng sibérien (Eleutherococcus senticosus)</strong> <br/>Contribue à une activité intellectuelle et cognitive optimale.</p><p><strong>Racine de bardane (Arctium lappa)</strong><br/>Contribue au confort digestif.</p><p><strong>Aubépine (Crataegus laevigata)</strong> <br/>Soutient la fonction cardiovasculaire.</p><p><strong>Racine de ginseng coréen (Panax ginseng)</strong><br/>Contribue au métabolisme normal du glucose et de l’insuline.</p><p><strong>Bacopa (Bacopa Monnieri)</strong><br/>Soutient les fonctions cognitives.</p><p><strong>Romarin (Salvia rosmarinus)</strong> : Contribue à la protection cellulaire.</p>"
           }
         },
         "text_FLJdfy": {
           "type": "text",
           "settings": {
             "title": "Antioxydants",
-            "text": "<p><strong>Extrait de Cacao (Theobroma cacao)</strong> <br/>Contribue à protéger les cellules contre le stress oxydatif.<br/><br/><strong>Extrait de gingembre (Zingiber officinale)<br/></strong>Contribue à la santé vasculaire.<br/><br/><strong>Extrait de thé vert (Camellia Sinensis)</strong><br/>Aide à renforcer les défenses antioxydantes de l’organisme.<br/><br/><strong>Dl-alpha tocophérol (vitamine E)</strong><br/>Contribue à protéger les cellules contre le stress oxydatif.</p>"
+            "text": "<p><strong>Cacao (Theobroma cacao)</strong> <br/>Contribue à protéger les cellules contre le stress oxydatif.<br/><br/><strong>Gingembre (Zingiber officinale)<br/></strong>Contribue à la santé vasculaire.<br/><br/><strong>Thé vert (Camellia Sinensis)</strong><br/>Aide à renforcer les défenses antioxydantes de l’organisme.<br/><br/><strong>Dl-alpha tocophérol (vitamine E)</strong><br/>Contribue à protéger les cellules contre le stress oxydatif.</p>"
           }
         },
         "text_jUYLfr": {
           "type": "text",
           "settings": {
             "title": "Superaliments",
-            "text": "<p><strong>Spiruline (Arthrospira platensis)</strong><br/>Soutient le système immunitaire.<br/><br/><strong>Extrait de baie de Goji (Lycium Barbarum)<br/></strong>Soutient les défenses immunitaires.<br/><br/><strong>Poudre de chlorelle (Chlorella Pyrenoidosa C.)</strong><br/>Favorise la détoxification de l’organisme.</p><p><strong>Poudre de jus d’herbe d’orge (Hordeum vulgare)</strong> <br/>Soutient la santé digestive.</p><p><strong>Poudre de brocoli</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Feuilles d’épinards en poudre</strong><br/>Contribuent au maintien de l’énergie et de la vitalité.</p><p><strong>Poudre de jus de betterave</strong> :<br/>Contribue au bon fonctionnement du système cardiovasculaire.</p><p><strong>Jus de carotte en poudre</strong><br/>Contribue au maintien d’une vision normale.</p><p><strong>Champignon Shiitake (Lentinula edodes)</strong><br/>Soutient le système immunitaire.</p><p><strong>Champignon Reishi (Ganoderma lucidum)</strong><br/>Contribue aux défenses naturelles.</p>"
+            "text": "<p><strong>Spiruline (Arthrospira platensis)</strong><br/>Soutient le système immunitaire.<br/><br/><strong>Baie de Goji (Lycium Barbarum)<br/></strong>Soutient les défenses immunitaires.<br/><br/><strong>Chlorelle (Chlorella Pyrenoidosa C.)</strong><br/>Favorise la détoxification de l’organisme.</p><p><strong>Poudre de jus d’herbe d’orge (Hordeum vulgare)</strong> <br/>Soutient la santé digestive.</p><p><strong>Poudre de brocoli</strong> <br/>Contribue à la protection des cellules contre le stress oxydatif.</p><p><strong>Feuilles d’épinards en poudre</strong><br/>Contribuent au maintien de l’énergie et de la vitalité.</p><p><strong>Poudre de jus de betterave</strong> :<br/>Contribue au bon fonctionnement du système cardiovasculaire.</p><p><strong>Jus de carotte en poudre</strong><br/>Contribue au maintien d’une vision normale.</p><p><strong>Champignon Shiitake (Lentinula edodes)</strong><br/>Soutient le système immunitaire.</p><p><strong>Champignon Reishi (Ganoderma lucidum)</strong><br/>Contribue aux défenses naturelles.</p>"
           }
         },
         "text_wmGEQE": {
           "type": "text",
           "settings": {
             "title": "Adaptogènes",
-            "text": "<p><strong>Extrait de ginseng américain (Panax quinquefolius) Cereboost®</strong><br/>Le Ginseng américain contribue à accroître l’énergie intellectuelle et physique.</p><p><strong>Extrait de ginseng sibérien (Eleutherococcus senticosus)</strong><br/>Le Ginseng sibérien soutient les défenses naturelles.</p><p><strong>Extrait de racine de rhodiola rosea (Rhodiola rosea)</strong> <br/>La Rhodiola rosea aide à réduire la fatigue liée au stress.</p><p><strong>Extrait de racine de ginseng coréen (Panax ginseng)</strong> <br/>Le Ginseng asiatique contribue à des performances cognitives normales.</p><p><strong>Extrait de bacopa (Bacopa Monnieri)</strong> <br/>Le Bacopa Monnieri soutient les fonctions cognitives.</p>"
+            "text": "<p><strong>Ginseng américain (Panax quinquefolius) Cereboost®</strong><br/>Le Ginseng américain contribue à accroître l’énergie intellectuelle et physique.</p><p><strong>Ginseng sibérien (Eleutherococcus senticosus)</strong><br/>Le Ginseng sibérien soutient les défenses naturelles.</p><p><strong>Racine de rhodiola rosea (Rhodiola rosea)</strong> <br/>La Rhodiola rosea aide à réduire la fatigue liée au stress.</p><p><strong>Racine de ginseng coréen (Panax ginseng)</strong> <br/>Le Ginseng asiatique contribue à des performances cognitives normales.</p><p><strong>Bacopa (Bacopa Monnieri)</strong> <br/>Le Bacopa Monnieri soutient les fonctions cognitives.</p>"
           }
         },
         "text_9nE9en": {
@@ -112,10 +197,10 @@
         "button_label": "Téléchargez la liste des ingrédients",
         "button_url": "",
         "button_url_pdf": "https://cdn.shopify.com/s/files/1/0811/8229/4348/files/La_liste_des_ingredients_NUORO_e74af541-19e7-48f3-a3c6-12ae3c4cf3b4.pdf?v=1730836437",
-        "padding_top": 0,
-        "padding_bottom": 60,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 65
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "benefits_3feYe9": {
@@ -181,7 +266,7 @@
           "type": "text",
           "settings": {
             "title": "08",
-            "heading": "Muscles et Os Sains",
+            "heading": "Muscles et Os",
             "text": "<p>Nos formulations incluent calcium, magnésium, et vitamine D pour le soutien musculaire et le maintien d'une ossature normale, essentiels pour une fonction musculaire optimale.</p>"
           }
         },
@@ -214,19 +299,229 @@
         "text_3T8RMn",
         "text_k9TQw4"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Bénéfices Santé",
-        "padding_top": 0,
-        "padding_bottom": 80,
-        "padding_top_mobile": 25,
-        "padding_bottom_mobile": 80
+        "title": "De Multiples Bénéfices dans chaque sachet",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "text_img_tiles_4FKe4N": {
+      "type": "text-img-tiles",
+      "blocks": {
+        "text_VRCWww": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/team_2.jpg",
+            "title": "Métabolisme Énergétique",
+            "text": "La vitamine B12, la niacine et le magnésium contribuent au métabolisme énergétique normal."
+          }
+        },
+        "text_fwxhe3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/NUORO_drink.jpg",
+            "title": "Système Immunitaire",
+            "text": "La vitamine C, le sélénium et le zinc, contribuent au fonctionnement normal du système immunitaire."
+          }
+        },
+        "text_Y6yjtG": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Amine-M-nuoror-reveiw.jpg",
+            "title": "Fonction Cognitive",
+            "text": "Le fer, le zinc, et l'iode contribuent à une fonction cognitive normale."
+          }
+        },
+        "text_qHRkjB": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/drink-nuoro.jpg",
+            "title": "Métabolisme Digestif",
+            "text": "Les enzymes digestives, comme la bromélaïne, et les prébiotiques tels que l’inuline, contribuent à un métabolisme digestif efficace."
+          }
+        },
+        "text_6iHBcP": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_22f849f937b5541b2fe1f5e8a33c24be.jpg",
+            "title": "Stress Oxydatif",
+            "text": "La riboflavine, la vitamine C et le zinc contribuent à protéger les cellules contre le stress oxydatif."
+          }
+        },
+        "text_dfNKhD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_36c69ee44809802d9234699db5144304.jpg",
+            "title": "Peau et Cheveux",
+            "text": "Le zinc et la biotine, contribuent au maintien d'une peau et de cheveux normaux."
+          }
+        },
+        "text_REQC4Q": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_a8b9d0fe90d8e07887326bffbff14d9f.jpg",
+            "title": "Activité Hormonale",
+            "text": "La vitamine B6 contribue à réguler l'activité hormonale."
+          }
+        },
+        "text_jtqqLQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_e3fe81dac4f66019eeb5498ebb853e40.jpg",
+            "title": "Système Nerveux",
+            "text": "L'ensemble de vitamines B, le magnésium et l'huile d'onagre dans notre formule aident à réguler l'activité nerveuse."
+          }
+        },
+        "text_tGHVk7": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/original_a78d5ae3585065fe9b726180f5a89c9d.jpg",
+            "title": "Fertilité",
+            "text": "Le zinc est essentiel pour une fertilité et une reproduction normales, aidant à soutenir la santé reproductive à la fois chez les hommes et les femmes."
+          }
+        }
+      },
+      "block_order": [
+        "text_VRCWww",
+        "text_fwxhe3",
+        "text_Y6yjtG",
+        "text_qHRkjB",
+        "text_6iHBcP",
+        "text_dfNKhD",
+        "text_REQC4Q",
+        "text_jtqqLQ",
+        "text_tGHVk7"
+      ],
+      "settings": {
+        "title": "De Multiples Bénéfices dans chaque sachet",
+        "subtitle": "Chez NUORO, chaque ingrédient a été soigneusement sélectionné pour une absorption optimale et une synergie parfaite, afin de maximiser leurs bienfaits.",
+        "image": "shopify://shop_images/6483450-16_9.jpg",
+        "button_label": "Commencez NUORO ☀",
+        "button_url": "shopify://products/nuoro-solution-nutritionnelle-optimale",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "title_and_list_kzJy7p": {
+      "type": "title-and-list",
+      "blocks": {
+        "text_7CtqkR": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Gluten"
+          }
+        },
+        "text_DP3ygP": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Lactose"
+          }
+        },
+        "text_wM9WjT": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Oeufs"
+          }
+        },
+        "text_iWdUgx": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Arachides"
+          }
+        },
+        "text_watDzm": {
+          "type": "text",
+          "settings": {
+            "text": "Sans Sucre ajouté"
+          }
+        }
+      },
+      "block_order": [
+        "text_7CtqkR",
+        "text_DP3ygP",
+        "text_wM9WjT",
+        "text_iWdUgx",
+        "text_watDzm"
+      ],
+      "settings": {
+        "title": "Sans arômes, colorants et conservateurs artificiels.",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "faq_home_fw4HEr": {
+      "type": "faq-home",
+      "blocks": {
+        "text_RXCGVF": {
+          "type": "text",
+          "settings": {
+            "title": "Les ingrédients de NUORO peuvent-ils entrer en conflit entre eux ?",
+            "text": "<p>Non, la formule NUORO est scientifiquement conçue pour maximiser les synergies entre les ingrédients.</p><p>\t•\tChaque composant est dosé pour s’intégrer harmonieusement.</p><p>\t•\tPar exemple, la vitamine D3 et la vitamine K2 soutiennent ensemble la santé osseuse, tandis que les probiotiques et prébiotiques renforcent le microbiome intestinal.</p>"
+          }
+        },
+        "text_tLtPhA": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi certains ingrédients dépassent-ils les 100% des VNR ?",
+            "text": "<p>Certaines vitamines et minéraux, comme la vitamine C ou le zinc, dépassent les 100% des VNR pour répondre aux besoins accrus liés :</p><p>\t•\tAu stress,</p><p>\t•\tÀ une activité physique intense,</p><p>\t•\tAux défis environnementaux modernes.<br/></p><p>Ces doses restent bien en dessous des seuils de sécurité établis.</p>"
+          }
+        },
+        "text_HAnbUm": {
+          "type": "text",
+          "settings": {
+            "title": "D’où proviennent les ingrédients de NUORO ?",
+            "text": "<p>Nos ingrédients proviennent de filières durables, avec une traçabilité totale.</p>"
+          }
+        },
+        "text_VKeMxY": {
+          "type": "text",
+          "settings": {
+            "title": "Peut-on consommer NUORO tous les jours ?",
+            "text": "<p>Oui, NUORO est formulé pour une prise quotidienne, avec des doses adaptées pour :</p><p>\t•\tCouvrir les besoins nutritionnels quotidiens,</p><p>\t•\tÉviter tout risque de surdosage.</p>"
+          }
+        },
+        "text_Uwq3rG": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi NUORO contient-il autant d’ingrédients ?",
+            "text": "<p>Les 71 ingrédients de NUORO sont sélectionnés pour offrir une solution tout-en-un, couvrant un large spectre de besoins :</p><ul><li>Vitamines, minéraux, antioxydants, adaptogènes, superaliments, probiotiques et enzymes digestives.</li><li>Cette diversité garantit une densité nutritionnelle inégalée.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RXCGVF",
+        "text_tLtPhA",
+        "text_HAnbUm",
+        "text_VKeMxY",
+        "text_Uwq3rG"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "button_label": "",
+        "button_url": "",
+        "button_url_pdf": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
       }
     }
   },
   "order": [
     "page_title_eWBP8a",
     "img_and_content_atRwY9",
+    "text_icon_blocks_iVAVHb",
     "faq_home_xiKfpw",
-    "benefits_3feYe9"
+    "benefits_3feYe9",
+    "text_img_tiles_4FKe4N",
+    "title_and_list_kzJy7p",
+    "faq_home_fw4HEr"
   ]
 }

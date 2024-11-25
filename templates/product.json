@@ -36,17 +36,17 @@
         "product_recharge_DtLgtE": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Offre de lancement | Économisez 38 €",
+            "subscribe_subtitle": "Offre Black Friday | Économisez 30 €",
             "subscribe_title": "ABONNEMENT",
-            "item_cost_subscribe": "{1,96€ / sachet* }",
+            "item_cost_subscribe": "{1,96€ / sachet}",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
             "subscribe_list_item_2": "Sans Engagement",
             "subscribe_list_item_3": "Flex: Pause ou annulation à tout moment",
             "subscribe_list_item_4": "",
-            "subscribe_bottom_text": "Premier Mois d'essais, puis 79€/mois",
+            "subscribe_bottom_text": "Premier Mois d'essais, puis 69€/mois",
             "one_time_subtitle": "",
             "one_time_title": "Achat Unique",
-            "item_cost_one_time": "{3,23€ / sachet*}",
+            "item_cost_one_time": "{2,96€ / sachet}",
             "one_time_list_item_1": "Boite de 30 sachets expédiée une fois",
             "one_time_list_item_2": "",
             "one_time_list_item_3": "",
@@ -279,7 +279,7 @@
             "image": "shopify://shop_images/Microbs.png",
             "text": "",
             "image_center": "shopify://shop_images/Vector_1.png",
-            "text_last": "Coût Mensuel"
+            "text_last": "Complément Classique"
           }
         },
         "main_block_YbaKxC": {
@@ -348,7 +348,7 @@
         "main_block_38HyFj": {
           "type": "main_block",
           "settings": {
-            "text_first": "8Extraits de plantes",
+            "text_first": "8Électrolytes",
             "display_type": "checkmark",
             "text_center": "",
             "text_last": "14,20 €"
@@ -376,9 +376,9 @@
         "last_block_93bEfh"
       ],
       "settings": {
-        "title": "NUORO REMPLACE",
+        "title": "NUORO COMBINE PLUSIEURS COMPLÉMENTS",
         "subheading": "",
-        "description": "",
+        "description": "<p>*Offre Black Friday: Premier mois d'essais à 59€, puis 69€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
         "bg_color": "#ffffff",
         "padding_top": 70,
         "padding_bottom": 40,
@@ -626,8 +626,8 @@
         "link": "nuoro-solution-nutritionnelle-optimale",
         "link_label": "Passer Commande",
         "bottom_text": "1,96€ Par Sachet",
-        "center_text": "<ul><li>Premier Mois d'essais, puis 79€/mois</li><li>Pause ou annulation à tout moment</li><li>Sans engagement</li></ul>",
-        "center_text_mobile": "<p>*Premier Mois d'essais, puis 79€/mois</p>",
+        "center_text": "<ul><li>Premier Mois d'essais, puis 69€/mois</li><li>Pause ou annulation à tout moment</li><li>Sans engagement</li></ul>",
+        "center_text_mobile": "<p>*Premier Mois d'essais, puis 69€/mois</p>",
         "padding_top": 16,
         "padding_bottom": 16,
         "padding_top_mb": 16,

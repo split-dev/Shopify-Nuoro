@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "button_label": "Commencez ☀",
+        "button_label": "Commencez",
         "button_url": "shopify://products/nuoro-solution-nutritionnelle-optimale",
         "mobile_login": "Mon Compte",
         "logo_position": "middle-center",

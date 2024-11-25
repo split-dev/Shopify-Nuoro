@@ -12,7 +12,8 @@
     "page_title_eWBP8a": {
       "type": "page-title",
       "settings": {
-        "title": "Nos Valeurs",
+        "title": "Redéfinir la vie à travers une santé optimale",
+        "text": "",
         "padding_top": 0,
         "padding_bottom": 20,
         "padding_top_mobile": 0,
@@ -28,7 +29,7 @@
             "title": "01",
             "heading": "Connexion",
             "text": "Favoriser des liens forts et significatifs.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_11.jpg"
+            "image": "shopify://shop_images/original_7fb92b3d5950126ad5ab7c31f111c8b4_11.jpg"
           }
         },
         "text_KeYkjm": {
@@ -37,7 +38,7 @@
             "title": "02",
             "heading": "Authenticité",
             "text": "Vivre et communiquer avec transparence et sincérité.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3.jpg"
+            "image": "shopify://shop_images/original_7fb92b3d5950126ad5ab7c31f111c8b4_3.jpg"
           }
         },
         "text_zqRtk8": {
@@ -46,7 +47,7 @@
             "title": "03",
             "heading": "Innovation",
             "text": "Poursuivre l'excellence et le progrès scientifique pour le bien-être.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3_ff10d73e-f77c-4e32-80de-490750b0108b.jpg"
+            "image": "shopify://shop_images/NUORO_Recherche_Scientifique.jpg"
           }
         },
         "text_TgfLHY": {
@@ -55,7 +56,7 @@
             "title": "04",
             "heading": "Pureté",
             "text": "Privilégier les ingrédients naturels et les pratiques respectueuses de l'environnement.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_11.png"
+            "image": "shopify://shop_images/NUORO_complement_Alimentaire_tout-en-un.jpg"
           }
         },
         "text_hQaqLD": {
@@ -64,7 +65,7 @@
             "title": "05",
             "heading": "Vitalité",
             "text": "Encourager un mode de vie dynamique et actif.",
-            "image": "shopify:\/\/shop_images\/original_e8723f1171b1e3b4220bebe0cec802f0_4_69a432f8-3be7-4ef7-ae06-450b853a29d1.jpg"
+            "image": "shopify://shop_images/NUORO-Running-club.jpg"
           }
         },
         "text_BVhfwj": {
@@ -73,7 +74,7 @@
             "title": "06",
             "heading": "Éthique",
             "text": "Agir avec intégrité, responsabilité sociale et environnementale.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_2.jpg"
+            "image": "shopify://shop_images/original_7fb92b3d5950126ad5ab7c31f111c8b4_2.jpg"
           }
         },
         "text_Nh4bPC": {
@@ -82,7 +83,7 @@
             "title": "07",
             "heading": "Passion",
             "text": "Être animé par un engagement profond pour la santé et le bien-être.",
-            "image": "shopify:\/\/shop_images\/original_7fb92b3d5950126ad5ab7c31f111c8b4_3_1.jpg"
+            "image": "shopify://shop_images/original_7fb92b3d5950126ad5ab7c31f111c8b4_3_1.jpg"
           }
         }
       },
@@ -96,7 +97,7 @@
         "text_Nh4bPC"
       ],
       "settings": {
-        "title": "",
+        "title": "NUORO RUN CLUB",
         "padding_top": 50,
         "padding_bottom": 90,
         "padding_top_mobile": 40,

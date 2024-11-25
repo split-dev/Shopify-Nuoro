@@ -1,0 +1,159 @@
+{{ 'sticky-section.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mb }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+  <div class="sticky-section__wrapper d-flex flex-wrap justify-content-between align-items-center">
+    <div class="sticky-section__img">
+      {{ section.settings.link.featured_image | image_url: width: 3840 | image_tag: width: section.settings.link.featured_image.width, height: section.settings.product.image.height, class: 'sticky-section__img', sizes: '100vw', widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+    </div>
+    <div class="custom-recharge__subscribe-price">
+      <span
+        class="custom-recharge__price-wrapper d-flex align-items-center"
+      >
+        {% for allocation in product.selected_or_first_available_variant.selling_plan_allocations %}
+          <span class="custom-recharge__regular-price">{{ allocation.compare_at_price | money }}</span>
+          <span
+            class="custom-recharge__price custom-recharge__plan-price"
+            id="price_for_plan_{{ allocation.selling_plan.id }}"
+          >
+            {{ allocation.per_delivery_price | money }}
+          </span>
+        {% endfor %}
+      </span>
+      <span class="sticky-section__text-bottom text-15px">{{ section.settings.bottom_text }}</span>
+    </div>
+    {%- if section.settings.center_text != blank -%}
+      <div class="desktop text-15px">
+        {{ section.settings.center_text }}
+      </div>
+    {%- endif -%}
+    {%- if section.settings.center_text != blank -%}
+      <div class="mobile text-15px">
+        {{ section.settings.center_text_mobile }}
+      </div>
+    {%- endif -%}
+
+    {%- assign product = all_products[section.settings.link] -%}
+    {%- assign first_variant = product.variants.first.id -%}
+
+    <form method="post" action="/cart/add" id="add-to-checkout-form">
+      <input type="hidden" name="id" value="{{ first_variant }}">
+      <input min="1" type="hidden" id="{{ section.id }}" name="quantity" value="1">
+      <button type="submit" name="Add to cart" value="Add to cart" class="btn btn__primary">
+        <span>
+          {%- if first_variant == null -%}
+            {{ 'products.product.unavailable' | t }}
+          {%- elsif first_variant.available == false -%}
+            {{ 'products.product.sold_out' | t }}
+          {%- else -%}
+            {{ 'products.product.add_to_cart' | t }}
+          {%- endif -%}
+        </span>
+      </button>
+    </form>
+  </div>
+</div>
+<script></script>
+{% schema %}
+{
+  "name": "Sticky Section",
+  "tag": "section",
+  "class": "sticky-section d-none",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "product",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link Label"
+    },
+    {
+      "type": "text",
+      "id": "bottom_text",
+      "label": "Small Text"
+    },
+    {
+      "type": "richtext",
+      "id": "center_text",
+      "label": "Product Info"
+    },
+    {
+      "type": "richtext",
+      "id": "center_text_mobile",
+      "label": "Product Info (Mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Padding (desktop)"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Padding (mobile)"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mb",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sticky Section"
+    }
+  ]
+}
+{% endschema %}

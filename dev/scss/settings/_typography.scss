@@ -1,10 +1,20 @@
-@use '../settings/config' as *;
+@use "../settings/config" as *;
 
-h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
     font-family: $font-family-headings !important;
 }
 
-h1, .h1 {
+h1,
+.h1 {
     font-size: 52.5px !important;
     font-weight: 400;
     line-height: normal;
@@ -17,12 +27,13 @@ h1, .h1 {
         font-size: 32px !important;
     }
 }
-  
-h2, .h2 {
+
+h2,
+.h2 {
     font-size: 52.5px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; 
+    line-height: 100%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
         font-size: 40px;
@@ -31,12 +42,13 @@ h2, .h2 {
         font-size: 32px;
     }
 }
-  
-h3, .h3 {
+
+h3,
+.h3 {
     font-size: 42px;
     font-weight: 400;
     line-height: normal;
-    line-height: 100%; 
+    line-height: 100%;
     text-transform: uppercase;
     @media (max-width: 1400px) {
         font-size: 36px;
@@ -45,7 +57,8 @@ h3, .h3 {
         font-size: 28px;
     }
 }
-h4, .h4 {
+h4,
+.h4 {
     font-size: 25px;
     font-weight: 400;
     line-height: normal;
@@ -59,7 +72,10 @@ h4, .h4 {
     }
 }
 
-p, span, li, .text-15px {
+p,
+span,
+li,
+.text-15px {
     font-size: 15px !important;
     font-style: normal;
     font-weight: 500;
@@ -70,8 +86,8 @@ p, span, li, .text-15px {
     @include media-breakpoint-down(md) {
         font-size: 15px;
     }
-  }
-  .text-26px {
+}
+.text-26px {
     font-size: 26px !important;
     font-style: normal;
     font-weight: 500;
@@ -82,8 +98,8 @@ p, span, li, .text-15px {
     @include media-breakpoint-down(md) {
         font-size: 20px !important;
     }
-  }
-  .text-22px {
+}
+.text-22px {
     font-size: 22px !important;
     font-style: normal;
     font-weight: 500;
@@ -91,4 +107,13 @@ p, span, li, .text-15px {
     @include media-breakpoint-down(md) {
         font-size: 16px !important;
     }
-  }
+}
+.text-20px {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    @include media-breakpoint-down(md) {
+        font-size: 15px !important;
+    }
+}

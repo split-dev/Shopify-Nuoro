@@ -23,9 +23,9 @@
         "title": "Recherche Scientifique",
         "text": "<p>Chez NUORO, nous nous engageons à utiliser des ingrédients de la plus haute qualité pour soutenir le bien-être et optimiser les fonctions corporelles et mentales.<br/><br/>Nos produits<em> </em>sont le résultat d'une recherche approfondie et d'une sélection rigoureuse des composants, assurant une efficacité optimale et une sécurité maximale pour nos utilisateurs. </p>",
         "padding_top": 0,
-        "padding_bottom": 60,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 40
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "img_and_content_KPCUd3": {
@@ -37,12 +37,13 @@
         "title": "ENGAGEMENT POUR l'Excellence",
         "subtitle": "",
         "text": "<p>Notre équipe de chercheurs est profondément engagée dans une démarche scientifique rigoureuse et innovante, respectant et promouvant les plus hauts standards de qualité et d’éthique. <br/><br/>Aujourd’hui, NUORO en est déjà à sa 10ème version, preuve de notre volonté constante de perfectionner notre formule. Nous continuerons à itérer et affiner celle-ci, en nous basant sur les données que nous collectons, pour garantir que Nuoro demeure à la pointe de la nutrition.</p>",
+        "display_type": "icon",
         "button_label": "Notre Équipe de Chercheurs",
         "button_url": "",
-        "padding_top": 20,
-        "padding_bottom": 90,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 80
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "img_and_content_3UyPVG": {
@@ -54,12 +55,13 @@
         "title": "Contrôle Qualité Rigoureux",
         "subtitle": "",
         "text": "<p>Nos installations de production sont conformes aux normes de Good Manufacturing Practice (GMP) et ISO 22000, garantissant que notre solution respecte les exigences réglementaires les plus strictes en matière de sécurité et de qualité. <br/><br/>Chaque lot est entièrement traçable grâce à des dossiers de fabrication complets, incluant des tests analytiques et microbiologiques. Nous réalisons également des audits indépendants rigoureux de notre installation de fabrication et des revues toxicologiques pour vérifier la formulation du produit et les allégations sur les étiquettes, tout en prévenant les niveaux dangereux de contaminants.</p>",
+        "display_type": "icon",
         "button_label": "",
         "button_url": "",
-        "padding_top": 0,
-        "padding_bottom": 90,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 80
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "img_and_content_FWiUDK": {
@@ -71,12 +73,13 @@
         "title": "Partage de Connaissances",
         "subtitle": "",
         "text": "<p>La transmission de notre savoir est une partie intégrante de notre mission. NUORO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.</p>",
+        "display_type": "icon",
         "button_label": "",
         "button_url": "",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 100
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
       }
     },
     "research_team_mqhwng": {
@@ -138,6 +141,7 @@
         "text_yGXGGU",
         "text_AKFi3D"
       ],
+      "disabled": true,
       "settings": {
         "title": "Notre Équipe de Chercheurs",
         "button_label": "Notre production",

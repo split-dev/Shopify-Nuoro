@@ -28,11 +28,11 @@
             margin-bottom: 40px;
         }
     }
-    .product__title {
-        // @include media-breakpoint-down(md) {
-        //     display: none;
-        // }
-    }
+    // .product__title {
+    //     @include media-breakpoint-down(md) {
+    //         display: none;
+    //     }
+    // }
     .product__media-wrapper {
         padding-left: 10px;
         position: relative;
@@ -91,15 +91,15 @@
         }
     }
     .product__gallery-pagination {
-        @media (min-width: 992px) {
-            display: none;
-        }
         position: absolute;
         bottom: 50px;
         z-index: 2;
         display: flex;
         justify-content: center;
         width: 100%;
+        @media (min-width: 992px) {
+            display: none;
+        }
         .swiper-pagination-bullet {
             margin: 0 8px;
             width: 18px;

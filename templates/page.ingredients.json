@@ -493,6 +493,13 @@
             "title": "Pourquoi NUORO contient-il autant d’ingrédients ?",
             "text": "<p>Les 71 ingrédients de NUORO sont sélectionnés pour offrir une solution tout-en-un, couvrant un large spectre de besoins :</p><ul><li>Vitamines, minéraux, antioxydants, adaptogènes, superaliments, probiotiques et enzymes digestives.</li><li>Cette diversité garantit une densité nutritionnelle inégalée.</li></ul>"
           }
+        },
+        "text_HQwRKV": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi NUORO n’est-il pas proposé sous forme de gélules ?",
+            "text": "<p>Chez NUORO, nous avons opté pour une formule en poudre plutôt qu’en gélules pour deux raisons principales :</p><p>\t1.\t<strong>Une dose complète en une seule prise :</strong> Chaque sachet de NUORO contient 12,7g de nutriments actifs. Si nous devions encapsuler cette quantité, il faudrait environ <strong>15 à 20 gélules par jour</strong> pour offrir la même densité nutritionnelle. Cela rendrait la prise beaucoup moins pratique et agréable.</p><p>\t2.\t<strong>Une biodisponibilité optimisée :</strong> La forme en poudre, lorsqu’elle est mélangée à de l’eau, permet une absorption plus rapide et efficace des nutriments par l’organisme, comparée à des gélules qui doivent être dissoutes dans le système digestif avant d’être assimilées.</p><p><br/></p><p>NUORO est conçu pour simplifier votre routine quotidienne tout en maximisant les bienfaits nutritionnels.</p>"
+          }
         }
       },
       "block_order": [
@@ -500,7 +507,8 @@
         "text_tLtPhA",
         "text_HAnbUm",
         "text_VKeMxY",
-        "text_Uwq3rG"
+        "text_Uwq3rG",
+        "text_HQwRKV"
       ],
       "settings": {
         "title": "FAQ",

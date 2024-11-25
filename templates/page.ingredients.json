@@ -470,7 +470,7 @@
           "type": "text",
           "settings": {
             "title": "Pourquoi certains ingrédients dépassent-ils les 100% des VNR ?",
-            "text": "<p>Certaines vitamines et minéraux, comme la vitamine C ou le zinc, dépassent les 100% des VNR pour répondre aux besoins accrus liés :</p><p>\t•\tAu stress,</p><p>\t•\tÀ une activité physique intense,</p><p>\t•\tAux défis environnementaux modernes.</p><p><br/></p><p>Ces doses restent bien en dessous des seuils de sécurité établis.</p>"
+            "text": "<p>Certaines vitamines et minéraux, comme la vitamine C ou le zinc, dépassent les 100% des VNR pour répondre aux besoins accrus liés :</p><p>\t•\tAu stress,</p><p>\t•\tÀ une activité physique intense,</p><p>\t•\tAux défis environnementaux modernes.<br/></p><p>Ces doses restent bien en dessous des seuils de sécurité établis.</p>"
           }
         },
         "text_HAnbUm": {

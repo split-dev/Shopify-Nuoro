@@ -455,6 +455,63 @@
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 40
       }
+    },
+    "faq_home_fw4HEr": {
+      "type": "faq-home",
+      "blocks": {
+        "text_RXCGVF": {
+          "type": "text",
+          "settings": {
+            "title": "Les ingrédients de NUORO peuvent-ils entrer en conflit entre eux ?",
+            "text": "<p>Non, la formule NUORO est scientifiquement conçue pour maximiser les synergies entre les ingrédients.</p><p>\t•\tChaque composant est dosé pour s’intégrer harmonieusement.</p><p>\t•\tPar exemple, la vitamine D3 et la vitamine K2 soutiennent ensemble la santé osseuse, tandis que les probiotiques et prébiotiques renforcent le microbiome intestinal.</p>"
+          }
+        },
+        "text_tLtPhA": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi certains ingrédients dépassent-ils les 100% des VNR ?",
+            "text": "<p>Certaines vitamines et minéraux, comme la vitamine C ou le zinc, dépassent les 100% des VNR pour répondre aux besoins accrus liés :</p><p>\t•\tAu stress,</p><p>\t•\tÀ une activité physique intense,</p><p>\t•\tAux défis environnementaux modernes.</p><p><br/></p><p>Ces doses restent bien en dessous des seuils de sécurité établis.</p>"
+          }
+        },
+        "text_HAnbUm": {
+          "type": "text",
+          "settings": {
+            "title": "D’où proviennent les ingrédients de NUORO ?",
+            "text": "<p>Nos ingrédients proviennent de filières durables, avec une traçabilité totale.</p>"
+          }
+        },
+        "text_VKeMxY": {
+          "type": "text",
+          "settings": {
+            "title": "Peut-on consommer NUORO tous les jours ?",
+            "text": "<p>Oui, NUORO est formulé pour une prise quotidienne, avec des doses adaptées pour :</p><p>\t•\tCouvrir les besoins nutritionnels quotidiens,</p><p>\t•\tÉviter tout risque de surdosage.</p>"
+          }
+        },
+        "text_Uwq3rG": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi NUORO contient-il autant d’ingrédients ?",
+            "text": "<p>Les 71 ingrédients de NUORO sont sélectionnés pour offrir une solution tout-en-un, couvrant un large spectre de besoins :</p><p>\t•\t<strong>Vitamines, minéraux, antioxydants, adaptogènes, superaliments, probiotiques et enzymes digestives</strong>.</p><p>Cette diversité garantit une densité nutritionnelle inégalée.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RXCGVF",
+        "text_tLtPhA",
+        "text_HAnbUm",
+        "text_VKeMxY",
+        "text_Uwq3rG"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "button_label": "",
+        "button_url": "",
+        "button_url_pdf": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -464,6 +521,7 @@
     "faq_home_xiKfpw",
     "benefits_3feYe9",
     "text_img_tiles_4FKe4N",
-    "title_and_list_kzJy7p"
+    "title_and_list_kzJy7p",
+    "faq_home_fw4HEr"
   ]
 }

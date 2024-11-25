@@ -491,7 +491,7 @@
           "type": "text",
           "settings": {
             "title": "Pourquoi NUORO contient-il autant d’ingrédients ?",
-            "text": "<p>Les 71 ingrédients de NUORO sont sélectionnés pour offrir une solution tout-en-un, couvrant un large spectre de besoins :</p><p>\t•\t<strong>Vitamines, minéraux, antioxydants, adaptogènes, superaliments, probiotiques et enzymes digestives</strong>.</p><p>Cette diversité garantit une densité nutritionnelle inégalée.</p>"
+            "text": "<p>Les 71 ingrédients de NUORO sont sélectionnés pour offrir une solution tout-en-un, couvrant un large spectre de besoins :</p><ul><li>Vitamines, minéraux, antioxydants, adaptogènes, superaliments, probiotiques et enzymes digestives.</li><li>Cette diversité garantit une densité nutritionnelle inégalée.</li></ul>"
           }
         }
       },

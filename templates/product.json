@@ -459,22 +459,12 @@
             "card_subtitle": "\"NUORO fait partie de ma routine quotidienne. Avec mon rythme de vie intense, c’est une solution pratique et complète qui m’apporte énergie, équilibre et vitalité. J’aime sa simplicité : un sachet, et je sais que je prends soin de moi.\"",
             "card_name": "Mannequin International"
           }
-        },
-        "reviews_M6LYH9": {
-          "type": "reviews",
-          "settings": {
-            "review_image": "shopify://shop_images/original_a78d5ae3585065fe9b726180f5a89c9d.jpg",
-            "card_title": "",
-            "card_subtitle": "",
-            "card_name": ""
-          }
         }
       },
       "block_order": [
         "reviews_kdzdfL",
         "reviews_GjiHkj",
-        "reviews_piYmYE",
-        "reviews_M6LYH9"
+        "reviews_piYmYE"
       ],
       "settings": {
         "padding_top": 50,

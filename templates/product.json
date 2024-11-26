@@ -459,22 +459,12 @@
             "card_subtitle": "NUORO fait partie de ma routine quotidienne. Avec mon rythme de vie intense, c’est une solution pratique et complète qui m’apporte énergie, équilibre et vitalité. J’aime sa simplicité : un sachet, et je sais que je prends soin de moi.",
             "card_name": "Mannequin International"
           }
-        },
-        "reviews_4CKmyg": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 4,
-            "card_title": "Je sens la différence !",
-            "card_subtitle": "Je sens la différence ! Depuis que je bois Nuoro, je me sens plus en forme.",
-            "card_name": "Paul Tancrède"
-          }
         }
       },
       "block_order": [
         "reviews_kdzdfL",
         "reviews_GjiHkj",
-        "reviews_piYmYE",
-        "reviews_4CKmyg"
+        "reviews_piYmYE"
       ],
       "settings": {
         "padding_top": 50,

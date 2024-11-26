@@ -476,12 +476,12 @@
         "reviews_piYmYE",
         "reviews_4CKmyg"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 50,
         "padding_bottom": 50,
         "title": "Les meilleurs performeur.euse.s boivent nuoro",
         "sub_title": "",
+        "logo_trustpilot": "shopify://shop_images/Nuoro_IllustrationDigital_07_Black.png",
         "logo_trustpilot_url": ""
       }
     },

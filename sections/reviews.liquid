@@ -63,7 +63,9 @@
                 <p class="card-name">
                   <span>{{ block.settings.card_name }}</span>
                   <a href="{{ section.settings.logo_trustpilot_url }}" target="_blank">
-                    {{ section.settings.logo_trustpilot | image_url: width: 70 | image_tag: class: 'reviews__image', loading: 'lazy' }}
+                    {%- if section.settings.logo_trustpilot != blank -%}
+                      {{ section.settings.logo_trustpilot | image_url: width: 70 | image_tag: class: 'reviews__image', loading: 'lazy' }}
+                    {%- endif -%}
                   </a>
                 </p>
               </div>
@@ -110,6 +112,12 @@
         },
       },
     });
+
+    var swiper__slidecount = swiperReviews.slides.length;
+    if (swiper__slidecount <= 3) {
+      document.querySelector('.swip__reviews .swiper-button-prev').style.display = 'none';
+      document.querySelector('.swip__reviews .swiper-button-next').style.display = 'none';
+    }
 
     const arrayCards = document.querySelectorAll('.reviews__container article');
     arrayCards.forEach((item) => {
@@ -219,7 +227,7 @@
       ]
     }
   ],
-    "presets": [
+  "presets": [
     {
       "name": "Reviews",
       "category": "Content"

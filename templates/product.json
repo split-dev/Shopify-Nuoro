@@ -430,6 +430,16 @@
     "reviews": {
       "type": "reviews",
       "blocks": {
+        "reviews_piYmYE": {
+          "type": "reviews",
+          "settings": {
+            "review_image": "shopify://shop_images/Danielle_Copperman.jpg",
+            "count_reviews": 0,
+            "card_title": "Danielle Copperman",
+            "card_subtitle": "\"J’adore la facilité avec laquelle NUORO s’intègre à ma routine. C’est devenu ma façon préférée de consommer des nutriments supplémentaires, que ce soit en voyage ou en déplacement.\"",
+            "card_name": "Mannequin international, auteur et expert en nutrition"
+          }
+        },
         "reviews_kdzdfL": {
           "type": "reviews",
           "settings": {
@@ -449,29 +459,18 @@
             "card_subtitle": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
             "card_name": "Vainqueur des 24H du Mans"
           }
-        },
-        "reviews_piYmYE": {
-          "type": "reviews",
-          "settings": {
-            "review_image": "shopify://shop_images/Danielle_Copperman.jpg",
-            "count_reviews": 0,
-            "card_title": "Danielle Copperman",
-            "card_subtitle": "\"NUORO fait partie de ma routine quotidienne. Avec mon rythme de vie intense, c’est une solution pratique et complète qui m’apporte énergie, équilibre et vitalité. J’aime sa simplicité : un sachet, et je sais que je prends soin de moi.\"",
-            "card_name": "Mannequin International"
-          }
         }
       },
       "block_order": [
+        "reviews_piYmYE",
         "reviews_kdzdfL",
-        "reviews_GjiHkj",
-        "reviews_piYmYE"
+        "reviews_GjiHkj"
       ],
       "settings": {
         "padding_top": 50,
         "padding_bottom": 50,
         "title": "Les meilleurs performeur.euse.s boivent nuoro",
         "sub_title": "",
-        "logo_trustpilot": "shopify://shop_images/Nuoro_IllustrationDigital_07_Black.png",
         "logo_trustpilot_url": ""
       }
     },

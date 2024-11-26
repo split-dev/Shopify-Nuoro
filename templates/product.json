@@ -453,10 +453,11 @@
         "reviews_piYmYE": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 3,
-            "card_title": "Première commande",
-            "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
-            "card_name": "Alexis Mary"
+            "review_image": "shopify://shop_images/Danielle_Copperman.jpg",
+            "count_reviews": 0,
+            "card_title": "Danielle Copperman",
+            "card_subtitle": "NUORO fait partie de ma routine quotidienne. Avec mon rythme de vie intense, c’est une solution pratique et complète qui m’apporte énergie, équilibre et vitalité. J’aime sa simplicité : un sachet, et je sais que je prends soin de moi.",
+            "card_name": "Mannequin"
           }
         },
         "reviews_4CKmyg": {

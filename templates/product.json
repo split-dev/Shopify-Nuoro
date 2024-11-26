@@ -433,53 +433,46 @@
         "reviews_kdzdfL": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 4,
-            "card_title": "Je sens la différence !",
-            "card_subtitle": "Je sens la différence ! Depuis que je bois Nuoro, je me sens plus en forme.",
-            "card_name": "Paul Tancrède"
+            "review_image": "shopify://shop_images/Mylene_Dorange_-_Ambassadrice_NUORO.png",
+            "count_reviews": 0,
+            "card_title": "Mylène Dorange",
+            "card_subtitle": "\"Je bois NUORO tous les matins, c’est mon boost d’énergie pour affronter mes longues journées en plateau. Il m’apporte tout ce dont j’ai besoin pour rester en forme et concentré tout au long de la journée.”",
+            "card_name": "Présentatrice TV"
           }
         },
         "reviews_GjiHkj": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 5,
-            "card_title": "Très bon retour à faire sur cette…",
-            "card_subtitle": "Très bon retour à faire sur cette nouvelle super poudre! Le goût est bon. Simple à diluer dans 300ml. La concentration des nutriments est forte. Je ne suis qu’à mon premier mois mais je me sens super bien!",
-            "card_name": "Xavier"
+            "review_image": "shopify://shop_images/Julien-Andlauer---Ambassadeur-NUORO.jpg",
+            "count_reviews": 0,
+            "card_title": "Julien Andlauer",
+            "card_subtitle": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
+            "card_name": "Vainqueur des 24H du Mans"
           }
         },
         "reviews_piYmYE": {
           "type": "reviews",
           "settings": {
-            "count_reviews": 3,
-            "card_title": "Première commande",
-            "card_subtitle": "Bon, pratique et avec un réel impact / intérêt nutritionnel",
-            "card_name": "Alexis Mary"
-          }
-        },
-        "reviews_4CKmyg": {
-          "type": "reviews",
-          "settings": {
-            "count_reviews": 4,
-            "card_title": "Je sens la différence !",
-            "card_subtitle": "Je sens la différence ! Depuis que je bois Nuoro, je me sens plus en forme.",
-            "card_name": "Paul Tancrède"
+            "review_image": "shopify://shop_images/Danielle_Copperman.jpg",
+            "count_reviews": 0,
+            "card_title": "Danielle Copperman",
+            "card_subtitle": "\"NUORO fait partie de ma routine quotidienne. Avec mon rythme de vie intense, c’est une solution pratique et complète qui m’apporte énergie, équilibre et vitalité. J’aime sa simplicité : un sachet, et je sais que je prends soin de moi.\"",
+            "card_name": "Mannequin International"
           }
         }
       },
       "block_order": [
         "reviews_kdzdfL",
         "reviews_GjiHkj",
-        "reviews_piYmYE",
-        "reviews_4CKmyg"
+        "reviews_piYmYE"
       ],
       "disabled": true,
       "settings": {
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50,
-        "title": "Histoires vraies, résultats réels",
-        "sub_title": "D'un regain d'énergie à un mode de vie équilibré, découvrez comment NUORO a changé la vie de nombreux utilisateurs.",
-        "image": "shopify://shop_images/Frame_427319018.png",
+        "title": "Les meilleurs performeur.euse.s boivent nuoro",
+        "sub_title": "",
+        "logo_trustpilot": "shopify://shop_images/Nuoro_IllustrationDigital_07_Black.png",
         "logo_trustpilot_url": ""
       }
     },

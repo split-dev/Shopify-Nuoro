@@ -106,8 +106,8 @@
 </section>
 
 <script>
-    //TABS
-    function openTab_{{ section.index }}(evt, tabName) {
+    // Tabs
+  function openTab_{{ section.index }}(event, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -125,77 +125,37 @@
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display = "flex";
-    evt.currentTarget.className += " active";
+    event.currentTarget.className += " active";
   }
 
+  // Accordion
+  var acc = document.getElementsByClassName("js-accordion-{{ section.index }}");
+  for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
 
-  //ACCORDION
-    var acc = document.getElementsByClassName("js-accordion-{{ section.index }}");
-    var i;
+  // Set the first accordion as open on page load
+  if (acc.length > 0) {
+    var firstPanel = acc[0].nextElementSibling;
+    firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
+  }
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
+  // Recalculate maxHeight on window resize
+  window.addEventListener('resize', function() {
+    for (var i = 0; i < acc.length; i++) {
+      var panel = acc[i].nextElementSibling;
+      if (acc[i].classList.contains('active')) {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
     }
-
-    // Set the first accordion as open on page load
-    if (acc.length > 0) {
-      var firstPanel = acc[0].nextElementSibling;
-      firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
-    }
-
-    // Recalculate maxHeight on window resize
-    window.addEventListener('resize', function() {
-      for (i = 0; i < acc.length; i++) {
-        var panel = acc[i].nextElementSibling;
-        if (acc[i].classList.contains('active')) {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      }
-  });
-
-
-  const popup = document.getElementById('popup');
-  const popupMobile = document.getElementById('popup_mobile');
-  const popupImg = document.getElementById('popup-img');
-  const popupImgMobile = document.getElementById('popup-img-mobile');
-  const imageLink = document.querySelector('.js-image-link');
-  const imageLinkMobile = document.querySelector('.js-image-link-mobile');
-  const closeBtn = document.querySelector('.close');
-  const closeBtnMobile = document.querySelector('.close_mobile');
-
-  imageLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    popup.style.display = 'block';
-    popupImg.src = this.href;
-  })
-  imageLinkMobile.addEventListener('click', function(event) {
-    event.preventDefault();
-    popupMobile.style.display = 'block';
-    popupImgMobile.src = this.href;
-  })
-  closeBtn.addEventListener('click', function() {
-      popup.style.display = 'none';
-  });
-  closeBtnMobile.addEventListener('click', function() {
-    popupMobile.style.display = 'none';
-  });
-  popup.addEventListener('click', function(event) {
-      if (event.target === popup) {
-          popup.style.display = 'none';
-      }
-  });
-  popupMobile.addEventListener('click', function(event) {
-      if (event.target === popupMobile) {
-        popupMobile.style.display = 'none';
-      }
   });
 </script>
 

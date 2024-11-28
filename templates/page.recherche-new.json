@@ -72,7 +72,7 @@
         "image": "shopify://shop_images/che_3.jpg",
         "title": "Partage de Connaissances",
         "subtitle": "",
-        "text": "<p>La transmission de notre savoir est une partie intégrante de notre mission. NUORO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer.Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.</p>",
+        "text": "<p>La transmission de notre savoir est une partie intégrante de notre mission. NUORO s'engage non seulement à avancer dans la recherche, mais aussi à éduquer et informer. Nous partagerons régulièrement nos résultats et nos perspectives à travers des publications, contribuant ainsi à la diffusion des connaissances et à l'avancement de notre domaine.</p>",
         "display_type": "icon",
         "button_label": "",
         "button_url": "",
@@ -80,6 +80,31 @@
         "padding_bottom": 50,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 40
+      }
+    },
+    "history_text_image_rDnwq6": {
+      "type": "history-text-image",
+      "blocks": {
+        "text_4piWM9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Chez NUORO, nous avons conçu une formule unique alliant innovation scientifique et richesse nutritionnelle. Chaque sachet est pensé pour offrir un soutien optimal au quotidien, avec des ingrédients soigneusement sélectionnés pour leur efficacité et leur synergie. C’est une véritable révolution dans le monde de la micronutrition, et je suis fier d’y contribuer.\"</p>",
+            "image": "shopify://shop_images/Dr-Patrick-Mena--Conseiller-Scientifique-NUORO-light.jpg",
+            "image_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4piWM9"
+      ],
+      "settings": {
+        "title": "DR. Patrick MENA <br>Directuer scientifique",
+        "button_label": "",
+        "button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 35,
+        "padding_bottom_mobile": 35
       }
     },
     "research_team_mqhwng": {
@@ -151,6 +176,63 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 120
       }
+    },
+    "faq_home_RDbfph": {
+      "type": "faq-home",
+      "blocks": {
+        "text_KARLcW": {
+          "type": "text",
+          "settings": {
+            "title": "Comment NUORO garantit-il l’efficacité de ses ingrédients ?",
+            "text": "<p>Nous collaborons avec des experts en nutrition et des chercheurs pour sélectionner des ingrédients basés sur des études scientifiques solides. Chaque ingrédient est choisi pour sa biodisponibilité et sa capacité à agir en synergie avec les autres composants de la formule.</p>"
+          }
+        },
+        "text_UVBP4k": {
+          "type": "text",
+          "settings": {
+            "title": "Les bienfaits de NUORO sont-ils cliniquement prouvés ?",
+            "text": "<p>Les ingrédients individuels de la formule NUORO sont soutenus par des recherches scientifiques et des études cliniques démontrant leurs effets sur la santé. Notre engagement est de combiner ces ingrédients dans des dosages optimaux pour maximiser leur efficacité.</p>"
+          }
+        },
+        "text_7ANjHH": {
+          "type": "text",
+          "settings": {
+            "title": "Pourquoi la synergie des ingrédients est-elle importante ?",
+            "text": "<p>La synergie des ingrédients permet d’optimiser l’absorption et l’efficacité de chaque nutriment. Par exemple, certaines vitamines et minéraux, comme la vitamine D et le calcium, agissent mieux ensemble. NUORO a été formulé pour tirer parti de ces interactions positives.</p>"
+          }
+        },
+        "text_GQjnCn": {
+          "type": "text",
+          "settings": {
+            "title": "NUORO a-t-il été testé par des professionnels de santé ?",
+            "text": "<p>Oui, NUORO a été développé en collaboration avec des médecins, des nutritionnistes et des biotechnologistes. Ces experts ont participé à la conception de la formule pour garantir son efficacité, sa sécurité et son adéquation aux besoins nutritionnels modernes. Notre processus de formulation est également soumis à des audits de qualité rigoureux.</p>"
+          }
+        },
+        "text_pbQjgg": {
+          "type": "text",
+          "settings": {
+            "title": "Comment NUORO mesure-t-il la qualité des ingrédients ?",
+            "text": "<p>Tous nos ingrédients sont testés pour leur pureté, leur biodisponibilité et leur absence de contaminants. Nous collaborons avec des laboratoires certifiés pour garantir la conformité aux normes les plus élevées.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KARLcW",
+        "text_UVBP4k",
+        "text_7ANjHH",
+        "text_GQjnCn",
+        "text_pbQjgg"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "button_label": "",
+        "button_url": "",
+        "button_url_pdf": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -159,6 +241,8 @@
     "img_and_content_KPCUd3",
     "img_and_content_3UyPVG",
     "img_and_content_FWiUDK",
-    "research_team_mqhwng"
+    "history_text_image_rDnwq6",
+    "research_team_mqhwng",
+    "faq_home_RDbfph"
   ]
 }

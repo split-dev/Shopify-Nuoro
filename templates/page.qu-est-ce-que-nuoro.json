@@ -125,7 +125,7 @@
         "alignment": "center",
         "image": "shopify://shop_images/NUORO_Boisson_22ccab27-4101-41b5-aca3-74f24d13be1d.jpg",
         "button_label": "LISTE DES INGRÉDIENTS",
-        "button_link": "shopify://pages/ingredients",
+        "button_link": "shopify://pages/ingredients-et-benefices",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_mobile": 40,

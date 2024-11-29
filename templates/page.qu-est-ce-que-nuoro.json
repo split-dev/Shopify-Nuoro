@@ -56,6 +56,7 @@
         "text_EbwpLX": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_1.jpg",
             "title": "Vitamines",
             "text": "Soutiennent l’énergie, l’immunité et les fonctions corporelles clés."
           }
@@ -63,6 +64,7 @@
         "text_TtJqFB": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_3.jpg",
             "title": "Minéraux",
             "text": "Favorisent l’équilibre métabolique."
           }
@@ -70,6 +72,7 @@
         "text_BXfctE": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_2.jpg",
             "title": "Pro & Prébiotiques",
             "text": "Pour une digestion optimale et un microbiote équilibré."
           }
@@ -77,6 +80,7 @@
         "text_QJinwQ": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_4.jpg",
             "title": "Enzymes digestives",
             "text": "Facilitent l’absorption des nutriments."
           }
@@ -84,6 +88,7 @@
         "text_XEwGRX": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_5.jpg",
             "title": "Antioxydants",
             "text": "Protègent vos cellules contre le stress oxydatif."
           }
@@ -91,6 +96,7 @@
         "text_HmpWWj": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_6.jpg",
             "title": "Champignons fonctionnels",
             "text": "Soutiennent votre immunité et votre vitalité"
           }
@@ -98,6 +104,7 @@
         "text_M8UUBE": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/ingredients_7.jpg",
             "title": "Extraits de plantes",
             "text": "Contribuent à votre bien-être global."
           }

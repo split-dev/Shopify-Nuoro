@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     (() => {
-        document.getElementById('add-to-checkout-form').addEventListener('submit', function (event) {
+        document.getElementById('add-to-checkout-form')?.addEventListener('submit', function (event) {
             event.preventDefault();
 
             fetch('/cart/add.js', {
@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetSection = document.querySelector('.sticky-section__trigger');
             const footer = document.querySelector('footer');
             
-            const targetPosition = targetSection.getBoundingClientRect().bottom;
-            const footerPosition = footer.getBoundingClientRect().top;
+            const targetPosition = targetSection?.getBoundingClientRect().bottom;
+            const footerPosition = footer?.getBoundingClientRect().top;
             if (targetPosition <= 0 && footerPosition > window.innerHeight) {
-                stickySection.classList.remove('d-none');
+                stickySection?.classList.remove('d-none');
             } else {
-                stickySection.classList.add('d-none');
+                stickySection?.classList.add('d-none');
             }
         });
     })();

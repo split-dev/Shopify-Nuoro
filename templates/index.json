@@ -1092,6 +1092,7 @@
     },
     "nuoro_testimonial_mtxepa": {
       "type": "nuoro-testimonial",
+      "disabled": true,
       "settings": {
         "content": "<p>“Chez NUORO, nous avons conçu une formule unique alliant innovation scientifique et richesse nutritionnelle. Chaque sachet est pensé pour offrir un soutien optimal au quotidien, avec des ingrédients soigneusement sélectionnés pour leur efficacité et leur synergie. C’est une véritable révolution dans le monde de la micronutrition, et je suis fier d’y contribuer.”</p>",
         "title": "Dr. Patrick Mena",
@@ -1142,6 +1143,7 @@
         "ambassadors_mbD8WE",
         "ambassadors_RCzWyR"
       ],
+      "disabled": true,
       "settings": {
         "title": "Recommandé par des leaders de haut niveau",
         "padding_top": 0,

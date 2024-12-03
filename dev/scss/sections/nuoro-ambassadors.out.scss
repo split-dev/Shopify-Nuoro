@@ -9,6 +9,9 @@
         padding-right: 0;
     }
     .ambassadors__wrapper {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
         h2 {
             font-size: 52.5px;
             line-height: 55px;
@@ -29,33 +32,6 @@
                 font-size: 32px;
                 line-height: 35px;
             }
-        }
-        p.subtitle {
-            font-size: 20px !important;
-            line-height: 24px;
-            font-weight: 500;
-            font-family: var(--font-body-family);
-            text-align: center;
-            margin: 0;
-            margin-bottom: 40px;    
-            color: #1D1D1B;
-            @media (max-width: 768px) {
-                font-size: 15px !important;
-                line-height: 18px;
-            }
-        }
-        .trustpilot-widget {
-            margin: 40px auto;
-            width: fit-content;
-            @media (max-width: 450px) {   
-                width: 230px;
-                overflow: hidden;
-            }
-        }
-        img {
-            margin: 0 auto;
-            display: block;
-            margin-bottom: 48px;
         }
         .swip__ambassadors {
             padding: 0 115px 50px 115px;
@@ -86,7 +62,7 @@
                             aspect-ratio: 100 / 77;
                             width: 100%;
                             overflow: hidden;
-                            margin-bottom: 32px;
+                            margin-bottom: 24px;
                             min-height: fit-content;
                             @media (max-width: 396px) {
                                 aspect-ratio: 142 / 115;
@@ -98,75 +74,46 @@
                                 object-position: top;
                             }
                         }
-                        .card-count {
-                            padding: 0 27px;
-                            .slider-content--stars {
-                                margin: 0;
-                                svg {
-                                    height: 20px;
-                                    width: 20px;
-                                    fill: #FFA72D;
-                                    stroke: #FFA72D;
-                                    margin-right: 3px;
-                                }
-                            }
-                        }
                         h4 {
-                            font-size: 36px;
-                            line-height: 36px;
+                            font-size: 20px;
+                            line-height: 23.7px;
                             font-weight: 400;
-                            margin-bottom: 24px;
-                            margin-top: 32px;
+                            margin-bottom: 8px;
+                            margin-top: 0;
                             padding: 0 27px;
-                            @media (max-width: 1440px) {
-                                font-size: 24px;
-                                line-height: 24px;
-                            }
-                            @media (max-width: 768px) {
-                                font-size: 20px;
-                                line-height: 23px;
-                            }
+                            text-align: left;
                         }
-                        .card-content {
+                        .card-subtitle {
                             margin-bottom: 24px;
                             margin-top: 0;
                             font-size: 15px !important;
-                            line-height: 20px;
+                            line-height: 18.5px;
                             padding: 0 27px;
-                            height: 150px;
-                            overflow-y: auto;
-                            @media (max-width: 1440px) {
-                                font-size: 15px !important;
-                                line-height: 18px;
-                            }
-                            @media (max-width: 768px) {
-                                font-size: 15px !important;
-                                line-height: 18px;
-                            }
+                            font-weight: 500;
+                            color: #9f9e99;
+                            text-align: left;
                         }
-                        .card-name {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            margin-top: auto;
-                            margin-bottom: 0;
+                        .card-content {
+                            margin-bottom: 16px;
                             padding: 0 27px;
-                            span {
-                                font-size: 20px !important;
-                                line-height: 28px;
-                                font-weight: 500;
-                                letter-spacing: normal;
-                                @media (max-width: 768px) {
-                                    font-size: 16px !important;
-                                    line-height: 19px;
-                                }
-                            }
-                            a {
-                                img {
-                                    margin: 0;
-                                    margin-bottom: -2px;
-                                }
-                            }
+                            font-size: 15px;
+                            line-height: 18.5px;
+                            font-weight: 500;
+                            color: #1D1D1B;
+                            text-align: left;
+                        }
+                        a {
+                            font-size: 15px;
+                            line-height: 18.5px;
+                            font-weight: 500;
+                            color: #1d1d1b;
+                            text-align: left;
+                            text-decoration: none;
+                            background: #F6F4EC;
+                            width: fit-content;
+                            margin: 0 27px 16px 27px;
+                            padding: 6px 12px;
+                            border-radius: 8px;
                         }
                     }
                 }

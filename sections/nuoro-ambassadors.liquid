@@ -55,13 +55,11 @@
                   {%- endif -%}
                 </div>
                 <h4>{{ block.settings.card_title }}</h4>
-                <p class="card-content">{{ block.settings.card_subtitle }}</p>
-                <p class="card-name">
-                  <span>{{ block.settings.card_content }}</span>
-                  {%- if block.settings.card_btn_name != blank -%}
-                    <a href="{{ block.settings.card_btn_link }}" target="_blank">{{ block.settings.card_btn_name }}</a>
-                  {%- endif -%}
-                </p>
+                <p class="card-subtitle">{{ block.settings.card_subtitle }}</p>
+                <div class="card-content">{{ block.settings.card_content }}</div>
+                {%- if block.settings.card_btn_name != blank -%}
+                  <a href="{{ block.settings.card_btn_link }}" target="_blank">{{ block.settings.card_btn_name }}</a>
+                {%- endif -%}
               </div>
             </article>
         {% endcase %}

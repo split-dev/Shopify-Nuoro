@@ -97,6 +97,7 @@
       "block_order": [
         "text_4piWM9"
       ],
+      "disabled": true,
       "settings": {
         "title": "DR. Patrick MENA <br>Directuer scientifique",
         "button_label": "",
@@ -177,6 +178,19 @@
         "padding_bottom_mobile": 120
       }
     },
+    "nuoro_testimonial_7XcakE": {
+      "type": "nuoro-testimonial",
+      "settings": {
+        "content": "<p>\"Chez NUORO, nous avons conçu une formule unique alliant innovation scientifique et richesse nutritionnelle. Chaque sachet est pensé pour offrir un soutien optimal au quotidien, avec des ingrédients soigneusement sélectionnés pour leur efficacité et leur synergie. C’est une véritable révolution dans le monde de la micronutrition, et je suis fier d’y contribuer.\"</p>",
+        "title": "DR. Patrick MENA",
+        "sub_title": "Directeur scientifique",
+        "image": "shopify://shop_images/Dr-Patrick-Mena--Conseiller-Scientifique-NUORO-light.jpg",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
     "faq_home_RDbfph": {
       "type": "faq-home",
       "blocks": {
@@ -243,6 +257,7 @@
     "img_and_content_FWiUDK",
     "history_text_image_rDnwq6",
     "research_team_mqhwng",
+    "nuoro_testimonial_7XcakE",
     "faq_home_RDbfph"
   ]
 }

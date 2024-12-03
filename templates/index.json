@@ -1089,6 +1089,19 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 75
       }
+    },
+    "nuoro_testimonial_mtxepa": {
+      "type": "nuoro-testimonial",
+      "settings": {
+        "content": "<p>“Chez NUORO, nous avons conçu une formule unique alliant innovation scientifique et richesse nutritionnelle. Chaque sachet est pensé pour offrir un soutien optimal au quotidien, avec des ingrédients soigneusement sélectionnés pour leur efficacité et leur synergie. C’est une véritable révolution dans le monde de la micronutrition, et je suis fier d’y contribuer.”</p>",
+        "title": "Dr. Patrick Mena",
+        "sub_title": "Directeur Scientifique et Nutritionnel chez NUORO",
+        "image": "shopify://shop_images/Dr-Patrick-Mena--Conseiller-Scientifique-NUORO-light.jpg",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "margin_top": 72,
+        "margin_bottom": 72
+      }
     }
   },
   "order": [
@@ -1107,6 +1120,7 @@
     "video_reviews_hfbLxP",
     "faq_home_VX69Gg",
     "text_grid_3column_Mq7irD",
-    "list_logos_qpYYXr"
+    "list_logos_qpYYXr",
+    "nuoro_testimonial_mtxepa"
   ]
 }

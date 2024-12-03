@@ -58,7 +58,7 @@
                 <p class="card-subtitle">{{ block.settings.card_subtitle }}</p>
                 <div class="card-content">{{ block.settings.card_content }}</div>
                 {%- if block.settings.card_btn_name != blank -%}
-                  <a href="{{ block.settings.card_btn_link }}" target="_blank">{{ block.settings.card_btn_name }}</a>
+                  <span class="cart-badge">{{ block.settings.card_btn_name }}</span>
                 {%- endif -%}
               </div>
             </article>
@@ -213,11 +213,6 @@
           "type": "text",
           "id": "card_btn_name",
           "label": "Name for button"
-        },
-        {
-          "type": "url",
-          "id": "card_btn_link",
-          "label": "Button link"
         }
       ]
     }

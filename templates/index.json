@@ -1113,8 +1113,7 @@
             "card_title": "Danielle Copperman",
             "card_subtitle": "Mannequin international, auteure et experte en nutrition",
             "card_content": "\"J’adore la facilité avec laquelle NUORO s’intègre à ma routine. C’est devenu ma façon préférée de consommer des nutriments supplémentaires, que ce soit en voyage ou en déplacement.\"",
-            "card_btn_name": "Partenaire NUORO",
-            "card_btn_link": "#"
+            "card_btn_name": "Partenaire NUORO"
           }
         },
         "ambassadors_mbD8WE": {
@@ -1124,8 +1123,7 @@
             "card_title": "JULIEN ANDLAUER",
             "card_subtitle": "Pilote Professionnel, Vainqueur des 24H du Mans",
             "card_content": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
-            "card_btn_name": "",
-            "card_btn_link": "#"
+            "card_btn_name": ""
           }
         },
         "ambassadors_RCzWyR": {
@@ -1135,39 +1133,14 @@
             "card_title": "MYLÈNE DORANGE",
             "card_subtitle": "Présentatrice TV et entrepreneure",
             "card_content": "\"Je bois NUORO tous les matins, c’est mon boost d’énergie pour affronter mes longues journées en plateau. Il m’apporte tout ce dont j’ai besoin pour rester en forme et concentré tout au long de la journée.”",
-            "card_btn_name": "Partenaire NUORO",
-            "card_btn_link": "#"
-          }
-        },
-        "ambassadors_LTw3fg": {
-          "type": "ambassadors",
-          "settings": {
-            "image": "shopify://shop_images/original_a78d5ae3585065fe9b726180f5a89c9d.jpg",
-            "card_title": "",
-            "card_subtitle": "",
-            "card_content": "",
-            "card_btn_name": "",
-            "card_btn_link": ""
-          }
-        },
-        "ambassadors_yyhCWp": {
-          "type": "ambassadors",
-          "settings": {
-            "image": "shopify://shop_images/original_a8b9d0fe90d8e07887326bffbff14d9f.jpg",
-            "card_title": "",
-            "card_subtitle": "",
-            "card_content": "",
-            "card_btn_name": "",
-            "card_btn_link": ""
+            "card_btn_name": "Partenaire NUORO"
           }
         }
       },
       "block_order": [
         "ambassadors_PwKTfE",
         "ambassadors_mbD8WE",
-        "ambassadors_RCzWyR",
-        "ambassadors_LTw3fg",
-        "ambassadors_yyhCWp"
+        "ambassadors_RCzWyR"
       ],
       "settings": {
         "title": "Recommandé par des leaders de haut niveau",

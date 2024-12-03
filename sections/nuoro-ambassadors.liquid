@@ -18,13 +18,13 @@
           {% when 'ambassadors' %}
             <div class="swiper-slide">
               {%- if block.settings.image != blank -%}
-                {{ block.settings.image | image_url: width: 100 | image_tag: class: 'ambassadors__image-thumbs', loading: 'lazy' }}
+                {{ block.settings.image | image_url: width: 200 | image_tag: class: 'ambassadors__image-thumbs', loading: 'lazy' }}
               {% else %}
                 <img
                   class="default-image"
                   src="https://cdn.shopify.com/s/files/1/0811/8229/4348/files/default-img.png?v=1730878391"
                   alt=""
-                  width="100"
+                  width="200"
                   height=""
                 >
               {%- endif -%}
@@ -81,14 +81,14 @@
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     var swiperThumbs = new Swiper('.swiper-thumbs', {
-      spaceBetween: 10,
-      slidesPerView: 4,
+      spaceBetween: 8,
+      slidesPerView: 3,
       freeMode: true,
       watchSlidesProgress: true,
     });
     const swiperAmbassadors = new Swiper('.swip__ambassadors', {
-      slidesPerView: 1.32,
-      spaceBetween: 15.5,
+      slidesPerView: 1,
+      spaceBetween: 15,
       loop: true,
       grabCursor: true,
       navigation: {
@@ -118,6 +118,8 @@
     if (swiper__slidecount <= 3) {
       document.querySelector('.swip__ambassadors .swiper-button-prev').style.display = 'none';
       document.querySelector('.swip__ambassadors .swiper-button-next').style.display = 'none';
+      document.querySelector('.swip__ambassadors').style.paddingLeft = 0;
+      document.querySelector('.swip__ambassadors').style.paddingRight = 0;
     }
   });
 </script>

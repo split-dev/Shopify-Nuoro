@@ -33,6 +33,15 @@
                 line-height: 35px;
             }
         }
+        .swiper-thumbs {
+            margin-left: 115px;
+            margin-right: 115px;
+            overflow: hidden;
+            img.ambassadors__image-thumbs {
+                width: 100%;
+                height: auto;
+            }
+        }
         .swip__ambassadors {
             padding: 0 115px 50px 115px;
             @media (max-width: 1440px) {

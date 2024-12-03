@@ -1,0 +1,229 @@
+{{ 'nuoro-ambassadors.out.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div class="ambassadors__wrapper section-{{ section.id }}-padding">
+  <h2>{{ section.settings.title }}</h2>
+  <div thumbsSlider="" class="swiper swiper-thumbs">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'ambassadors' %}
+            <div class="swiper-slide">
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 200 | image_tag: class: 'ambassadors__image-thumbs', loading: 'lazy' }}
+              {% else %}
+                <img
+                  class="default-image"
+                  src="https://cdn.shopify.com/s/files/1/0811/8229/4348/files/default-img.png?v=1730878391"
+                  alt=""
+                  width="200"
+                  height=""
+                >
+              {%- endif -%}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="swiper swip__ambassadors">
+    <div class="swiper-wrapper ambassadors__container">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'ambassadors' %}
+            <article class="swiper-slide">
+              <div class="card__inner">
+                <div class="ambassadors__image-wrapper">
+                  {%- if block.settings.image != blank -%}
+                    {{ block.settings.image | image_url: width: 400 | image_tag: class: 'ambassadors__image', loading: 'lazy' }}
+                  {% else %}
+                    <img
+                      class="default-image"
+                      src="https://cdn.shopify.com/s/files/1/0811/8229/4348/files/default-img.png?v=1730878391"
+                      alt=""
+                      width=""
+                      height=""
+                    >
+                  {%- endif -%}
+                </div>
+                <h4>{{ block.settings.card_title }}</h4>
+                <p class="card-subtitle">{{ block.settings.card_subtitle }}</p>
+                <div class="card-content">{{ block.settings.card_content }}</div>
+                {%- if block.settings.card_btn_name != blank -%}
+                  <span class="cart-badge">{{ block.settings.card_btn_name }}</span>
+                {%- endif -%}
+              </div>
+            </article>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    <div class="swiper-button-prev">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="24" viewBox="0 0 40 24" fill="none">
+        <path d="M11.8623 23.2959L14.1011 21.0571L6.30811 13.2983H39.3599V10.0854H6.30811L14.1011 2.32666L11.8623 0.0878906L0.258301 11.6919L11.8623 23.2959Z" fill="black"/>
+      </svg>
+    </div>
+    <div class="swiper-button-next">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="24" viewBox="0 0 40 24" fill="none">
+        <path d="M28.1377 23.2959L25.8989 21.0571L33.6919 13.2983H0.640137V10.0854H33.6919L25.8989 2.32666L28.1377 0.0878906L39.7417 11.6919L28.1377 23.2959Z" fill="black"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    var swiperThumbs = new Swiper('.swiper-thumbs', {
+      spaceBetween: 8,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    const swiperAmbassadors = new Swiper('.swip__ambassadors', {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      loop: true,
+      grabCursor: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: swiperThumbs,
+      },
+      breakpoints: {
+        450: {
+          slidesPerView: 2,
+          spaceBetween: 16,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 16,
+        },
+        1922: {
+          slidesPerView: 4,
+          spaceBetween: 24,
+        },
+      },
+    });
+
+    var swiper__slidecount = swiperAmbassadors.slides.length;
+    if (swiper__slidecount <= 3) {
+      document.querySelector('.swip__ambassadors .swiper-button-prev').style.display = 'none';
+      document.querySelector('.swip__ambassadors .swiper-button-next').style.display = 'none';
+      document.querySelector('.swip__ambassadors').style.paddingLeft = 0;
+      document.querySelector('.swip__ambassadors').style.paddingRight = 0;
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Ambassadors",
+  "tag": "section",
+  "class": "page__ambassadors",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title for ambassadors section"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Margin"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Ambassadors card",
+      "type": "ambassadors",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image for card"
+        },
+        {
+          "type": "text",
+          "id": "card_title",
+          "label": "Title for card"
+        },
+        {
+          "type": "text",
+          "id": "card_subtitle",
+          "label": "Sub title for card"
+        },
+        {
+          "type": "text",
+          "id": "card_content",
+          "label": "Content for card"
+        },
+        {
+          "type": "text",
+          "id": "card_btn_name",
+          "label": "Name for button"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ambassadors"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["*"]
+  }
+}
+{% endschema %}

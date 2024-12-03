@@ -1,0 +1,204 @@
+.page__ambassadors {
+    padding-left: 40px;
+    padding-right: 40px;
+    @media (max-width: 768px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @media (max-width: 449px) {
+        // padding-right: 0;
+    }
+    .ambassadors__wrapper {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        h2 {
+            font-size: 52.5px;
+            line-height: 55px;
+            font-weight: 400;
+            margin-bottom: 48px;
+            margin-top: 0;
+            font-family: var(--font-heading-family);
+            text-align: center;
+            max-width: 773px;
+            margin-left: auto;
+            margin-right: auto;
+            @media (max-width: 1400px) {
+                font-size: 40px;
+                line-height: 45px;
+                max-width: 100%;
+            }
+            @media (max-width: 749px) {
+                font-size: 32px;
+                line-height: 35px;
+            }
+            @media (max-width: 450px) {
+                margin-bottom: 24px;
+            }
+        }
+        .swiper-thumbs {
+            margin-left: 115px;
+            margin-right: 115px;
+            overflow: hidden;
+            @media (min-width: 451px) {
+                display: none;
+            }
+            @media (max-width: 450px) {
+                margin-left: 22px;
+                margin-right: 22px;
+                margin-bottom: 24px;
+            }
+            .swiper-slide {
+                aspect-ratio: 1 / 1;
+                overflow: hidden;
+                img.ambassadors__image-thumbs {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .swiper-slide-thumb-active {
+                padding-bottom: 3px;
+                border-style: none none dotted none;
+            }
+        }
+        .swip__ambassadors {
+            padding: 0 115px 50px 115px;
+            @media (max-width: 1440px) {
+                padding: 0 60px 50px 60px;
+            }
+            @media (max-width: 768px) {
+                padding: 0;
+            }
+            .ambassadors__container {
+                align-items: stretch;
+                justify-content: flex-start;
+                align-items: stretch;
+                article {
+                    background: white;
+                    text-align: center;
+                    margin: 0;
+                    height: 100%;
+                    height: auto;
+                    border-radius: 0 0 16px 16px;
+                    overflow: hidden;
+                    .card__inner {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        // height: calc(100% - 54px);
+                        .ambassadors__image-wrapper {
+                            aspect-ratio: 100 / 77;
+                            width: 100%;
+                            overflow: hidden;
+                            margin-bottom: 24px;
+                            min-height: fit-content;
+                            @media (max-width: 396px) {
+                                aspect-ratio: 142 / 115;
+                            }
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: top;
+                            }
+                        }
+                        h4 {
+                            font-size: 20px;
+                            line-height: 23.7px;
+                            font-weight: 400;
+                            margin-bottom: 8px;
+                            margin-top: 0;
+                            padding: 0 27px;
+                            text-align: left;
+                        }
+                        .card-subtitle {
+                            margin-bottom: 24px;
+                            margin-top: 0;
+                            font-size: 15px !important;
+                            line-height: 18.5px;
+                            padding: 0 27px;
+                            font-weight: 500;
+                            color: #9f9e99;
+                            text-align: left;
+                        }
+                        .card-content {
+                            margin-bottom: 16px;
+                            padding: 0 27px;
+                            font-size: 15px;
+                            line-height: 18.5px;
+                            font-weight: 500;
+                            color: #1D1D1B;
+                            text-align: left;
+                        }
+                        .cart-badge {
+                            font-size: 15px;
+                            line-height: 18.5px;
+                            font-weight: 500;
+                            color: #1d1d1b;
+                            text-align: left;
+                            background: #F6F4EC;
+                            width: fit-content;
+                            margin: 0 27px 16px 27px;
+                            padding: 6px 12px;
+                            border-radius: 8px;
+                            margin-top: auto;
+                        }
+                    }
+                }
+            }
+            .swiper-button-prev {
+                background: #F6F4ED;
+                top: 0;
+                bottom: 0;
+                width: 115px;
+                right: 0;
+                height: 100%;
+                left: 0;
+                display: flex;
+                justify-content: flex-start;
+                @media (max-width: 1440px) {
+                    width: 60px;
+                }
+            }
+            .swiper-button-prev:after {
+                display: none;
+            }
+            .swiper-button-next {
+                background: #F6F4ED;
+                top: 0;
+                bottom: 0;
+                width: 115px;
+                right: 0;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                @media (max-width: 1440px) {
+                    width: 60px;
+                }
+            }
+            .swiper-button-next:after {
+                display: none;
+            }
+            .swiper-button-next,
+            .swiper-button-prev {
+                svg {
+                    width: 40px;
+                    @media (max-width: 1440px) {
+                        width: 32px;
+                    }
+                }
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }                                   
+        }
+    }
+}
+
+
+
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}

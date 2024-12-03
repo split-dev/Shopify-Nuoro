@@ -36,7 +36,7 @@
         "product_recharge_DtLgtE": {
           "type": "product_recharge",
           "settings": {
-            "subscribe_subtitle": "Offre Black Friday | Économisez 30 €",
+            "subscribe_subtitle": "Offre Noël | Économisez 30 €",
             "subscribe_title": "ABONNEMENT",
             "item_cost_subscribe": "{1,96€ / sachet}",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
@@ -218,7 +218,7 @@
         "alignment": "center",
         "image": "shopify://shop_images/MG_3670_1.png",
         "button_label": "Ingrédients & Bénéfices",
-        "button_link": "shopify://pages/ingredients",
+        "button_link": "shopify://pages/ingredients-et-benefices",
         "padding_top": 70,
         "padding_bottom": 70,
         "padding_top_mobile": 40,
@@ -378,7 +378,7 @@
       "settings": {
         "title": "NUORO COMBINE PLUSIEURS COMPLÉMENTS",
         "subheading": "",
-        "description": "<p>*Offre Black Friday: Premier mois d'essais à 59€, puis 69€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
+        "description": "<p>*Offre Noël: Premier mois d'essais à 59€, puis 69€/mois</p><p>**Basé sur le prix d'une sélection de produits du marché des compléments alimentaires.</p>",
         "bg_color": "#ffffff",
         "padding_top": 70,
         "padding_bottom": 40,

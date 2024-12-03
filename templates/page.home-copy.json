@@ -656,6 +656,53 @@
         "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
       }
     },
+    "nuoro_ambassadors_D3jtjU": {
+      "type": "nuoro-ambassadors",
+      "blocks": {
+        "ambassadors_6CEfFU": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Danielle_Copperman.jpg",
+            "card_title": "Danielle Copperman",
+            "card_subtitle": "Mannequin international, auteure et experte en nutrition",
+            "card_content": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        },
+        "ambassadors_6aiAJG": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Julien-Andlauer---Ambassadeur-NUORO_1769cde5-2263-42cd-bc8b-be592ce5f2af.jpg",
+            "card_title": "Julien Andlauer",
+            "card_subtitle": "Pilote Professionnel, vainqueur des 24 heures du Mans",
+            "card_content": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        },
+        "ambassadors_AfUhcc": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Mylene_Dorange_-_Ambassadrice_NUORO.png",
+            "card_title": "Mylène Dorange",
+            "card_subtitle": "Présentatrice TV et entrepreneure",
+            "card_content": "\"Je bois NUORO tous les matins, c’est mon boost d’énergie pour affronter mes longues journées en plateau. Il m’apporte tout ce dont j’ai besoin pour rester en forme et concentré tout au long de la journée.”",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        }
+      },
+      "block_order": [
+        "ambassadors_6CEfFU",
+        "ambassadors_6aiAJG",
+        "ambassadors_AfUhcc"
+      ],
+      "settings": {
+        "title": "Recommandé par des leaders de haut niveau",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "video_reviews_jTMMEL": {
       "type": "video-reviews",
       "blocks": {
@@ -1099,6 +1146,7 @@
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
     "reviews",
+    "nuoro_ambassadors_D3jtjU",
     "video_reviews_jTMMEL",
     "title_and_list_YBkG6P",
     "video_reviews_hfbLxP",

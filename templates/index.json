@@ -659,6 +659,53 @@
         "logo_trustpilot_url": "https://fr.trustpilot.com/review/drinknuoro.com"
       }
     },
+    "nuoro_ambassadors_MeX8zt": {
+      "type": "nuoro-ambassadors",
+      "blocks": {
+        "ambassadors_PwKTfE": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Danielle_Copperman.jpg",
+            "card_title": "Danielle Copperman",
+            "card_subtitle": "Mannequin international, auteure et experte en nutrition",
+            "card_content": "\"J’adore la facilité avec laquelle NUORO s’intègre à ma routine. C’est devenu ma façon préférée de consommer des nutriments supplémentaires, que ce soit en voyage ou en déplacement.\"",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        },
+        "ambassadors_mbD8WE": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Julien-Andlauer---Ambassadeur-NUORO.jpg",
+            "card_title": "JULIEN ANDLAUER",
+            "card_subtitle": "Pilote Professionnel, Vainqueur des 24H du Mans",
+            "card_content": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        },
+        "ambassadors_RCzWyR": {
+          "type": "ambassadors",
+          "settings": {
+            "image": "shopify://shop_images/Mylene_Dorange_-_Ambassadrice_NUORO.png",
+            "card_title": "MYLÈNE DORANGE",
+            "card_subtitle": "Présentatrice TV et entrepreneure",
+            "card_content": "\"Je bois NUORO tous les matins, c’est mon boost d’énergie pour affronter mes longues journées en plateau. Il m’apporte tout ce dont j’ai besoin pour rester en forme et concentré tout au long de la journée.”",
+            "card_btn_name": "Partenaire NUORO"
+          }
+        }
+      },
+      "block_order": [
+        "ambassadors_PwKTfE",
+        "ambassadors_mbD8WE",
+        "ambassadors_RCzWyR"
+      ],
+      "settings": {
+        "title": "Recommandé par des leaders de haut niveau",
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "video_reviews_jTMMEL": {
       "type": "video-reviews",
       "blocks": {
@@ -1103,54 +1150,6 @@
         "margin_top": 72,
         "margin_bottom": 72
       }
-    },
-    "nuoro_ambassadors_MeX8zt": {
-      "type": "nuoro-ambassadors",
-      "blocks": {
-        "ambassadors_PwKTfE": {
-          "type": "ambassadors",
-          "settings": {
-            "image": "shopify://shop_images/Danielle_Copperman.jpg",
-            "card_title": "Danielle Copperman",
-            "card_subtitle": "Mannequin international, auteure et experte en nutrition",
-            "card_content": "\"J’adore la facilité avec laquelle NUORO s’intègre à ma routine. C’est devenu ma façon préférée de consommer des nutriments supplémentaires, que ce soit en voyage ou en déplacement.\"",
-            "card_btn_name": "Partenaire NUORO"
-          }
-        },
-        "ambassadors_mbD8WE": {
-          "type": "ambassadors",
-          "settings": {
-            "image": "shopify://shop_images/Julien-Andlauer---Ambassadeur-NUORO.jpg",
-            "card_title": "JULIEN ANDLAUER",
-            "card_subtitle": "Pilote Professionnel, Vainqueur des 24H du Mans",
-            "card_content": "\"Je bois NUORO tous les jours : c’est devenu essentiel à ma routine. Une source d’énergie naturelle, pratique à emporter, et un tout-en-un complet pour soutenir ma santé simplement.\"",
-            "card_btn_name": ""
-          }
-        },
-        "ambassadors_RCzWyR": {
-          "type": "ambassadors",
-          "settings": {
-            "image": "shopify://shop_images/Mylene_Dorange_-_Ambassadrice_NUORO.png",
-            "card_title": "MYLÈNE DORANGE",
-            "card_subtitle": "Présentatrice TV et entrepreneure",
-            "card_content": "\"Je bois NUORO tous les matins, c’est mon boost d’énergie pour affronter mes longues journées en plateau. Il m’apporte tout ce dont j’ai besoin pour rester en forme et concentré tout au long de la journée.”",
-            "card_btn_name": "Partenaire NUORO"
-          }
-        }
-      },
-      "block_order": [
-        "ambassadors_PwKTfE",
-        "ambassadors_mbD8WE",
-        "ambassadors_RCzWyR"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Recommandé par des leaders de haut niveau",
-        "padding_top": 0,
-        "padding_bottom": 70,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -1164,13 +1163,13 @@
     "tab_images_QcxXbC",
     "text_img_tiles_rQY4GA",
     "reviews",
+    "nuoro_ambassadors_MeX8zt",
     "video_reviews_jTMMEL",
     "title_and_list_YBkG6P",
     "video_reviews_hfbLxP",
     "faq_home_VX69Gg",
     "text_grid_3column_Mq7irD",
     "list_logos_qpYYXr",
-    "nuoro_testimonial_mtxepa",
-    "nuoro_ambassadors_MeX8zt"
+    "nuoro_testimonial_mtxepa"
   ]
 }

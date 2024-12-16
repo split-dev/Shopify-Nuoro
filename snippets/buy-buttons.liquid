@@ -72,7 +72,8 @@
                   </span>
                 {% endfor %}
               </span>
-              <small class="product-form__total__small d-block">Premier Mois d'essais, puis 69€/mois</small>
+              {% comment %} <small class="product-form__total__small d-block/">Premier Mois d'essais, puis 69€/mois</small> {% endcomment %}
+              <small class="qwerty product-form__total__small d-block">{{ block.settings.subscribe_bottom_text }}</small>
             </div>
             <div class="hidden text-right" data-selling-option data-regular-option>
               <span

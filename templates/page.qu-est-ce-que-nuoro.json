@@ -21,7 +21,7 @@
       "type": "text-img-tiles",
       "settings": {
         "title": "Qu'est-ce que NUORO?",
-        "subtitle": "NUORO est un complément de Nutrition Essentielle à boire.<br> Il s'agit d'un mélange scientifiquement formulé de vitamines, de bonnes bactéries et de nutriments issus d'aliments complets, pensé pour couvrir vos besoins micronutritionnels et accompagner une vie active et équilibrée.",
+        "subtitle": "NUORO est un complément de Nutrition Essentielle à boire. Un mélange scientifiquement formulé de vitamines, de bonnes bactéries et de nutriments issus d'aliments complets, pensé pour couvrir vos besoins micronutritionnels et accompagner une vie active et équilibrée.",
         "image": "shopify://shop_images/Poudre_NUORO_drink-16_9.jpg",
         "button_label": "",
         "button_url": "",
@@ -300,7 +300,7 @@
           "type": "text",
           "settings": {
             "title": "Qu’est-ce que NUORO ?",
-            "text": "<p>NUORO est un complément alimentaire scientifique réunissant 71 ingrédients soigneusement sélectionnés pour soutenir votre santé au quotidien et sur le long terme.</p>"
+            "text": "<p>NUORO est un complément de <strong>Nutrition Essentielle</strong> qui soutient votre santé au quotidien. Un mélange de vitamines, minéraux, bonnes bactéries et actifs naturels issus d’aliments complets, pensé pour couvrir vos besoins nutritionnels et accompagner une vie active et équilibrée.</p>"
           }
         },
         "text_T9cXPw": {

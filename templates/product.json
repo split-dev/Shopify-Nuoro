@@ -38,7 +38,7 @@
           "settings": {
             "subscribe_subtitle": "Économisez 20 €",
             "subscribe_title": "ABONNEMENT",
-            "item_cost_subscribe": "{2,3€ / sachet}",
+            "item_cost_subscribe": "{2,3€/sachet}",
             "subscribe_list_item_1": "Boite de 30 sachets envoyée mensuellement",
             "subscribe_list_item_2": "Sans Engagement",
             "subscribe_list_item_3": "Flex: Pause ou annulation à tout moment",
@@ -46,7 +46,7 @@
             "subscribe_bottom_text": "",
             "one_time_subtitle": "",
             "one_time_title": "Achat Unique",
-            "item_cost_one_time": "{2,96€ / sachet}",
+            "item_cost_one_time": "{2,96€/sachet}",
             "one_time_list_item_1": "Boite de 30 sachets expédiée une fois",
             "one_time_list_item_2": "",
             "one_time_list_item_3": "",

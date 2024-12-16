@@ -666,7 +666,7 @@
         "link_label": "Passer Commande",
         "bottom_text": "2,3€/sachet",
         "center_text": "<ul><li>Livraison Gratuite</li><li>Pause ou annulation à tout moment</li><li>Sans engagement</li></ul>",
-        "center_text_mobile": "<p>Livraison Gratuite</p>",
+        "center_text_mobile": "<p>Livraison Gratuite</p><p>Shaker offert</p>",
         "padding_top": 16,
         "padding_bottom": 16,
         "padding_top_mb": 16,

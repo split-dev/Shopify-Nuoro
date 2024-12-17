@@ -78,6 +78,9 @@
         @media (min-width: 992px) {
             display: none;
         }
+        @media (max-width: 749px) {
+            bottom: 50px !important;
+        }
         .swiper-pagination-bullet {
             margin: 0 8px;
             width: 18px;
